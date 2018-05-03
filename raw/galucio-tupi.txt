@@ -1,0 +1,1643 @@
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+229
+GALUCIO, Ana Vilacy; MEIRA, Sérgio; BIRCHALL, Joshua; MOORE, Denny; GABAS JÚNIOR, Nilson; DRUDE, Sebastian; STORTO,
+Luciana; PICANÇO, Gessiane; RODRIGUES, Carmen Reis. Genealogical relations and lexical distances within the Tupí linguistic family: a
+lexicostatistical and phylogenetic approach. Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas, v. 10, n. 2, p. 229-274, maio-
+ago. 2015. DOI: http://dx.doi.org/10.1590/1981-81222015000200004.
+Autor para correspondência: Ana Vilacy Galucio. Museu Paraense Emilio Goeldi. Av Magalhães Barata, 376, C.P
+. 399. Belém, PA, Brasil.
+CEP 66040-170. E-mail: avilacy@museu-goeldi.br.
+Recebido em 17/02/2014
+Aprovado em 06/05/2015
+Genealogical relations and lexical distances within the Tupian linguistic family
+Relações genealógicas e distâncias lexicais na família linguística Tupí
+Ana Vilacy GalucioI
+, Sérgio MeiraI
+, Joshua BirchallI,II
+, Denny MooreI
+, Nilson Gabas JúniorI
+,
+Sebastian DrudeII
+, Luciana StortoIII
+, Gessiane PicançoIV
+, Carmen Reis RodriguesIV
+I
+Museu Paraense Emílio Goeldi. Belém, Pará, Brazil
+II
+Max-Planck-Institute for Psycholinguistics. Nijmegen, The Netherlands
+III
+Universidade de São Paulo. São Paulo, São Paulo, Brazil
+IV
+Universidade Federal do Pará. Belém, Pará, Brazil
+Abstract: 	In this paper we present the first results of the application of computational methods, inspired by the ideas in McMahon &
+McMahon (2005), to a dataset collected from languages of every branch of the Tupian family (including all living non-Tupí-
+Guaraní languages) in order to produce a classification of the family based on lexical distance. We used both a Swadesh list
+(with historically stabler terms) and a list of animal and plant names for results comparison. In addition, we also selected
+more (HiHi) and less (LoLo) stable terms from the Swadesh list to form sublists for indepedent treatment. We compared
+the resulting NeighborNet networks and neighbor-joining cladograms and drew conclusions about their significance for
+the current understanding of the classification of Tupian languages. One important result is the lack of support for the
+currently discussed idea of an Eastern-Western division within Tupí.
+Keywords: Tupian family. Distance-based methods. Historical linguistics. Internal classification. Lexical sublists.
+Resumo: 	Neste trabalho, apresentamos os primeiros resultados da aplicação de métodos comparativos computacionais, inspirados
+nas ideias de McMahon & McMahon (2005), a um conjunto de dados de línguas de todos os ramos da família Tupí
+(incluindo-se todas as línguas não-Tupí-Guaraní ainda vivas), com o intuito de produzir uma classificação da família com
+base em distância lexical. Usamos uma lista de Swadesh (composta por termos historicamente mais estáveis) e uma lista
+de nomes de plantas e animais para comparação de resultados. Além disso, também selecionamos os termos mais (HiHi)
+e menos (LoLo) estáveis da lista de Swadesh para formar sublistas para tratamento independente. Comparamos as redes
+NeighborNet e os cladogramas neighbor-joining resultantes, derivando conclusões sobre o seu impacto na compreensão
+atual da classificação das línguas Tupí. Um importante resultado é a falta de apoio para a ideia, atualmente em discussão,
+da existência de uma divisão leste-oeste dentro da família.
+Palavras-chave: Família Tupí. Métodos de distância. Linguística histórica. Classificação interna. Sublistas lexicais.
+Genealogical relations and lexical distances within the Tupian linguistic family
+230
+INTRODUCTION
+The Tupian family is one of the largest linguistic groups of South America, composed of about 40-45 languages that are
+traditionally classified into ten branches: Arikém, Awetí, Jurúna, Mawé, Mondé, Mundurukú, Puruborá, Ramaráma, Tuparí,
+and Tupí-Guaraní. Five of these branches (Arikém, Ramaráma, Puruborá, Mawé, and Awetí) are composed each of a
+single living language today. On the other extreme, Tupí-Guaraní is the largest and most widespread group, with 22 living
+languages and around 40 dialectal variants that are spoken in an extensive geographical area covering a large part of Brazil
+and adjacent regions in Argentina, Paraguay, Peru, Bolivia, and French Guiana (Moore; Galucio; Gabas Jr., 2008). The
+Jurúna and Mundurukú branches have two languages each, which are very closely related in both cases. Thus, besides
+Tupí-Guaraní, the Mondé (three languages and several dialects) and Tuparí (five languages) are the only two branches still
+maintaining a greater internal diversity.
+The internal classification of the Tupian language family that has emerged in recent years is presented schematically
+in Figure 1. The depicted tree departs from the ten branches previously assigned to the family (Rodrigues, 1984/85;
+Rodrigues; Cabral, 2012). It shows the results of more recent studies that propose intermediary stages in the derivation
+from Proto-Tupí and the internal classification of the branches, according to the application of the Comparative Method
+and the analysis of reoccurring sound change patterns (Drude, 2006; Fargetti; Rodrigues, 2008; Gabas Júnior, 2000;
+Galucio; Gabas Júnior, 2002; Galucio; Nogueira, 2012; Meira; Drude (this volume); Moore, 2005; Moore; Galucio,
+1994; Picanço, 2005, 2010; Rodrigues, 2005, 2007; Storto; Baldi, 1994). A large part of these studies reflect the
+results of the ongoing Tupí Comparative Project at the Museu Paraense Emilio Goeldi, in cooperation with Tupian
+specialists from various institutions, since 19981
+.
+1
+	The permanent members of the initial Tupí Comparative Project are Ana Vilacy Galucio for the Puruborá and Tuparí branches; Carmen
+Rodrigues for the Jurúna branch; Denny Moore for the Mondé branch; Gessiane Picanço for the Mundurukú branch; Luciana Storto
+for the Arikém branch; Nilson Gabas Jr. for the Ramaráma branch; Sebastian Drude for the Awetí branch; and Sérgio Meira for the
+Mawé and Tupí-Guaraní branches. Other members that have collaborated with specific languages include Didier Demolin and Fernanda
+Nogueira for Wayoró, and Mariana Lacerda for Suruí of Rondônia.
+2
+	The dotted lines under the Tupí-Guaraní node indicate that the complete list of languages does not fit into the reserved space in the
+diagram, and that we regard the validity of the differing classifications of its branches as still unresolved.
+Figure 1. Internal classification of the Tupian family2
+.
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+231
+Five of the ten Tupian branches (Arikém, Mondé, Ramaráma, Puruborá, and Tuparí) are spoken exclusively in the
+area corresponding to the current state of Rondônia (Brazil), in a region that has been proposed as the original homeland
+of the Tupian languages and peoples due to the great time depth of Tupian ethnolinguistic diversity there (Métraux,
+1928; Rodrigues, 1964; see also Wichmann; Müller; Velupillai., 2010, p. 258)3
+. The other five branches are spread
+across different regions4
+. Tupí-Guaraní is spoken in many parts of Brazil and some of its adjacent countries, while the
+other four are limited to distinct areas in Brazil: Awetí in the Parque Indígena do Xingu (State of Mato Grosso), Mawé
+in the lower Tapajós and Madeira rivers (Amazonas state), Jurúna (Jurúna branch) in the Parque Indígena do Xingu,
+Xipáya (Jurúna branch), traditionally spoken along the Xingu River, persists in the city of Altamira in the State of Pará,
+and Mundurukú in the middle Tapajós and Madeira rivers (in the states of Pará and Amazonas). Kuruáya, the second
+language in the Mundurukú branch, traditionally localized in the region of the Xingu River, was spoken in recent years
+in the city of Altamira by only three remaining elders, who have since passed away.
+This paper presents the result of a first collaborative lexicostatistical and phylogenetic analysis applied to the
+entire Tupian family. The current trend in computational phylogenetics favors the so-called (Bayesian) character-based
+evolutionary methods (Dunn, 2015), which have been highly successful in the investigation of linguistic relatedness
+(cf. Gray; Atkinson, 2003; Gray; Drummond; Greenhill, 2009; Walker; Ribeiro, 2011; Birchall; Dunn; Greenhill,
+to appear). This study follows an earlier distance-based methodology as outlined in McMahon, A.; McMahon, R.
+(2005) with some modifications. While distance-based methods have been gradually replaced with character-based
+ones in computational historical linguistics, given that statistical methods are relatively new to the field of Amazonian
+languages, it seemed interesting to us to start with one of the most familiar assumptions, namely that lexical distance
+between basic vocabulary items among related languages is an accurate approximation of phylogenetic relations.
+In subsequent papers, we will apply character-based methods in the hope that a comparison of their results with
+those of the distance-based methods and with the results of ongoing traditional historical-comparative studies on
+Tupian languages would not only shed more light onto and produce further insights into the history and classification
+of the Tupian family, but also provide further material for the (currently ongoing) discussion and comparison of the
+phylogenetic methods themselves.
+We report here the first results and conclusions from the application of this methodology to data from all of the 17
+currently spoken languages (plus two additional dialects) that constitute the nine Tupian branches outside of Tupí-Guaraní,
+including first-hand data for Akuntsú, Kuruáya, Puruborá and Salamãy, plus four Tupí-Guaranian languages. These results
+include (a) a classification of the whole family, (b) specific classifications of the more diverse branches (Tuparí, Mondé,
+Mawetí-Guaraní), and (c) conclusions on the differences observed with different (sub)sets of words (Tupí-HiHi vs.
+Tupí-LoLo sublists, animal and plant names vs. Swadesh list) are used as the input for our statistical analyses. In addition
+to contributing to ongoing discussions on the classification and history of Tupian languages, our results also suggest that
+the use of semantically-based sets of words is a strategy worth investigating, which we intend to do in future work.
+3
+	Wichmann et al. (2010) place the Tupian hypothetical homeland at 8°S, 62°W, which also corresponds to the same general area that
+has been previously proposed by other scholars (Métraux, 1928; Rodrigues, 1964).
+4
+	The unit formed by Mawé, Awetí, and the Tupí-Guaraní branchs has been proposed as a single higher sub-branch, as shown in Figure 1
+(Corrêa da Silva, 2007, 2010; Dietrich, 1990, Drude, 2006; Rodrigues, 1984/85; Rodrigues; Cabral, 2002; Rodrigues; Dietrich, 1997;
+Walker et al., 2012): the Mawé-Awetí-Tupí-Guaraní or “Mawetí-Guaraní” branch, a shortened form already used in Drude (2006), Meira
+(2006), and further in the present work.
+Genealogical relations and lexical distances within the Tupian linguistic family
+232
+DATA AND METHODS
+This study followed the methodology outlined in McMahon. A.; McMahon, R. (2005), with a few modifications discussed
+below. First, a sample of 23 Tupí languages was chosen, consisting of four Tupí-Guaraní languages and 19 varieties from the
+other Tupian branches: the 17 existing non-Tupí-Guaraní languages, plus three dialects of the same language (Zoró, Aruá and
+Gavião are mutually intelligible). In the cases of Akuntsú, Kuruáya, Puruborá and Salamãy, first-hand unpublished data was
+used (see the Appendix). The Tupí-Guaraní branch was represented by only four languages (Urubú-Ka’apór, Paraguayan
+Guaraní, Tapirapé, and Parintintín) because, even though the internal classification of this branch has not reached consensus
+among specialists (cf. Mello, 2000, 2002; Rodrigues; Cabral, 2002; Schleicher, 1998), it is a well-established branch. The
+Tupí-Guaraní, languages are so closely related to each other to the point that one may wonder whether many of them
+are languages or actually dialects of each other. Thus, even if there is a possibility on the contrary, we assumed that Tupí-
+Guaraní languages would not significantly influence the classification of other, much less closely related, Tupian languages5
+.
+A list of 100 diagnostic meanings, considered to be more stable over time and less subject to cultural influences (the
+Swadesh list, as given in McMahon, A.; McMahon, R. (2005), originally proposed in Swadesh (1955), with a few minor
+adaptations; e.g., since there usually are two first person plural pronouns, Swadesh’s third item, we, was changed to we-
+Inclusive), was compiled for these languages from the available sources for the Tupí-Guaraní languages (Almeida et al., 1983;
+Betts,1981;Cadogan,1992;Dooley,1998;Guasch;Ortiz,1996;Kakumasu,J.;Kakumasu,K.,2007;Lopes,2009;Praça,2007)
+and field data collected by the authors (all the other languages). A similar list of 90 plant and animal names was also collected
+5
+	Inaddition,therealreadyisamorein-depthstudyofTupí-Guaraníinterrelationswithphylogenetic(Bayesian)methods(Michaeletal.,toappear).
+6
+	 We thank Love Eriksen for the map.
+Map 1. Geographic distribution of languages represented in this study6
+.
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+233
+for comparative analysis with the results from the Swadesh list (see further details below). Inevitably, there were gaps due to
+missing words in the available data. The number of attested words per language in the sample is indicated in Table 1; the word
+lists and our cognacy judgments are given in the Appendix (Swadesh list in Appendix 1, plant and animal names in Appendix 2).
+The cognacy judgments reflect our consensus opinion for each set of words having the same translation, which
+we divided into subsets consisting only of (to the best of our judgment) cognate words. For instance, the words for ‘I’
+(listed in Appendix 1) were sorted out into three sets, one containing cognate words probably reconstructable as *on
+(perhaps *o-en) for Proto-Tupian, a second one with cognate words that suggest a form *uito, reconstructable at most
+for Proto-Mawetí-Guaraní, and a third one with reflexes of a form *iʃe at the Proto-Tupí-Guaraní level. For each pair
+of languages, the number of shared cognates was determined. Because of the gaps, the results were normalized to a
+0-100 percentage scale7
+. This normalization has some consequences8
+. The results are given in Table 5 (Sec. 3 below).
+For each meaning in the Swadesh list, a letter (A, B, C...) was assigned to each cognate set found in this meaning for each
+sampled language, as illustrated in Table 2. Languages that share a cognate for the same meaning are assigned the same letter
+forthatmeaning.Forexample,theletterCinthefirstmeaning(‘I’)inMundurukú,AkuntsúandGavião,forinstance,impliesthat
+thesethreelanguageshavecognatewordsfor‘I’(Mundurukú ṍn,Akuntsúõn,Gaviãoõõt).ThecognatecodingofParintintín,for
+instance,isAAADCBAACCC...,whileAkuntsú,inturn,hasCBEFK??C??G...(wherequestionmarksrepresentmissingwords).
+The complete version of Table 2 - a matrix of 23 cognate codings (one per language) x 100 meanings—was the
+basic input data for an analysis using SplitsTree (version 4.13.1, see Huson; Bryant, 2006), from which the program
+Swadesh P/A Swadesh P/A
+Paraguayan Guaraní 100 081 Xipáya 097 076
+Awetí 100 085 Aruá 097 072
+Parintintín 100 088 Zoró 096 083
+Mundurukú 099 085 Káro 098 090
+Karitiána 099 087 Jurúna 095 080
+Mawé 099 090 Suruí 094 089
+Gavião 099 086 Kuruáya 092 066
+Wayoró 098 089 Tapirapé 089 -
+Makuráp 098 087 Salamãy 084 065
+Mekéns 098 088 Puruborá 084 077
+Tuparí 098 089 Akuntsú 074 062
+Urubú-Ka’apór 097 084
+7
+	For instance, suppose that, for two languages L1
+and L2
+, respectively 90 and 80 meanings of the Swadesh list were found in the available
+data, and that only 75 of these were the same meanings in both languages; furthermore, suppose that, of these 75 pairs of synonymous
+words, only 60 pairs consisted of cognate words, in the authors’ judgment. In this case, the percentage of shared cognates between
+languages L1
+and L2
+would be 60/75 = .8 or 80%, which would be shown in Table 5 as 080.
+8
+	The normalization assumes that the missing items would have the same average cognacy rate as the known items, which is not necessarily
+the case. In fact, the languages with gaps of 8% or more and a small number of speakers have greater-than-average cognacy rates with
+languages outside of their branches (Akuntsú 37.8%, Kuruáya 35.2%, Salamãy 32.8%; Puruborá, with 30.4%, is the only one not above
+the average). For a possible explanation, see the final paragraph in the Section Similarity (shared cognates) matrix.
+Table 1. Number of attested words per language: Swadesh list and Plants and Animals (P/A).
+Genealogical relations and lexical distances within the Tupian linguistic family
+234
+calculated distance (similarity) matrices on the basis of percentage of shared cognates, like Table 5 below, and then
+computed the equivalent diagrams. Network diagrams were produced with the NeighborNet algorithm (Bryant;
+Moulton, 2004), with the Variance parameter set to Ordinary Least Squares.
+Since not all lexical evidence will point towards a single classification, the NeighborNet visualizations display
+the conflicting evidence (‘conflicting phylogenetic signal’) in the diagram through reticulations in the network. These
+reticulations help to visualize the ‘tree-likeness’ of the dataset and can result from gaps in the data and undetected
+borrowings, either between related or unrelated languages. This degree of conflicting signal can be quantified using
+a number of statistics, such as the δ-score (Holland et al., 2002).
+Unrooted tree diagrams were computed using the neighbor-joining algorithm (Saitou; Nei, 1987). Confidence
+estimates for every node were calculated on the unrooted tree via bootstrapping with 10,000 runs (i.e., 10,000
+resamplings with replacement, yielding 10,000 trees; the confidence of every node in the optimal tree is the percentage
+of resampled trees where the node in question is present), as described in Kessler (2001). The unrooted trees were
+rooted via midpoint rooting since no clear outgroup could be identified.
+Since the rate of change is not constant across meanings even in basic vocabulary – certain items are more
+prone to change than others – we followed McMahon, A.; McMahon, R.’s (2005, p. 105) suggestion of compiling,
+within the larger Swadesh list, separate sublists of items that were more, or less, stable in time. On the basis of
+earlier work by Lohr (1999); Starostin (2000; see also Baxter; Ramer, 1996), McMahon; McMahon (2005) set up two
+sublists, termed ‘HiHi’ and ‘LoLo’, with meanings that had been shown to have high reconstructibility (they had been
+reconstructed for at least three of the four proto-languages considered by Lohr) as well as high retentiveness (they
+had been replaced by other terms at most three times in Lohr’s data). When compared to the Tupian data, however,
+these lists were clearly not suitable: many stable meanings in the ‘HiHi’ list, which had at most three replacements in
+Lohr’s data, had eight or more cognate sets in Tupian, thus indicating at least seven replacements (e.g., ‘two’, ‘long’,
+‘night’, ‘star’, ‘stand’). It remains to be seen whether other language families would also disagree with Lohr’s list of
+meanings for high retentiveness and reconstructibility. If Tupian turns out not to be anomalous in this respect, then
+Lohr’s (and McMahon’s) hopes of possible cross-linguistic validity for their lists should be reexamined9
+.
+To further examine stability in the Tupian data set, we compiled two lexical sublists, one with the most retentive
+meanings (those with four or fewer cognate sets, reflecting at most three replacements)10
+and one with the least retentive
+1. i 2. you 3. we incl. 4. this 5. that 6. what 7. who 8. not 9. all 10. many 11. one
+Parintintín A A A D C B A A C C C
+Mundurukú C B D G F C A J F R F
+Akuntsú C B E F K ? ? C ? ? G
+Gavião C B I I I E H C L M I
+Table 2. Partial view of the cognate codings for Tupian languages.
+9
+	 We note, in passing, that McMahon; McMahon’s (2005) success in applying Lohr’s (1999) and Starostin’s (2000) meaning lists probably
+stems from the fact that they were applied to Indo-European, which was one of the language families in both Lohr’s and Starostin’s
+databases, so that the meanings in question were indeed guaranteed to have high retentiveness and reconstructibility.
+10
+	The meaning ‘sun’ has five cognate sets, but because of what appears to be a mistake in the original Tapirapé source: the word is
+elsewhere attested as meaning ‘day’. Because of this, ‘sun’ is here included in the Tupí-HiHi list.
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+235
+meanings (those with at least nine cognate sets, reflecting at least eight replacements). To assess reconstructibility, the
+more retentive words were further inspected: those which, on the basis of our current knowledge of the family, seemed
+not to be reconstructable to Proto-Tupí were eliminated. The resulting lists, termed ‘Tupí-HiHi’ and ‘Tupí-LoLo’, are
+given in Tables 3 and 4.
+001-I 048-HAND
+002-YOU 051-BREAST
+019-FISH             053-LIVER
+022-LOUSE 055-EAT
+023-TREE 057-SEE
+025-LEAF 060-SLEEP
+028-SKIN 071-SAY
+032-EGG 072-SUN
+035-TAIL 075-WATER
+036-FEATHER 081-SMOKE
+037-HAIR 085-PATH
+043-TOOTH 086-MOUNTAIN
+044-TONGUE 093-HOT
+046-FOOT 100-NAME
+Table 3. Tupí-HiHi list: the 28 more stable Tupí items (at most 4 cognate sets).
+Table 4. Tupí-LoLo list: the 34 less stable Tupí items (at least 9 cognate sets).
+003-WE(INCL)     065-WALK
+004-THIS 067-LIE
+005-THAT 069-STAND
+009-ALL 073-MOON
+010-MANY 074-STAR
+011-ONE 078-SAND
+012-TWO 080-CLOUD
+013-BIG 083-ASH
+014-LONG 084-BURN(INTR)
+015-SMALL 088-GREEN
+016-WOMAN 089-YELLOW
+017-MAN 091-BLACK
+018-PERSON 092-NIGHT
+038-HEAD 094 COLD
+049-BELLY 095-FULL
+052-HEART/GUTS 096-GOOD
+063-SWIM 099-DRY
+Genealogical relations and lexical distances within the Tupian linguistic family
+236
+A comparison with McMahon; McMahon’s (2005) HiHi and LoLo lists reveals very little agreement: only ten out
+of their 30 HiHi meanings occurred also in our Tupí-HiHi list, and only two out of their 23 LoLo meanings occurred in
+our Tupí-LoLo list. One of the reasons for this surprising discrepancy is rather prosaic: McMahon and McMahon used
+Swadesh’s 200-word list, while we used his 100-word list (more than half of their LoLo meanings are not in the 100-
+word list). More interestingly, though, some of Lohr’s more retentive/reconstructable words could clearly not have
+the same status in Tupian: e.g., ‘dog’ was a new concept imported from Europe; ‘four’ and ‘five’ (often even ‘three’)
+are not lexicalized in all Tupian languages, where numeral systems are rather small11
+; ‘other’ is usually a word with
+more meanings besides ‘other’; and, some terms (‘night’, ‘star’, ‘day’) tend to be related to or derived from others
+(‘dark’, ‘moon’, ‘sun’, respectively), often in various ways, depending on the language, which lowers their degree of
+retentiveness. To avoid these difficulties, we decided to adopt the Tupí-HiHi and Tupí-LoLo meanings (Tables 3 and 4)
+instead of those listed by McMahon; McMahon (2005)12
+. New matrices were then prepared for the Tupí-HiHi and and
+Tupí-LoLo sublists, from which networks and cladograms with confidence estimates were produced for comparison
+with those resulting from the whole Swadesh list (1955)13
+.
+Finally, a final list of words was compiled that consists of 90 names of animals and plants (listed in Appendix
+2), where we expected to see the effects of borrowing more clearly. Due to insufficient data, the Paraguayan
+dialect of Guaraní was replaced by the Mbyá dialect, and Tapirapé was excluded from the set, reducing the total
+of language varieties taken into account to 22. The same procedure used for the Swadesh list, and the Tupí-
+HiHi and Tupí-LoLo sublists was again applied to the list of plants and animals, yielding more networks and trees
+(cladograms) for comparison.
+RESULTS AND DISCUSSION
+Similarity (shared cognates) matrix
+The lexical distance among each pair of languages in the sample is shown in the matrix consisting of percentages of pairwise
+shared cognates (Table 5), on the basis of which the first classification of the Tupian family, with data from all non-Tupí-
+Guaranian languages of the other nine branches of the family (including previously unavailable data on Akuntsú, Kuruáya,
+Puruborá and Salamãy), can be proposed.
+A clear pattern emerges for the two larger branches found in the State of Rondônia, Mondé and Tuparí. The
+percentage of shared cognates in the Mondé branch confirms Moore’s (2005) analysis of Gavião, Zoró and Aruá14
+11
+	 Some Tupian languages have not a simple word but a complex expression for these numbers, sometimes even more than one expression
+in synchronic competition.
+12
+	 McMahon, A.; McMahon, R.’s HiHi list (2005, p. 109, Table 4.2) with 30 meanings: four, name, three, two, foot, give, long, salt, sun,
+other, sleep, to come, day, to eat, not, thin, five, mother, ear, I, new, night, one, to spit, star, to stand, though, tongue, tooth, wind.
+McMahon, A.; McMahon, R.’s LoLo list (2005, p.109, Table 4.2) with 23 meanings: grass, mouth, stone, heavy, year, bird, near, smooth,
+wing, man, neck, tail, to walk, back, to flow, left (hand), to pull, to push, river, rope, straight, to think, to throw.
+13
+	Holman et al,. (2008) have also published a list of meanings ranked by stability, based on a large (800+) sample of languages. There
+is a high degree of corelation between Holman’s list and ours (preliminary results based on a suggestion by one of the referees to this
+paper show a Spearmann rank corelation of -0.50 with p < 0.0000001, without any radical outliers visible on a plot of Holman ranks
+vs. meanings), which means that our choice to use a Tupí-internal stability ranking is not expected to produce significantly different results
+from an analysis based on Holman’s rankings. We hope to investigate, in future studies, the idea of a universal stability ranking and to
+examine possible family-specific ranking deviations for particular meanings.
+14
+	 Cinta-Larga, another dialect, was not included in the sample.
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+237
+15
+	 Another classification proposal by Anonby (2012) is not supported by the results from analysis put forth here.
+P
+.
+Guaraní
+Urubú-Ka’apór
+Tapirapé
+Parintintín
+A
+wetí
+M
+awé
+M
+undurukú
+K
+uruáya
+M
+aku
+-
+rap
+W
+ayoró
+T
+uparí
+A
+kuntsú
+M
+ekéns
+X
+ipáya
+J
+urúna
+K
+áro
+P
+uruborá
+A
+ruá
+G
+aviao
+Z
+oró
+S
+alamay
+S
+uruí
+K
+aritiána
+P
+. Guaraní 100 076 076 076 055 049 034 036 031 028 025 037 032 034 032 027 028 027 027 027 030 022 029
+Urubú-
+Ka’apór
+076 100 076 071 055 047 037 040 030 030 026 039 033 035 031 029 026 030 030 029 034 024 031
+Tapirapé 076 076 100 076 056 050 037 039 032 032 029 041 037 036 034 031 031 031 030 029 034 022 028
+Parintintn 076 071 076 100 062 053 037 041 032 030 029 039 033 036 033 029 028 031 031 031 035 025 029
+Awetí 055 055 056 062 100 048 033 036 029 030 030 041 033 030 027 030 028 030 030 030 034 025 028
+Mawé 049 047 050 053 048 100 034 036 032 035 034 047 037 036 032 030 034 031 034 034 035 029 029
+Mundurukú 034 037 037 037 033 034 100 073 032 032 030 039 038 036 031 026 026 032 031 031 034 027 028
+Kuruáya 036 040 039 041 036 036 073 100 036 035 032 041 038 036 031 029 029 035 035 035 037 031 032
+Makuráp 031 030 032 032 029 032 032 036 100 050 045 052 049 030 026 028 030 031 028 029 031 024 028
+Wayoró 028 030 032 030 030 035 032 035 050 100 067 072 062 028 025 032 030 033 031 032 033 026 030
+Tuparí 025 026 029 029 030 034 030 032 045 067 100 069 057 027 025 030 030 033 032 032 033 027 029
+Akuntsú 037 039 041 039 041 047 039 041 052 072 069 100 082 037 035 039 039 036 035 036 036 029 035
+Mekéns 032 033 037 033 033 037 038 038 049 062 057 082 100 033 029 032 034 031 031 030 030 024 027
+Xipáya 034 035 036 036 030 036 036 036 030 028 027 037 033 100 078 031 028 031 030 029 031 026 028
+Jurúna 032 031 034 033 027 032 031 031 026 025 025 035 029 078 100 029 025 026 027 027 027 022 026
+Káro 027 029 031 029 030 030 026 029 028 032 030 039 032 031 029 100 037 031 031 032 033 025 030
+Puruborá 028 026 031 028 028 034 026 029 030 030 030 039 034 028 025 037 100 034 034 035 034 028 028
+Aruá 027 030 031 031 030 031 032 035 031 033 033 036 031 031 026 031 034 100 088 085 083 070 029
+Gaviao 027 030 030 031 030 034 031 035 028 031 032 035 031 030 027 031 034 088 100 092 086 074 029
+Zoró 027 029 029 031 030 034 031 035 029 032 032 036 030 029 027 032 035 085 092 100 088 075 029
+Salamãy 030 034 034 035 034 035 034 037 031 033 033 036 030 031 027 033 034 083 086 088 100 074 030
+Suruí 022 024 022 025 025 029 027 031 024 026 027 029 024 026 022 025 028 070 074 075 074 100 025
+Karitiána 029 031 028 029 028 029 028 032 028 030 029 035 027 028 026 030 028 029 029 029 030 025 100
+Table 5. Pairwise percentage similarity matrix of Tupian languages.
+as dialects of one language. The proximity of Salamãy to these three languages may be an effect of the large gap – 16
+missing items–in Salamãy data, as well as the ongoing obsolescence of this language. In this data set, Suruí (70%-
+75%) stands out as the most divergent language in the Mondé branch15
+. In the Tuparí case, Mekéns and Akuntsú
+show similarly high percentages (82% shared cognates), which is not surprising if one takes into account that they
+are mutually intelligible and show very close phonological and morphological resemblances. In a brief paper on the
+classification of Akuntsú, Gabas Júnior (2005) left its status as a distinct language unresolved; the data set analyzed
+Genealogical relations and lexical distances within the Tupian linguistic family
+238
+16
+	 The Tupí-Guaranian languages in the sample were taken from different subgroups, both in Mello´s (2000) and inRodrigues; Cabral´s
+(2002) classifications, and are almost as far away from each other as is possible to be within this branch. It would be interesting to see
+how many languages within each Tupí-Guaraní sub-branch would turn out to be better described as (co-)dialects if their percentage of
+shared cognates, their overall phonological and grammatical similarity, and their level of mutual intelligibility were compared.
+17
+	 One outstanding case is the 47% value found for Mawé and Akuntsú (Tuparí branch); but it is probably due, at least in part, to the gaps
+in the Akuntsú data (see Table 1).
+here suggests that Akuntsú and Mekéns are co-dialects of a single language. The other three languages are more
+lexically distant (45% to 72% shared cognates), Makuráp being the most divergent of the five.
+Outside of Rondônia, the languages of the Tupí-Guaraní, Mundurukú and Jurúna branches all show percentages
+of more than 70% of shared cognates with the other languages of their respective branches. The highest rate, 78%,
+is found between the two Jurúna languages, Jurúna and Xipáya. Mundurukú and Kuruáya share 73% of their cognates,
+and the four Tupí-Guaraní languages in the sample show a rate of 71-76%16
+.
+The closer relation between Tupí-Guaraní, Awetí, and Mawé is also very clear in Table 5, giving further support to
+the hypothesis of a Mawetí-Guaraní branch (Corrêa da Silva, 2007, 2010; Drude, 2006; Rodrigues, 1984/85; Rodrigues;
+Dietrich, 1997; Walker et al., 2012). A stepwise discontinuity can be observed in Table 5: starting with shared cognate
+percentages of 71%-76% among Tupí-Guaraní languages, there is a drop to 55%-62% with Awetí, a further drop to
+47%-53% with Mawé, and a further drop to 22%-41% when one moves to the other Tupian branches17
+.Such clear-
+cut borders support the idea of a Mawetí-Guaraní branch, with the structure seen in Figure 1 above.
+As a general effect, the results in Table 5 show the languages with few speakers (Akuntsú, Kuruáya, Puruborá,
+Salamãy, Xipáya) with systematically higher cognacy percentage than their closest related languages. Due to the
+situation of obsolescence of these languages, their respective word lists are less complete. The tendency in such cases
+is for semi-speakers and ‘rememberers’ to recall names of animals and other concrete items. It is highly probable that
+the forgotten meanings, for instance, ‘today’, ‘there’, ‘four’, involve items that are less likely to be cognates, leaving
+the more probable cognates in the recorded word list. Note that the semi-speakers usually know at least one other
+local Tupian language, which would make it more likely for cognate words not to be forgotten.
+The network shows a low degree of reticulation, with a mean δ-score of 0.233 (s.d. ± 0.04). This suggests
+that there is a low degree of undetected borrowings in the dataset and that there are clearly identifiable branches
+within the network. In comparison, Gray et al. (2010) calculate the same statistic for other major language families of
+the world and find that Indo-European, which they consider to be highly tree-like and are using confident data based
+on centuries of etymological work, shows a δ-score of 0.22, while the Polynesian languages, which they consider
+highly reticulate, shows a δ-score of 0.41. In the Tupian dataset, the languages with δ-scores higher than the first
+standard derivation, which are the languages that contributed the most conflicting evidence to the tree-likeness of
+the dataset, are Kuruáya, Puruborá, Káro and Karitiána, with δ-scores of 0.288, 0.280, 0.311, and 0.313, respectively.
+Relatedness networks and trees
+100-word Swadesh list
+The shared cognate (similarity) matrix in Table 5 corresponds to the network in Figure 2, where the lexical distance
+between languages and the internal structure of each branch can be visualized.
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+239
+Figure 2. Network representation of lexical distance (NeighborNet algorithm) based on the 100-word Swadesh list.
+The distance and ramifications of the branches, as shown in Figure 2, confirm the classifications based on the
+traditional comparative method (Corrêa da Silva, 2010; Fargetti; Rodrigues, 2008; Galucio; Nogueira, 2012; Meira;
+Drude, this volume; Moore; Galucio, 1994; Moore, 2005; Picanço, 2005; Rodrigues, 1984/85).
+The above results clearly support the higher-order branches in Figure 1. In one case, the support is barely significant:
+the Ramaráma-Puruborá branch (Káro and Puruborá languages), barely visible in Figure 2. The cladogram in Figure 3
+evaluates its confidence as 71.9 (i.e., a Káro-Puruborá node occurred in 71.9% of the 10,000 resampling trees generated
+via bootstrapping)18
+;in comparison, the confidence of all other higher-order branches (Mondé, Tuparí, Mundurukú, Jurúna,
+Mawetí-Guaraní) is above 99%. Káro-Puruborá, or Ramaráma-Puruborá, proposed by Galucio; Gabas Júnior (2002), does
+find some support here, albeit with a relatively low confidence level. Also note that Káro-Puruborá is placed as the closest
+relative to Mondé, albeit with very low confidence level (40.6%), which coincides with a proposal put forth in Rodrigues
+(2005) for a subgrouping containing these three branches on the basis of the merger of *a and *o in these languages.
+The Mawetí-Guaraní branch (Corrêa da Silva, 2010; Drude, 2006; Meira; Drude, this volume; Rodrigues,
+1984/85; Rodrigues; Dietrich, 1997) is clearly identified in Figure 3, with an internal structure as was shown in Figure
+1: Proto-Tupí-Guaraní (99.7% confidence) forms a higher-order branch with Awetí (“Awetí-Guaraní”; 99.0%), which
+then forms another higher-order branch with Mawé (“Mawetí-Guaraní”; 99.6%).
+18
+	Figure 3 can be usefully compared to the tree in Figure 1 in Walker et al. (2012). That tree is based on fewer (40) items, less reliable
+data and a different distance-based method based on edit distance between corresponding lexical items. It differs in higher groupings
+and also in the internal classification of the branches.
+Genealogical relations and lexical distances within the Tupian linguistic family
+240
+19
+	This cladogram refers not to the network in Figure 2, but to the best equivalent tree to that network, calculated with the neighbor-joining
+algorithm (Saitou and Nei, 1987) applied to the same data set.
+20
+	Since bootstrapping involves random resampling, the confidence values usually change when evaluated again. Low confidence levels
+change more, since the status of the corresponding branch or subnetwork as contributing to the best solution is not robust and can be
+significantly affected by small changes, like the selection of a different algorithm or even of a different set of parameters for the same
+algorithm, or a few changes in the data.
+Figure 3. Midpoint-rooted neighbor-joining cladogram with confidence rates (calculated via bootstrapping) for the same data represented
+in the network in Figure 219
+.
+Figures 2 and 3 also confirm the proposed internal classification of the Mondé (Moore, 2005) and Tuparí (Galucio;
+Nogueira, 2012) branches, originally based on phonological and morphological innovations and on mutual intelligibility.
+Within Mondé, Gavião and Zoró, closely related dialects, clearly form a subgroup (confidence 84.2%), to which
+Aruá and Salamãy are further added (confidence 83.8%). A subgroup including Aruá and Gavião-Zoró appears with
+confidence 60.9%, which, though suggestive, is still low and ultimately inconclusive20
+; Salamãy, Aruá and Gavião-Zoró
+are probably best seen as co-dialects at the same level. Suruí is the last to join the Mondé branch, and probably the only
+variety different enough to be a separate language rather than a co-dialect of Gavião-Zoró-Aruá. The results are also
+different in some respects from the classification in Walker et al. (2012), generated by applying the ASJP method based
+on normalized edit distances to a 40-word vocabulary lists. They place Salamãy, called Mondé in their paper, as the
+most divergent language inside the Mondé branch, probably due to lack of more accurate data in this specific case. In
+the same vein, our results do not support their classification of Ramaráma as closer to Tuparí than to the Mondé branch.
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+241
+In the Tuparí branch, the closer relation between Akuntsú and Mekéns is evident in Figures 2 and 3 (94.2%
+confidence), as is also the slightly less close relation between Tuparí and Wayoró (83.7% confidence). Mekéns-Akuntsú and
+Tuparí-Wayoró then join (99.1% confidence); Makuráp is the last to join, forming the Tuparí branch (99.9% confidence).
+Attempts at producing higher-order branches by joining some of the aforementioned branches must be regarded
+as not supported by Figures 2 and 3. Even though the reticulation would tend to suggest connections, and the tree
+algorithm did select a higher-order branching hierarchy, the confidence values are so low (in the 28.1%-43.3% range)
+that these solutions must be unstable, dependent on small changes in cognacy judgment or even on the selection of
+different algorithms or parameter settings.
+Tupí-HiHi and Tupí-LoLo sublists
+Turning now to the Tupí-HiHi and and Tupí-LoLo lists (see Tables 3 and 4 above), we obtain different networks, as shown
+below in Figures 4 and 5. Note that the main traditional branches (Mundurukú, Jurúna, Mondé, Tuparí, Mawetí-Guaraní)
+remain quite obvious in both figures; but the new Káro-Puruborá (Ramaráma-Puruborá) branch, which already had
+low confidence in Figure 3, is barely visible in Figure 4 and disappears in Figure 521
+. An interesting difference between
+these figures concerns the positions of Karitiána and of Jurúna-Xipáya. In Figure 4 (Tupí-HiHi), Karitiána appears between
+Mawetí-Guaraní and Mondé, while in Figure 5 (Tupí-LoLo) it is placed between Mawetí-Guaraní and Mundurukú. In
+Figure 2 (the whole Swadesh list), Karitiána appears between Tuparí and Káro. McMahon, A.; McMahon, R. (2005)
+21
+	The network representation of lexical distance in the Tupí-HiHi list is only marginally more reticulate than that of the Tupí-LoLo list, i.e.
+is less tree-like, with δ-scores of 0.289 (s.d. ± 0.042) and 0.268 (s.d. ± 0.040), respectively. The statistical outliers in the Tupí-HiHi list
+are Akuntsú, Mekéns and Karitiána (δ = 0.352, 0.346, 0.373, respectively), while the outliers for the Tupí-LoLo list are Karitiána, Káro
+and Puruborá (δ = 0.324, 0.345, 0.361, respectively).
+Figure 4. Network representation (NeighborNet algorithm) based on Tupí-HiHi (more stable) words.
+Genealogical relations and lexical distances within the Tupian linguistic family
+242
+Figure 5. Network representation (NeighborNet algorithm) based on Tupí-LoLo (less stable) words
+suggest that such shifts in relative position are good indicators of contact-induced borrowings. The differences are small
+and need to be examined in more detail, but the results would tentatively suggest that Karitiána may have borrowed
+from other branches so as to become more similar to the other Rondônian languages (i.e., moving away from Mawetí-
+Guaraní). The Karitiána have borrowed multiple cultural traits, probably from long term contact with a group that did
+not belong to the Tupian family, such as a skull deformation apparatus, a horizontal mortar made of a carved tree trunk
+used with a rectangular stone for grinding corn and the tradition of eating corn porridge.
+For Jurúna-Xipáya, the situation is the opposite of that of Karitiána: in Figure 4 (Tupí-HiHi), Jurúna-Xipáya appears
+closer to Mawetí-Guaraní (more so than in Figure 2), while in Figure 5 (Tupí-LoLo) it flips to the other side, ending up
+between Káro and Puruborá. This suggests (again tentatively) that Jurúna-Xipáya was originally closer to Mawetí-Guaraní
+and may have borrowed from other branches in past contacts. A possible connection between Jurúna-Xipáya and Mawetí-
+Guaraní (both members of a putative Eastern Tupian branch) has already been suggested (Rodrigues; Cabral, 2012).
+The basic structure of the subclassification of Mondé (Gavião-Zoró-Aruá-Salamãy vs. Suruí) is maintained, with
+Salamãy looking a little more distant from Gavião-Zoró-Aruá in Figure 5 (Tupí-LoLo list) and a little closer in Figure 4
+(Tupí-HiHi). In Tuparí, on the other hand, there are more important differences: though the more distant relation of
+Makuráp to the rest of the branch remains visible, the close relationship between Akuntsú and Mekéns is clearer in
+Figure 5 (Tupí-LoLo) than in Figure 4 (Tupí-HiHi), where it would seem Akuntsú is at least as close (maybe even closer)
+to Wayoró-Tuparí as it is to Mekéns. This would tentatively suggest borrowing contacts between Akuntsú and Mekéns.
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+243
+22
+	Note that, as said before, Tapirapé was eliminated and Paraguayan Guaraní was replaced with Mbyá Guaraní, due to insufficient information
+in the available sources.
+Figure 6. Network representation (NeighborNet algorithm) based on the 90-item list of plants and animals
+90-word plant and animal list
+Turning now to the list of plant and animal names (see Appendix 2), which in principle should contain words that are
+less time-stable and more prone to borrowing and other areal influences, we find the results shown in the diagrams
+in Figures 6 and 7 below22
+.
+The first observation concerns the large Mawetí-Guaraní branch. While the branch as a whole and the Tupí-Guaraní
+subbranch remain just as robust as before (for Mawetí-Guaraní, 99.6% confidence in Figure 3, now 99.8% in Figure 7;
+for Tupí-Guaraní, 99.7% and 99.4% respectively), the Awetí-Guaraní subbranch is much less clearly visible in Figure 6
+than it is in Figures 2, 4, and 5; the corresponding confidence drops from 99.0% in Figure 3 (Swadesh list) to 65.7%
+in Figure 7 (plants and animals). In other words, Mawé appears to be much closer to Awetí-Guaraní, to the point that
+the latter group does not appear clearly attested on the basis of the list of animals and plants, as it does on the basis of
+the Swadesh list. This suggests that Mawé may have borrowed words from other Awetí-Guaraní languages, which is
+indeed confirmed by historical records: Mawé was for a long time in contact with Nheengatu, a lingua franca descended
+from the Tupí-Guaraní language Tupinamba, and has many borrowings from it (see Corrêa da Silva, 2007, 2010).
+Turning to the Ramaráma-Puruborá (Káro-Puruborá) subbranch, we see an increase from the barely significant
+confidence based on Swadesh list data (71.9% in Figure 3) to a more comfortable level (84.6%) with plant and animal
+names. Furthermore, in the Tuparí branch, we see that Wayoró, which formed a subbranch with the Tuparí language in
+Figure 3 (83.7% confidence), now forms a subbranch with Makuráp (58.7%). Such ‘jumping around’ again exemplifies
+what McMahon; McMahon (2005) consider an indicator of possible undetected borrowings in the dataset It is also possible
+Genealogical relations and lexical distances within the Tupian linguistic family
+244
+that the results reflect the current situation of advanced linguistic obsolescence for Puruborá and Wayoró. Puruborá is
+only spoken by a couple of ‘rememberers’, while Wayoró is spoken by a few individuals who do not normally use it
+and have not done so for a long time. At least in the Wayoró case, speakers are in close contact with Makuráp, from
+which they may have made impromptu borrowings.
+Another interesting fact is the presence of a higher subgrouping comprising all Rondônian branches when considering
+the list of plant and animal names. This subgrouping is clearly visible in Figure 6 and shows 90.3% confidence in Figure 7.
+This suggests a higher level of borrowing, perhaps even areal effects, between Rondônian languages, at least in the domain
+of plants and animals. In his study of isolates in Rondônia, Voort (2005) noted considerable diffusion of animal names.
+SUMMARY
+The lexicostatistical classification derived through the analysis of a complete 100-item Swadesh list for all Tupian languages
+of the nine branches outside Tupí-Guaraní provides a considerable body of evidence that confirms the classification
+proposals based on the traditional Comparative Method and other methods of historical linguistics. The results discussed
+here support the proposed higher Mawetí-Guaraní branch, and while not conclusive, the results also provide marginal
+support for the putative Ramaráma-Puruborá (Káro-Puruborá) branch.
+Figure 7. Midpoint-rooted neighbor-joining cladogram with confidence rates (calculated via bootstrapping) for the 90-item list of plants
+and animals.
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+245
+The internal classification of the two most largely diversified branches after Tupí-Guaraní, Mondé and Tuparí, is a
+great contribution to the discussion of the internal structure of the Tupian family. For instance, one interesting observation
+regarding the internal classification of the Tuparí branch is that while Makuráp appears as the more lexically divergent
+language, it is also the language more deeply involved with situations of borrowing, both with Tupian and non-Tupian
+languages of the Rondônia region.
+The hypothesis of a large grouping uniting all of the non-Tupí-Guaraní Tupian languages spoken in Rondônia
+(‘Western Tupian’) as a viable branch in the classification of the family is not supported here. Our analysis of plant and
+animal terms, which are most likely to be borrowed, suggests that apparent similarities between the ‘Western’ languages
+may be a result of undetected borrowings either among the Rondônian Tupian languages or between them and their
+non-related neighbors (cf. Crevels; Voort, 2008). In addition, our analysis of lexical distance of basic vocabulary has
+revealed that there is a low degree of reticulation in the current dataset. This suggests that the Tupian expansion was
+essentially tree-like, and thus probably marked by multiple periods of distinct migrations (or by political separation of
+peoples when these were in the same region), producing the different branches. These migrations were then followed
+by periods of relative demographic separation, resulting in the diversification of the respective branches and possible
+instances of social interaction with neighboring ethnolinguistic groups. Such a hypothesis can be further developed
+through collaboration with researchers in related disciplines concerned with human prehistory.
+ACKNOWLEDGMENTS
+We would like to thank all the colleagues and institutions who have helped us in one moment or the other during the
+course of our Tupí Comparative Project, and the discussions that are presented in this paper, especially Antonia Fernanda
+Nogueira, Didier Demolin, Ellison Santos, Geiva Picanço, Hein van der Voort, Heliton Castro, Love Eriksen, Mariana
+Lacerda, Pieter Muysken (the Spinoza and the ERC Traces of Contact projects), Rose Costa, Conselho Nacional de
+Pesquisa e Desenvolvimento-CNPq, Fundação Nacional do Indío, Radboud University, The Wenner-Gren Foundation,
+and also two anonymous referees.
+REFERENCES	
+ALMEIDA, Antônio; JESUS, Irmãzinhas de; PAULA, Luíz Gouvêa de. A língua Tapirapé. Rio de Janeiro: Xerox do Brasil. 1983.
+ANONBY, Stan. A Historical comparative look at four Mondé languages. SIL International, 2012. Available at: <http://www.sil.org/
+silewp/2012/silewp2012-006.pdf>. Acessed on: Aug. 22, 2015. (Electronic Working Paper, 6).
+BAXTER, William H.; RAMER, Alexis Manaster. Review of Ringe (1992). Diachronica, v. 13, n. 2, p. 371-384. 1996.
+BETTS, La Vera D. Dicionário Parintintin-Português, Português-Parintintin. Cuiabá: Sociedade Internacional de Linguística. 1981.
+BIRCHALL, Joshua; DUNN, Michael; GREENHILL, Simon. A combined comparative and phylogenetic analysis of the Chapacuran language
+family. International Journal of American Linguistics. To appear.
+BRYANT, David; MOULTON, Vincent. NeighborNet: an agglomerative algorithm for the construction of phylogenetic networks. Molecular
+Biology and Evolution, v. 21, n. 2, p. 255-265. 2004.
+CADOGAN,León. DiccionarioMbya-Guarani-Castellano.Asunción:Fundación“LeónCadogan”,1992.(BibliotecaParaguayadeAntropología,17).
+CORRÊA DA SILVA, Beatriz C. Mawé/Awetí/Tupí-Guaraní: relações linguísticas e implicações históricas. 2010. Ph.D. dissertation,
+Universidade de Brasília, Brasília, 2010.
+Genealogical relations and lexical distances within the Tupian linguistic family
+246
+CORRÊA DA SILVA, Beatriz C. Mais fundamentos para a hipótese de Rodrigues (1984/1985) de um Proto-Awetí-Tupí-Guaraní. In:
+RODRIGUES, A. D.; CABRAL, A.S. A. C. (Ed.). Línguas e culturas Tupí. Campinas: Curt Nimuendajú, 2007. p. 219-240. (v. 1).
+CREVELS, Mily; VOORT, Hein van der. The Guaporé-Mamoré region as a linguistic area. In: MUYSKEN, Pieter (Ed.). From linguistic
+areas to areal linguistics. Amsterdam, Philadelphia: John Benjamins, 2008. p. 151-179. (Studies in Language Companion Series, v. 90).
+DIETRICH, Wolf. More evidence for an internal classification of Tupi-Guarani languages. Berlin: Gebr. Mann, 1990. (Indiana
+Beiheft, v. 12).
+DOOLEY, Robert A. Léxico Guaraní, dialeto Mbya: versão para fins acadêmicos. Porto Velho: Sociedade Internacional de Linguística. 1998.
+DUNN, Michael. Language phylogenies. In: BOWERN, Claire; EVANS, Bethwyn (Ed.) Routledge handbook of historical linguistics.
+London, New York: Routledge, 2015. p.190-211.
+DRUDE, Sebastian. On the position of the Awetí language in the Tupí family. In: DIETRICH, Wolf; SYMEONIDIS, Haralambos (Ed.).
+Guaraní y “Mawetí-Tupí-Guaraní”: Estudios históricos y descriptivos sobre una familialingüística de América del Sur. Berlim: LIT
+Verlag, 2006. p. 47-68.
+FARGETTI, Cristina M.; RODRIGUES, Carmen L. Consoantes do xipaya e do juruna: uma comparação em busca do proto-sistema. Alfa,
+v. 52, n. 2, p. 535-563, 2008.
+GABAS JÚNIOR, Nilson. Genetic relationship within the Ramaráma family of the Tupí stock (Brazil). In: VOORT, Hein van der; KERKE,
+Simon van de (Ed.). Indigenous languages of lowland South America. Leiden: CNWS, Universiteit Leiden, 2000. p. 71-82. (Indigenous
+Languages of Latin America, v. 1).
+GABAS JÚNIOR, Nilson. A classificação da língua Akuntsu. Estudos linguísticos, v. 34, p.105-109. 2005.
+GALUCIO, Ana Vilacy; NOGUEIRA, Fernanda. Comparative study of the Tupari branch of the Tupi family: contributions to understanding
+its historical development and internal classification. In: CONFERENCE ON INDIGENOUS LANGUAGES OF LATIN AMERICA, 5.,
+2012, Austin. Annals... Austin: Center for Indigenous Languages of Latin America (CILLA), 2012. p. 1-28. Available at: <http://www.ailla.
+utexas.org/site/events.html>. Acessed on: Aug. 22, 2015.
+GALUCIO, Ana Vilacy; GABAS JÚNIOR, Nilson. Evidências de agrupamento genético Karo-Puruborá, tronco Tupi. In: XVII Encontro
+Nacional da ANPOLL: boletim informativo, 2002, Gramado: ANPOLL. v. 31. p. 163.
+GRAY, Russell D.; BRYANT, David; GREENHILL, Simon J. On the shape and fabric of human history. Philosophical Transactions of the
+Royal Society of London. Series B, Biological sciences, v. 365, n.1559, p. 3923-3933. 2010.
+GRAY, Russell D.; DRUMMOND, Alexei J.; GREENHILL, Simon J. Language phylogenies reveal expansion pulses and pauses in Pacific
+settlement. Science, v. 323, p. 479-483. 2009. Available at: <doi.org/10.1126/science.1166858>. Acessed on: Aug. 22, 2015.
+GRAY, Russell D.; ATKINSON, Quentin. Language-tree divergence times support the Anatolian theory of Indo-European origins. Nature,
+v. 426, p. 435-439. 2003. Available at: <doi.org/10.1038/nature02029>. Acessed on: Aug. 22, 2015.
+GUASCH, Antonio; ORTIZ, Diego. Diccionario Castellano-Guaraní, Guaraní-Castellano, 13th ed. Asunción: Centro de Estudios
+Paraguayos “Antonio Guasch” (CEPAG), 1996.
+HOLLAND, Barbara R.; HUBER, Katharina T.; DRESS, Andreas; MOULTON, Vincent. δ Plots: A tool for analyzing phylogenetic distance
+data. Molecular Biology and Evolution, v. 19, n. 12, p. 2051-2059. 2002.
+HOLMAN, Eric W.; WICHMANN, Søren; BROWN, Cecil H.; VELUPILLAI, Viveka; MÜLLER, André; BAKKER, Dik. Explorations in
+automated language classification. Folia Linguistica, v. 42, n. 2, p. 331- 354. 2008.
+HUSON, Daniel H.; BRYANT, David. Application of phylogenetic networks in evolutionary studies. Molecular Biology and Evolution, v.
+23, n. 2, p. 254-267. 2006. Available at: <www.splitstree.org>. Acessed on: 30 jan. 2014.
+KAKUMASU, James Y.; KAKUMASU, Kiyoko. Dicionário por tópicos Kaapor-Português. Cuiabá: Associação Internacional de Lingüística
+- SIL Brasil. 2007.
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+247
+KEssLEr, Brett. The significance of word lists: statistical tests for investigating historical connections between languages. stanford, CA:
+CsLi Publications, 2001.
+LoHr, Marisa. Methods for the genetic classification of languages. Ph.d. dissertation, University of Cambridge, Cambridge, 1999.
+LoPEs, Mario Alexandre Garcia. Aspectos gramaticais da língua Ka’apor. Ph.d. dissertation, Universidade federal de Minas Gerais, Belo
+Horizonte, 2009.
+MCMAHon, April; MCMAHon, robert. Language classification by numbers. oxford: oxford University Press, 2005.
+MEirA, sérgio. stative verbs vs. nouns in sateré-Mawé and the tupian family. in: roWiCKA, Grazyna; CArLin, Eithne (Ed.). What’s in
+a verb? Studies in the verbal morphology of the languages of the Americas. Utrecht: Lot, 2006. p.184-214. (Lot occasional series)
+MEirA, sérgio.; drUdE, sebastian. A summary reconstruction of Proto-Maweti-Guarani segmental phonology. (this volume)
+MELLo, Augusto A. s. Evidências fonológicas e lexicais para o subagrupamento interno tupi-Guarani. in: CABrAL, A. s. A. C.; rodriGUEs,
+A. d. (Ed.). Línguas indígenas brasileiras: fonologia, gramática e história. Belém: EdUfPA, 2002. p. 338-342. (Encontro internacional do
+Grupo de trabalho sobre Línguas indígenas da AnPoLL, 1.).
+MELLo, Augusto A. s. Estudo histórico da família lingüística Tupí-Guaraní: aspectos fonológicos e lexicais. Ph.d. dissertation, Universidade
+federal de santa Catarina, florianópolis, 2000.
+MÉtrAUX, Alfred. La civilisation matérielle des tribus Tupi-Guarani. Paris: Paul Geuthner, 1928.
+MiCHAEL, Lev; CHoUsoU-PoLYdoUri, natalia; BArtoLoMEi, Keith; donnELLY, Erin; WAUtErs, Vivian; MEirA, sérgio;
+o’HAGAn, Zachary. A Bayesian phylogenetic classification of tupí-Guaraní. Liames. to appear.
+MoorE, denny. Classificação interna da família lingüistica Mondé. Estudos Linguísticos, v. 34, p. 515-520. 2005.
+MoorE, denny; GALUCio, Ana Vilacy. reconstruction of Proto-tupari Consonants and Vowels. in: MEEtinG of tHE soCiEtY for
+tHE stUdY of tHE indiGEnoUs LAnGUAGEs of tHE AMEriCAs And tHE HoKAn-PEnUtiAn WorKsHoP
+, 1994, Berkeley.
+Annals... Berkeley: University of California, 1994. p. 119–137.
+MoorE, denny; GALUCio, Ana Vilacy; GABAs JÚnior, nilson. o desafio de documentar e preservar as línguas amazônicas. Scientific
+American Brasil, p. 36-43. 2008. (Amazônia - A floresta e o futuro). Edição especial 3.
+PiCAnço, Gessiane. A reconstruction of nasal harmony in Proto-Mundurukú (tupi). international Journal of American Linguistics, v.
+76, n. 4, p. 411-438. 2010.
+PiCAnço,Gessiane.Mundurukú:phonetics,phonology,synchorny,diachrony.Ph.d.dissertation,UniversityofBritishColumbia,Canada,2005.
+PrAçA, Walkíria n. Morfossintaxe da língua Tapirapé (Família Tupi-Guaraní). Ph.d. dissertation, Universidade de Brasília, Brasília, 2007.
+rinGE JUnior, donald A. on calculating the factor of chance in language comparison. Transactions of the American Philosophical
+Society, Philadelphia, v. 82, n. 1, p. 1-110. 1992.
+rodriGUEs, Aryon d. As consoantes do Proto-tupi. in: CABrAL, Ana suelly Arruda Câmara; rodriGUEs, Aryon dall’igna. (Ed.).
+Línguas e culturas Tupí. Campinas: Curt nimuendaju; Brasília: LALi, 2007. p. 167-203.
+rodriGUEs, Aryon. As vogais orais do Proto-tupi. in: rodriGUEs, Aryon dall’igna; CABrAL, Ana suelly Arruda Câmara (Ed.). Novos
+estudos sobre línguas indígenas. Brasília: Universidade de Brasília, 2005. p. 35-46.
+rodriGUEs, Aryon d. relações internas na família lingüística tupí-Guaraní. Revista de Antropologia, são Paulo, v. 27-28, p. 33-53. 1984/85.
+rodriGUEs, Aryon d. A classificação do tronco lingüístico tupí. Revista de Antropologia, v. 12, p. 99-104. 1964.
+rodriGUEs, Aryon; CABrAL, Ana suelly. tupían. in: CAMPBELL, Lyle; GrondonA, Verónica (Eds.). The indigenous languages of
+South America: a comprehensive guide. Berlin; Boston: Walter de Gruyter, 2012. p. 495-574.
+Genealogical relations and lexical distances within the Tupian linguistic family
+248
+RODRIGUES, A. D.; CABRAL, A. S. A. C. Revendo a classificação interna da família Tupí-Guaraní. In: CABRAL, A. S. A. C.; RODRIGUES, A.
+D. (Eds.). Línguas indígenas brasileiras: Fonologia, gramática e história. Atas do I Encontro Internacional do Grupo de Trabalho sobre
+Línguas Indígenas da ANPOLL. Belém: EDUFPA, 2002. p. 327-338.
+RODRIGUES, Aryon Dall’Igna; DIETRICH, Wolf. On the linguistic relationship between Mawé and Tupí-Guaraní. Diachronica, v. 14, p.
+265-304. 1997.
+SAITOU, Naruya; NEI, Masatoshi. The neighbor-joining method: a new method for reconstructing phylogenetic trees. Molecular Biology
+and Evolution, v. 4, n. 4, p. 406-425. 1987.
+SCHLEICHER, Charles Owen. Comparative and internal reconstruction of the Tupi-Guarani language family. Ph.D. dissertation,
+University of Wisconsin, Madison, 1998.
+STAROSTIN, Sergei. Comparative-historical linguistics and lexicostatistics. In: RENFREW, Colin; MCMAHON, April; TRASK, Larry (Ed.).
+Time depth in historical linguistics. Cambridge: McDonald Institute for Archaeological Research, 2000. p. 223-266.
+STORTO, Luciana; BALDI, Philip. The Proto-Arikém vowel shift. In: INTERNATIONAL CONGRESS OF THE LINGUISTIC SOCIETY
+OF AMERICA. 1994. Annals... 1994. p. 1-13.
+SWADESH, Morris. Towards greater accuracy in lexicostatistic dating. International Journal of American Linguistics, v. 21, n.2, p. 121-
+137, 1955.
+VOORT, Hein van der. Kwaza in a comparative perspective. International Journal of American Linguistics, v. 71, n. 4, p. 365-412. 2005.
+WALKER, Robert S.; WICHMANN, Soeren; MAILUND, Thomas; ATKISSON, Curtis J. Cultural phylogenetics of the Tupi language family
+in lowland South America. PLoS ONE, v. 7, n. 4, p. 1-9. 2012.
+WALKER, Robert S.; RIBEIRO, Lincoln A. Bayesian phylogeography of the Arawak expansion in lowland South America. Proceedings of
+the Royal Society, v. 278, n. 1718, p. 2562-2567. 2011.
+WICHMANN, Søren; MÜLLER, André; VELUPILLAI, Viveka. Homelands of the world’s language families: A quantitative approach.
+Diachronica, v. 27, n. 2, p. 247-276. 2010.
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+249
+APPENDIX 1: SWADESH’S 100-WORD LIST
+The meaning, with its number in the list, is given in boldface capitals. The specific words, retranscribed from their
+original sources with IPA symbols (note that acute and grave accents mark tone, not stress, and that long vowels are
+represented by sequences of identical vowels: aa, oo, etc.; a dot, used only when necessary, marks a syllable boundary),
+are presented under the meaning, in italics, preceded by a two-letter abbreviation indicating the source language.
+Initial hyphens (indicating that the word takes a prefix) are copied from the original sources. Words assumed to be
+cognate (fully or partially) are listed sequentially, separated by commas, forming a cognate set; the end of a cognate set
+is indicated by two vertical strokes (||). If for a given meaning a language has variants or synonyms, they are indicated
+after the language abbreviation, separated by commas; if a word has conditioned alternants, these are separated by a
+tilde (~). A segment enclosed in parenthesis is not always pronounced. For each meaning, cognate sets are presented
+in order of decreasing size. Missing words are marked by question marks after the language abbreviation, at the end,
+after all cognate sets.
+Given the incipent stage of knowledge about Proto-Tupí and its historical development, our cognacy judgments
+in this paper are preliminary, based on our experience with the languages and with our current hypotheses about their
+sound changes; some of them will probably change in the future. Methodologically, we decided to err on the side of
+inclusiveness: if only part of a word is cognate (p.ex., Portuguese nós and the first syllable of Spanish nosotros, both
+meaning ‘we’), we still counted it as a full cognate.
+Language abbreviations: Ak = Akuntsú, Ar = Aruá, Aw = Awetí, Gv = Gavião, Ju = Jurúna, Ka = Káro, Kt =
+Karitiána, Ku = Kuruáya, Ma = Makuráp, Me = Mekéns, Mu = Mundurukú, Mw = Mawé, Pg = Paraguayan Guaraní,
+Pt = Parintintín, Pu = Puruborá, Sa = Salamãy, Su = Suruí, Ta = Tapirapé, Tu = Tuparí, Uk = Urubú-Ka’apór, Wa =
+Wayoró, Xi = Xipáya, Zo = Zoró
+001-I
+Mu ṍn, Ku õn, Wa õn, Ma õn, Tu õn, Ak õn, Me õn, Xi una, Ju una, Ka ʔõn, Pu ʔõn, Ar õõt, Gv õõt, Zo õõt, Sa õõt,
+Su ó.ẽn, Kt ĩn || Pg ʃe, Uk ihẽ, Ta ie, Pt ji(hi), Aw ito, Mw ujto ||
+002-YOU
+Aw ʔen, Mw en, Mu ẽ́n, Ku ẽn, Wa ʔẽn, Ma ẽn, Tu ẽn, Ak en, Me ẽt, Xi ena, Ju ena, Ka ʔẽn, Pu ʔẽn, Ar ẽẽt, Gv ẽẽt,
+Zo ẽẽt, Sa ẽẽt, Su é.ẽn, Kt ãn || Pg nde, Uk nde, Ta ane, Pt nde(he) ||
+003-WE (INCLUSIVE)
+Pg ɲande, Uk jande, Ta tj
+ane, Pt ɲande || Ar panóój, Gv panóój, Zo panóój, Su pá.ẽn || Tu kitwat, Ak kiʧe, Me kise-jat,
+Ju sí || Mu wə̤jʤə́, Ku weidɨsip || Ka iʔtə́, Kt ɨjʧa || Aw kajã || Mw aito || Wa ʧiɾe || Ma kitẽjã || Xi uzudɨ || Pu je-ßəɾa ||
+(Sa ?)
+004-THIS
+Xi anɨ, Ju anɨ, Ar ãã́, Gv ãã́, Zo ãã́, Su ãã́ || Uk komeʔẽ, Mw mẽjẽ, Wa ẽẽ, Ak eme, Ka mẽt || Ta hã, Mu i-ʤa, Tu ha- ||
+Pg ko(va) || Pt aɡwa || Aw akoj || Ma ʧẽɾõ || Me op || Kt kahɨt ||
+(Ku ? Pu ? Sa ?)
+Genealogical relations and lexical distances within the Tupian linguistic family
+250
+005-THAT
+Ka jet je, Ar jè, Gv jè, Zo ji, Su je || Uk pemeʔẽ, Ta epe || Ma mẽɾõ, Ak jẽɾom || Xi amɨ, Ju amɨ || Pg amova ||
+Pt ŋwi || Aw jatã || Mw meiko || Mu i-bó || Me eke || Kt kahɨt ||
+(Ku ? Wa ? Tu ? Pu ? Sa ?)
+006-WHAT
+Ar mé, Gv mé, Zo mé, Sa mé || Pg mbaʔe, Uk maʔe, Ta mahe, Kt mõɾã || Pt ɡaɾa, Aw kaɾika, Mw kat, Tu kat ||
+Mu aʤó ~ áʤo, Ku ado, Wa aɾop, Me aɾop || Xi apa, Ju apá || Ma alikʔop || Su nã́ãn || Ka kɨt
+(Ak ? Pu ?)
+007-WHO
+Pg mava, Uk awa, Ta ãwã, Pt maʔŋa, Mu abə́ ~ ábə, Ku abɨ, Xi ma, Ju má || Ar mé, Gv mé, Zo mé, Ka mõɾã ||
+Wa apokwaat, Tu apo || Ma alikop, Me aɾobẽp || Aw kojɨka || Mw uwẽi || Ka nãn ||
+(Ak ? Pu ? Sa ? Su ?)
+008-NOT
+Wa -õm, Tu -ʔõm, Ak nom, Me nop, Pu nõ, Ar ṍṍp, Gv ṍõ̀p, Zo ṍõ̀p || Pg nd(V)- -i, Ta n(ã)- -i, Pt n(d)- -i, Mw ɨ(ɨ)t ʔi ||
+Xi -aũ, -ma, Ju -aũ, -ma || Uk ɨm || Aw an || Mu ŋə́ || Ma piit || Ka iʔke || Sa aʔõ || Kt padnĩ ||
+(Ku ? Su ?)
+009-ALL
+Zo sopop, Sa sópój ||
+Pg opa || Uk johu || Pt pavẽi || Aw namãpɨte || Mw toɾania || Mu sóat || Ku póam || Wa ndeɡe || Ma ßiibmõ ||
+Tu eɾote || Me paeseet || Xi kiwi || Ju bitéhu || Gv kĩ́ɾĩ́jã́ã || Ar ßéɾep || Su baɡatéɾ || Ka iakatĩĩm ||
+(Tp ? Ak ? Kt ? Pu ?)
+010-MANY
+Pg h-eta, Uk h-eta || Gv ɡóló-á, Zo ɡóló-á || Xi tubɨ, Ju iʧíbɨ || Ta hɨŋa || Pt -eʔɨi || Aw ʔɨtoto || Mw kahato ||
+Mu ádé || Ku ʧĩn ~ ʤĩn || Wa pite || Ma kalejõ || Tu kaɾato || Me -obaat || Ka paʔpik-tem || Ar kakóó || Sa déét ||
+Su ʃáme.ṍ || Kt pitat ||
+(Ak ? Pu ?)
+011-ONE
+Pu mõm, Ar mṍṍt, Gv móòj, Zo móòj, Sa mṍṍt, Su mááj || Wa kiet, Ma eɾekɨt, Tu kie, Ak kɨte, Me kiʦe, kie-ka ||
+Pg peteĩ, Uk peteĩ || Xi memehinaku, Ju meméhinaku || Ta ãtj
+epe || Pt ojipéji || Aw momoʐoʦu || Mw wẽtup ||
+Mu pə̃́ŋ || Ku dá || Ka kotĩ-ɾem || Kt mĩhĩnt ||
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+251
+012-TWO
+Pg mokõj, Uk mokõj, Ta mokõj, Pt mokõɲ, Aw mokõj || Mw tɨɨpɨ, Wa ndɨɾɨt, Tu hɨɾɨ, Ak tɨɾɨ, Me tɨɾɨ.ẽp ||
+Ar bosa, Zo bósaat || Mu ʃépʃép || Ku poɾakã || Ma eɾeʔa || Xi bɨda || Ju jauda || Ka caɡáɾo kõm-nem ||
+Pu ßewap || Gv paá-ja-kíìp || Su mĩ́jakábɨt || Kt sɨpõmp ||
+(Sa ?)
+013-BIG
+Pg ɡwasu, Aw -watu, Mw -wato, Ma tʃato, Ak aʧo, Me aʦo, Xi uɾahu, Ju uɾáhu, Ka cú, Pu hu, Kt tɨɨ || Ar póój,
+Gv -póòj, Zo póòj, Sa póój, Su póój || Uk tiha || Ta oweteo || Pt -ehãi || Mu boŋ || Ku adoɾe(ʔ) || Wa akaɾa || Tu eɾaat ||
+014-LONG
+Pg puku, Uk puku, Ta poko, Pt puku, Aw puku || Ar atíít, Gv -atóò, Zo -atóò, Sa -ato, -atóó, Su -ató-a ||
+Mu péɾén ~ béɾén, Ak peɾek, Me peɾek || Xi nauhu, Ju anáúhu, anáuhɨhɨ || Pu tɨwa, Kt hoɾowa ||
+Mw ʔɨwop || Ku tabiŋ-ʔõm || Wa kãm || Ma kãɾãŋ || Tu tããn || Ka cáɾa-ɾem ||
+015-SMALL
+Ta ãhɨt, Wa nĩn, Tu sin, Ak tin, Me sĩĩt, Xi ʃĩʃĩ, Ju -ʃĩ́ʃĩ, Ka ʔĩt-tem, Pu ʃinĩnĩ, Ar -ãcĩĩt, Gv -cíciít, Zo -ciʃĩĩt, Sa -ʃĩĩt,
+Su -ʃĩĩn, Kt ʔĩnã || Mu -pĩ́tma, Ku ĩpit || Pg miʃi || Uk t-aʔɨɾ mi || Pt ʃuʔi || Aw maʦũʔjɨt || Mw kuɾiin || Ma ʔɨɾui.ii ||
+016-WOMAN
+Pg kuɲa, Uk kũjã, Ta kotj
+ɨ, Pt kuɲa, Aw kujã, Pu pakoja || Wa ãɾãmĩɾã, Ma aɾãpĩjã, T
+u aɾamiɾã, Ak aɾamiɾa, Me aɾamiɾa ||
+Ar ßãʣet, Gv ßãʣet, Zo ßãzet, Sa ßãzet, Su ßáɬet || Xi siʤa, Ju iíʤa || Mw haɾɨpoɾia || Mu ajáʧát || Ku ao ||
+Ka maʔpəj || Kt ej pat ||
+017-MAN
+Ar ßooj, Gv ôòj, Zo ßɨj, Sa ßíj, Su ooj, óój || Ma nãkoßot, Ak naku, Me nakop || Pg kuimbaʔe, Pt akwaimbeʔe ||
+Xi senapɨ, Ju senáhí || Uk sawaʔe || Aw aɨte || Ma ihajnia || Mu aŋókátkát || Ku teʔin || Wa ŋɡwajtkɨp || Tu okio ||
+Ka maʔwɨt || Pu abɨtʔaj || Kt ota ||
+(Ta ?)
+018-PERSON
+Pg ava, Uk awa, Ta ãwã, Wa aote nã, Ak aoʧe, Me aose || Pu dede, Ar pãdeɾe, Gv pa-deɾè, Zo pãdeɾe, Sa pã-deet,
+Su pa-íteeɾ || Ma kiteʔ, Tu kiɾe || Pa ahe || Aw mõʔat || Mw miit || Xi tana || Ju dubiá || Ka iʔtə || Kt pɨeso ||
+(Mu ? Ku ?)
+019-FISH
+Ku potip, Wa ißojt, Ma potkap, Tu ipot, Ka ip, Pu ʔɨpʔaj, Ar bolíp, Gv bolíp, Zo bolíp, Sa bolíp, Su moɾíp, moɾíw-aa, Kt ʔip ||
+Pg piɾa, Uk piɾa, Ta hipiɾã, Pa piɾa, Aw piɾaʔɨt, Ma pi(i)ɾa, Ak kojtpit, Me kɨjpit, Xi ʃita, Ju piʧa || Mu aʃimá ||
+Genealogical relations and lexical distances within the Tupian linguistic family
+252
+020-BIRD
+Pg ɡwɨɾa, Uk wɨɾa, Ta wɨɾãhi, Pt ɡwɨɾa, Wa ɲũkɨɾa, Ma mõkiɾa, Me õkɨɾa || Ar ĩ́dɨt, Gv ĩ́dĩ́ĩt, Su ĩ́jɨɨt || Mu wásə̃,
+Ku osĩ || Aw kaɾaʔɨput || Mw weita || Tu kɨjamʔiɾi || Ak piɾe || Ka ĩja ʔɨp || Pu maʃajã || Xi iti || Ju uʃíʃí || Kt papɨdnã ||
+(Zo ? Sa ?)
+021-DOG
+Wa amẽko, Ma amẽko, Tu amẽko, Ak ameko, Me ameko, Pu ameko, Ar nekó, Kt õmbakɨ || Gv áwɨlɨ, Zo áwɨlɨ,
+Sa áwɨlɨ, áwɨɨl, Su áwɨɾɨ || Pg jaɡwa, Uk jawaɾ, Pt ɲaŋwatiŋ || Ma awaɾe, Ku ʧoaɾa || Xi apɨ, Ju apí || Aw tuwawatu ||
+Mu akíɾiʧé || Ka waw waw ||
+(Ta ?)
+022-LOUSE
+Pg kɨ, Uk kɨ, Ta kɨp, Pt -kɨv, Aw ʔakɨp, Mw ŋɨp, Mu kíp, Ku akip, Wa ãŋɡɨp, Ma ŋɡɨp, Tu kɨp, Ak kɨp, Me kɨp, Xi kɨpa,
+Ju kɨpá, Pu tɨp, Ar ɡit, Gv ɡit, Zo ɡit, Sa ɡip, Su ŋip, Kt ɡep || Ka nãp ||
+023-TREE
+Pg ɨßɨɾa, Uk ɨʔɨ, Ta hɨwɨɾã, Pt ʔɨv, ɨva, Aw ʔɨp, Ma aɾja-ʔɨp, Mu ʔip, Ku ʔip, Wa kɨp, Ma kɨp, Tp kɨp, Ak kɨp, Me kɨpkɨba,
+Xi ipa, Ka maʔɨp, Pu waʔɨp, Ar ííp, Gv îìp, Zo iip, Sa iip, Su ííp, Kt ʔep || Ju ãhúá ||
+024-SEED
+Pg t-aʔĩi, Uk haʔĩ, Ta ãhĩj, Pt -aʔɨɲ, Aw aʔĩj, Mw h-aʔɨŋ || Pu kap, Ar káp, Gv káp, káàp, Zo káp, Sa káp, Su iba-káp ||
+Wa kit, Tu kit, Ak kit, Me kit || Mu ta ~ da, Ku ta ~ da || Xi -bɨa, Ju -bɨɮá || Ma ʧupa, Kt sɨpo || Ka aʔ-cot ||
+025-LEAF
+Pg t-oɡwe, Uk h-o, Ta ap, Pt -ova, Aw op, Ma upip, Mu təp ~ dəp, Ku tɨp ~ lɨp, Wa kaɾa-ndep, Ma tʃeep, Tu hep,
+Ak tep, Me ep, Xi ipa supa, Ju -úpá, Ka naʔjop cɨʔ, Pu təp, Ar ʦep, Gv ʦep, Zo sep, Sa bá-sep, Kt ʔepesap || Su mó-sĩ́ĩ́n ||
+026-ROOT
+Pg t-apo, Uk h-apo, Pt -apo, Aw apo, Ma hapo ~ sapo, Mu ta̤bə́ ~ na̤bə́, Ku tabɨʔ || Ma ẽmbiaʔ, Ak kɨbita, Me kɨpkibisa,
+Tu kɨpkɨpʔi || Ar pákʔa, Gv páɡaá, Zo páɡa, Sa sobákʔaa || Wa kɨjupe || Ka acibe || Su tákṍn || Kt kĩɲĩmbɨ ||
+(Ta ? Xi ? Ju ? Pu ?)
+027-BARK
+Ta ɨpe, Pt ɨva, Aw ʔapeput, Mw aɾjaʔɨp ɨpe, Wa ape, Ma aʔpee, Tu ape, Ak pe, Me s-ape, Xi -sa, Ju abé, Ka aʔ-caʔpe,
+Pu tabe, Ar ʦábé, Gv ʦábéè, Zo sábéè, Sa sébé || Mu taí-ʃeé, Ku ja-kíe || Pg piɾe || Su séɾék || Kt pɨkɨp ||
+(Uk ?)
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+253
+028-SKIN
+Pg piɾe, Uk i-piɾeɾ, Ta pit, Pt -piɾ, Aw pit, Mw ai-pe, Wa pe, Ma pe(e), Tu pee, Ak pe, Me i-pe, Pu tabe, Ka aʔ-peon peʔ,
+Ar ʦape, Kt pa || Gv -ʦéɾék, Zo -séɾék, Sa -séɾék, Su ɬéɾék || Mu ʃeé, Ku kíe || Xi -sa, Ju -sa ||
+029-FLESH/MEAT
+Mu ẽn, Ku ẽn, Wa iko-ɲẽɾã, Ma ɲĩĩɾaʔ, Tu nienʔã, Me kwe jẽɾã, Ar jõp, Gv jõ̂õ̀p, Zo jṍṍß-a, Su jṍm-a || Pg s-oʔo,
+Uk h-u-kweɾ, Ta aha, Pt -aʔo, Aw ujã || Xi ata, Ju aʧá, Pu ʔita || Mw i-puʔi || Ka cĩm || Kt pisɨp ||
+(Ak ?)
+030-BLOOD
+Pg t-uɡwɨ, Uk h-uwɨ, Ta owɨ, Pt -ɡwɨ, Aw uwɨk, Mw huu ~ suu, Mu toj ~ doj, Ku toj ~ ɮoj || Wa ɲʤaɨ, Ma ʧeɨ,
+Tu eɨ, Ak eʔɨ, t-eʔu, Me a.ɨ || Ar -ciit, Gv -ciìt, Zo -ciit, Sa -ʃiit, Su -ʃiiɾ || Xi apeta, Ju apeta || Ka i-ju || Kt ɡe ||
+031-BONE
+Pg kaŋwe, Uk kaŋweɾ, Ta kɨŋ, Pt -kaŋ, Aw kaŋ, Mw i-kaŋ, Wa akãɾã, Tu akanʔa, Ak akã, Me o-aako, Ka i-ciɡã, Ar kã́ã́lĩĩ, kã́li,
+Gv kã́lĩ, Zo kã́lĩ, Sa kã́ã́l, Su -kã́ã́ɾ || Mu taó ~ daó, Ku tao ~ ɮao, Ma tʃeßaoo || Xi -pakɨ, Ju -pakɨ || Pu muɾũp || Kt ʔep ||
+032-EGG
+Pg t-upiʔa, Uk i-piʔa, Ta opihã, Pt -upiʔa, Aw upiʔa, Mw h-upiʔa, Mu topsa̤ ~ dopsa̤, Ku tóbia̤ ~ ɮóbia̤, Wa ɨpia, Ma ʧopi.a,
+Tu opsiʔa, Ak umbitaap, Me opiʦa, Xi i-ʤia, Ju upiá, Su sɨpi || Pu akap, Ar káp, Gv káp, Zo káp, Sa káp, Su káp ||
+Ka aʔ-joɡa ||
+033-GREASE/FAT
+Uk ka, Ta kam, Pt -kav, Aw kap, Ma i-kap, Mu ʃep, Ku ʃep, Wa nʤap, Tu ap, Ak i-ʔap, Me jap sese, Xi i-kapa, Ju i-kahá,
+Ka i-kap, Ar -kap, Gv -kap, Zo -kap, Sa -kap, Su -kap || Pg ɲandi || Ma weɾep || Pu biʃoa || Kt oɾoja ||
+034-HORN
+Uk i-ʔak, Aw ʔak, Mu akana̤sə̃́, Wa ɲãŋɡoja, Tu awsa, Ak aoʧa, Me s-akosa || Pg t-atĩ, Ta ãtj
+ĩ, Pt -atĩ, Mw i-aut, Xi aʃã,
+Ju aʃã́ || Ar -apekot, Gv -ápekôòt || Ma api-kɨb, Kt opikĩɲõ || Ka aʔ-naʔĩn || Zo cißatóa || Su nepí kooɾ ||
+(Ku ? Pu ? Sa ?)
+035-TAIL
+Pg t-uɡwaj, Uk h-uwaj, Ta owãj, Pt ɡwaja, Aw uwaj, Mw h-owaipo, Mu toa̤jbə́ ~ doa̤jbə́, Ku tajbɨʔ, Wa ɲʤokwaj,
+Ma ɲẽn-tʃoaj, Tu oajt, Ak owaj, Xi watapa, Ju wátáha, Kt sɨpoj || Ka aʔ-capóp pɨʔ, Pu tabop, Ar -ʦapṍp, Gv -ʦapṍõ̀p,
+Zo -sapṍõ̀p, Sa -sapṍp, Su -sapom || Me s-apiɾip ||
+036-FEATHER
+Pg t-aɡwe, Uk h-a, Ta am, Pt -ava, Aw ap, Mw i-pope sap, Mu tap ~ dap, Ku tap ~ ɬap, Ma ʧaa, Me tap, Xi -taba,
+Ka aʔ-cap, Pu təp, Ar -ʦép, Gv -ʦép, Zo -sép, Sa -sép || Wa peo, Tu pepʔo, Ak pebo, Kt papɨ || Ju bitahá || Su -posã́n ||
+Genealogical relations and lexical distances within the Tupian linguistic family
+254
+037-HAIR
+Pg t-aɡwe, Uk h-a, Ta h-am, Pt -(ʔ)av, Aw ap, Ma a-hap, Mu tap ~ dap, Ku tap ~ ɬap, Wa ojã-ndap, Tu apapʔa-hap,
+Ak tap, Me tap, Xi -taba, Ju -tabá, Ka aʔ-naʔcap, Pu tap, Ar ʦép, Gv ʦép, Zo sép, Sa sép, Kt sop || Ma aʔtɨɨm ||
+Su -sin, -sĩ́ĩ́n ||
+038-HEAD
+Pg akã, Uk i-akã, Ta ãkɨŋ, Pt -akaŋ, Mw ai-ʔakaŋ, Ma akaɾe, Pu aʃã || Ar -ádát, Gv -ádáàt, Zo -ádáàt, ã́dáàt,
+Sa -adátʔa, ã́dátʔa, Su -ánáɾ, ã́nááɾ || Mu aʔá, Ku ʔa, Kt ʔo || Ak anam, Me s-anɨp || Xi -taba, Ju -tabá || Aw ʔaput ||
+Wa oja || Tu apapʔa || Ka anaká ||
+039-EAR
+Pg nambi, Uk i-nambi, Ta nami, Pt nambi, Aw j-ãpi, Mu nə̤jbə́, Ku jaõpi, Ar -nepiʔap, Gv -nepî-àp, Zo -népí-áp,
+Sa nãbi-bé, Su -nepi-bé || Mw ai-hape, Wa apitep, Ma aʔpiʧeep, Tu apsiɾipʔa, Ak apitep, Me o-apitep, Ka opiɾisap ||
+Xi jãʃuka || Ka i-nakɨɾa peʔ || Pu ʃapetə ||
+(Ju ?)
+040-EYE
+Pg t-esa, Uk eha, Ta ẽã, Pt -eaʔɨɾ, Aw ta, Mw ah-eha, Mu etá, Ku eta(ʔ), Ma ʧiʧa, Xi sea, Ju -eʔá, Ar -ɟa-káp, Gv -ja-kíìp,
+Zo -ja-kíìp, Sa -ʒa-káp, Su -ja-káwa || Wa eßapap, Tu epa, Ak epapa, Me o-ebaopap || Ka i-caɡá ʔaʔ || Pu toka || Kt sɨɨpo ||
+041-NOSE
+Uk i-ãpũi, Pt -apɨɲ, Aw ʔapĩj, Mw ai-ʔãpɨ, Mu ta̤bə́ ~ na̤bə́, Ku tõmiʔ, nõmiʔ, ɮõmi, tãjmiʔ, Wa ãpia, Ma ɲãpiʔ,
+Tu amsi, Ak ampita, Me o-ãpisa, Xi jamĩkua, Ar -amĩĩ, Gv -ámîì, Zo -ámii, Sa -aßĩʔã, Su - ámĩãã, Kt ʤopiʔop ||
+Pg tĩ, Ta tj
+ĩ || Ju -iʔã́ || Ka i-naʔcə̤k toʔ || Pu ɲũʔã ||
+042-MOUTH
+Pg juɾu, Uk juɾu, Ta tj
+oɾo, Pt juɾu, Ma ßuɾaʔpi, Pu uɾuʔap || Ar -ko, Gv -ko, Zo -ko, Sa -ko, Su -ko, Kt koɾõmbo ||
+Mw ai-wẽ, Wa iɲẽmpe, Tu ojẽ, Ak jẽ, Me -ĩjẽ, ĩɲẽ || Aw atupɨ, Mu pi ~ bi, Ku bi(ʔ) || Xi -mita || Ju káʃĩbɨa || Ka aʔ-nãk káʔ ||
+043-TOOTH
+Pg t-ãi, Uk h-ãi, Ta ĩj, Pt -aɲ, Aw ãj, Mw ah-ãi, Mu tə̃j ~ nə̃j, Ku tãj ~ ɮãj, Wa oɲãɲ, Ma ɲãɲ, Tu jãj, Ak ɲãj,
+Me o-jãj ~ o-ɲãj, Xi -ajã, Ju -ajã́, Ka i-jãj kap, Pu ĩ-kap, Ar -ɲẽ́ẽ́j, Gv -jẽ́ẽ́j, Zo -jẽ́ẽ́j, Sa -ĩ́ĩ́t, Kt ɲõɲ || Su -kaap ||
+044-TONGUE
+Pg kũ, Ta kõ, Pt -kũ, Aw ẽkũ, Mw a-hekũ, Mu kõ, Ku kõ, Wa õɲõ, Ma ʔõmtʃẽm, Tu ʔõpe, Ak ʔõ, Me ki-õ, Xi -kuã, Ju -kuã,
+Pu kobe, Ar -ko-káp, Gv -ko-kíìp, Zo -ko-kíìp, Sa -ko-séɾék, Su -ko-ʃééɾ, Ka koɾõmbo || Uk h-embe || Ka i-jogá peʔ ||
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+255
+045-CLAW
+Pg pɨapẽ, Uk i-pɨapẽ, Ta mɨapẽ, Pt -(puã)pẽ, Aw pwã, Ma mboape, Me po ape || Ar -cákõõj, Gv -kõ̂õ̀j, Zo -pí-kṍṍj, Sa sakõj,
+Su -kõj, Kt pɨsokõ || Mw ai-pũʔũjã, Wa kĩɾĩɲã, Tu kĩɾĩjã, Ka i-cijõ, Pu ʃukujã || Mu nə̃, Ku inã || Xi -wãɾãʃã || Ju -uʔã́ ||
+(Ak ?)
+046-FOOT
+Pg pɨ, Uk i-pɨ, Ta mɨ, Pt -pɨ, Aw ai-pɨ, Mu i, Ku i, Wa mbi, o-ßi, Ma mbi, Tu sito, Ak o-pi [obi], Me o-piʦo, Xi bɨdapa,
+Ju bɨdaha, bɨdahá, Ka i-pibeʔ, Pu ʃibe, Ar -bí ~ -pí, Gv -bí ~ -pí, Zo -bí ~ -pí, Sa -pi-pe, -bíʔa, Su -mí-pe, -pí-pe, Kt pi ||
+047-KNEE
+Pg t-enɨpɨʔã, Pt -enɨpɨʔã, Aw pɨʔã, Mw ai-pɨ akaŋa, Wa okɨmĩã, Ma kapĩã, Tu mianʔa, Ak iamina || Ar -ʦabi-káp,
+Gv -ʦabi-káàp, Zo -sabi-káàp, Sa -sábikáp, Su sábiikába || Uk kanawaj, Ta kanawã || Mu ə̃ŋʔá, Ku õŋʔá || Xi -mã,
+Ju -maʔã́ || Me o-eseɡap || Ka i-jɨn káʔ || Kt saʔep otɨɨt ||
+(Pu ?)
+048-HAND
+Pg po, Uk i-po, Ta ma, Pt -po, Aw po, Mw ai-po, Wa mbo, o-ßo, Ma mbo, Tu ɸo, Ak o-po [obo], Me o-po, Xi -ba,
+Ju -wá, Ka i-pábeʔ, Pu ba, Ar -pábe, Gv -pábe, Zo -pábe, Sa -pábe, Su -pábe, Kt pɨ || Mu i-bə́, Ku bɨ ||
+049-BELLY
+Ta ewek, Pt -eveɡ, Mu ʔək, Ku ʔɨk || Ka i-kun, Su -ɡã, -áɡã́ã, Kt kõɲ || Mu mãĩn, Ma ɲeɨpe || Ak eʔo, Me e.ɨt ||
+Xi -waza, Ju -wãzá || Ar -piʔap, Gv -pí-ap || Pg t-ɨe || Uk ndɨwa || Aw polaw || Ma ahunhɨʔa || Tu patak || Pu ʃuɾuaka ||
+Zo -kolí-á || Sa -pakʔik ||
+050-NECK
+Pg ajuɾa, Uk juɾupɨ, Ta tj
+ot, Pt juɾ, Aw tuɾʔɨp, Mw a-huɾʔɨp, Xi ubuɾia, Ka i-ot káʔ || Ar -ãbo kã́ã́lĩĩ, Gv -ábôò kã́lĩ,
+Zo -abóó kã́lĩ, Sa -ãbo-kã́ãl, Su -ámoo-kããɾ || Wa o-ɡotkɨp, Ma ßotkɨp, Tu otkɨp, Ak potkɨp, Me kotkɨp ||
+Mu aŋóbə, j-a̤ŋóbə, Ku anõbɨ, j-anõbɨʔ || Ju -ĩʔṹ || Pu buʃuka || Kt hɨt ||
+051-BREAST
+Pg kama, Uk kambɨ, Ta kɨm, Pt -kam, Mu i-kə̃m, Ku kãm, Wa ŋẽm, Ma ŋẽm, Tu kẽm, Ak kem, Me i-kẽp, Xi namã,
+Ju -namã́, Ka nãm ʔaʔ, Ar -nãpʔa, Gv -nam-aá, Zo -nãß-ãã, Su -nṍma, Kt nõm || Aw poʐɨʔa, Mw ai-potɨʔa || Pu poɾabedə ||
+(Sa ?)
+052-HEART/GUTS
+Wa mãnõã, Tu anoʔa, Ak anoa, Me o-anoa, Ar -áɡṍ-káp, Gv -áɡṍ-ã, Zo -áɡṍ-ã, Sa -ãɡõʔã, Su -áɡṍ-ã || Pg ɲeʔã,
+Ta tj
+ɨhĩ, Pt -ɲaʔaʔi, Aw etãj, Mw ai-weʔã || Uk ʃiɾaha(m) || Mu aʔõʃabida || Ku ʧõŋʧõŋʔa || Ma pɨɨto || Ju waĩkáhá ||
+Ka i-cáɾaɡáʔ || Pu mɨnaka || Kt hadnĩpa ||
+(Xi ?)
+Genealogical relations and lexical distances within the Tupian linguistic family
+256
+053-LIVER
+Pg pɨʔa, Uk i-pɨʔa, Ta mɨhã, Pt -pɨʔa, Mw i-pɨʔa, Mu j-opsa̤, Ku bia̤, Wa o-pia, Ma pi.aʔ, Tu siʔa, Me o-pisa, Xi -bɨa,
+Ju -bɨʔá, Ka i-pía ʔaʔ, Pu bi.a, mbi.a, Ar -ʦaa, Gv -ʦaá, Zo -saa, Sa -sáʔa, Su -saa || Aw peɾe || Kt kɨɾɨ ||
+(Ak ?)
+054-DRINK
+Pg ha-ɨʔu, Uk uʔu, Tp ɨho, Pt -ɨʔu, Aw ɨʔu, Mw aɾe-ʔɨʔu, Ku ɮe-jʔo, Wa ka, Ma kaʔ, Tu ka, Ak apeka, Me kaa, Ka ʔot,
+Pu ʔo || Ar ci-ßa, Gv ci-ßa, Zo -ßa, Sa -ßa || Xi wi, Ju awí || Mu ti-kõn || Su ɡútɡút || Ka ahɨ ||
+055-EAT
+Pg a-ʔu, Uk u-ʔu, Ta ho, Pt -ʔu, Aw ʔu, Mw at-uʔu, Mu ʔo, kõn, Ku do, Wa ka, Ma ka, Tu ka, Ak ka, Me kaa, Xi ʃu,
+Ju iʃú, Ka ʔot, Pu ʔo || Ar ßa, Gv -ßa, Zo -ßa, Sa -ßa, Su -wa || Kt pɨtʔɨ ||
+056-BITE
+Pg ai-suʔu, Uk suʔu, Ta oho, Pt -huʔu, Aw tuʔu, Mw ahe-katuʔu, Tu weka, Ak ʧoka, Me i-soɡoa, Xi (a)tu, Ju aʧú,
+Ka -tót, Pu ʃeka, Sa -ákaal, Su -áka(a)ɾ, Kt okoot || Ar ßa, Gv ßa, Zo ßa || Wa pɨɾɨkwa, Ma mboɾoŋɡa || Mu á ||
+Ku de-ɮek ||
+057-SEE
+Aw tup, Mu ʧo, Ku do, Wa toa, Ma to.a, Tu toa, Ak i-ʧop, Me i-soa, Ka toj, Pu dopa, Kt soʔoot || Pg a-heʃa, Uk u-sak,
+Ta i-tj
+ãk, Pt -epiaɡ, Xi -zaku, Ju -zákú || Ar -íkini, Gv -ákinì, -íkinì, Zo -íkinì, Sa -íkini, Su -íkĩĩn || Mw aɾ-aʔakasa ||
+058-HEAR
+Pg a-hendu, Uk a-hendu, Ta inop, Pt -enduv, Aw ẽtup, Mw aɾe-wanẽtup, Xi ẽdu, Ju ẽdú || Ar -pii, Gv -pii, Zo -pii, Sa -pii,
+Su -we-pii || Wa ŋɡwaktoa, Ma kißaʔtoa, Me i-kwakʦoa || Mu aʔĩ́ʤo, Ku kãjdo || Tu apsiʔa || Ka weɾo toj || Kt opiso ||
+(Ak ? Pu ?)
+059-KNOW
+Pg ai-kuaa, Uk u-kwa, Ta a-kwaam, Pt -kwahav, Aw kwawap, Mw ati-kuap || Ar -jaat, Gv -jaàt, Zo -jaat || Mu ta̤jbít,
+Ku taibit || Tu oap-ʧia, Me soap samek || Wa ßoẽndop, Kt sõndɨp || Xi bahu, Ju ubahú || Ma kɨßatoa || Ka cahməj nãn ||
+(Ak ? Pu ? Sa ? Su ?)
+060-SLEEP
+Pg a-ke, Uk a-keɾ, Ta ket, Pt -kiɾ, Aw tet, Mw aɾe-ket, Mu ʃét, Ku ʃet, Wa eɾa, Ma eɾa, Tu ʔeɾa, Ak eɾa, Me se-eɾa,
+Ka ken, Pu keta, Ar -keɾe, Gv -keɾe, Zo -keɾe, Sa -keet, Su -keeɾ, Kt kat || Xi siu, Ju iju ||
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+257
+061-DIE
+Pg a-mano, Uk manõ, Ta manõ, Pt -mano, Aw -majõ || Wa paɡa, Tu pawa, Me se-poɾoka, Ka paj, Kt pop || Ar -ßii,
+Gv -ßiì, Zo -ßiì, Sa -jii, -ii, Su -ii || Mu éʔə̃, Ku ẽʔə̃, Xi (h)ejã, Ju ʔeʔã́ || Mw ui-kuʔuɾo || Ma pɨɨtoɾoɾa || Pu ʃomoɾõm ||
+(Ak ?)
+062-KILL
+Pg a-juka, Uk juk(w)a, Pt -juka, Mw ati-ʔauka, Mu aóka, Ku aoka, Xi abaku, Ju abákú, Ar -aka, Gv -aka, Zo -aka,
+Sa -aka, Su -aka, Kt okɨ || Wa õmba, Tu õpa, Me s-õpaa || Ka aʔ-wĩn, Pu ßí || Ta hãpitj
+i || Aw kĩj || Ma poŋɡa ||
+Ak mia ||
+063-SWIM
+Pg ha-ɨta, Ta hɨɨtam, Pt -ɨtav, Aw ɨta(ta)p, Mw aɾe-ʔɨha, Me se-kia || Gv kápkáßá, Su kápkábá || Mu dok || Ku titi-ɮãm ||
+Wa tiapa || Tu ʔewɾa || Xi tahu || Ju ibɨkáɾáhu || Ka puŋ puŋ || Ar tã́ktã́ŋã́ || Zo kṍjkṍjã || Sa -sátẽ || Kt tak tak ||
+(Uk ? Ma ? Ak ? Pu ?)
+064-FLY
+Pg a-veve, Uk wewe, Ta wewe, Pt -veve || Tu pep oɾa, Gv -pepó-tẽẽ̀ || Xi aũ, Ju ʔáṹ || Aw -wúɾe || Mu pəpəp || Wa embɨɾa ||
+(Mw ? Ku ? Ma ? Ak ? Me ? Ka ? Pu ? Ar ? Zo ? Sa ? Su ? Kt ?)
+065-WALK
+Ar -ßeɾe-tá, Gv -ßêɾe-tá, Zo ßeet-tá, Sa -ßééɾe, Su -ßééɾa || Mw uhe-wɨɾɨk, Mu wəɾəɾə̃ŋ, Ma ßateɾa || Pg a-ɡwata,
+Uk wata, Ta ãtã || Tu sitkia, Me ekɨetkia || Ku ʧãŋʧãŋ, Pu ʃãpʃãm || Pt -pɨmondo || Aw eko || Ma oßitakwa ||
+Xi maseu || Ju ipidepide-a || Ka kat || Kt taɾak ||
+(Ak ?)
+066-COME
+Pg ju ~ u, Uk t-uɾ, Ta tj
+at, Pt -joɾ ~ -uɾ, Aw -ut, Ma aɾ-iot, Mu dot ~ ʤot ~ sot, Ku dot, Pu ßəta, Ar -ßolo, Gv -ßolò,
+Zo -ßolo, Sa -ßool, Su -ooɾ, Kt ɨɾɨt || Ma ßiia, Ak ita, Me se-iat || Xi wɨ, Ju wɨ || Wa teɾa || Tu sa || Ka -ti ||
+067-LIE (DOWN)
+Ar -aat, Gv -aʔâàt, Zo -aat, Su -ááta || Mu po, Ku po, pi, Pu bopa || Pg a-ɲeno, Uk nino, Kt nẽŋa || Ma pɨɨt, Me pɨkaat ||
+Ta ham || Pt -ʔau || Aw oʔapaɾeju || Mw taʔtatuŋ || Wa ndoa || Tu anea || Xi ʃikuɾu || Ju pɨʃɨhú || Ka -moj ||
+(Ak ? Sa ?)
+068-SIT
+Pg a-ɡwapɨ, Uk wapɨk, Ta ãpɨk, Pt -ʔapɨɡ, Mw aɾ-aʔapɨk, Mu -a̤bík, Xi bɨku, Ju abíkú, Pu tapia || Ar -potóó, Gv -potóòt,
+Zo -potóòt, Sa -potóó, Su -pató || Wa ŋõŋã, Me se-kõjãã || Aw otiɡeju || Ma ßotnẽ || Ku ʤí-ʔi || Tu epsika ||
+Kt ibik tĩɲã || Ka paɾamu
+(Ak ?)
+Genealogical relations and lexical distances within the Tupian linguistic family
+258
+069-STAND
+Ar -adóó, Gv -ádóò, Zo -ádóò, Sa -ãdóó, Su -anóó || Uk puʔam, Pt -am, Mw i-põiʔam || Mu ʧəŋ-ʔí, Ku ʧãŋ-ʔi ||
+Xi maseu, Ju mísu || Ka -jat, Pu ʔõn aja || Pg a-ɲemboʔɨ || Ta tj
+op || Aw oʔãpeju || Wa eŋɡwetikia || Ma piitʃe || Tu osiɾa ||
+Ak keɾep na || Me poɡeta || Kt ʤɨɡŋã ||
+070-GIVE
+Mw at-um, Mu ə̃́m, Ku (n)õm, Wa ɲõã, Ma ɲõã, Tu õã, Ak õã, Me i-õa, Ar -nõõ, Gv -noò, Zo -noo, Sa -nõõ, Su -jõõ ||
+Pg a-meʔẽ, Uk meʔẽ, Ta mãĩj || Pt -mondo, Aw moto || Xi kua, Ju kua, Pu beka || Ka -maʔãt || Kt hit ||
+071-SAY
+Pg ha-ʔe, Uk je, Ta a-hẽ, Pt -ʔe, Aw ʔe, Mw aɾe-ʔe, Mu ʔé, Me ke, Xi ze, Ju a, Ka ʔe, Gv éè, Kt ʔa || Wa mãjã, Ma nã,
+Tu emaʔa || Ak eɾe(k)wa || Pu ßedowɨ ||
+(Ku ? Ar ? Zo ? Sa ? Su ?)
+072-SUN
+Pg kuaɾa hɨ, Uk (k)waɾahɨ, Pt kwaɾa(hɨ), Aw kwat, Mw aat, Mu káʃi, Ku kaʤi, Xi kuazadɨ, Ju kuadí, Ma ŋɡeat, Ar ɡát,
+Gv ɡát, Zo ɡát, Sa ɡát, Su ŋát, Kt ŋokɨp [ɡokɨp] || Wa ŋɡiakop, Tu kiahkop, Ak kiakop, Me ki-akop || Ta an ||
+Ka caʔwap || Pu toka ||
+073-MOON
+Pg jasɨ, Uk jahɨ, Pt jahɨ, Aw tatɨ, Mw watɨ, Ku waʤi, Ar ɡáti, ɡát-ti, Gv ɡáti, Zo ɡáti, Su ŋátikát, Kt oti || Wa pakoɾi,
+Me pakoɾi || Xi mãdɨka, Ju mãdíká || Mu káʃi || Ma ʔulii || Tu koepa || Ak epapap || Ka wen || Pu ßeɾeja ||
+(Sa ?)
+074-STAR
+Uk jahɨ ɾata, Ta tj
+ãɨtãtãhi, Pt jaɨtataʔi, Aw tatɨaʔɨt, Ku waʤí-lala, Ar ɡáti-kap, Gv ɡáti-káàp, Sa ɡáti káp,Kt oti ɨɾɨpo ||
+Wa ßaßaɾo, Ma waɾowaɾo, Tu waɾowaɾo, Me paɾobaɾo || Xi nunibɨa, Ju anáĩ́bɨa || Zo zooj-káàp, Su ʧoj-kááp ||
+Pg mbɨja || Mw waikiɾu || Mu kasoptá || Ak buɾute || Ka ciɡamo || Pu tutukujĩp ||
+075-WATER
+Pg ɨ, Uk ɨ, Ta hɨ, Pt ɨhɨ, Aw ʔɨ, Ma ɨʔɨ, Mu idi̤bí, Ku títi, Wa ɨɡɨ, Ma ʔɨ, Tu jɨ, Ak ɨkɨ, Me ɨkɨ, Xi ija, Ju ijá, Ka icɨ, Pu ʃeɾe,
+Ar ii, Gv iì pâàp, Zo ii-tet, Sa ii, Su íí-ʧeɾ, Kt ese ||
+076-RAIN
+Pg ama, Uk aman, Ta amɨn, Pt -aman, Aw aman, Mw i-ʔamaan, Xi mana, Ju amáná, Ka amãn, Pu amãn || Ar ʣooj,
+Gv ʣoj, Zo zoj, Sa zoj, Su ɬoj || Wa ɨɡɨ, Ma ʔɨ, Tu jɨ, Kt e || Mu wə̃́jbaát, Ku íbɨjat || Me asoap ||
+(Ak ?)
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+259
+077-STONE
+Pg ita, Uk ita, Ta itã, Pt itakɨ, Aw kɨta, Mu witá-ʔa, Ku wíta-ʔa, Ka ijá ʔaʔ, Ar caʔa, Gv icía, Zo icáa, Sa ʃáʔa, isáʔa,
+Su iʃáá.a || Wa ŋɡwai, Ma ßa.i, Tu kwai, Ak waʔi, Me waʔi || Xi kuapa, Ju kuaha || Mw nu || Pu mbuɾuʔa || Kt ejepo ||
+078-SAND
+Gv icá-ɡáp, Zo icá-ɡáp, Sa isá-ɡáp, Ka caɾokãja || Mw ɨikɨt, Pu ɨj ʃabaɾakap, Kt ʔej || Pg ɨvɨkuʔi, Uk ɨwɨkuʔi ||
+Pt ɨʔɨtiŋ, Aw ɨtaʔatiŋ || Wa kĩɲõ, Ma kɨʤi || Mu kaʔó-ɾiɾit || Ku wíɮaɮa || Tu kojõpɨʔɨt || Me topisiɾik || Xi tãjãjã ||
+Ju etá || Ar sakít-káp || Su ŋõõj-ŋííɾ ||
+(Ta ? Ak ?)
+079-EARTH
+Mw ɨi, Wa kɨɨjt, Ma kɨj, Tu kɨjt, Ak kɨjt, Me kɨmakĩj, Pu ʔɨj, Gv ɡṍṍj, Zo ɡṍṍj, Su ŋṍṍj || Pg ɨvɨ, Uk ɨwɨ, Ta ɨwɨ, Pt ɨvɨ,
+Mu i̤pí, Ku wiʔ, Xi ipɨa, Ju epíá, Kt ejepi || Aw amantaʔok || Ka iɡanã || Ar ɲẽ́ẽ́j || Sa ɡiitʔa ||
+080-CLOUD
+Mu kabi-kéɾéɾé, Ku kabiɮoɮo, Me kwajpe niik, Xi kapusĩã || Ar ßakot, Gv ßákoɾaá, Zo ßákoɾaá, Sa ßakóótʔa || Aw ɨwɨtiŋ,
+Mw ɨwɨhiŋ || Pg aɾai || Uk ɨwa takãʃĩ || Ta amɨnãip || Pt atatiʔŋiuhu || Wa ɨɡɨpikãɾãŋ || Ma ɨpɨɡet || T
+u jɨtopʔa || Ka caɾoɡĩn ||
+Su ŋáni-kít || Kt esɨɾa ||
+(Ak ? Ju ? Pu ?)
+081-SMOKE
+Pg t-atatĩ, Uk tata takãʃĩ, Pt -atatiŋ, Aw taʐatiŋ, Mw ɨhiŋ, Mu tiŋ ~ diŋ, Ku tĩŋ, Wa ɲĩĩŋ, Ma ɲĩŋɡẽn, T
+u sĩn, Ak niŋ, Me otat niik,
+Xi siã, ʃiã, Ju aʃíʃiʔã́, Ka caɾoɡĩn, Ar ɲííkʔa, ɲĩk, Gv pó-kã́j-dĩk, Zo pó-kã́j-nik, Sa ßadĩk, Su mókáj nĩŋ, Kt iso ɲĩŋɡa ||
+(Tp ? Pu ?)
+082-FIRE
+Pg t-ata, Uk tata, Ta ãtã, Pt -ata, Mw aɾj
+a, Mu daʃá, Ku ɮáʃa, Ma ujtʃat, Ak otat, Me otat pok, Xi aʃi, Ju aʃí, Ka cán nãʔ,
+Kt iso || Ar kã́j, Gv pó-kã́ã̀j, Zo pó-kã́ã̀j, Sa kã́ã̀j, Su mó-kã́ã̀j || Wa aɡopkap, Tu kopkap || Aw ʔapo || Pu ßok, dabək ||
+083-ASH
+Wa kɨɲẽẽn, Ma kĩjẽẽn, Tu kɨɲẽẽn, Ak utat ɲẽn, Me jẽẽt || Ar ßat kõp, Gv ßat kôòp kíìt, Zo ßat kõp kíìt || Pg kusuɡwe,
+Pt kuhuv || Uk tatimbuk, Aw taʐaʔipuk || Mu kabaó-ɾit, Ku kabik || Mw ɨwɨɾut || Xi pubuka || Ka caɾĩŋ ʔaʔ || Pu ʃĩ.ã ||
+Sa kã́ã́j kõp || Su íbioɡap || Kt siit ||
+(Ta ? Ju ?)
+084-BURN (INTR.)
+Pg o-kaj, Uk uk(w)aj, Ta kãj, Pt -kai, Ar -kã́j, Gv -kã́ã̀j, Zo -kã́ã̀j, Sa -kã́j || Aw apɨ, Mu o-í-pik, pík, Ku o-si-pik || Xi tuʃi,
+Ju ʧuʃi || Mw aɾe-wuk || Wa epokwa || Ma ekaɾĩnã || Me koeka || Ka aʔ-paɡat || Pu bakißipa || Su -paa || Kt ɲõnĩn ||
+(Tu ? Ak ?)
+Genealogical relations and lexical distances within the Tupian linguistic family
+260
+085-PATH
+Pg t-ape, Uk pe, Ta ãpe, Pt -pehe, Aw pe, Mw muʔap, Mu é, Ku eʔ, Wa apee, Ma peeʔ, Tu ape, Ak ape, Me peʔ, aapeʔ,
+Xi bapa, Ju bahá, Ka naʔpit peʔ, Pu be, Ar be, Gv be ~ pe, Zo be ~ pe, Sa be, Su me, Kt pa ||
+086-MOUNTAIN
+Mu ʧo-ʔá, Ku ʧo-ʔa, to-ʔa, Wa ndoo, Ma ndo.aʔ, Tu totet, Me soo, Xi tua, Ju ʧúá, Ka no pɨʔ, Ar doo, do, Gv do ~ to,
+Zo do ~ to, Su no, Kt neso [deso] || Pg ɨvɨtɨ, Ta ɨwɨtɨt, Pt ɨvɨtɨɾuhu, Aw ɨwɨʔam || Mw ɨitɨʔok ||
+(Uk ? Ak ? Pu? Sa?)
+087-RED
+Mw i-hup, Ka up-tem, Pu wəp, Ar -ßóóp, Gv -ßóò-p, Zo -ßóò-p, Sa ßóóp, Su -óóp || Wa ŋɡopŋɡop, Tu sop, Ak kop, Me i-kop,
+Xi kapuɾuɾi || Pg pɨtã, Uk i-piɾã, Ta piɾɨŋ, Pt -piɾaŋ, Aw pilaŋ || Mu -pak, Ku pak || Ma ßɨɾɨp || Ju asúɾĩ || Kt sõm ||
+088-GREEN
+Pt jukɨɾɨ, Aw kɨt, Ka kɨɾɨk-tem, Zo kíɾi, Sa kíít, Su -kíɾ, Kt ket pitat || Mw i-hɨɾɨp, Pu heɾo.a || Mu -ɾẽm, Ku ɾẽm ||
+Tg hovɨ, Uk h-owɨ te || Wa kweɾep, Ma ɲẽɾẽm || Xi akɨu, Ju akéɮú || Ar -ciɾõj, Gv -cíɾôòj || Ta kahakɨɾa mahe ||
+Tu siʔa || Me saʔɨp ||
+(Ak ?)
+089-YELLOW
+Ar -éɾée, Gv -kéɾéʔáàp, Zo -kéɾéè || Mu -pek, Ku peɾek || Ak ʧaɾu, Me i-saɾo || Ju jũpĩ́pi, Ka ciõp-tem || Pg (he)saɨju ||
+Uk i-tawa || Pt jukɨɾɨ || Aw tup || Mw i-kaʔaɨ || Wa taɾoot || Ma paɾaj || Tu hapʔe || Xi takũʃĩ || Pu ajaßak || Sa ʃíʔííp ||
+Su Mawéaɾóbo || Kt pokoɾɨt ||
+(Ta ?)
+090-WHITE
+Mw i-kɨsiŋ, Ar kíít, Gv -kíìt, Zo -kíìt, Sa kíít, Su -kííɾ, -kíɾ, Ka kɨt-tem || Pg moɾotĩ, Pt -tiŋ, Aw tiŋ, Wa ɲʤiɾa, Tu hitʔe, ||
+Ma ŋɡap, Xi kapĩ || Me i-paak, Pu ajawak, Kt pok || Mu -ɾət, Ku ɾit || Uk i-tuwɨɾ || Ju awĩ́ĩ́wĩĩ ||
+(Ta ? Ak ?)
+091-BLACK
+Ar -peép, Gv -pêèp, Zo -peep, Sa pép, Su -péép, i-pep || Pg hũ, Uk -ũ(n), Ta on, Pt -un, Mw huun, Kt ẽẽm || Ak pɨk,
+Me i-pɨɨk, Ka pĩk-tem || Wa tiktik, Tu sikʔe || Xi tinikĩ, Ju itɨnikĩ || Aw kɨlaw || Mu ók || Ku ɾãm || Ma kõm || Pu mĩkã ||
+092-NIGHT
+Pg pɨhaɾe, Uk pɨtun, Ta ɨpɨton, Pt ɨpɨtun, Aw ɨpɨtako || Ar bicãk, Gv bicãk, Zo bicãk, Sa bisãk, Su miʃãk || Wa ɲĩndak,
+Ma ŋɡitaʔ || Ak maʧo, Me masopi || Xi kamadɨhu, Ju kamadéhú || Mw wãtɨm || Mu kabi-óŋ || Ku kijã-be || Tu simʔe ||
+Ka iʔcak mãm || Pu ʃew || Kt dip ||
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+261
+093-HOT
+Pg h-aku, Uk h-aku, Ta ãkop, Pt -akuv, Aw akup, Mw h-akup, Mu taʃíp ~ daʃíp, Ku tákip, Wa akop, Tu akop, Ak akop,
+Me -akop, Xi kuhu, Ju akúhú, Ka jakõp-tem, Ar -adóóp, Gv -adóò-p, Sa -ado, -adóóp, Su -adóóp, Kt okɨp || Ma kãj ||
+Pu dəßa ||
+094-COLD
+Mw ɾaʔak, Mu i-ʧə̤k, ka-ʤə̤k, Ku i-ʧɨk, kádɨ̤k, Wa pitiik, Ak kɨpiʧi, Me piʦiik, Xi taku, Ju kuáku, itaʔákú, Ka pitẽk-tem,
+Pubidek,Arɟitã́k ká,Saʃítak,Suʃitak,Ktãndik || Pgɾoʔɨ,Pt-ɾoʔɨ,Awejoʔɨk || Maʧããŋ,Tupeõj || Gv-tã́ŋí-báàp,Zo-tã́jã́bíìp ||
+Uk i-ɾɨsã || Ta õhɨɨŋ ||
+095-FULL
+Mw h-owopɨ, Gv bíɾá, Zo bíɾá, Su bííɾa, Pu bɨdət || Ma tõm, Ka tõn-nem, Ar -tõŋ-jã || Pg h-enɨhẽ, Pt -ɨnɨhem ||
+Wa ɲʤot, Me i-ot, i-jot || Xi nanẽũ, Ju naníṹ || Uk tɨhɨɾem || Aw put || Mu beŋbeŋ || Ku ep || Tu eɨɾa || Kt osɨk ||
+(Ta ? Ak ? Sa ?)
+096-GOOD
+Wa paɾe, Ma poat, Tu poat, Xi pã, Ju wãbí, Ka pã́t-tem, Ar -palí, Gv -paɾâàt, Zo -paɾaat, Sa -palabót ||
+Uk katu,Ta kãto, Pt -katu, Aw katu || Ak ʧami, Me same || Pg poɾã || Mw i-waku || Mu ʃípat || Ku itim || Pu kapiʃe ||
+Su ãtée || Kt seʔa ||
+097-NEW
+Pg pɨahu, Uk pɨahu, Ta hɨão, Pt -pɨahu, Aw pɨtatu || Gv -kôɾo, Zo -koɾo, Sa -koot, -kooɾ, Kt ŋot [ɡot] || Mw i-pakup,
+Wapaɡop,T
+upakop,Mepaɡop||Mu-ísə́,Kuiti,Ar-íít||Xipaɾahu,Jupáɾahu||Maŋɡetʃat||Kanẽt-tem ||Puhuɾu.a|| Supáme ||
+(Ak ?)
+098-ROUND
+Pg apuʔa, Uk puʔa, Aw ʔapoʔa || Ta ãpajã || Pt akaŋaʔi || Mw i-pok || Mu ɾo̤jɾə̤j || Ma aßɨßɨßa || Tu toɾo || Kt atĩnã ||
+Ka piɾon-nem
+(Ku ? Wa ? Ak ? Me ? Xi ? Ju ? Pu ? Ar ? Gv ? Zo ? Sa ? Su ?)
+099-DRY
+Pg kã, Uk ʃikã, Ta ma-kɨŋ, Pt -kaŋ, Aw mo-kaŋa, Ma mu-ŋaŋ, Ar -kã́ɡãã, Gv -káɡaà, Zo -kã́ɡãã, Sa -kã́ɡã, Su -káɡãã ||
+Wa paßa, Me i-paaɡa || Xi kɨɾɨtu, Pu kĩɾĩk || Mu káɾáw || Ku pɨɾɨk || Ma ßok || Tu ketʔe || Ju ʧuɾáʧú, huakú ||
+Ka aʔcaɾaŋ nãn || Kt pihop ||
+(Ak ?)
+100-NAME
+Pg t-eɾa, Uk h-eɾ, Tp et, Pt -eɾ, Aw et, Mw het ~ set, Mu pətét ~ bətét, Ku bítet, Wa ndet, Ma et, Tu et, Ak et,
+Me et, Xi ja, Ju zá, Ka cet, Pu tet, Ar ʣét ~ ʦét, Gv ʣét ~ ʦét, Zo zét ~ sét, Sa zét, Su ɮét ~ ɬét, Kt sat ||
+Genealogical relations and lexical distances within the Tupian linguistic family
+262
+APPENDIX 2: LIST OF PLANT AND ANIMAL NAMES
+The list below contains all animal and plant names used in this paper. It follows the same conventions as the Swadesh
+list in Appendix 1, with only two differences: due to lack of relevant data in our sources, Tapirapé was eliminated and
+Paraguayan Guaraní was here replaced by another dialect, Mbyá Guaraní (abbreviated below as Mg).
+001-AGOUTI
+Mg akuʃi, Uk akuʃi, Pa akuti, Aw akuʐu ʔjɨt, Mw akuɾi, Xi kuzi, Ju akuɮí [akulí] || Wa ŋɡwakĩjã, Ma mãkĩja, Me mãkĩjã,
+Ka wakãja, Pu ßakĩjã, Ar ßakĩ́ĩ́, Gv ßaakĩĩ̀, Zo ßakĩĩ, Sa ßakii, Su wakĩĩ || Mu mədí, Ku máli Tu takamʔa || Kt mĩno [mĩndo]
+(Ak ?)						
+002-ANACONDA
+Mg kuɾiju || Uk maju || Pt mbojuhu || Aw t(u)wajwatu || Mw sukuɾiu || Mu mə́ɾekó-bə || Ku numãbɨbɨ || Wa tiɡaptaɾap ||
+Ma ɨdnajã || Tu amsi.amʔe || Me kwaʦo poot || Ju aʤá, tuwĩ́ || Ka mãjɡãɾa ca || Gv iì mádĩ́ĩ́t || Su ɬobó ti(it) ||
+Kt sõɲ map [bap] ||
+(Ak ? Xi ? Pu ? Ar ? Zo ? Sa ?)			
+003-ANATTO
+Ar dóʔa, Gv dóʔaá, dookáàp, Zo dookáàp, Sa doʔáʔa, Su nóó.a || Wa ŋɡopŋɡap, Ak kɨpkap, Me koba kaap || Mw waʔakap,
+Xi makapa, Ju wãkáhá || Uk uɾuku, Pt uɾuku || Ka koko, Kt ekɨ || Aw jukwaŋɨt || Mu ʧókó-ʔa || Ma iko || Tu tope
+(Mg ? Ku ? Pu ?)					
+004-ANT
+Uk tapiaʔĩ, Aw tapiʔa, Ka napía || Ar bola, Gv bola, Zo boluʔ-atáp || Mg taɨ || Pt ɨha || Mw saaɾi || Mu da̤sə́psə́p ||
+Ku iɲasipak || Wa (n)detpe || Ma bɨtɨɾaj ||Tu wekoʔa || Ak ʧaʧakop || Me kɨbɨɾɨ || Xi tãɾãkuã || Ju aʤíhá || Pu mĩŋk, wĩ(ŋ) ||
+Su ɬodap || Kt nɨkɨsɨk [(n)dɨkɨsɨk] ||
+(Sa ?)							
+005-ANTEATER
+Ar ßaʦákólí, Gv ßaʦákólí, Zo ßasakolí, Sa ßasakólí, Su mi-ʃakóóɾ || Wa ŋɡwendap, Ak witap, Me kwetap || Pt tamanduaʔi,
+Aw tamajua || Mu wáɾiɾé, Ku uaɾẽmaʧa || Mg kaɡwaɾe || Uk mijaɾai || Mw hĩpa [hĩmba] || Ma ũbaʧi || Tu hasi.o ||
+Xi mazi || Ju amaẽ́ || Ka eciɡun || Pu aʃukuɾ || Kt oɲopɨɨtɨ [ojopɨɨtɨ]	
+006-ARMADILLO
+Mg tatu, Uk tatu, Pt tatu, Aw tatupep, Mw sahu, Mu da̤jdó, dajdó, Ku ɮajɮo(ʔ), Wa ndato, Ak tato, Ka jajo, Pu jajo,
+Ar mããʣóój, mãʣôoj, Gv mããʣôòj, Zo ßãzooj, Sa ßããzóój, Su waɬój, Kt sosɨ || Tu paɾoɾo, Me paɾoɾaj || Xi dusa,
+Ju dúʔá || Ma ßiɾijo ||			
+			
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+263
+007-AÇAÍ PALM
+Wa ŋɡwiɾi, Ma ßiɾi-tʃa, Tu witʔi, Ak kwiɾi, Me kwiɾi, Kt iɾi || Ar bííp-káp, Gv bííp-kíìp, Zo bííp-kíìp, Su bííw-a, bííb-wa ||
+Uk wasai, Mw wasaʔi || Mu wapəɾə̃m-ʔá, Ku apoɾĩ || Xi manakuɽa, Ju manakúɾá || Mg aɾaʃi (?) || Pt pinoßiʔɨp ||
+Ka ɨu kap || Sa zépe-káp ||
+(Aw ? Pu ?)						
+008-BANANA
+Mg pakoßa, Uk pako, Pt paʔakoßuhu, Mw pakua, Mu áko-ba̤, Ma pa(a)ko, Xi pakuã, Ju pakua,Ar bákopʔa, Gv bákoßáa,
+Zo bákoßaa, Sa bákop-tiʔa, Su mókowa, mókoba || Wa epiip, Tu epip || Ak apaɾa, Me apaɾa || Ka iwa, Pu hɨwa ||
+Aw pananã || Ku pawã [pãwã] || Kt asɨɾɨtɨ ||	
+009-BAT
+Pu ʃipẽj, Ar ɟííp, ɟiíp, Gv ɟíìp, Zo ɟíìp, Sa ʒíp, Su ɮííp || Wa ŋɡwaɾia, Ma wajʧa-liaj, Tu waɾi(ʔ)a, Tu kwaɾiʦa ||
+Uk andɨɾa, Pt andɨɾa || Mu mə́ɾeó, Ku maɾew || Xi asa, Ju ʔaʔa, (ʔ)aʔá || Mg mbopi || Aw tatiʔa || Mw hakiʔi ||
+Ka ijo || Kt asoɾi ||
+(Ak ?)						
+010-BEANS
+Mg kumanda, Uk kumandaʔi, Pt kumanatai, Aw kumanaʔi, Mw kumanã, Ak komãta, Me komãta || Xi piu,
+Ju pujú || Gv koɾaá, Zo koɾakáp || Mu piʃão || Ku witujɬa || Wa ŋɡoɟotoo || Ma tãɾẽ ||Tu tobeko || Ka maʔta || Pu ʃakakɨj ||
+Ar alítíʔa || Su moʃemŋúp, pajakáp ||		
+(Sa ? Kt ?)									
+011-BEE
+Mg ei, eiɾu, Pt hehiɾ ~ heiɾ-, Mu eit, Ku eit, Wa eŋɡwit, Tu ewit.tap, Me ekwiʦap, Gv íit, Zo íit, Sa íßit-áp, Kt eet ||
+Mw awiʔa, Ma akɨja, Xi wɨa, Ju awɨɮá || Aw tap, Ak iʧap || Uk ka || Ka wãj || Pu ʃãwak || Su jóináap ||
+(Ar ?)			
+			
+012-BRAZIL NUT
+Pt -aĩɲĩŋ, ɲãʔĩ, Aw ʔĩj, Ma weʔejã, Mu wenə̃́j, Ku weɮãĩ, Xi ijã, Ju eɮã, Ka ijã, Kt mĩɲõ || Pu (m)ãm(p)ka, Ar mãamɡáp,
+Gv maam-ɡáàp, Zo mããm-ɡáàp, Sa mã(ã)mɡáp, Su mãŋáp, mãp-ɡááp || Ma aɾao, Tu aɾawʔa || Wa kãɾã, Ak kana,
+Me kãɾã || Uk kantãi ||
+(Mg ?)						
+013-BUTTERFLY
+Ar kõõzéɾ-ap, Zo kãzéɾ-ep, Su kalééɾ || Uk panam, Pt panam, Ak penam || Ku soɾosoɾo, Xi suɾusuɾu, suusuɾu, Ju nasusú ||
+Mg popo, Mu waɾé-pə́pə́-dəp || Gv píɾípkot, Sa píkoɾop || Mw moɾepeʔi, moɾapeʔi, Wa mbooɾap, mbooɾa nĩn ||
+Aw kujukuju || Ma ʤaɾɨɾe, ʒaɾɨɾe || Tu pepʔa || Me taito || Ka kɨɾɨwep || Pu ʃapeko ||
+Kt kɨn konã [kɨdn kodnã] ||				
+Genealogical relations and lexical distances within the Tupian linguistic family
+264
+014-CAIMAN
+Wa ŋɡwajʧo, Ma ßato, Tu wao, Ak wato [kw
+ato], Me kwato, Ka wajo, Kt osɨ || Mg jakaɾe, Uk jakaɾe, Pt jakaɾe,
+Mw jakaɾe, Xi jakaɾe, Ju jakaɾe || Ar ßaßó, Gv ßaßó, Zo ßaßó, Sa ßaßó, Su ßa.ó || Mu apát, Ku apaʧi, Pu baʃa, baʃaɾe ||
+Aw topepiɾɨt ||					
+015-CAPUCHIN MONKEY (MACACO PREGO)
+Ar baʦáj, Gv baʦáj, Zo basaj káàp, Sa basáj, Su maháj (kííɾ) [maɬáj]? || Mg kaʔi, Pt kaʔi-ate, Aw kaʔjɨt || Tu akɨɾap,
+Ak tokɨɾap, takɨɾap, Me sakɨɾap || Mu tawé, Ku tawe || Xi jãpãɾũmã, Ju peɾumã, peɾumã́ || Uk koso pihun ||
+Mw hanuʔaan || Wa mbetɨɨʔ || Ma ʔõɾõm || Ka naʔwəj || Pu waʔoɾa || Kt pikõm ||					
+	
+016-CAPYBARA
+Ar ßaʦã́jbít, Gv ßáʦãj bíìt, Zo ßásõibíìt, Sa ßása-dí(k), Su wáhabííɾaa [wáɬabííɾa] || Mg kapiʔɨßa, Uk kapiʔiwaɾ,
+Pt tapißaɾ, Aw kapiwat || Mu wé, Ku we || Xi ata, Ju atá || Ak ewajawĩ [ekw
+ajakw
+ĩ], Me ɨkwaaj akoba ||
+Mw kupidu, paɨ wato || Wa ɲõõdele || Ma ʧaßi || Tu takaɾasɨ || Ka mãɾo || Pu muɾutu || Kt sɨt heeɲ [sɨt heeɟ] ||		
+			
+017-CARÁ ROOT
+Mw awaiʔa, Mu awa̤j-dá, Ku awaj, Wa akwa poot, akwa-nĩĩn, Ma ʧewa.i, ʧewa kõm, Tu awate, Ak awa [akw
+a],
+Me akwa, Xi wasa, Ju awáʔá || Ar mõjãkít, Gv mõõjãã́, Zo mõjãã, Sa mõ(õ)jʔá || Mg kaɾa, Uk kaɾa, Pt kaɾaʔi ||
+Ka maɾaʔã || Pu ʃoʃotka || Su ɬo.á kííɾa || Kt pokoho ||
+(Aw ?)						
+018-CASHEW
+Uk akaju, Pt akajuʔi, Aw tatu, Mw kaʒu, kasu, Wa kaɟu, Me kaʒo, Xi kaʒu || Ar oliciʔa, Gv oliciʔ-aá, Zo oliʃia,
+Su oɾiʃi.a, oɾiʃiáá || Mu mə́ɾəsə́-da || Ma mbaa || Tu patoʔa || Ka con [codn] || Kt iɾip ohɨ ||
+(Mg ? Ku ? Ak ? Ju ? Pu ? Sa ?)			
+019-CHAMELEON
+Ma ʧako ʧato, Tu hako eɾaat, Me taako aʦo || Mg teju, Pt tejuhu || Uk senembɨ, Mu seŋemó [sẽɲẽmó] ||
+Xi kãnabáɽe, Ju kanãbaɾé || Aw taʐuʐa ʔamɨt || Mw suwanã || Ku uajʧi || Wa naŋoɾo || Ka jamomõ || Gv aʦaʦó ||
+Su ŋeɾó póója || Kt õhĩna [õhĩnda] ||
+(Ak ? Pu ? Ar ? Zo ? Sa ?)				
+020-CICADA
+Pu kotkõɾã, Ar kã́tkã́nã́, Gv katkaɾá áàp, Zo katkaɾaa, Sa kátkáɾã́ã́, Su ŋáɾŋáɾáá || Mg ɲakɨɾã, Pt ɲakɨɾan ||
+Ak konkona, Me kõkõɾã || Mu koɾoɾṍŋ-ta, Ku tokoɾõɾõ || Aw kũku || Mw kaɾawoot || Wa ßakõŋɡop || Ma woɾẽŋɡope ||
+Tu oape || Ju kaɾamimã́mã́ || Ka aɡaɾajõ || Kt ɨtŋ [ʔɨɾĩŋ] ||
+(Uk ? Xi ?)		
+				
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+265
+021-COATI
+Ar já-bot, Gv ɟá-boli, Zo já-boli, Sa í-bulu, Su ʃí-booɾ || Wa piit, Tu siʔit, Me piit, Pu biik || Uk kwaʃi, Pt kwati || Xi awɨ,
+Ju awí || Mg ʃiʔɨ || Aw wajatawɨt || Mw musĩ || Mu pə́sówáwá || Ku kãkão hok || Ma mẽɾẽjã || Ka iʔcoɡo || Kt iɾisa ||
+(Ak ?)						
+022-COCKROACH
+Mg taɾaße, Uk taɾawe, Mw aɾawe || Ar ɟiɡikabékãj, Gv ʣáɡábékãj || Pt kaɾuɡwaɾape || Aw apeʔapeɾɨt ||
+Wa mbeɾãmbeɾa || Ma jenpet.tik || Tu papʔapajɾo || Ak peninket || Me abape || Xi pikũĩ, daidai || Ka capekataɾo ||
+Pu koɾoat || Su kabiʃóóɾkãj || Kt mɨkɨpa [(m)bɨkɨpa] ||
+(Mu ? Ku ? Ju ? Zo ? Sa ?)				
+023-COCOA
+Ka aɡaja, Ar akópʔa, akóbʔa, Gv akóòßaá, Zo akóoßaa, Sa akóópʔa, akópʔa, Su akóóba, akóp-tíaa || Mg kakaw (?),
+Uk kaka || Mu akada̤p, Ku akáɮap || Pt ɲumbitaʔi, Ju ũjṹpá || Mw wakoɾe || Wa kamboɾo || Ma ndɨnda || Tu atawʔa ||
+Me keɾeɾo || Kt kõmo [kõmbo] ||
+(Ak ? Xi ? Pu ?)					
+024-CORN
+Mg aßaʃi, aßati, Uk aßaʃi, Pt aßati, Aw awati, Mw awati, Wa metiti, Ma atiti [aʧiʧi], Ak atiti [atiti], Me aʦiʦi ||
+Gv maʔek, Zo mẽẽk, Su meʔek || Mu məɾá-da, Ku maɾaɮa || Xi makati, Ju makaʃí || Tu opap || Ka nãja || Pu ʃii.a ||
+Kt ŋiɲo [(ŋ)ɡijo] ||
+(Ar ? Sa ?)						
+025-COTTON
+Mg mandɨju, Uk mandeju, Pt amandiju, Aw ʔamatitu, Mw amõk(i)jusu || Ar ɡóóp ciit, ɡóp cit, Gv ɡóòp cîìt,
+Zo ɡóop ʃíit, Sa ɡóóp ʃiit, Su ŋóóp ɬiɾ || Wa oɾoɾo, Ma oɾoɾo, Tu oɾoɾo apʔa, Ak oɾoɾo, Me oɾoɾo || Xi makua,
+Ju makúá, Ka mok [mbok], Pu pokʔap, apokap || Mu boɾṍ-bə, Ku maɾo || Kt eɾeɾɨ ||			
+026-CRAB
+Ar bóló-pa, Gv ɡóló-pãã̀, Zo ɡóló-pãã, Sa ɡóló-pãʔ-ãã, Su ŋóóɾ-pãã || Mw ɨkatʔa, Mu koáɾá, Ku koaɾa, Wa koɾoo ||
+Tu keɾaʔɨ, Me keɾa || Xi aɾua, Ju uʔá || Mg itakaɾu || Uk tame || Pt ɡwaɾaɾu || Aw tamĩjɨt || Ma amãjã || Ka koja ||
+Pu aʃẽj || Kt aɾe ||
+(Ak ?)						
+027-CRICKET
+Mg kɨju, Pt kɨjuʔi, Aw ekɨjʔu, Mw ukiʔu || Ma ŋɡaɾa, Tu kaɾãj || Uk tukuɾ || Mu aɡupaʧopaʧo || Wa apĩn ||
+Ak jonepo [ɲũnẽbu] || Me toɾoɨ || Xi pãɾãpãɾã || Ju kõʔĩ́ʔĩ́ || Ka kɨɾɨʔkãj || Sa takójʔa || Su kabíʃóóɾkãj || Kt pasẽn
+(Ku ? Pu ? Ar ? Gv ? Zo ?)				
+Genealogical relations and lexical distances within the Tupian linguistic family
+266
+028-CURASSOW
+Uk mɨtun, Pt mĩtu, Aw mĩtu, Mu witṍ, Ku witõ, Ma mĩtõ || Ar ßakój, Gv ßakôòj, Zo ßakóòj, Sa ßakóój, Su wakój-a ||
+Tu koɾaʔɨ, Ak poɾakɨ, Me poɾakɨ || Xi takũ, Ju takṹ || Mw uɾukuʔa || Wa kɨiŋ || Ka inãw || Pu ßitap || Kt misĩ ||
+(Mg ?)						
+029-DEER
+Aw tɨwapat, Mw ɨtɨɨ, Ku iʤi, Wa ɨtɨɨ, Ma ɨtɨ [ɨtɨɨ], Ak ɨtɨ [ɨtɨɨ], Me ɨʦɨɨ, Ka itɨ, Pu ɨdɨ, Ar itíí, itií, Gv iitiì, Zo itii,
+Su iʧii-ááp, Kt ne [(n)de] || Xi ahua, Ju ahuá || Mg ɡwaʃu || Uk aɾapuha || Pt ɨuhu, ɨhuʔndi || Mu dápsém || Tu sajtpaɾe ||
+(Sa ?)		
+					
+030-EARTH WORM
+Wa anĩŋ, Ma atĩ, Me atiŋ, Ka atĩŋ, Pu anĩt, Zo botĩ́k, Sa botĩ́ĩ́k, Su motĩ́ŋ || Mg eßoʔi, Uk soßoʔi, Pt -eßoʔi, Aw tewoʔi ||
+Mu daseŋ-pə, Ku asiŋ || Mw uuwi || Tu anto || Ju kuhaɮá || Kt ŋɨtɲ [(ŋ)ɡɨɾɨj] ||
+(Ak ? Xi ? Ar ? Gv ?)				
+	
+031-ELECTRIC EEL
+Ar ɡopã́p, Gv ɡopã́p, Zo ɡopã́p, Sa ɡopã́m, Su ŋopám-aa || Wa ndoko, Ma ndoko, Tu soka, soka-poot || Uk puɾake,
+Pt mbuɾaki, Xi pãnãki || Ka joɡo, Pu joko || Kt ɲĩŋĩtɨ || Aw kutate || Mw uɾewo hunʔi || Mu məsəɾe-bə || Ku ɮusiɾe ||
+Me kĩĩkwat || Ju kɨɨbi ||
+(Mg ? Ak ?)						
+032-FLEA/CHIGGER
+Mg tuũ, Aw tuŋ, Mw juŋ, Mu nõŋʔá, Ku ɮõŋ, Wa ɲõŋ, Ma joŋ, Tu jõtap || Me ãp-ʦap [ãmʦap], Ar nãmɡóp, Gv nõp,
+Zo nõp, Su nõm, Ka nãp || Pt pɨahoɡ, Xi pɨɽa, Ju pɨɾá || Uk kɨ || Pu uɾuʃa || Kt ŋep [ɡep] ||
+(Ak ? Sa ?)						
+033-FLY
+Mg mbeɾu, Uk meɾũ, Pt mbeɾu, Wa ßãɾãmbiɾo, Ma meɾõŋwa, Pu ameɾop || Tu meɾemʔa, Ak menemi,
+Me kweɾemi, ŋweɾemi, Kt mãtm [mãɾãm] || Aw tin, Mw win || Mu ikoéɾṍ, Ku ikwẽno || Xi huɽũhuɽũ,
+Ju huhuɾũ, hũũhũɾũ || Ka cóp || Gv báʦoɾokap ? || Sa pẽnbókʔa || Su wákábwa, wakába ||
+(Ar ? Zo ?)						
+034-GENIPA
+Ar ßẽcóʔa, ßẽcoʔa, Gv ßeʦóa, Zo ßeʦóa, Sa ßesó, ßeesó, Su weʃóa, weʃówaa || Uk jandɨpaʔɨ, Pt ɲandɨpaß,
+Aw tẽtɨpap, Mw wããhop || Wa tapoo, Ma mẽʧaap || Tu ʔɨɨ, Ka ɨ || Mu waɾẽmáp-ʔa || Me siɡaap ||
+Kt kina pasoɲ [ki(dn)da pasoɟ] ||
+(Mg ? Ku ? Ak ? Xi ? Ju ? Pu ?)			
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+267
+035-GLOWWORM
+Mg ɡwaã, Uk uwã, Aw wawaŋ || Ma mboɾeepʧop, Tu poɾewa || Gv ako-kã́ã̀j, Su ako-kã́ã́j || Mu sópsóp,
+Kt hɨm hɨmã [hɨbm hɨbmã] || Pt mu, muhũ || Mw wamɨjã || Wa mbambaa || Me ɨɾaamãj || Ka maɡowip ||
+Pu tutukuju || Zo baɡambaɡapkĩ́ĩ̀t
+(Ku ? Ak ? Xi ? Ju ? Ar ? Sa ?)			
+036-GNAT (PIUM)
+Ar sĩ́k, Gv dik, Zo diɡ-akĩ́ĩ̀j, Sa dik (kíp), Su nik-kĩ́j, nik || Pt piʔũ, Aw ipiʔũ, Mw upiʔũ || Mg mbaɾiɡwi miɾĩ,
+Uk maɾiwĩ || Mu kópsə̃́, Ku kóbĩa [kṍmĩ-a̤] || Ma mbio ʧato, Tu siʔoʔiɾi || Xi mapi, mapɨɾapɨpɨ, Ju mápí || Wa tiit ||
+Me soʦoɾe || Ka cɨcɨ || Pu miʃiɾik || Kt kɨtk [kɨɾɨk] ||
+(Ak ?)									
+037-GUAN (JACU)
+Mg jaku, Uk jukupehu, Pt jaku, Aw takuʔjɨt, Mu wako, Ku wako, Wa ŋɡwako, Ma ßakupẽm, Tu wako, Ak wako [kwaku],
+Me kwako || Gv tããmôò, Zo tamõõ, Su támoááp || Xi taɾukawa, Ju taɾukawá || Mw mĩjũ || Ka koɾét || Pu aɾibew ||
+Sa mãlãzaʔáp || Kt paĩɲ [paʔĩɲ] ||
+(Ar ?)						
+038-HAWK
+Ku ikuã, Wa koɾii, Ak konikoni, Xi (h)ikũ, Ju ekṹ, Ka kokõ, Pu kokoʔi, Ar ikṍlṍ kíp, Gv ikṍlṍ, Zo ikõlṍ, Sa ikṍlṍ, Su ikṍṍɾ ||
+Tu kẽjʔã, Me keɲã || Mg taɡwato || Uk kawɨɾe || Pt kwandu || Aw muʐak || Mw hɨwi || Mu poátpoát || Ma pãɾiõ ||
+Kt pɨpĩɾĩ						
+039-HOWLER MONKEY (GUARIBA)
+Wa ndaɨ, Tu haɨ, Ak taɨkop, Me taaʔɨ, Ka jaɨ, Pu aʒɨ || Gv pekó, Zo pekó, Sa pikóʔ-aa, Su pekóó-aa || Mu oɾó.oɾó,
+Ku oɾoɾo, Ma õɾõßo || Aw akɨkɨwatu, Mw awɨkɨ || Xi waɽa, Ju wáɾá, waɾá || Mg kaʔi || Uk waɾi || Pt jajuhu || Kt eɾɨɨtɨ ||
+(Ar ?)						
+040-HUMMINGBIRD
+Aw pɨɾĩŋɨt, Mw hɨtʔi, Ma pĩĩn, Tu miin, miŋkat, Ar kinĩ́ĩ́t, Gv pinĩ́ĩ́t, Zo kiɾĩ́ĩ́t, Su kiiɾĩ́ĩ́n || Mg maino, Uk wainumbɨ ||
+Xi jãkuɽiʃi, Ju jakuɾiʃí || Pt ɡwaɾeʔi || Mu dapẽ́wdapẽ́wdá || Wa ɲũk ɨɾanĩĩn || Ak ʧaɨɾe || Me kaʦae || Ka kãɾam ||
+Pu ʃiɾoa || Kt kina papɨnã [ki(dn)da papɨdnã] ||
+(Ku ? Sa ?)						
+041-JAGUAR
+Ma amẽŋko, Tu amẽko, Ak amẽko, Me amẽŋko aʦo, Ka ameko, Ar nẽkó, Gv nekó, Zo nẽko, Sa mekóó, Su mekó,
+Kt õmakɨ [õmbakɨ] || Uk jawaɾete, Pt jaʔɡwaɾ, Aw taʔwat || Ma awɨato, Mu wi̤da̤, wə̤jda̤, Ku wiɲẽm(u) || Xi apɨ,
+Ju apí, apí imãmã || Mg ʃißi || Wa nõŋ koop || Pu puɾu ||		
+Genealogical relations and lexical distances within the Tupian linguistic family
+268
+042-KINGFISHER
+Gv ícânoʔaá, Zo icaná-p, Sa ííʃánã-m, Su kíʃãnaa || Wa ɨɡɨʧĩn, Me kɨɨt, kĩĩn || Ka céɾék, Pu ʃedet || Uk waɾiɾã hu ||
+Pt jataßoti || Aw piɾekɨtaŋ || Mw aɾiɾãpa || Ju aduɾá || Kt takt takt [taɾak taɾak] ||
+(Mg ? Mu ? Ku ? Ma ? Ak ? Xi ? Ar ?)		
+043-LARGE ANT (TOCANDEIRA)
+Ku ɮabia, Ma ŋapi.a, Ju anãbí, Ka napía, Kt nopĩ [(n)dopĩ] || Ar ɡaʦá(á), Gv ɡaaʦaá, Zo ɡasaa, Su ŋaɬáá || Wa ndaɾa,
+Tu hatʔa || Mg aɾaɾaʔa || Uk taɾakuʔa || Pt tukaʔndɨɾ || Mw watiamã || Me aʦikep || Xi ida || Pu mĩŋk ||
+(Aw ? Mu ? Ak ? Sa ?)				
+044-LARGE MANDI FISH
+Mg mandi, Uk mandiʔi, Mw mãti, Xi mãndi || Gv dóló, Sa dṍlṍ || Wa ʔißot kwaɾet, Ka ip nakãɾa || Ar ojít, Su jójpoo ||
+Aw tiniãwatu || Mu wásə̃-bə-ʃí-bə || Ma mũkwa || Tu ikĩn || Me õkoa || Pu waita || Zo balóò || Kt ɲõɲ pektɨ [ɲõɲ peɣetɨ] ||
+(Pt ? Ku ? Ak ? Ju ?)					
+045-LIZARD (CALANGO)
+Aw taʔu, Mu naʔóɾẽk, Ma ʧako, Tu hako, Me taako, Xi jãkuɽupa, Ju jakuɾupá, Ka jaʔo || Ar zeɾo-káp, Gv ɡéɾo,
+Zo ɡéɾo, Sa ɡeeɾṍṍ, Su ŋeeɾó || Mg teju, Uk teju kawaɾu, Pt teju, Mw anehu || Wa ndooja || Ak iɾiɾi || Pu mə̃joßãj ||
+Kt õhĩ ||
+(Ku ?)						
+046-LOUSE
+Mg kɨ, Uk kɨ, Pt -kɨv, Aw ʔakɨp, Mw ŋɨp, Mu kíp, Ku akip, Wa ãŋɡɨp, Ma ŋɡɨp, Tu kɨp, Ak kɨp, Me kɨp, Xi kɨpa, Ju kɨpá,
+Pu tɨp, tɨk, Ar ɡit, Gv ɡit, Zo ɡit, Sa ɡip, Su ŋip, Kt ŋep [ɡep] ||
+Ka nãp						
+047-MACAW
+Wa peɾa (ŋɡop), Ma peɾa, Tu petʔa, Ak peɾa, Me peɾa, Kt pat || Uk aɾaɾ, aɾaɾuhu, Xi aɽawɨ, Ju uɾawí || Gv kaaʦáàl,
+Zo kasáàl, Su kaɬááɾ || Mu paɾawa, Ku paɾawa, paɾawãtõ || Mg ɡwaʔa || Pt kaɾɨʔɾi, tiuhũ || Aw tawiti || Mw hanuun ||
+Ka kaɾo || Pu ʃipaja ||
+(Ar ? Sa?)					
+	
+048-OPOSSUM
+Mg mbɨku, Uk mɨkuɾ, Pt mbɨkuɾuhu, Mu makóɾa, Wa (ʧu)mukuɾa || Xi kuhudi, Ju huʤíhuʤí || Gv nekó ʦõ̂õ̀t,
+Su mekó pĩĩ || Aw kamiʦalaká || Mw hunajiŋ || Ku ɮaɾiwa || Tu sapʔãje || Me tamãte || Ka mocaj || Kt nokõn [(n)dokõn] ||
+(Ma ? Ak ? Pu ? Ar ? Zo ? Sa ?)			
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+269
+049-OWL
+Ma popoßa, Tu pop.popʔa, Me popoba, Ka pobo, Kt pɨɨpɨɨp || Pt huɾutaʔi, Aw uʐɨt, Mw uɾukut || Zo bákóóß-aa,
+Su mokóóp, mokóóß-aa || Mg kuɾuɾu || Uk pipi anjã, pipihu || Mu kók.kók || Ku baɾu || Wa ʔɨßao poot || Xi kujuhu ||
+Ju akuʔú, súwɨ || Pu aɾoʔi || Ar ɡátéʔáp || Gv bóòɾaá || Sa balipóʔã ||
+(Ak ?)						
+050-PACA
+Ar ãʣá, Gv aʣa, ãʣa, Zo ãza, Sa ßããza, Su wala-aa || Aw pak, Mw paɨ, Mu áj || Wa ŋɡwãɾãmbiɾo, Tu potʔamsiɾo,
+Me kwaɾã-piɾo || Uk kanɡwaɾuhu, Pt kaɾuɡwaɾuhu || Xi bɨ, Ju baʔɨ || Mg jaiʃa || Ma ataj(d) || Ka jaba || Pu pɨta ||
+Kt moɾotɨ [(m)boɾotɨ] ||
+(Ku ? Ak ?)						
+051-PACU FISH
+Pt pakuʔi, Aw paku, Mw paku, Mu pakó-dəp, Wa pako, Me paoɾap, Xi pakuɨ, Ju pakuí, Ka pako || Gv bolíp kábeé,
+Zo bolip kábe, Su moɾíp kábe, Kt ip toto || Mg ɲu jiʔa || Ku isie || Tu kapa || Ar pade sépʔa || Sa bíɾßáʔaa ||
+(Uk ? Ma ? Ak ? Pu ?)				
+052-PAPAYA
+Ar póʔa, ibókʔa, Gv ibóòɡ-aá, Zo ibóɡaa, Su ibóɡa(a) || Pt mamãw, Aw momãw, Mw mamãw || Ak kɨpek [kɨbek],
+Me kɨbek || Xi jũpãjũpã, Ju jũpájũpa || Pt kaɾandɨßuhu || Mu asáw-ʔá || Ku maɾe || Wa koiɾo || Ma ŋɡotkɨp ||
+Tu ʔɨpe || Ka op || Pu makaɾə̃, makaɾã || Sa dólí.ã ||
+(Uk ? Kt ?)						
+053-PARROT
+Ar aßál-áp, aßál-ap, Gv aßálap, Zo aßálap, Sa ßááloʔaa, Su awááɾ-aa || Mu aɾó, Ku aɾo, Ka aoɾo || Mg paɾakaw,
+Uk paɾawa || Pt ajuɾuhu, Mw ahut || Ak koʔa, Me koa [kua] || Aw apuɾɨt, napuɾɨt || Wa mãntɨ || Ma ßaɾooja ||
+Tu awɾo || Xi kuɾaɾa || Ju kũɾĩkũɾĩ́ || Pu ʃaɾamĩp || Kt ŋɨ [(ŋ)ɡɨ] ||				
+												
+054-PEACH PALM (PUPUNHA)
+Ka jomĩt, Pu jupikap, Ar jobat, Gv jobat, Zo jobat, Su jobáɾa(a) || Wa tɨt, Ma tɨ(ɨ)t, Tu sɨt || Pt hɨɾɨʔßa || Mw mɨɾawe ||
+Mu wesəda̤-ʔá || Ak kɨʔa || Me taapiɾo || Kt ɲõɲ mɨt [bɨt] ||
+(Mg ? Uk ? Aw ? Ku ? Xi ? Ju ? Sa ?)			
+055-PEANUT
+Ka makap, Ar mãkáp, Gv maa-káàp, Zo makáàp, Sa maakááp, Su makáp || Mg mandußi, Uk mundui, Mw amẽduĩ,
+Mu amẽndoĩ-da || Wa aɾaaɡwi, Ma aɾawa, Ak aɾawi [aɾakwi], Me aɾaakwi || Pu ẽʔẽkap, Kt mĩʔĩ || Aw jupuʔi ||
+Tu hiɾap || Ju kuʔí ||
+(Pt ? Ku ? Xi ?)		
+Genealogical relations and lexical distances within the Tupian linguistic family
+270
+056-PECCARY (COLLARED)
+Mwhamaut siŋ,Mudaʤe-kʧó,Kuɮadeto,Maʧaote.i,Tuhawteʔiɾi,Aktawʧe-tĩŋ,Metaoʦe nĩk, Ktsoita pitat [soɟʧa pitat] ||
+Ar bebé-kot, Gv bebe-kot, Zo bebe-kot, Sa bebe (tĩ́ĩ́k), Su mebe-kot || Mg taʔɨtetu, Pt taitetu, Aw tatitu ||
+Uk makahi || Wa ŋɡwãɾã || Xi jãkũbi || Ju udú || Ka jaɾacewak || Pu apɨka
+							
+057-PECCARY (WHITE-LIPPED)
+Mw hamaut, hamauɾ wato, Mu da̤ʤé, daʤe, Ku ɮade(ʔ), Ma ʧaote, Ak tawʧe, Me taoʦe pɨɨk, Ka jate,
+Kt soitaatɨ [soɟʧaatɨ] || Ar bebe, Gv bebe, Zo bebe, Su mebe, mẽbe || Mg tahaʃu, Uk tajahu, Pt tajahu || Xi huza,
+Ju huɮá || Aw tatituwatu || Wa kopiit || Tu potʔa || Pu anẽwã, hənewã ||
+(Sa ?)							
+058-PEPPER
+Ka pejõ, Ar pẽjṍ, Gv pẽjṍ, Zo põjṍ, Sa pĩjṍ Mg kãʔãj, Uk kɨʔĩn, Pt kɨʔɨɲ || Mu aʃĩ-ʔá, Wa ati.a, Ju ʔaʔĩ́ || Ak pekõj,
+Me pekõj || Aw ʦãpit || Mw muse || Ma kõjõ || Tu pajʔa || Xi pɨa || Pu makũjkap || Su homájuja, hómájuja ||
+Kt soɲ [soɟ] ||
+(Ku ?)						
+059-PINEAPPLE
+Uk nana, Mw nana, anana, Ka anana [anãnda], Gv adadâat, ãdadâat || Pt jupaɾapaʔɾi, Ak ãmpeɾa, õmpeɾa, Me jõpeɾa ||
+Wa bakaʃi, Ma abakaʃi || Ar ʣṍlṍmpʔa, Zo zṍlṍvãã || Mg kaɾaɡuataʔi || Aw kalahaŋ || Mu ípáɾá-ʔa || Xi aɾabaʃi ||
+Ju utũ, ũɾĩ́ || Su kaɾáb waa, ɬaɾáb wa || Kt koɲ pa [koɟ pa] || (Ku ? Tu ? Pu ? Sa ?)					
+060-PIRANHA
+Ma ipjãj [ĩmɲãɲ], Wa ɨpɲãɲ, Tu ʔɨjãj, Ka ihjãj, Ar ii-ɲẽ́j, Gv ii-jẽ́ẽ̀j, Zo ii-jẽ́ẽ̀j, Sa ĩ́ĩ́(j)ã́jã, Su jẽ́ja, Kt isõɲ || Mg piɾaɾãj,
+Uk piɾahu, Pt piɾaɲuhũ, Mw pirãja, Mu pirã́j-dəp || Xi pakĩ, Ju pakĩ́ || Aw pakãj || Ku mapiɾi || Me peni || Pu ʃɨbɨk ||
+(Ak ?)							
+061-RAT
+Tu patop, Me paʦop, Pu badop, Ar botop, Gv botop, Zo botop, Sa batop || Mg anɡuja, Aw takũjãʔjɨt || Mu táŋe [táɲe],
+Ku tane || Wa ndjaßaa, Ma ʧiʧaßap || Pt kiɾeɾu || Mw hapiɾi || Ak aninka [ãnĩŋɡa] || Xi taɾaɾa || Ju akuʔú || Ka məɡa ||
+Su ŋáɾúk || Kt mẽɲẽhĩŋ
+(Uk ?)						
+062-SCORPION
+Ar páʦãʔá(p), Gv páʦã́, Zo pásã́, Sa pasã́, Su paɬã́ || Wa kɨɨnĩjãʔ, Tu kwinika, Me kĩniŋã || Uk jawajɨɾ, Pt jaʔɡwajɨɾ ||
+Mu dat, Ku ɮat, Ka cat, Pu tat.tãnt || Mg jape(ß)uʃa || Aw ajĩtatɨt || Mw sapoot || Ma tekɨto || Ak otatpomen (?) ||
+Ju uʔá hutá, ewíá || Kt kenõn [kednõn] ||
+(Xi ?)							
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+271
+063-SLOTH
+Uk aʔɨhu, Pt ai(ʔ), Mu a̤j, Ku (h)aj, Me aj-atso, Ka aʔi, Pu aʔi, Ar alíɾʔ-a, Gv alí-a, Zo alí-a, Sa aalí-aa, Su áɾaɾĩ́-aa,
+Kt o[ʔ]i || Wa aũnda, aũnʤa, Ma aona [aonda] Mg ateʔɨ || Aw oʔapewan || Mw uɾjukeɾe || Tu awko || Ak aɾaɾita,
+oɾaɾita || Xi susue || Ju iɾianã́ ||						
+064-SNAIL
+Xi aɾua, Ka waɾo, Pu taɾoßa, Ar íí ßálóʔ-a, Gv ßaló-ap, Zo ßaló-a, Sa ßaalóʔ-aa, Su koɾó-aa, óɾóó-aa || Uk uɾuwa,
+Pt huɾuɡwaʔi || Ma ʧaɾea, Me aiɾe || Mg eßoʔi pe || Aw kɨtã || Mw mukuɾeɾũ || Mu waɾeta da || Tu asɨʔa ||
+Kt ɲõtɲ [ɲõɾõɲ] ||
+(Ku ? Wa ? Ak ? Ju ?)				
+065-SNAKE
+Mg mboi, Uk mboj, Pt mboja, Aw mõj, Mw moi, Mu pə̤j-bə́, Ku pɨj, Gv baj, Zo baj || Ar ɟibó, Sa sobóó, Su ɬobóó,
+Kt moɾoŋa [(m)boɾoja] || Wa ndat, Ma ʧat, Tu hat || Xi huta, Ju hutá || Ka mãjɡãɾa, Pu mə̃jũp(m) || Ak watin [kwatĩŋ] ||
+Me koɾĩpo ||			
+066-SPIDER
+Mg ɲandu, Uk jandu, Pt ɲandu, Aw ɨtãtu, Mw kiã, Ju ʃiʔã, ʃiʔã́ || Ar ɡéɾé-pãã, Gv ɡéɾé-pãã̀, Zo ɡéɾé-pãã, Sa ɡét-pã,
+Su ŋééɾ-pãã || Mu dóá, Ku hoat || Wa mbot.tẽm, Ma mbokoßo || Ak kiɾito, Me kiɾito || Tu akɨɾapapʔa || Xi putuɾu ||
+Ka paɾamĩt || Pu ʃapekot || Kt nikisɨ [(n)dikizɨ] ||
+							
+067-SPIDER MONKEY (MACACO PRETO)
+Ma aɾẽmbo, Tu aɾime, Me aɾime, Ar alímé, Gv ãlimé, Zo alimé, Sa alime, Su áɾíme, Kt õtm [ʔõɾõm] || Mu dekó,
+Ku zeko, Ka ceɡo pɨk, Pu ʃeko || Mg kaʔi, Uk kaʔijaɾar || Pt aßijouhu || Aw akɨkɨwatu || Mw kuata || Wa mbokãm ||
+Ak taɨpɨk || Xi waɾa || Ju amĩ́ã́ ||
+							
+068-SQUASH/PUMPKIN
+Uk juɾumu, Mw juɾumũ, Ku ʤoɾomó-ʔa, Wa djiɾimũ, Ma ʒiɾimũ, Ka ciɾimõ, Sa ʒiɾimõ || Mu kuɾua, Tu koɾota,
+Xi kuɽua, Ju kuɾuá || Gv kabéa, Zo kabéa || Mg andaj || Pt apɨɾahi || Aw teʐuʔapitek || Ak apenam || Su jokú(ú)ɾa ||
+Kt pasi ||
+(Me ? Pu ? Ar ?)					
+069-SQUIRREL
+Ar baki-ãk, Gv bájkít, Zo bájkít, Sa bajkit || Pt kutißuɾuhu, Aw kuʦeʐeʔjɨt, Mw kutieɾe || Wa mãtɨkɨjʤaʔ, Tu amsikɨjtʔa ||
+Mg tuɡwai pe || Uk akuʃipuɾu || Mu kaɾasə̃́ŋ || Ma ʔɨɾɨaj || Ak mãkɨtakop || Me peʦãk || Ka paɾaʔpaj || Pu waɾabaja ||
+Kt oɾopoɲ [oɾopoɟ] ||
+(Ku ? Xi ? Ju ? Su ?)					
+Genealogical relations and lexical distances within the Tupian linguistic family
+272
+070-STINGRAY
+Aw ɨʐɨpe, Ar ĩbeé, Gv iipeé, Zo ipee, Sa ípee, Su íipee || Ma ʧao, Xi jahu, Ju ɮahu, Ka jaw, Pu ii(j)aw || Tu taɾapeʔĩ,
+Ak ʧaɾa, Me saɾap || Mg jaßeßɨi, Pt jaßeʔɡwɨɾ || Mw piiɾa peep ʔi || Mu ĩ́wáp-təp || Ku abaɾaɾi || Wa eßo ɲĩĩk || Kt õ(õ)ɲĩ
+(Uk ?)						
+071-SURUBIM FISH
+Uk suɾuwi, Pt huɾußi, Aw tuʐui, Mw suɾubĩ, Mu soɾobĩ, Xi duɽuʃi, Ju duɾupí || Ka koɾan [koɾadn], Pu koɾaɾe, Ar koɾele,
+Gv kolele, Zo koleɾe, Su koɾele || Wa ãnoɾe, Ma ʔãnoɾe || Mg manɡuɾuju || Tu wajnpa || Kt ipibɨɲ [ʔipibɨɟ] ||
+(Ku ? Ak ? Me ? Sa ?)	
+			
+072-SWEET MANIOC	 					
+Mg mandiʔo, Pt mandiʔoɡ, Mw maniseɨ, Wa manĩŋ, Ma mãɲĩ, Tu mãj, Ka manĩ, Pu mĩjka || Ar pabojʔa, Gv cíbóòj-aá,
+Zo ʃíbójaa, Sa pabojʔá, Su mõj || Mu məsək-tá, Ku masik || Ak taptot, Me tapsɨ || Xi majaka, Ju majáká || Uk makaser ||
+Aw tɨtu || Kt ŋok [(ŋ)ɡok] ||	
+073-SWEET POTATO
+Mg jetɨ, Uk jɨtɨk, Pt jitɨɡ, Aw teʐɨk, Mu weʃík-ʔa, Ku wedik [weʤik], viʤikʔa ikia, Ar ßĩtĩŋʔa, Gv ßitíɡã, Zo ßetĩ́ŋáa ʃĩ́p,
+Sa tĩŋʔa, Su waʧíŋa || Wa ßaɡo tu.iʔ, Tu waoɾe, Ak wako [ɡwaku], Me kwaako kĩĩp || Xi taũ, Ju atáṹ || Mw uɾiuɾu ||
+Ma koßo || Ka peʔtik || Kt ohɨ koßot [kowot] ||
+(Pu ?)						
+074-TAPIR
+Ar ßáʦa, Gv ßáʦa, Zo ßása, Sa ßása, Su wáɬa || Mg tapiʔi, Uk tapiʔiɾ, Pt tapiʔiɾ, Aw tapiʔit || Mw wee-wato,
+Wa ʔɨkwaaj, Ma ɨaʧ [ʔɨaj(t)], Ak ɨwaj [ɨkwaj], Me ɨkwaaj || Mu bío, Ku bio || Tu takaɾa || Xi masaka || Ju tuwã́ ||
+Ka naʔto || Pu tã(ã)ni || Kt itp [ʔiɾip]
+							
+075-TAYRA
+Mg eiɾa, Uk eiɾa (?), Pt heiɾaɾ, Aw (n)ekɨʐak, Tu ewitkat, Ka ei || Pu wata, Gv aßat, Zo áßaɾ-áàp, Sa ááßat, Su waɾwáɾa ||
+Wa amãnã, Ma ãmãn.nã || Mw awɨato asap || Me kwepɨɨk-aʦo || Ju wáɾánãnã || Kt õmakɨ ẽẽm [õmbakɨ] ||
+(Mu ? Ku ? Ak ? Xi ? Ar?)				
+076-TERMITE
+Mg kupiʔi, Uk kupiʔi, Pt kupiʔi, kupiʔa, Aw kupiʔi, kupiʔa, Mw nupiʔa, Wa ŋɡɨ.i, Ma ŋɡoßaʔ, Tu kopʔi, Ak kopi,
+Me kobi, Xi kupa, Ju kupá, Ar ɡósóʔaá, Gv ɡóóßaá, Zo ɡóóßaa, Sa ɡópʔa, Kt ŋɨp [(ŋ)ɡɨp] || Mu iʃĩ́wã́-ʔa || Ka najúa ||
+Pu uuju muɾũm(p) || Su ɬodám-ŋĩĩɾ
+(Ku ?)						
+Bol. Mus. Para. Emílio Goeldi. Cienc. Hum., Belém, v. 10, n. 2, p. 229-274, maio-ago. 2015
+273
+077-TICK
+Mg jateßu, Uk jeteuk, Pt jateßuɡ, Aw tẽtewut, Ma wewat || Mu poɾo da, Ku puɾiw || Tu kɨpeɾep, Me peɾep ||
+Xi kupãɽẽ́mã, Ju kupáɾĩ́ || Wa ŋupiʔa, ŋɨpiʔa || Ma neeɾoo || Ak kɨpita || Ka maɡopi || Pu tapiʔjia || Su ŋaɾkɨp ||
+Kt oɾoɾoɲ [oɾoɾoɟ]
+(Ar ? Gv ? Zo ? Sa ?)					
+078-TIMBÓ LIANA
+Mg timbo, Uk ʃimbo, Pt timbo, Ma tiŋ, Tu niŋ, Kt tĩŋ || Gv dajap tápóò, Zo dajap tapóa, Su máɾkab napó || Aw tuj ||
+Mw uuku || Mu komə-pí || Wa mbĩŋ || Me kɨmẽẽpo || Ju utá || Ka napok, atĩŋ || Pu dabɨ, dabə || Ar ĩ́bokã́lĩ ||
+(Ku ? Ak ? Xi ? Sa ?)					
+079-TINAMOU
+Ar ßãjã́(ã́), Gv ßããjã́ã̀, Zo ßãjã́ã̀, Sa ßãjã́ã́, Su wajã́ã́ || Mg (i)nambu, Uk inamutõ, Pt inambu || Wa kwamã,
+Me kwamã, kwãp, Kt põm || Xi tũɽũɽũ, Ju nãɾũɾĩ || Mw uɾɨtʔi || Mu ʃiɾí || Ku uɾupunã || Ma mokɨɾa || Tu kokoʔa ||
+Ka pecía || Pu ʃoap ||
+(Aw ? Ak ?)						
+080-TOAD
+Mg kuɾuɾu, Uk kuɾuɾu, Pt kuɾuɾu, Aw kuʐuʐu, Xi kududu, Ju kududú, Kt kɨɾɨɾɨt || Wa ŋɡwaɾaaj, Ma kaaj, Me kwaɾaaj ||
+Tu koɾojkoɾojtʔa, Zo kóɾój-aa, Su koɾój-aa || Mu kóɾékóɾé, Ku koɾekoɾe || Ar ßaajʔ-a, Gv ßáàj-aá || Mw waʔasa ||
+Ka mɨɾɨɾɨj || Pu ɡia hɨɨja ||
+(Ak ? Sa ?)						
+081-TOBACCO
+Mg petĩ, Uk pɨtɨm, Aw pe, Mu e, Ku (h)elip, Wa pitoap, Ma mbɨtɨ.a, Ak pitoa, Me pitoa, Xi pɨtima, Ju pɨʧímã́, Pu peta ||
+Ar mãco, Gv máco, Zo máʃo, Sa máʃo, Su máʃo, máʃo penẽ́ma || Pt -mohatatĩhaß || Mw suhu puʔi || Tu kɨpe ||
+Ka caɾoɡĩn ||
+(Kt ?)							
+082-TORTOISE
+Wa mboɡa, Tu pokʔa [ɸo(k/ɡ)ʔa], Ak poka [puɡa], Me poɡa, Ka móa [mbóá], Ar amóʔ-a, amṍʔ-aá, Gv amṍ-a,
+Zo amṍ-a, Sa amṍʔ-ãã, Su amóó-aa, amõõ-aa || Uk jaʃi, Pt jaßoti, Mw wawoɾi || Mu pój, Ku poj || Xi takuɽaɽe,
+Ju takuɾáɾé || Mg kaɾumbe || Aw taɾapek || Ma mbiako || Pu tabebɨɾa || Kt mɨɨp sõm [(m)bɨɨp] ||
+							
+083-TOUCAN
+Mg tukã, Uk tukan, Pt tukan, Mw jũkan, Mu ʧókṍn, Ma ɲõkãn, Tu jõkan, Ka jokãn, Pu jokãnt, Ar jókã́ã́t, jokã́ãt,
+Gv jókã́ã̀t, Zo jókã́ã̀t, Sa jókã́t, Su jokán-áp, Kt ɲeokõn [ʤeokõn] || Ku anãdaɾi, Xi jãdadaɽi, Ju jadadaɾĩ́ ||
+Ak jowet [ɲũɡwet], Me siokwet || Aw kujawka || Wa pãɲoaa ||			
+Genealogical relations and lexical distances within the Tupian linguistic family
+274
+084-TRAHIRA FISH
+Wa mbiɾija, mbiɾiʤa, Ma mbiɾi.a, Tu siɾiʔa, Ak piɾita, Me piɾiʦa || Mg taɾeʔɨ, Uk teɾeʔɨɾ, Mw taɾaʔɨɾa || Mu daʃé,
+Ku ɮaʃui || Xi ʃitɨ, Ju piʧí || Ka paɾo, Pu baɾawa || Zo booboo, Su maabóó || Pt piɾauhu || Aw (n)ipiuta || Kt miɾa [(m)biɾa] ||
+(Ar ? Gv ? Sa ?)					
+085-TUCUMÃ PALM
+Ar malój, malójʔa, Gv mããlṍõ̀j, Zo mããlõõj || Ak akatapa, Me akaɾa, Kt okõɾã, akõɾã || Uk tukumã || Pt ipeipe ||
+Aw mato || Mw tawaɾa || Mu ʧoʤó-da || Wa tɨɨt || Ma oɾokõne || Tu potʔaŋ [ɸoɾʔãŋ] || Ka ʔõn ʔõn || Pu aɾiʔa || Su jóbaj ||
+(Mg ? Ku ? Xi ? Ju ? Sa ?)				
+086-VULTURE
+Pt huɾußu, Aw uʐuapɨɾɨt, Mw uɾuwu, Mu oɾopó, Ku oɾopo, Tu oɾopʔo, Xi kuzuhu, Ju uhú || Wa ɨßekoop, Ma ʔɨekoo,
+Ak ɨeko, Me ɨeko || Ar jakó, Gv mãjãkóò, Zo majãkóò || Mg ʃapiɾẽ || Uk kaɾakaɾa || Ka cibekon [cibekodn] ||
+Pu kujmaɾə̃, kujmaɾã || Su ójkóó || Kt akɨɾɨ ||
+(Sa ?)							
+087-WASP
+Mg kaßɨ, Uk ka, Pt kaßa, Aw kap, Mw ŋap, Wa ŋɡap, Ma ŋɡap, Tu kap, Ak kap, Me kap, Xi kapa, Ju kapá, Ar ɡap,
+Gv ɡap, Zo ɡap, Sa ɡap, Su ŋap, Kt ŋop [(ŋ)ɡop] || Ka nãp, Pu daba.i || Mu ikopí ||
+(Ku ?)						
+088-WILD CAT
+Uk maɾakaja, Pt mbaɾakajaʔi, Mw maɾakaha ||
+Tu ameko hĩĩn, Me ameko ʦĩĩt, Ka ameko ʔɨbĩ́ɾɨp, Ar nekó ɨt, Gv nekó kíp, Zo neko kíp, Sa mekóʔ-ɨt, Su mekó-ɨɨt,
+Kt õmakɨ ĩnã [õmbakɨ] || Mg ʃißiʔi || Aw olɨʔolɨ || Mu ipoɾó || Ku pusiɮo || Wa uɾɨ || Ma ßaɾiɾei || Xi piʃãɾa || Pu puɾuʃint ||
+(Ju ?)	
+						
+089-WILD DOG
+Ar beɾáá, Gv beeɾáà, Zo beeɾáà, Sa beeɾáá, Su meeɾáá || Wa amẽŋko, Ma amẽŋkwiɾãj, Tu amẽko mẽɾã,
+Me amẽko (‘dog’) || Uk jawaɾan, jawaɾuwi, Pt ɲaŋwatiŋ || Xi apɨ mamã, Ju apɨ iwamãwamã || Mg ɡwaɾɨ ||
+Aw (n)ekɨʐak || Mw awahuɾu || Ku ʧoaɾa || Ka maɡojapan || Pu õẽjʔap || Kt ŋɨɾɨtɨ [(ŋ)ɡɨɾɨtɨ] ||
+(Mu ? Ak ?)						
+090-WOODPECKER
+Mg (ɨ)pekũ, Pt ɨpekuʔĩ, Aw ɨpeŋ, Kt ɨɾɨpãn || Ar ʣéɾépʔ-a, Zo séɾeß-aa, Su ɬéɾéw-aa || Xi waɽe, Ju wáɾí ||
+Uk aɾapasu || Mw samã || Mu ʔip-wéɾó || Wa maõɾõʔõ || Ma ndoɾomã || Tu sipeɾãto || Ak pawɾo || Me sikaɾãpe ||
+Ka ciweɾe || Pu panĩwa || Gv keɾeʔíp ||
+(Ku ? Sa ?)	 					
+
