@@ -7,8 +7,6 @@ from itertools import chain
 
 from clldutils.text import strip_chars, strip_brackets
 from clldutils.path import Path
-from clldutils.misc import lazyproperty
-from lingpy.sequence.sound_classes import clean_string
 
 from pylexibank.dataset import Metadata
 from pylexibank.dataset import Dataset as BaseDataset
@@ -27,10 +25,6 @@ pdftotext -raw galucio-tupi.pdf galucio-tupi.txt
 
     def clean_form(self, row, form):
         return strip_chars('()', strip_brackets(form, brackets={'[': ']'}))
-
-    @lazyproperty
-    def tokenizer(self):
-        return lambda x, y: clean_string(y)[0].split()
 
     def cmd_install(self, **kw):
         concepticon = {
@@ -78,11 +72,10 @@ pdftotext -raw galucio-tupi.pdf galucio-tupi.txt
                             Name=lmap[lid][1],
                             Glottocode=lmap[lid][0])
                         for i, word in enumerate(words):
-                            with self.debug():
-                                for row in ds.add_lexemes(
-                                        Language_ID=lid, Parameter_ID=cid, Value=word):
-                                    ds.add_cognate(
-                                        lexeme=row, Cognateset_ID='%s-%s' % (cid, j + 1))
+                            for row in ds.add_lexemes(
+                                    Language_ID=lid, Parameter_ID=cid, Value=word):
+                                ds.add_cognate(
+                                    lexeme=row, Cognateset_ID='%s-%s' % (cid, j + 1))
             ds.align_cognates()
 
 
