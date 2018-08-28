@@ -25,8 +25,8 @@ Conceptlist in Concepticon: [Galucio-2015-100](http://concepticon.clld.org/contr
 - **Cognacy:** 1,807 cognates in 307 cognate sets
 - **Invalid lexemes:** 0
 - **Tokens:** 10,150
-- **Segments:** 97 (2 BIPA errors, 2 CTLS sound class errors, 93 CLTS modified)
-- **Inventory size (avg):** 35.91
+- **Segments:** 95 (2 BIPA errors, 2 CTLS sound class errors, 93 CLTS modified)
+- **Inventory size (avg):** 35.70
 
 ## Possible Improvements:
 

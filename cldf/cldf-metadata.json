@@ -5,17 +5,19 @@
     "dc:format": "http://concepticon.clld.org/contributions/Galucio-2015-100",
     "dc:identifier": "https://dx.doi.org/10.1590/1981-81222015000200004",
     "dc:title": "Genealogical relations and lexical distances within the Tupian linguistic family",
+    "dcat:accessURL": "https://github.com/lexibank/galuciotupi",
     "rdf:ID": "galuciotupi",
+    "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
     },
     "notes": [
         {
+            "dc:title": "environment",
             "properties": {
-                "glottolog_version": "pyglottolog-1.2.0-2-ge152243",
-                "concepticon_version": "pyconcepticon-1.4.0-6-g413fdc7"
-            },
-            "dc:title": "environment"
+                "glottolog_version": "v3.3.2",
+                "concepticon_version": "pyconcepticon-1.4.0-10-g1d57531"
+            }
         }
     ],
     "tables": [
@@ -198,7 +200,7 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "integer",
+                        "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "name": "ID"
                     },

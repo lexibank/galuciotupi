@@ -14,6 +14,7 @@ from pylexibank.dataset import Dataset as BaseDataset
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
+    id = 'galuciotupi'
 
     def cmd_download(self, **kw):
         print("""
@@ -27,50 +28,45 @@ pdftotext -raw galucio-tupi.pdf galucio-tupi.txt
         return strip_chars('()', strip_brackets(form, brackets={'[': ']'}))
 
     def cmd_install(self, **kw):
-        concepticon = {
-            x.english: x.concepticon_id for x in
-            self.conceptlist.concepts.values()}
-        lmap = {
-            l['ID']: (l['GLOTTOCODE'] or None, l['NAME'] or None) for l in self.languages}
-
-        cognate_sets = defaultdict(list)
-        for (cid, c), w, missing in parse(self.raw.read('galucio-tupi.txt')):
-            assert c in concepticon
-            if c in LANGUAGE_ID_FIXES:
-                f, t = LANGUAGE_ID_FIXES[c]
-                w = re.sub(f + '\s+', t + ' ', w, count=1)
-                missing = re.sub(f + '\s+', t + ' ', missing, count=1)
-
-            if missing:
-                assert re.match(
-                    '((?P<lid>%s)\s*\?\s*)+$' % '|'.join(list(lmap.keys())), missing)
-            missing = missing.replace('?', ' ').split()
-
-            lids = set(missing[:])
-            for m in re.finditer('(?P<lid>[A-Z][a-z])\s+', w):
-                lids.add(m.group('lid'))
-            # make sure all language IDs are valid
-            assert not lids.difference(set(lmap.keys()))
-
-            nlids = missing[:]
-            for cs in iter_cogsets(w, lmap):
-                cognate_sets[(cid, c)].append(cs)
-                nlids.extend(list(cs.keys()))
-            nlids = set(nlids)
-            assert nlids == lids  # make sure we found all expected language IDs
-
         with self.cldf as ds:
-            for (cid, concept), cogsets in cognate_sets.items():
+            lmap = ds.add_languages()
+            concepticon = {
+                x.english: x.concepticon_id for x in
+                self.conceptlist.concepts.values()}
+
+            cognate_sets = defaultdict(list)
+            for (cid, c), w, missing in parse(self.raw.read('galucio-tupi.txt')):
+                assert c in concepticon
+                if c in LANGUAGE_ID_FIXES:
+                    f, t = LANGUAGE_ID_FIXES[c]
+                    w = re.sub(f + '\s+', t + ' ', w, count=1)
+                    missing = re.sub(f + '\s+', t + ' ', missing, count=1)
+
+                if missing:
+                    assert re.match(
+                        '((?P<lid>%s)\s*\?\s*)+$' % '|'.join(lmap), missing)
+                missing = missing.replace('?', ' ').split()
+
+                lids = set(missing[:])
+                for m in re.finditer('(?P<lid>[A-Z][a-z])\s+', w):
+                    lids.add(m.group('lid'))
+                # make sure all language IDs are valid
+                assert not lids.difference(lmap)
+
+                nlids = missing[:]
+                for cs in iter_cogsets(w, lmap):
+                    cognate_sets[(cid, c)].append(cs)
+                    nlids.extend(list(cs.keys()))
+                nlids = set(nlids)
+                assert nlids == lids  # make sure we found all expected language IDs
+
+            for (cid, concept), cogsets in sorted(cognate_sets.items()):
                 ds.add_concept(
                     ID=cid,
                     Name=concept,
                     Concepticon_ID=concepticon[concept])
                 for j, cogset in enumerate(cogsets):
                     for lid, words in sorted(cogset.items(), key=lambda k: k[0]):
-                        ds.add_language(
-                            ID=lid,
-                            Name=lmap[lid][1],
-                            Glottocode=lmap[lid][0])
                         for i, word in enumerate(words):
                             for row in ds.add_lexemes(
                                     Language_ID=lid, Parameter_ID=cid, Value=word):
@@ -121,7 +117,7 @@ def iter_lang(s, lmap):
             yield l[i:i + 2]
 
     lid_pattern = re.compile(
-        '(?:^|(?:,?\s+|,\s*))(?P<i>%s)\s+' % '|'.join(list(lmap.keys())))
+        '(?:^|(?:,?\s+|,\s*))(?P<i>%s)\s+' % '|'.join(lmap))
     for language, words in pairs(lid_pattern.split(s)[1:]):
         yield language, [w.strip() for w in words.split(',') if w.strip()]
 
