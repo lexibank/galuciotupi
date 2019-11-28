@@ -1,25 +1,58 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
+    "aboutUrl": null,
     "dc:bibliographicCitation": "Galucio, Ana Vilacy, Meira, S\u00e9rgio, Birchall, Joshua, Moore, Denny, Gabas J\u00fanior, Nilson, Drude, Sebastian, Storto, Luciana, Pican\u00e7o, Gessiane, & Rodrigues, Carmen Reis. (2015). Genealogical relations and lexical distances within the Tupian linguistic family. Boletim do Museu Paraense Em\u00edlio Goeldi. Ci\u00eancias Humanas, 10(2), 229-274. https://dx.doi.org/10.1590/1981-81222015000200004",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:format": "http://concepticon.clld.org/contributions/Galucio-2015-100",
+    "dc:format": [
+        "http://concepticon.clld.org/contributions/Galucio-2015-100"
+    ],
     "dc:identifier": "https://dx.doi.org/10.1590/1981-81222015000200004",
+    "dc:isVersionOf": null,
+    "dc:related": null,
+    "dc:source": "sources.bib",
     "dc:title": "Genealogical relations and lexical distances within the Tupian linguistic family",
     "dcat:accessURL": "https://github.com/lexibank/galuciotupi",
+    "prov:wasDerivedFrom": [
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/lexibank/galuciotupi",
+            "dc:created": "34cd0b0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog",
+            "dc:created": "v4.1"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "CLTS",
+            "rdf:about": "https://github.com/cldf-clts/clts",
+            "dc:created": "v1.4"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Concepticon",
+            "rdf:about": "https://github.com/concepticon/concepticon-data",
+            "dc:created": "v2.2.0"
+        }
+    ],
+    "prov:wasGeneratedBy": [
+        {
+            "dc:title": "python",
+            "dc:description": "3.5.2"
+        },
+        {
+            "dc:title": "python-packages",
+            "dc:relation": "requirements.txt"
+        }
+    ],
     "rdf:ID": "galuciotupi",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
     },
-    "notes": [
-        {
-            "dc:title": "environment",
-            "properties": {
-                "glottolog_version": "v3.3.2",
-                "concepticon_version": "pyconcepticon-1.4.0-10-g1d57531"
-            }
-        }
-    ],
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
@@ -50,7 +83,7 @@
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://linguistics-ontology.org/gold/2010/FormUnit",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#value",
                         "required": true,
                         "name": "Value"
                     },
@@ -150,6 +183,26 @@
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#macroarea",
                         "name": "Macroarea"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": -90,
+                            "maximum": 90
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
+                        "required": false,
+                        "name": "Latitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": -180,
+                            "maximum": 180
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
+                        "required": false,
+                        "name": "Longitude"
                     },
                     {
                         "datatype": "string",

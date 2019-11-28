@@ -1,22 +1,19 @@
-# coding=utf-8
-from __future__ import unicode_literals, print_function
 import re
-from collections import defaultdict
+import pathlib
+import itertools
+import collections
 import unicodedata
-from itertools import chain
 
 from clldutils.text import strip_chars, strip_brackets
-from clldutils.path import Path
 
-from pylexibank.dataset import Metadata
-from pylexibank.dataset import Dataset as BaseDataset
+from pylexibank import Dataset as BaseDataset
 
 
 class Dataset(BaseDataset):
-    dir = Path(__file__).parent
+    dir = pathlib.Path(__file__).parent
     id = 'galuciotupi'
 
-    def cmd_download(self, **kw):
+    def cmd_download(self, args):
         print("""
 Download the PDF from here:
 http://www.scielo.br/pdf/bgoeldi/v10n2/2178-2547-bgoeldi-10-02-00229.pdf
@@ -27,59 +24,73 @@ pdftotext -raw galucio-tupi.pdf galucio-tupi.txt
     def clean_form(self, row, form):
         return strip_chars('()', strip_brackets(form, brackets={'[': ']'}))
 
-    def cmd_install(self, **kw):
-        with self.cldf as ds:
-            lmap = ds.add_languages()
-            concepticon = {
-                x.english: x.concepticon_id for x in
-                self.conceptlist.concepts.values()}
+    def cmd_makecldf(self, args):
+        lmap = args.writer.add_languages()
+        concepticon = {
+            x.english: x.concepticon_id for x in
+            self.conceptlists[0].concepts.values()}
+        args.writer.add_sources("""
+@article{Galucio2015,
+    author = {Galucio, Ana Vilacy and Meira, Sérgio and Birchall, Joshua and Moore, Denny and Gabas Júnior, Nilson and Drude, Sebastian and Storto, Luciana and Picanço, Gessiane and Rodrigues, Carmen Reis},
+    journal = {Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas},
+    pages = {229-274},
+    publisher = {scielo},
+    title = {Genealogical relations and lexical distances within the Tupian linguistic family},
+    url = {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1981-81222015000200229&nrm=iso},
+    volume = {10},
+    year = {2015}
+}
+""")
 
-            cognate_sets = defaultdict(list)
-            for (cid, c), w, missing in parse(self.raw.read('galucio-tupi.txt')):
-                assert c in concepticon
-                if c in LANGUAGE_ID_FIXES:
-                    f, t = LANGUAGE_ID_FIXES[c]
-                    w = re.sub(f + '\s+', t + ' ', w, count=1)
-                    missing = re.sub(f + '\s+', t + ' ', missing, count=1)
+        cognate_sets = collections.defaultdict(list)
+        for (cid, c), w, missing in parse(self.raw_dir.read('galucio-tupi.txt')):
+            assert c in concepticon
+            if c in LANGUAGE_ID_FIXES:
+                f, t = LANGUAGE_ID_FIXES[c]
+                w = re.sub(f + '\s+', t + ' ', w, count=1)
+                missing = re.sub(f + '\s+', t + ' ', missing, count=1)
 
-                if missing:
-                    assert re.match(
-                        '((?P<lid>%s)\s*\?\s*)+$' % '|'.join(lmap), missing)
-                missing = missing.replace('?', ' ').split()
+            if missing:
+                assert re.match(
+                    '((?P<lid>%s)\s*\?\s*)+$' % '|'.join(lmap), missing)
+            missing = missing.replace('?', ' ').split()
 
-                lids = set(missing[:])
-                for m in re.finditer('(?P<lid>[A-Z][a-z])\s+', w):
-                    lids.add(m.group('lid'))
-                # make sure all language IDs are valid
-                assert not lids.difference(lmap)
+            lids = set(missing[:])
+            for m in re.finditer('(?P<lid>[A-Z][a-z])\s+', w):
+                lids.add(m.group('lid'))
+            # make sure all language IDs are valid
+            assert not lids.difference(lmap)
 
-                nlids = missing[:]
-                for cs in iter_cogsets(w, lmap):
-                    cognate_sets[(cid, c)].append(cs)
-                    nlids.extend(list(cs.keys()))
-                nlids = set(nlids)
-                assert nlids == lids  # make sure we found all expected language IDs
+            nlids = missing[:]
+            for cs in iter_cogsets(w, lmap):
+                cognate_sets[(cid, c)].append(cs)
+                nlids.extend(list(cs.keys()))
+            nlids = set(nlids)
+            assert nlids == lids  # make sure we found all expected language IDs
 
-            for (cid, concept), cogsets in sorted(cognate_sets.items()):
-                ds.add_concept(
-                    ID=cid,
-                    Name=concept,
-                    Concepticon_ID=concepticon[concept])
-                for j, cogset in enumerate(cogsets):
-                    for lid, words in sorted(cogset.items(), key=lambda k: k[0]):
-                        for i, word in enumerate(words):
-                            for row in ds.add_lexemes(
-                                    Language_ID=lid, Parameter_ID=cid, Value=word):
-                                ds.add_cognate(
-                                    lexeme=row, Cognateset_ID='%s-%s' % (cid, j + 1))
-            ds.align_cognates()
+        for (cid, concept), cogsets in sorted(cognate_sets.items()):
+            args.writer.add_concept(
+                ID=cid,
+                Name=concept,
+                Concepticon_ID=concepticon[concept])
+            for j, cogset in enumerate(cogsets):
+                for lid, words in sorted(cogset.items(), key=lambda k: k[0]):
+                    for i, word in enumerate(words):
+                        for row in args.writer.add_lexemes(
+                            Language_ID=lid,
+                            Parameter_ID=cid,
+                            Value=word,
+                            Source=['Galucio2015'],
+                        ):
+                            args.writer.add_cognate(
+                                lexeme=row, Cognateset_ID='%s-%s' % (cid, j + 1))
 
 
 def parse(text):
     concept_line = re.compile('(?P<ID>[0-9]{3})-(?P<GLOSS>.+)$')
     concept, words, missing, in_appendix = None, '', '', False
     pages = text.split('\f')
-    for line in chain(*[p.split('\n')[2:] for p in pages]):
+    for line in itertools.chain(*[p.split('\n')[2:] for p in pages]):
         line = line.strip()
         if not line:
             continue
