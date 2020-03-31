@@ -9,17 +9,30 @@ from clldutils.text import strip_chars, strip_brackets
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.forms import FormSpec
 
+# language id fixes for raw data (as converted from pdf source)
+LANGUAGE_ID_FIXES = {
+    "ALL": ("Tp", "Ta"),  # set([u'Tp']) set([u'Ta'])
+    "PERSON": ("Pa", "Pt"),  # set([u'Pa']) set([u'Pt'])
+    "FISH": ("Pa", "Pt"),  # set([u'Pa']) set([u'Mw', u'Pt'])
+    "TREE": ("Tp", "Tu"),  # set([u'Tp']) set([u'Mw', u'Tu'])
+    "DRINK": ("Tp", "Ta"),  # set([u'Tp']) set([u'Kt', u'Ta'])
+    "SMOKE": ("Tp", "Ta"),  # set([u'Tp']) set([u'Ta'])
+    "GREEN": ("Tg", "Pg"),  # set([u'Tg']) set([u'Pg'])
+    "NAME": ("Tp", "Ta"),  # set([u'Tp']) set([u'Ta'])
+}
+
+
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "galuciotupi"
 
     form_spec = FormSpec(
-            brackets={"[":"]", "(":")"},
+        brackets={"[": "]", "(": ")"},
         separators="~",
         missing_data=(),
         strip_inside_brackets=True,
     )
- 
+
     def cmd_download(self, args):
         print(
             """
@@ -29,9 +42,6 @@ and extract the text running a command like below:
 pdftotext -raw galucio-tupi.pdf galucio-tupi.txt
 """
         )
-
-#    def clean_form(self, row, form):
-#        return strip_chars("()", strip_brackets(form, brackets={"[": "]"}))
 
     def cmd_makecldf(self, args):
         lmap = args.writer.add_languages()
@@ -83,10 +93,10 @@ pdftotext -raw galucio-tupi.pdf galucio-tupi.txt
             nlids = set(nlids)
             assert nlids == lids  # make sure we found all expected language IDs
 
+        # Add concepts
+        args.writer.add_concepts(id_factory=lambda c: c.number)
+
         for (cid, concept), cogsets in sorted(cognate_sets.items()):
-            args.writer.add_concept(
-                ID=cid, Name=concept, Concepticon_ID=concepticon[concept]
-            )
             for j, cogset in enumerate(cogsets):
                 for lid, words in sorted(cogset.items(), key=lambda k: k[0]):
                     for i, word in enumerate(words):
@@ -158,15 +168,3 @@ def iter_cogsets(s, lmap):
         cogset = cogset.strip()
         if cogset:
             yield dict(iter_lang(cogset, lmap))
-
-
-LANGUAGE_ID_FIXES = {
-    "ALL": ("Tp", "Ta"),  # set([u'Tp']) set([u'Ta'])
-    "PERSON": ("Pa", "Pt"),  # set([u'Pa']) set([u'Pt'])
-    "FISH": ("Pa", "Pt"),  # set([u'Pa']) set([u'Mw', u'Pt'])
-    "TREE": ("Tp", "Tu"),  # set([u'Tp']) set([u'Mw', u'Tu'])
-    "DRINK": ("Tp", "Ta"),  # set([u'Tp']) set([u'Kt', u'Ta'])
-    "SMOKE": ("Tp", "Ta"),  # set([u'Tp']) set([u'Ta'])
-    "GREEN": ("Tg", "Pg"),  # set([u'Tg']) set([u'Pg'])
-    "NAME": ("Tp", "Ta"),  # set([u'Tp']) set([u'Ta'])
-}
