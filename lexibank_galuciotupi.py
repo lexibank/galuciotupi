@@ -5,6 +5,7 @@ import collections
 import unicodedata
 
 from clldutils.text import strip_chars, strip_brackets
+from clldutils.misc import slug
 
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.forms import FormSpec
@@ -94,7 +95,10 @@ pdftotext -raw galucio-tupi.pdf galucio-tupi.txt
             assert nlids == lids  # make sure we found all expected language IDs
 
         # Add concepts
-        args.writer.add_concepts(id_factory=lambda c: c.number)
+        concept_map = args.writer.add_concepts(
+            lookup_factory=lambda c: c.number,
+            id_factory=lambda c: c.id.split("-")[-1] + "_" + slug(c.english),
+        )
 
         for (cid, concept), cogsets in sorted(cognate_sets.items()):
             for j, cogset in enumerate(cogsets):
@@ -102,7 +106,7 @@ pdftotext -raw galucio-tupi.pdf galucio-tupi.txt
                     for i, word in enumerate(words):
                         for row in args.writer.add_lexemes(
                             Language_ID=lid,
-                            Parameter_ID=cid,
+                            Parameter_ID=concept_map[cid],
                             Value=word,
                             Source=["Galucio2015"],
                         ):
