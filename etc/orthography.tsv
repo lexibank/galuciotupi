@@ -1,188 +1,153 @@
-Grapheme	FREQUENCY	IPA	UNICODE
-a	1251	a	U+0061
-p	754	p	U+0070
--	696	NULL	U+002d
-k	650	k	U+006b
-t	611	t	U+0074
-i	532	i	U+0069
-e	452	e	U+0065
-o	450	o	U+006f
-ɨ	409	ɨ	U+0268
-ʔ	329	ʔ	U+0294
-ɾ	298	ɾ	U+027e
-j	285	j	U+006a
-m	265	m	U+006d
-n	260	n	U+006e
-u	256	u	U+0075
-ã	226	ã	U+00e3
-á	216	á	U+00e1
-b	191	b	U+0062
-_	165	_	U+005f
-h	147	h	U+0068
-s	143	s	U+0073
-w	125	w	U+0077
-d	108	d	U+0064
-ĩ	99	ĩ	U+0129
-ŋ	98	ŋ	U+014b
-õ	97	õ	U+00f5
-í	92	í	U+00ed
-ɡ	86	g	U+0261
-ß	85	β	U+00df
-é	80	é	U+00e9
-ʃ	77	ʃ	U+0283
-ẽ	72	ẽ	U+1ebd
-ɲ	58	ɲ	U+0272
-ó	52	ó	U+00f3
-c	50	c	U+0063
-ʧ	46	ʧ	U+02a7
-~	46	<???>	U+007e
-ã́	44	ã́	U+00e3 U+0301
-l	37	l	U+006c
-ii	33	ii	U+0069 U+0069
-aa	31	aa	U+0061 U+0061
-v	27	v	U+0076
-ə	27	ə	U+0259
-ʦ	26	ts	U+02a6
-ú	24	ú	U+00fa
-ʤ	23	dʒ	U+02a4
-óó	22	óó	U+00f3 U+00f3
-ò	20	ò	U+00f2
-ũ	19	ũ	U+0169
-ɡw	19	ɡ w	U+0261 U+0077
-oo	18	oo	U+006f U+006f
-0	18	NULL	U+002e
-ì	18	ì	U+00ec
-kw	17	k w	U+006b U+0077
-ṍ	17	õ	U+1e4d
-a̤	16	a̤	U+0061 U+0324
-ɮ	16	ɮ	U+026e
-à	15	à	U+00e0
-z	15	z	U+007a
-ee	14	ee	U+0065 U+0065
-ɨɨ	14	ɨɨ	U+0268 U+0268
-ĩĩ	13	ĩĩ	U+0129 U+0129
-íí	12	íí	U+00ed U+00ed
-ə́	12	ə́	U+0259 U+0301
-ĩ́	12	ĩ́	U+0129 U+0301
-ẽẽ	10	ẽẽ	U+1ebd U+1ebd
-ə̃	9	ə̃	U+0259 U+0303
-õõ	9	õõ	U+00f5 U+00f5
-ṍṍ	8	õõ	U+1e4d U+1e4d
-è	8	è	U+00e8
-ãã	8	ãã	U+00e3 U+00e3
-tʃ	7	tʃ	U+0074 U+0283
-ps	7	p s	U+0070 U+0073
-ʣ	6	dz	U+02a3
-ɬ	6	ɬ	U+026c
-õ̀	6	õ̀	U+00f5 U+0300
-ã̀	6	ã̀	U+00e3 U+0300
-ə̤	6	ə̤	U+0259 U+0324
-ô	6	ô	U+00f4
-tt	5	tt	U+0074 U+0074
-áá	5	áá	U+00e1 U+00e1
-éé	5	éé	U+00e9 U+00e9
-ã́ã́	5	ã́ã́	U+00e3 U+0301 U+00e3 U+0301
-ŋw	4	ŋ w	U+014b U+0077
-ẽ́ẽ́	4	ẽ́ẽ́	U+1ebd U+0301 U+1ebd U+0301
-ʐ	4	ʐ	U+0290
-ə̃́	4	ə̃́	U+0259 U+0303 U+0301
-ĩ́ĩ́	4	ĩ́ĩ́	U+0129 U+0301 U+0129 U+0301
-éh	3	é h	U+00e9 U+0068
-uu	3	uu	U+0075 U+0075
-â	3	â	U+00e2
-î	3	î	U+00ee
-ṹ	3	ũ	U+1e79
-õ̂	2	õ̂	U+00f5 U+0302
-ʔw	2	ʔ w	U+0294 U+0077
-M	2	m	U+004d
-S	2	s	U+0053
-i̤	2	i̤	U+0069 U+0324
-ɟ	2	ɟ	U+025f
-nn	2	nn	U+006e U+006e
-pʃ	2	p ʃ	U+0070 U+0283
-ê	2	ê	U+00ea
--(puã)pẽ	1	p ẽ	U+002d U+0028 U+0070 U+0075 U+00e3 U+0029 U+0070 U+1ebd
-ɨ̤	1	ɨ̤	U+0268 U+0324
--(ʔ)av	1	a v	U+002d U+0028 U+0294 U+0029 U+0061 U+0076
-tw	1	t w	U+0074 U+0077
-(n)õm	1	õ m	U+0028 U+006e U+0029 U+00f5 U+006d
-ɨ(ɨ)t ʔi	1	ɨ t _ ʔ i	U+0268 U+0028 U+0268 U+0029 U+0074 U+0020 U+0294 U+0069
-P	1	p	U+0050
-T	1	t	U+0054
-eta(ʔ)	1	e t a	U+0065 U+0074 U+0061 U+0028 U+0294 U+0029
-ko(va)	1	k o	U+006b U+006f U+0028 U+0076 U+0061 U+0029
-juk(w)a	1	j u k a	U+006a U+0075 U+006b U+0028 U+0077 U+0029 U+0061
-n(d)- -i	1	n	U+006e U+0028 U+0064 U+0029 U+002d U+0020 U+002d U+0069
-ós	1	ó s	U+00f3 U+0073
-pe(e)	1	p e	U+0070 U+0065 U+0028 U+0065 U+0029
-ŋot [ɡot]	1	ŋ o t	U+014b U+006f U+0074 U+0020 U+005b U+0261 U+006f U+0074 U+005d
-ɸ	1	ɸ	U+0278
-ŋokɨp [ɡokɨp]	1	ŋ o k ɨ p	U+014b U+006f U+006b U+0268 U+0070 U+0020 U+005b U+0261 U+006f U+006b U+0268 U+0070 U+005d
-neso [deso]	1	n e s o	U+006e U+0065 U+0073 U+006f U+0020 U+005b U+0064 U+0065 U+0073 U+006f U+005d
-o-po [obo]	1	o p o	U+006f U+002d U+0070 U+006f U+0020 U+005b U+006f U+0062 U+006f U+005d
-n(ã)- -i	1	n	U+006e U+0028 U+00e3 U+0029 U+002d U+0020 U+002d U+0069
-r	1	r	U+0072
--ũ(n)	1	ũ	U+002d U+0169 U+0028 U+006e U+0029
-eɾe(k)wa	1	e ɾ e w a	U+0065 U+027e U+0065 U+0028 U+006b U+0029 U+0077 U+0061
-K	1	k	U+004b
-(a)tu	1	t u	U+0028 U+0061 U+0029 U+0074 U+0075
-nd(V)- -i	1	n d	U+006e U+0064 U+0028 U+0056 U+0029 U+002d U+0020 U+002d U+0069
-W	1	w	U+0057
-uk(w)aj	1	u k a j	U+0075 U+006b U+0028 U+0077 U+0029 U+0061 U+006a
-g	1	g	U+0067
-bi(ʔ)	1	b i	U+0062 U+0069 U+0028 U+0294 U+0029
-ws	1	w s	U+0077 U+0073
-(h)ejã	1	e j ã	U+0028 U+0068 U+0029 U+0065 U+006a U+00e3
-(he)saɨju	1	s aɨ j u	U+0028 U+0068 U+0065 U+0029 U+0073 U+0061 U+0268 U+006a U+0075
-pw	1	p w	U+0070 U+0077
-ʃiɾaha(m)	1	ʃ i ɾ a h a	U+0283 U+0069 U+027e U+0061 U+0068 U+0061 U+0028 U+006d U+0029
-iii	1	ii	U+0069 U+0069 U+0069
-ms	1	m s	U+006d U+0073
-ji(hi)	1	j i	U+006a U+0069 U+0028 U+0068 U+0069 U+0029
-kwaɾa(hɨ)	1	k w a ɾ a	U+006b U+0077 U+0061 U+027e U+0061 U+0028 U+0068 U+0268 U+0029
-adoɾe(ʔ)	1	a d o ɾ e	U+0061 U+0064 U+006f U+027e U+0065 U+0028 U+0294 U+0029
-ʒ	1	ʒ	U+0292
-nh	1	n h	U+006e U+0068
-o-pi [obi]	1	o p i	U+006f U+002d U+0070 U+0069 U+0020 U+005b U+006f U+0062 U+0069 U+005d
-o̤	1	o	U+006f U+0324
-A	1	a	U+0041
--áka(a)ɾ	1	á k a ɾ	U+002d U+00e1 U+006b U+0061 U+0028 U+0061 U+0029 U+027e
-(k)waɾahɨ	1	w a ɾ a h ɨ	U+0028 U+006b U+0029 U+0077 U+0061 U+027e U+0061 U+0068 U+0268
-pi(i)ɾa	1	p i ɾ a	U+0070 U+0069 U+0028 U+0069 U+0029 U+027e U+0061
-ẽ́	1	ẽ́	U+1ebd U+0301
-ẽ̀	1	ẽ̀	U+1ebd U+0300
-nde(he)		n d e	U+006e U+0064 U+0065 U+0028 U+0068 U+0065 U+0029
-ɨta(ta)p		ɨ t a p	U+0268 U+0074 U+0061 U+0028 U+0074 U+0061 U+0029 U+0070
-toj		t o j	
-taʃíp		t a ʃ í p	
-ɮét		ɮ é t	
-be		b e	
-ju		j u	
-huu		h uu	
-hapo		h a p o	
-ʣét		ʣ é t	
-dot		d o t	
-ʧĩn		ʧ ĩ n	
-pətét		p ə t é t	
-tap		t a p	
-ta̤bə́		t a̤ b é	
-taó		t a ó	
-tãj		t ã j	
-o-jãj		o j ã j	
-tao		t a o	
-het		h e t	
-tə̃j		t ə̃ j	
-do		d o	
-tɨp		t ɨ p	
-təp		t ə p	
-péɾén		p é ɾ é n	
-abə́		a b é	
--bí		b í	
-toa̤jbə́		t o a̤ j b ə́	
-ta		t a	
-topsa̤		t o p s a̤	
--joɾ		j o ɾ	
-tiŋ		t i ŋ	
-tóbia̤		t ó b i a̤	
-aʤó		a ʤ ó	
-zét		z é t	
+Grapheme	IPA	SCA	TYPES	FREQUENCY	CODEPOINTS	EXAMPLES	LANGUAGES	UNICODE
+-	NULL	NULL	NULL	702	U+002D	"-eɾ,-ko,-ʔõm"	Ak,Ar,Aw,Gv,Ju,Ka,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+002d
+.	+	_	Marker	18	U+002E	"ßa.i,é.ẽn,ʔɨɾui.ii"	Ma,Me,Pu,Su	
+A	A/a	A	Vowel	1	U+0041	"Arɟitã́k ká"	Ka	U+0041
+K	K/k	K	Consonant	1	U+004B	"Ktãndik"	Ka	U+004b
+M	M/m	M	Consonant	2	U+004D	"Mawéaɾóbo,Mepaɡop"	Mw,Su	U+004d
+P	P/p	P	Consonant	1	U+0050	"Pubidek"	Ka	U+0050
+S	S/s	S	Consonant	2	U+0053	"Saʃítak,Suʃitak"	Ka	U+0053
+T	T/t	T	Consonant	1	U+0054	"Tupakop"	Mw	U+0054
+W	W/w	W	Consonant	1	U+0057	"Wapaɡop"	Mw	U+0057
+a	a	A	Vowel	1160	U+0061	"owaj,tʃato,waw waw"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+0061
+b	b	P	Consonant	158	U+0062	"-ʦabi-káp,ibik tĩɲã,tajbɨʔ"	Ak,Ar,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Pg,Pt,Pu,Sa,Su,Uk,Wa,Xi,Zo	U+0062
+c	c	C	Consonant	50	U+0063	"caɡáɾo kõm-nem,cán nãʔ,iʔcak mãm"	Ar,Gv,Ka,Zo	U+0063
+d	d	T	Consonant	87	U+0064	"ipidepide-a,kádɨ̤k,ẽdu"	Ar,Gv,Ju,Ka,Kt,Ku,Mu,Pg,Pt,Pu,Sa,Su,Uk,Wa,Xi,Zo	U+0064
+e	e	E	Vowel	437	U+0065	"jande,kem,totet"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+0065
+g	g	K	Consonant	1	U+0067	"i-jogá peʔ"	Ka	U+0067
+h	h	H	Consonant	145	U+0068	"ham,ho,hɨ"	Ju,Ka,Kt,Ma,Mw,Pg,Pt,Pu,Ta,Tu,Uk,Xi	U+0068
+i	i	I	Vowel	532	U+0069	"kapiʃe,mianʔa,ɡip"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+0069
+j	j	J	Consonant	257	U+006A	"ej pat,maʔpəj,póòj"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+006a
+k	k	K	Consonant	655	U+006B	"aóka,kama,kapĩã"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+006b
+l	l	L	Consonant	37	U+006C	"-palabót,-ãbo-kã́ãl,lɨp"	Ar,Aw,Gv,Ku,Ma,Sa,Zo	U+006c
+m	m	M	Consonant	266	U+006D	"-namã́,mianʔa,ɮõmi"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+006d
+n	n	N	Consonant	267	U+006E	"kɨɲẽẽn,tããn,una"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+006e
+o	o	U	Vowel	428	U+006F	"opsiʔa,sot,tjop"	Ak,Ar,Aw,Gv,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Zo	U+006f
+p	p	P	Consonant	741	U+0070	"-sapṍõ̀p,ipot,wəp"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+0070
+r	r	R	Consonant	1	U+0072	"Arɟitã́k ká"	Ka	U+0072
+s	s	S	Consonant	145	U+0073	"aose,siit,siʤa"	Ar,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Sa,Su,Tu,Uk,Xi,Zo	U+0073
+t	t	T	Consonant	480	U+0074	"eɾaat,kojtpit,sitkia"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+0074
+u	u	Y	Vowel	241	U+0075	"kɨɾɨtu,tuʃi,uɾuʔap"	Ak,Aw,Ju,Ka,Ma,Mw,Pg,Pt,Pu,Uk,Xi	U+0075
+v	v	B	Consonant	28	U+0076	"-akuv,-kav,ɨvɨtɨ"	Pg,Pt	U+0076
+w	w	W	Consonant	127	U+0077	"waɾowaɾo,weidɨsip,wãbí"	Ak,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pu,Sa,Su,Ta,Tu,Uk,Xi,Zo	U+0077
+z	z	S	Consonant	13	U+007A	"-zaku,uzudɨ,zooj-káàp"	Ju,Sa,Xi,Zo	U+007a
+ß	β	B	Consonant	85	U+00DF	"-ßa,aßɨßɨßa,ßat kõp kíìt"	Ar,Gv,Ma,Pg,Pu,Sa,Su,Wa,Zo	U+00df
+à	à/a	A	Vowel	15	U+00E0	"-sabi-káàp,-ʦabi-káàp,káàp"	Gv,Zo	U+00e0
+á	á/a	A	Vowel	217	U+00E1	"-cákõõj,-ßeɾe-tá,ɡáti káp"	Ar,Gv,Ju,Ka,Ku,Mu,Sa,Su,Zo	U+00e1
+â	â/a	A	Vowel	3	U+00E2	"-aʔâàt,-paɾâàt,iì pâàp"	Gv	U+00e2
+ã	ã	A	Vowel	218	U+00E3	"cán nãʔ,ekaɾĩnã,ãpe"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+00e3
+è	è/e	E	Vowel	8	U+00E8	"pa-deɾè,sábéè,ʦábéè"	Ar,Gv,Zo	U+00e8
+é	é/e	E	Vowel	72	U+00E9	"abé,pép,ʃeé"	Ar,Gv,Ju,Mu,Pt,Sa,Su,Zo	U+00e9
+ê	ê/e	E	Vowel	2	U+00EA	"-pêèp,-ßêɾe-tá"	Gv	U+00ea
+ì	ì/i	I	Vowel	18	U+00EC	"-ko-kíìp,-kíìt,îìp"	Gv,Zo	U+00ec
+í	í/i	I	Vowel	86	U+00ED	"-palí,akíɾiʧé,wãbí"	Ar,Gv,Ju,Ka,Ku,Mu,Pu,Sa,Su,Zo	U+00ed
+î	î/i	I	Vowel	3	U+00EE	"-nepî-àp,-ámîì,îìp"	Gv	U+00ee
+ò	ò/o	U	Vowel	20	U+00F2	"-ßolò,-ádóò,póòj"	Gv,Zo	U+00f2
+ó	ó/o	U	Vowel	49	U+00F3	"daó,mó-sĩ́ĩ́n,ó.ẽn"	Ar,Gv,Ka,Ku,Mu,Sa,Su,Zo	U+00f3
+ô	ô/o	U	Vowel	6	U+00F4	"-kôɾo,-ábôò kã́lĩ,ôòj"	Gv	U+00f4
+õ	õ	U	Vowel	98	U+00F5	"aʔõʃabida,ɮõmi,ʔõpe"	Ak,Ar,Aw,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Zo	U+00f5
+ú	ú/u	Y	Vowel	24	U+00FA	"akúhú,cú,huakú"	Aw,Ju,Ka,Su	U+00fa
+ĩ	ĩ	I	Vowel	98	U+0129	"káʃĩbɨa,kã́lĩ,kĩɾĩɲã"	Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+0129
+ŋ	ŋ	N	Consonant	91	U+014B	"ŋɡwai,ə̃ŋʔá,ɲĩĩŋ"	Ak,Ar,Aw,Ka,Kt,Ku,Ma,Mu,Mw,Pt,Su,Ta,Wa	U+014b
+ũ	ũ	Y	Vowel	20	U+0169	"-kũ,aũ,maʦũʔjɨt"	Aw,Ju,Mw,Pg,Pt,Pu,Uk,Wa,Xi	U+0169
+ə	ə	E	Vowel	23	U+0259	"-ɾət,bətét,maʔpəj"	Ka,Mu,Pu	U+0259
+ɟ	ɟ	C	Consonant	2	U+025F	"-ɟa-káp,Arɟitã́k ká"	Ar,Ka	U+025f
+ɡ	g	K	Consonant	86	U+0261	"i-caɡá ʔaʔ,ŋɡopŋɡop,ɲãŋɡoja"	Ar,Aw,Gv,Ka,Kt,Ma,Me,Mw,Pt,Sa,Su,Wa,Zo	U+0261
+ɨ	ɨ	I	Vowel	412	U+0268	"i-tuwɨɾ,naʔjop cɨʔ,wãtɨm"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+0268
+ɬ	ɬ	L	Consonant	6	U+026C	"ßáɬet,ɬoj,ɬét"	Ku,Su	U+026c
+ɮ	ɮ	L	Consonant	15	U+026E	"wíɮaɮa,ɮao,ɮe-jʔo"	Ju,Ku	U+026e
+ɲ	ɲ	N	Consonant	58	U+0272	"iɲẽmpe,ɲũkɨɾa,ɲʤokwaj"	Ak,Ar,Kt,Ma,Me,Pg,Pt,Pu,Tu,Wa	U+0272
+ɸ	ɸ	B	Consonant	1	U+0278	"ɸo"	Tu	U+0278
+ɾ	ɾ	R	Consonant	303	U+027E	"aɾop,pep oɾa,waɾahɨ"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+027e
+ʃ	ʃ	S	Consonant	77	U+0283	"ʃiɾaha,ʃáme.ṍ,ʃĩʃĩ"	Ju,Ka,Ku,Mu,Pg,Pt,Pu,Sa,Su,Uk,Xi,Zo	U+0283
+ʐ	ʐ	S	Consonant	4	U+0290	"poʐɨʔa,taʐatiŋ,taʐaʔipuk"	Aw	U+0290
+ʒ	ʒ	S	Consonant	1	U+0292	"-ʒa-káp"	Sa	U+0292
+ʔ	ʔ	H	Consonant	330	U+0294	"i-ʔak,sawaʔe,ɲãpiʔ"	Ak,Ar,Aw,Gv,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Tu,Uk,Wa	U+0294
+ʣ	dz	C	Consonant	4	U+02A3	"ßãʣet,ʣoj,ʣooj"	Ar,Gv	U+02a3
+ʤ	dʒ	T	Consonant	22	U+02A4	"ka-ʤə̤k,kɨʤi,ɲʤokwaj"	Ju,Kt,Ku,Ma,Mu,Wa,Xi	U+02a4
+ʦ	ts	C	Consonant	26	U+02A6	"-ʦép,o-piʦo,ʦábé"	Ar,Aw,Gv,Me	U+02a6
+ʧ	tʃ	T	Consonant	45	U+02A7	"íí-ʧeɾ,ʧaa,ʧãŋ-ʔi"	Ak,Ju,Kt,Ku,Ma,Mu,Su,Tu,Wa	U+02a7
+ṍ	õ	U	Vowel	17	U+1E4D	"-ʦapṍp,jṍm-a,ṍn"	Ar,Gv,Mu,Sa,Su,Zo	U+1e4d
+ṹ	ũ	Y	Vowel	3	U+1E79	"-ĩʔṹ,naníṹ,ʔáṹ"	Ju	U+1e79
+ẽ	ẽ	E	Vowel	72	U+1EBD	"komeʔẽ,ó.ẽn,ʧẽɾõ"	Ak,Aw,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi	U+1ebd
+aa	aː	A	Vowel	30	U+0061 U+0061	"-kaap,apokwaat,i-paaɡa"	Ar,Ma,Me,Mw,Pg,Sa,Su,Ta,Tu,Wa,Zo	U+0061 U+0061
+a̤	a̤	A	Vowel	10	U+0061 U+0324	"akana̤sə̃́,bia̤,ɮóbia̤"	Ku,Mu	
+be	b e	P E	Consonant Vowel	24	U+0062 U+0065	"i-pábeʔ,kijã-be,poɾabedə"	Ar,Gv,Ka,Ku,Mu,Pt,Pu,Sa,Su,Uk,Zo	
+do	d o	T U	Consonant Vowel	22	U+0064 U+006F	"dok,kãjdo,ndoo"	Ar,Gv,Ku,Ma,Mu,Pt,Pu,Sa,Wa,Zo	
+ee	eː	E	Vowel	13	U+0065 U+0065	"-keet,aʔpiʧeep,pã-deet"	Ma,Me,Sa,Su,Tu,Wa,Zo	U+0065 U+0065
+ii	iː	I	Vowel	34	U+0069 U+0069	"-ciit,-pii,ɡiitʔa"	Ar,Gv,Kt,Ma,Me,Mw,Sa,Su,Wa,Zo	U+0069 U+0069
+i̤	i̤	I	Vowel	2	U+0069 U+0324	"idi̤bí,i̤pí"	Mu	U+0069 U+0324
+ju	j u	J Y	Consonant Vowel	19	U+006A U+0075	"a-juka,ju,juka"	Aw,Ju,Ka,Pg,Pt,Uk,Wa	
+kw	k w	K W	Consonant Consonant	18	U+006B U+0077	"kwai,oßitakwa,ɲʤokwaj"	Aw,Ma,Me,Pt,Ta,Tu,Uk,Wa	U+006b U+0077
+ms	m s	M S	Consonant Consonant	1	U+006D U+0073	"amsi"	Tu	U+006d U+0073
+nh	n h	N H	Consonant Consonant	1	U+006E U+0068	"ahunhɨʔa"	Ma	U+006e U+0068
+oo	oː	U	Vowel	16	U+006F U+006F	"-ooɾ,-ámoo-kããɾ,zooj-káàp"	Ar,Kt,Ma,Me,Sa,Su,Wa,Zo	U+006f U+006f
+o̤	o	U	Vowel	1	U+006F U+0324	"ɾo̤jɾə̤j"	Mu	U+006f U+0324
+ps	p s	P S	Consonant Consonant	6	U+0070 U+0073	"apsiʔa,dopsa̤,j-opsa̤"	Mu,Tu	U+0070 U+0073
+pw	p w	P W	Consonant Consonant	1	U+0070 U+0077	"pwã"	Aw	U+0070 U+0077
+pʃ	p ʃ	P S	Consonant Consonant	2	U+0070 U+0283	"ʃãpʃãm,ʃépʃép"	Mu,Pu	U+0070 U+0283
+ta	t a	T A	Consonant Vowel	92	U+0074 U+0061	"h-eta,tatɨaʔɨt,wata"	Ak,Aw,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Su,Ta,Tu,Uk,Wa,Xi	
+tw	t w	T W	Consonant Consonant	1	U+0074 U+0077	"kitwat"	Tu	U+0074 U+0077
+tʃ	tʃ	T	Consonant	7	U+0074 U+0283	"piitʃe,tʃeßaoo,ʔõmtʃẽm"	Ma	U+0074 U+0283
+uu	uː	Y	Vowel	1	U+0075 U+0075	"suu"	Mw	U+0075 U+0075
+ws	w s	W S	Consonant Consonant	1	U+0077 U+0073	"awsa"	Tu	U+0077 U+0073
+áá	áá/aː	A	Vowel	5	U+00E1 U+00E1	"-ááta,mááj,ã́nááɾ"	Su	U+00e1 U+00e1
+ãã	ãː	A	Vowel	8	U+00E3 U+00E3	"- ámĩãã,-nãß-ãã,-ámoo-kããɾ"	Ar,Me,Su,Tu,Zo	U+00e3 U+00e3
+ã̀	ã̀/ã	A	Vowel	6	U+00E3 U+0300	"kã́ã̀j,mó-kã́ã̀j,pó-kã́ã̀j"	Gv,Sa,Su,Zo	U+00e3 U+0300
+ã́	ã́/ã	A	Vowel	40	U+00E3 U+0301	"-kã́ɡã,ã́dátʔa,ã́dáàt"	Ar,Gv,Ju,Ka,Sa,Su,Zo	U+00e3 U+0301
+éh	é/e h	E H	Vowel Consonant	3	U+00E9 U+0068	"bitéhu,kamadéhú,meméhinaku"	Ju	U+00e9 U+0068
+éé	éé/eː	E	Vowel	5	U+00E9 U+00E9	"-ko-ʃééɾ,-péép,déét"	Sa,Su	U+00e9 U+00e9
+íí	íí/iː	I	Vowel	12	U+00ED U+00ED	"bííɾa,íí-ʧeɾ,ííp"	Ar,Sa,Su	U+00ed U+00ed
+ós	ó/o s	U S	Vowel Consonant	1	U+00F3 U+0073	"bósaat"	Zo	U+00f3 U+0073
+óó	óó/oː	U	Vowel	22	U+00F3 U+00F3	"-abóó kã́lĩ,-ßóóp,-óóp"	Ar,Gv,Sa,Su,Zo	U+00f3 U+00f3
+õõ	õ/õː	U	Vowel	9	U+00F5 U+00F5	"-cákõõj,-nõõ,ŋõõj-ŋííɾ"	Ar,Gv,Sa,Su,Zo	U+00f5 U+00f5
+õ̀	õ̀/õ	U	Vowel	6	U+00F5 U+0300	"-sapṍõ̀p,jõ̂õ̀p,ṍõ̀p"	Gv,Zo	U+00f5 U+0300
+õ̂	õ̂/õ	U	Vowel	2	U+00F5 U+0302	"-kõ̂õ̀j,jõ̂õ̀p"	Gv	U+00f5 U+0302
+ĩĩ	ĩː	I	Vowel	13	U+0129 U+0129	"-ãbo kã́ã́lĩĩ,-ãcĩĩt,sĩĩt"	Ar,Ju,Ka,Ma,Me,Sa,Su,Wa,Zo	U+0129 U+0129
+ĩ́	ĩ́/ĩ	I	Vowel	12	U+0129 U+0301	"-ʃĩ́ʃĩ,aʔĩ́ʤo,mĩ́jakábɨt"	Ar,Gv,Ju,Mu,Su	U+0129 U+0301
+ŋw	ŋ w	N W	Consonant Consonant	4	U+014B U+0077	"kaŋwe,ŋwi,ɲaŋwatiŋ"	Pg,Pt,Uk	U+014b U+0077
+ə́	ə́/ə	E	Vowel	8	U+0259 U+0301	"i-bə́,nə̤jbə́,ŋə́"	Ka,Mu	U+0259 U+0301
+ə̃	ə̃	E	Vowel	8	U+0259 U+0303	"i-kə̃m,wásə̃,wəɾəɾə̃ŋ"	Ku,Mu	U+0259 U+0303
+ə̤	ə̤	E	Vowel	6	U+0259 U+0324	"i-ʧə̤k,ka-ʤə̤k,ɾo̤jɾə̤j"	Ka,Mu	U+0259 U+0324
+ɡw	g w	K W	Consonant Consonant	19	U+0261 U+0077	"t-oɡwe,ɡwaja,ɡwasu"	Pg,Pt,Wa	U+0261 U+0077
+ɨɨ	ɨː	I	Vowel	14	U+0268 U+0268	"kɨɨjt,tɨɨ,áwɨɨl"	Kt,Ma,Me,Mw,Sa,Su,Ta,Wa	U+0268 U+0268
+ɨ̤	ɨ̤	I	Vowel	1	U+0268 U+0324	"kádɨ̤k"	Ku	U+0268 U+0324
+ʔw	ʔ w	H W	Consonant Consonant	2	U+0294 U+0077	"caʔwap,maʔwɨt"	Ka	U+0294 U+0077
+ṍṍ	ṍṍ/õː	U	Vowel	8	U+1E4D U+1E4D	"jṍṍß-a,mṍṍt,ɡṍṍj"	Ar,Gv,Sa,Su,Zo	U+1e4d U+1e4d
+ẽ́	ẽ́/ẽ	E	Vowel	1	U+1EBD U+0301	"ẽ́n"	Mu	U+1ebd U+0301
+ẽẽ	ẽː	E	Vowel	10	U+1EBD U+1EBD	"kĩjẽẽn,ẽẽm,ẽẽt"	Ar,Gv,Kt,Ma,Me,Sa,Tu,Wa,Zo	U+1ebd U+1ebd
+-bí	b í/i	P I	Consonant Vowel	4	U+002D U+0062 U+00ED	"-bí,-bíʔa"	Ar,Gv,Sa,Zo	
+aʤó	a dʒ ó/o	A T U	Vowel Consonant Vowel	1	U+0061 U+02A4 U+00F3	"aʤó"	Mu	
+dot	d o t	T U T	Consonant Vowel Consonant	2	U+0064 U+006F U+0074	"dot"	Ku,Mu	
+het	h e t	H E T	Consonant Vowel Consonant	1	U+0068 U+0065 U+0074	"het"	Mw	
+huu	h uː	H Y	Consonant Vowel	2	U+0068 U+0075 U+0075	"huu,huun"	Mw	
+tao	t a o	T A U	Consonant Vowel Vowel	1	U+0074 U+0061 U+006F	"tao"	Ku	
+tap	t a p	T A P	Consonant Vowel Consonant	11	U+0074 U+0061 U+0070	"tap,watapa,ɨtap"	Ak,Aw,Ku,Me,Mu,Pu,Xi	
+taó	t a ó/o	T A U	Consonant Vowel Vowel	1	U+0074 U+0061 U+00F3	"taó"	Mu	
+tiŋ	t i ŋ	T I N	Consonant Vowel Consonant	9	U+0074 U+0069 U+014B	"-tiŋ,tiŋ,ɨʔɨtiŋ"	Aw,Mu,Pt	
+toj	t o j	T U J	Consonant Vowel Consonant	4	U+0074 U+006F U+006A	"toj,weɾo toj"	Ka,Ku,Mu	
+tãj	t ã j	T A J	Consonant Vowel Consonant	4	U+0074 U+00E3 U+006A	"etãj,tãj,tãjãjã"	Aw,Ku,Xi	
+təp	t ə p	T E P	Consonant Vowel Consonant	3	U+0074 U+0259 U+0070	"təp"	Mu,Pu	
+tɨp	t ɨ p	T I P	Consonant Vowel Consonant	2	U+0074 U+0268 U+0070	"tɨp"	Ku,Pu	
+zét	z é/e t	S E T	Consonant Vowel Consonant	2	U+007A U+00E9 U+0074	"zét"	Sa,Zo	
+ãã́	ãã́/ãː	A	Vowel	4	U+00E3 U+00E3 U+0301	"ãã́"	Ar,Gv,Su,Zo	
+ə̃́	ə̃́/ə̃	E	Vowel	4	U+0259 U+0303 U+0301	"akana̤sə̃́,pə̃́ŋ,wə̃́jbaát"	Mu	U+0259 U+0303 U+0301
+ɮét	ɮ é/e t	L E T	Consonant Vowel Consonant	1	U+026E U+00E9 U+0074	"ɮét"	Su	
+ʣét	dz é/e t	C E T	Consonant Vowel Consonant	2	U+02A3 U+00E9 U+0074	"ʣét"	Ar,Gv	
+ʧĩn	tʃ ĩ n	T I N	Consonant Vowel Consonant	1	U+02A7 U+0129 U+006E	"ʧĩn"	Ku	
+ẽẽ̀	ẽẽ̀/ẽː	E	Vowel	1	U+1EBD U+1EBD U+0300	"-pepó-tẽẽ̀"	Gv	
+-joɾ	j o ɾ	J U R	Consonant Vowel Consonant	1	U+002D U+006A U+006F U+027E	"-joɾ"	Pt	
+abə́	a b ə́/ə	A P E	Vowel Consonant Vowel	1	U+0061 U+0062 U+0259 U+0301	"abə́"	Mu	
+hapo	h a p o	H A P U	Consonant Vowel Consonant Vowel	1	U+0068 U+0061 U+0070 U+006F	"hapo"	Ma	
+tə̃j	t ə̃ j	T E J	Consonant Vowel Consonant	1	U+0074 U+0259 U+0303 U+006A	"tə̃j"	Mu	
+ã́ã́	ã́ã́/ãː	A	Vowel	5	U+00E3 U+0301 U+00E3 U+0301	"-kã́ã́ɾ,-ãbo kã́ã́lĩĩ,kã́ã́l"	Ar,Sa,Su	U+00e3 U+0301 U+00e3 U+0301
+ĩ́ĩ́	ĩ́ĩ́/ĩː	I	Vowel	4	U+0129 U+0301 U+0129 U+0301	"-sĩ́ĩ́n,-ĩ́ĩ́t,awĩ́ĩ́wĩĩ"	Ju,Sa,Su	U+0129 U+0301 U+0129 U+0301
+ẽ́ẽ́	ẽ́ẽ́/ẽː	E	Vowel	4	U+1EBD U+0301 U+1EBD U+0301	"-jẽ́ẽ́j,-ɲẽ́ẽ́j,ɲẽ́ẽ́j"	Ar,Gv,Zo	U+1ebd U+0301 U+1ebd U+0301
+o-jãj	o j ã j	U J A J	Vowel Consonant Vowel Consonant	1	U+006F U+002D U+006A U+00E3 U+006A	"o-jãj"	Me	
+péɾén	p é/e ɾ é/e n	P E R E N	Consonant Vowel Consonant Vowel Consonant	1	U+0070 U+00E9 U+027E U+00E9 U+006E	"péɾén"	Mu	
+pətét	p ə t é/e t	P E T E T	Consonant Vowel Consonant Vowel Consonant	1	U+0070 U+0259 U+0074 U+00E9 U+0074	"pətét"	Mu	
+taʃíp	t a ʃ í/i p	T A S I P	Consonant Vowel Consonant Vowel Consonant	1	U+0074 U+0061 U+0283 U+00ED U+0070	"taʃíp"	Mu	
+ta̤bə́	t a̤ b ə́/ə	T A P E	Consonant Vowel Consonant Vowel	2	U+0074 U+0061 U+0324 U+0062 U+0259 U+0301	"ta̤bə́"	Mu	
+topsa̤	t o p s a̤	T U P S A	Consonant Vowel Consonant Consonant Vowel	1	U+0074 U+006F U+0070 U+0073 U+0061 U+0324	"topsa̤"	Mu	
+tóbia̤	t ó/o b i a̤	T U P I A	Consonant Vowel Consonant Vowel Vowel	1	U+0074 U+00F3 U+0062 U+0069 U+0061 U+0324	"tóbia̤"	Ku	
+ta̤jbít	t a̤ j b í/i t	T A J P I T	Consonant Vowel Consonant Consonant Vowel Consonant	1	U+0074 U+0061 U+0324 U+006A U+0062 U+00ED U+0074	"ta̤jbít"	Mu	
+toa̤jbə́	t o a̤ j b ə́/ə	T U A J P E	Consonant Vowel Vowel Consonant Consonant Vowel	1	U+0074 U+006F U+0061 U+0324 U+006A U+0062 U+0259 U+0301	"toa̤jbə́"	Mu	
