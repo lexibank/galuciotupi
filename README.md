@@ -1,10 +1,10 @@
-# Genealogical relations and lexical distances within the Tupian linguistic family
+# CLDF dataset derived from Galucio et al.'s "Lexical Distances within the Tupian Linguistic family" from 2015
 
 Cite the source dataset as
 
 > Galucio, Ana Vilacy, Meira, Sérgio, Birchall, Joshua, Moore, Denny, Gabas Júnior, Nilson, Drude, Sebastian, Storto, Luciana, Picanço, Gessiane, & Rodrigues, Carmen Reis. (2015). Genealogical relations and lexical distances within the Tupian linguistic family. Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas, 10(2), 229-274. https://dx.doi.org/10.1590/1981-81222015000200004
 
-This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/deed.en license
+This dataset is licensed under a CC-BY-4.0 license
 
 Available online at https://dx.doi.org/10.1590/1981-81222015000200004
 

@@ -1,0 +1,24 @@
+{
+    "title": "CLDF dataset derived from Galucio et al.'s \"Lexical Distances within the Tupian Linguistic family\" from 2015",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Simon Greenhill"
+        }
+    ],
+    "contributors": [],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Galucio, Ana Vilacy, Meira, S\u00e9rgio, Birchall, Joshua, Moore, Denny, Gabas J\u00fanior, Nilson, Drude, Sebastian, Storto, Luciana, Pican\u00e7o, Gessiane, &amp; Rodrigues, Carmen Reis. (2015). Genealogical relations and lexical distances within the Tupian linguistic family. Boletim do Museu Paraense Em\u00edlio Goeldi. Ci\u00eancias Humanas, 10(2), 229-274. https://dx.doi.org/10.1590/1981-81222015000200004</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}
