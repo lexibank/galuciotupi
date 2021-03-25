@@ -7,10 +7,75 @@
     ],
     "creators": [
         {
-            "name": "Simon Greenhill"
+            "name": "Galucio, Ana Vilacy"
+        },
+        {
+            "name": "Meira, S\u00e9rgio"
+        },
+        {
+            "name": "Birchall, Joshua"
+        },
+        {
+            "name": "Moore, Denny"
+        },
+        {
+            "name": "Gabas J\u00fanior, Nilson"
+        },
+        {
+            "name": "Drude,  Sebastian"
+        },
+        {
+            "name": "Storto, Luciana"
+        },
+        {
+            "name": "Pican\u00e7o, Gessiane"
+        },
+        {
+            "name": "Rodrigues, Carmen Reis"
         }
     ],
-    "contributors": [],
+    "contributors": [
+        {
+            "name": "Simon J. Greenhill",
+            "type": "Other"
+        },
+        {
+            "name": "Galucio, Ana Vilacy",
+            "type": "DataCollector"
+        },
+        {
+            "name": "Meira, S\u00e9rgio",
+            "type": "DataCollector"
+        },
+        {
+            "name": "Birchall, Joshua",
+            "type": "DataCollector"
+        },
+        {
+            "name": "Moore, Denny",
+            "type": "DataCollector"
+        },
+        {
+            "name": "Gabas J\u00fanior, Nilson",
+            "type": "DataCollector"
+        },
+        {
+            "name": "Drude,  Sebastian",
+            "type": "DataCollector"
+        },
+        {
+            "name": "Storto, Luciana",
+            "type": "DataCollector"
+        },
+        {
+            "name": "Pican\u00e7o, Gessiane",
+            "type": "DataCollector"
+        },
+        {
+            "name": "Rodrigues, Carmen Reis",
+            "type": "DataCollector"
+        }
+    ],
     "communities": [
         {
             "identifier": "lexibank"

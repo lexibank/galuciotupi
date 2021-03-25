@@ -152,17 +152,17 @@ Ar-8_not-1,,Ar,8_not,ṍṍp,ṍṍp,ṍṍ/õː p,,Galucio2015,,,^ ṍṍ p $,d
 Gv-8_not-1,,Gv,8_not,ṍõ̀p,ṍõ̀p,õ õ̀/õ p,,Galucio2015,,,^ ṍ õ̀ p $,default
 Me-8_not-1,,Me,8_not,nop,nop,n o p,,Galucio2015,,,^ n o p $,default
 Pu-8_not-1,,Pu,8_not,nõ,nõ,n õ,,Galucio2015,,,^ n õ $,default
-Tu-8_not-1,,Tu,8_not,-ʔõm,-ʔõm,ʔ õ m,,Galucio2015,,,^ - ʔ õ m $,default
-Wa-8_not-1,,Wa,8_not,-õm,-õm,õ m,,Galucio2015,,,^ - õ m $,default
+Tu-8_not-1,,Tu,8_not,-ʔõm,-ʔõm,ʔ õ m,,Galucio2015,,,^- ʔ õ m $,default
+Wa-8_not-1,,Wa,8_not,-õm,-õm,õ m,,Galucio2015,,,^- õ m $,default
 Zo-8_not-1,,Zo,8_not,ṍõ̀p,ṍõ̀p,õ õ̀/õ p,,Galucio2015,,,^ ṍ õ̀ p $,default
 Mw-8_not-1,,Mw,8_not,ɨ(ɨ)t ʔi,ɨt ʔi,ɨ t + ʔ i,,Galucio2015,,,^ ɨ t + ʔ i $,default
 Pg-8_not-1,,Pg,8_not,nd(V)- -i,nd- -i,n d + i,,Galucio2015,,,^ n d - + - i $,default
 Pt-8_not-1,,Pt,8_not,n(d)- -i,n- -i,n + i,,Galucio2015,,,^ n - + - i $,default
 Ta-8_not-1,,Ta,8_not,n(ã)- -i,n- -i,n + i,,Galucio2015,,,^ n - + - i $,default
-Ju-8_not-1,,Ju,8_not,-aũ,-aũ,a ũ,,Galucio2015,,,^ - a ũ $,default
-Ju-8_not-2,,Ju,8_not,-ma,-ma,m a,,Galucio2015,,,^ - m a $,default
-Xi-8_not-1,,Xi,8_not,-aũ,-aũ,a ũ,,Galucio2015,,,^ - a ũ $,default
-Xi-8_not-2,,Xi,8_not,-ma,-ma,m a,,Galucio2015,,,^ - m a $,default
+Ju-8_not-1,,Ju,8_not,-aũ,-aũ,a ũ,,Galucio2015,,,^- a ũ $,default
+Ju-8_not-2,,Ju,8_not,-ma,-ma,m a,,Galucio2015,,,^- m a $,default
+Xi-8_not-1,,Xi,8_not,-aũ,-aũ,a ũ,,Galucio2015,,,^- a ũ $,default
+Xi-8_not-2,,Xi,8_not,-ma,-ma,m a,,Galucio2015,,,^- m a $,default
 Uk-8_not-1,,Uk,8_not,ɨm,ɨm,ɨ m,,Galucio2015,,,^ ɨ m $,default
 Aw-8_not-1,,Aw,8_not,an,an,a n,,Galucio2015,,,^ a n $,default
 Mu-8_not-1,,Mu,8_not,ŋə́,ŋə́,ŋ ə́/ə,,Galucio2015,,,^ ŋ ə́ $,default
@@ -196,7 +196,7 @@ Zo-10_many-1,,Zo,10_many,ɡóló-á,ɡóló-á,g ó/o l ó/o á/a,,Galucio2015,,
 Ju-10_many-1,,Ju,10_many,iʧíbɨ,iʧíbɨ,i tʃ í/i b ɨ,,Galucio2015,,,^ i ʧ í b ɨ $,default
 Xi-10_many-1,,Xi,10_many,tubɨ,tubɨ,t u b ɨ,,Galucio2015,,,^ t u b ɨ $,default
 Ta-10_many-1,,Ta,10_many,hɨŋa,hɨŋa,h ɨ ŋ a,,Galucio2015,,,^ h ɨ ŋ a $,default
-Pt-10_many-1,,Pt,10_many,-eʔɨi,-eʔɨi,e ʔ ɨ i,,Galucio2015,,,^ - e ʔ ɨ i $,default
+Pt-10_many-1,,Pt,10_many,-eʔɨi,-eʔɨi,e ʔ ɨ i,,Galucio2015,,,^- e ʔ ɨ i $,default
 Aw-10_many-1,,Aw,10_many,ʔɨtoto,ʔɨtoto,ʔ ɨ t o t o,,Galucio2015,,,^ ʔ ɨ t o t o $,default
 Mw-10_many-1,,Mw,10_many,kahato,kahato,k a h a t o,,Galucio2015,,,^ k a h a t o $,default
 Mu-10_many-1,,Mu,10_many,ádé,ádé,á/a d é/e,,Galucio2015,,,^ á d é $,default
@@ -205,7 +205,7 @@ Ku-10_many-2,,Ku,10_many,ʧĩn ~ ʤĩn,ʤĩn,dʒ ĩ n,,Galucio2015,,,^ ʤ ĩ n $
 Wa-10_many-1,,Wa,10_many,pite,pite,p i t e,,Galucio2015,,,^ p i t e $,default
 Ma-10_many-1,,Ma,10_many,kalejõ,kalejõ,k a l e j õ,,Galucio2015,,,^ k a l e j õ $,default
 Tu-10_many-1,,Tu,10_many,kaɾato,kaɾato,k a ɾ a t o,,Galucio2015,,,^ k a ɾ a t o $,default
-Me-10_many-1,,Me,10_many,-obaat,-obaat,o b aː t,,Galucio2015,,,^ - o b aa t $,default
+Me-10_many-1,,Me,10_many,-obaat,-obaat,o b aː t,,Galucio2015,,,^- o b aa t $,default
 Ka-10_many-1,,Ka,10_many,paʔpik-tem,paʔpik-tem,p a ʔ p i k t e m,,Galucio2015,,,^ p a ʔ p i k - t e m $,default
 Ar-10_many-1,,Ar,10_many,kakóó,kakóó,k a k óó/oː,,Galucio2015,,,^ k a k óó $,default
 Sa-10_many-1,,Sa,10_many,déét,déét,d éé/eː t,,Galucio2015,,,^ d éé t $,default
@@ -258,24 +258,24 @@ Gv-12_two-1,,Gv,12_two,paá-ja-kíìp,paá-ja-kíìp,p a á/a j a k í/i ì/i p,
 Su-12_two-1,,Su,12_two,mĩ́jakábɨt,mĩ́jakábɨt,m ĩ́/ĩ j a k á/a b ɨ t,,Galucio2015,,,^ m ĩ́ j a k á b ɨ t $,default
 Kt-12_two-1,,Kt,12_two,sɨpõmp,sɨpõmp,s ɨ p õ m p,,Galucio2015,,,^ s ɨ p õ m p $,default
 Ak-13_big-1,,Ak,13_big,aʧo,aʧo,a tʃ o,,Galucio2015,,,^ a ʧ o $,default
-Aw-13_big-1,,Aw,13_big,-watu,-watu,w a t u,,Galucio2015,,,^ - w a t u $,default
+Aw-13_big-1,,Aw,13_big,-watu,-watu,w a t u,,Galucio2015,,,^- w a t u $,default
 Ju-13_big-1,,Ju,13_big,uɾáhu,uɾáhu,u ɾ á/a h u,,Galucio2015,,,^ u ɾ á h u $,default
 Ka-13_big-1,,Ka,13_big,cú,cú,c ú/u,,Galucio2015,,,^ c ú $,default
 Kt-13_big-1,,Kt,13_big,tɨɨ,tɨɨ,t ɨː,,Galucio2015,,,^ t ɨɨ $,default
 Ma-13_big-1,,Ma,13_big,tʃato,tʃato,tʃ a t o,,Galucio2015,,,^ tʃ a t o $,default
 Me-13_big-1,,Me,13_big,aʦo,aʦo,a ts o,,Galucio2015,,,^ a ʦ o $,default
-Mw-13_big-1,,Mw,13_big,-wato,-wato,w a t o,,Galucio2015,,,^ - w a t o $,default
+Mw-13_big-1,,Mw,13_big,-wato,-wato,w a t o,,Galucio2015,,,^- w a t o $,default
 Pg-13_big-1,,Pg,13_big,ɡwasu,ɡwasu,g w a s u,,Galucio2015,,,^ ɡw a s u $,default
 Pu-13_big-1,,Pu,13_big,hu,hu,h u,,Galucio2015,,,^ h u $,default
 Xi-13_big-1,,Xi,13_big,uɾahu,uɾahu,u ɾ a h u,,Galucio2015,,,^ u ɾ a h u $,default
 Ar-13_big-1,,Ar,13_big,póój,póój,p óó/oː j,,Galucio2015,,,^ p óó j $,default
-Gv-13_big-1,,Gv,13_big,-póòj,-póòj,p ó/o ò/o j,,Galucio2015,,,^ - p ó ò j $,default
+Gv-13_big-1,,Gv,13_big,-póòj,-póòj,p ó/o ò/o j,,Galucio2015,,,^- p ó ò j $,default
 Sa-13_big-1,,Sa,13_big,póój,póój,p óó/oː j,,Galucio2015,,,^ p óó j $,default
 Su-13_big-1,,Su,13_big,póój,póój,p óó/oː j,,Galucio2015,,,^ p óó j $,default
 Zo-13_big-1,,Zo,13_big,póòj,póòj,p ó/o ò/o j,,Galucio2015,,,^ p ó ò j $,default
 Uk-13_big-1,,Uk,13_big,tiha,tiha,t i h a,,Galucio2015,,,^ t i h a $,default
 Ta-13_big-1,,Ta,13_big,oweteo,oweteo,o w e t e o,,Galucio2015,,,^ o w e t e o $,default
-Pt-13_big-1,,Pt,13_big,-ehãi,-ehãi,e h ã i,,Galucio2015,,,^ - e h ã i $,default
+Pt-13_big-1,,Pt,13_big,-ehãi,-ehãi,e h ã i,,Galucio2015,,,^- e h ã i $,default
 Mu-13_big-1,,Mu,13_big,boŋ,boŋ,b o ŋ,,Galucio2015,,,^ b o ŋ $,default
 Ku-13_big-1,,Ku,13_big,adoɾe(ʔ),adoɾe,a d o ɾ e,,Galucio2015,,,^ a do ɾ e $,default
 Wa-13_big-1,,Wa,13_big,akaɾa,akaɾa,a k a ɾ a,,Galucio2015,,,^ a k a ɾ a $,default
@@ -286,11 +286,11 @@ Pt-14_long-1,,Pt,14_long,puku,puku,p u k u,,Galucio2015,,,^ p u k u $,default
 Ta-14_long-1,,Ta,14_long,poko,poko,p o k o,,Galucio2015,,,^ p o k o $,default
 Uk-14_long-1,,Uk,14_long,puku,puku,p u k u,,Galucio2015,,,^ p u k u $,default
 Ar-14_long-1,,Ar,14_long,atíít,atíít,a t íí/iː t,,Galucio2015,,,^ a t íí t $,default
-Gv-14_long-1,,Gv,14_long,-atóò,-atóò,a t ó/o ò/o,,Galucio2015,,,^ - a t ó ò $,default
-Sa-14_long-1,,Sa,14_long,-ato,-ato,a t o,,Galucio2015,,,^ - a t o $,default
-Sa-14_long-2,,Sa,14_long,-atóó,-atóó,a t óó/oː,,Galucio2015,,,^ - a t óó $,default
-Su-14_long-1,,Su,14_long,-ató-a,-ató-a,a t ó/o a,,Galucio2015,,,^ - a t ó - a $,default
-Zo-14_long-1,,Zo,14_long,-atóò,-atóò,a t ó/o ò/o,,Galucio2015,,,^ - a t ó ò $,default
+Gv-14_long-1,,Gv,14_long,-atóò,-atóò,a t ó/o ò/o,,Galucio2015,,,^- a t ó ò $,default
+Sa-14_long-1,,Sa,14_long,-ato,-ato,a t o,,Galucio2015,,,^- a t o $,default
+Sa-14_long-2,,Sa,14_long,-atóó,-atóó,a t óó/oː,,Galucio2015,,,^- a t óó $,default
+Su-14_long-1,,Su,14_long,-ató-a,-ató-a,a t ó/o a,,Galucio2015,,,^- a t ó - a $,default
+Zo-14_long-1,,Zo,14_long,-atóò,-atóò,a t ó/o ò/o,,Galucio2015,,,^- a t ó ò $,default
 Ak-14_long-1,,Ak,14_long,peɾek,peɾek,p e ɾ e k,,Galucio2015,,,^ p e ɾ e k $,default
 Me-14_long-1,,Me,14_long,peɾek,peɾek,p e ɾ e k,,Galucio2015,,,^ p e ɾ e k $,default
 Mu-14_long-1,,Mu,14_long,péɾén ~ béɾén,péɾén,p é/e ɾ é/e n,,Galucio2015,,,^ péɾén $,default
@@ -307,22 +307,22 @@ Ma-14_long-1,,Ma,14_long,kãɾãŋ,kãɾãŋ,k ã ɾ ã ŋ,,Galucio2015,,,^ k ã
 Tu-14_long-1,,Tu,14_long,tããn,tããn,t ãː n,,Galucio2015,,,^ t ãã n $,default
 Ka-14_long-1,,Ka,14_long,cáɾa-ɾem,cáɾa-ɾem,c á/a ɾ a ɾ e m,,Galucio2015,,,^ c á ɾ a - ɾ e m $,default
 Ak-15_small-1,,Ak,15_small,tin,tin,t i n,,Galucio2015,,,^ t i n $,default
-Ar-15_small-1,,Ar,15_small,-ãcĩĩt,-ãcĩĩt,ã c ĩː t,,Galucio2015,,,^ - ã c ĩĩ t $,default
-Gv-15_small-1,,Gv,15_small,-cíciít,-cíciít,c í/i c i í/i t,,Galucio2015,,,^ - c í c i í t $,default
-Ju-15_small-1,,Ju,15_small,-ʃĩ́ʃĩ,-ʃĩ́ʃĩ,ʃ ĩ́/ĩ ʃ ĩ,,Galucio2015,,,^ - ʃ ĩ́ ʃ ĩ $,default
+Ar-15_small-1,,Ar,15_small,-ãcĩĩt,-ãcĩĩt,ã c ĩː t,,Galucio2015,,,^- ã c ĩĩ t $,default
+Gv-15_small-1,,Gv,15_small,-cíciít,-cíciít,c í/i c i í/i t,,Galucio2015,,,^- c í c i í t $,default
+Ju-15_small-1,,Ju,15_small,-ʃĩ́ʃĩ,-ʃĩ́ʃĩ,ʃ ĩ́/ĩ ʃ ĩ,,Galucio2015,,,^- ʃ ĩ́ ʃ ĩ $,default
 Ka-15_small-1,,Ka,15_small,ʔĩt-tem,ʔĩt-tem,ʔ ĩ t t e m,,Galucio2015,,,^ ʔ ĩ t - t e m $,default
 Kt-15_small-1,,Kt,15_small,ʔĩnã,ʔĩnã,ʔ ĩ n ã,,Galucio2015,,,^ ʔ ĩ n ã $,default
 Me-15_small-1,,Me,15_small,sĩĩt,sĩĩt,s ĩː t,,Galucio2015,,,^ s ĩĩ t $,default
 Pu-15_small-1,,Pu,15_small,ʃinĩnĩ,ʃinĩnĩ,ʃ i n ĩ n ĩ,,Galucio2015,,,^ ʃ i n ĩ n ĩ $,default
-Sa-15_small-1,,Sa,15_small,-ʃĩĩt,-ʃĩĩt,ʃ ĩː t,,Galucio2015,,,^ - ʃ ĩĩ t $,default
-Su-15_small-1,,Su,15_small,-ʃĩĩn,-ʃĩĩn,ʃ ĩː n,,Galucio2015,,,^ - ʃ ĩĩ n $,default
+Sa-15_small-1,,Sa,15_small,-ʃĩĩt,-ʃĩĩt,ʃ ĩː t,,Galucio2015,,,^- ʃ ĩĩ t $,default
+Su-15_small-1,,Su,15_small,-ʃĩĩn,-ʃĩĩn,ʃ ĩː n,,Galucio2015,,,^- ʃ ĩĩ n $,default
 Ta-15_small-1,,Ta,15_small,ãhɨt,ãhɨt,ã h ɨ t,,Galucio2015,,,^ ã h ɨ t $,default
 Tu-15_small-1,,Tu,15_small,sin,sin,s i n,,Galucio2015,,,^ s i n $,default
 Wa-15_small-1,,Wa,15_small,nĩn,nĩn,n ĩ n,,Galucio2015,,,^ n ĩ n $,default
 Xi-15_small-1,,Xi,15_small,ʃĩʃĩ,ʃĩʃĩ,ʃ ĩ ʃ ĩ,,Galucio2015,,,^ ʃ ĩ ʃ ĩ $,default
-Zo-15_small-1,,Zo,15_small,-ciʃĩĩt,-ciʃĩĩt,c i ʃ ĩː t,,Galucio2015,,,^ - c i ʃ ĩĩ t $,default
+Zo-15_small-1,,Zo,15_small,-ciʃĩĩt,-ciʃĩĩt,c i ʃ ĩː t,,Galucio2015,,,^- c i ʃ ĩĩ t $,default
 Ku-15_small-1,,Ku,15_small,ĩpit,ĩpit,ĩ p i t,,Galucio2015,,,^ ĩ p i t $,default
-Mu-15_small-1,,Mu,15_small,-pĩ́tma,-pĩ́tma,p ĩ́/ĩ t m a,,Galucio2015,,,^ - p ĩ́ t m a $,default
+Mu-15_small-1,,Mu,15_small,-pĩ́tma,-pĩ́tma,p ĩ́/ĩ t m a,,Galucio2015,,,^- p ĩ́ t m a $,default
 Pg-15_small-1,,Pg,15_small,miʃi,miʃi,m i ʃ i,,Galucio2015,,,^ m i ʃ i $,default
 Uk-15_small-1,,Uk,15_small,t-aʔɨɾ mi,t-aʔɨɾ mi,t a ʔ ɨ ɾ + m i,,Galucio2015,,,^ t - a ʔ ɨ ɾ + m i $,default
 Pt-15_small-1,,Pt,15_small,ʃuʔi,ʃuʔi,ʃ u ʔ i,,Galucio2015,,,^ ʃ u ʔ i $,default
@@ -476,7 +476,7 @@ Me-22_louse-1,,Me,22_louse,kɨp,kɨp,k ɨ p,,Galucio2015,,,^ k ɨ p $,default
 Mu-22_louse-1,,Mu,22_louse,kíp,kíp,k í/i p,,Galucio2015,,,^ k í p $,default
 Mw-22_louse-1,,Mw,22_louse,ŋɨp,ŋɨp,ŋ ɨ p,,Galucio2015,,,^ ŋ ɨ p $,default
 Pg-22_louse-1,,Pg,22_louse,kɨ,kɨ,k ɨ,,Galucio2015,,,^ k ɨ $,default
-Pt-22_louse-1,,Pt,22_louse,-kɨv,-kɨv,k ɨ v,,Galucio2015,,,^ - k ɨ v $,default
+Pt-22_louse-1,,Pt,22_louse,-kɨv,-kɨv,k ɨ v,,Galucio2015,,,^- k ɨ v $,default
 Pu-22_louse-1,,Pu,22_louse,tɨp,tɨp,t ɨ p,,Galucio2015,,,^ tɨp $,default
 Sa-22_louse-1,,Sa,22_louse,ɡip,ɡip,g i p,,Galucio2015,,,^ ɡ i p $,default
 Su-22_louse-1,,Su,22_louse,ŋip,ŋip,ŋ i p,,Galucio2015,,,^ ŋ i p $,default
@@ -513,7 +513,7 @@ Ju-23_tree-1,,Ju,23_tree,ãhúá,ãhúá,ã h ú/u á/a,,Galucio2015,,,^ ã h ú
 Aw-24_seed-1,,Aw,24_seed,aʔĩj,aʔĩj,a ʔ ĩ j,,Galucio2015,,,^ a ʔ ĩ j $,default
 Mw-24_seed-1,,Mw,24_seed,h-aʔɨŋ,h-aʔɨŋ,h a ʔ ɨ ŋ,,Galucio2015,,,^ h - a ʔ ɨ ŋ $,default
 Pg-24_seed-1,,Pg,24_seed,t-aʔĩi,t-aʔĩi,t a ʔ ĩ i,,Galucio2015,,,^ t - a ʔ ĩ i $,default
-Pt-24_seed-1,,Pt,24_seed,-aʔɨɲ,-aʔɨɲ,a ʔ ɨ ɲ,,Galucio2015,,,^ - a ʔ ɨ ɲ $,default
+Pt-24_seed-1,,Pt,24_seed,-aʔɨɲ,-aʔɨɲ,a ʔ ɨ ɲ,,Galucio2015,,,^- a ʔ ɨ ɲ $,default
 Ta-24_seed-1,,Ta,24_seed,ãhĩj,ãhĩj,ã h ĩ j,,Galucio2015,,,^ ã h ĩ j $,default
 Uk-24_seed-1,,Uk,24_seed,haʔĩ,haʔĩ,h a ʔ ĩ,,Galucio2015,,,^ h a ʔ ĩ $,default
 Ar-24_seed-1,,Ar,24_seed,káp,káp,k á/a p,,Galucio2015,,,^ k á p $,default
@@ -531,8 +531,8 @@ Ku-24_seed-1,,Ku,24_seed,ta ~ da,ta,t a,,Galucio2015,,,^ ta $,default
 Ku-24_seed-2,,Ku,24_seed,ta ~ da,da,d a,,Galucio2015,,,^ d a $,default
 Mu-24_seed-1,,Mu,24_seed,ta ~ da,ta,t a,,Galucio2015,,,^ ta $,default
 Mu-24_seed-2,,Mu,24_seed,ta ~ da,da,d a,,Galucio2015,,,^ d a $,default
-Ju-24_seed-1,,Ju,24_seed,-bɨɮá,-bɨɮá,b ɨ ɮ á/a,,Galucio2015,,,^ - b ɨ ɮ á $,default
-Xi-24_seed-1,,Xi,24_seed,-bɨa,-bɨa,b ɨ a,,Galucio2015,,,^ - b ɨ a $,default
+Ju-24_seed-1,,Ju,24_seed,-bɨɮá,-bɨɮá,b ɨ ɮ á/a,,Galucio2015,,,^- b ɨ ɮ á $,default
+Xi-24_seed-1,,Xi,24_seed,-bɨa,-bɨa,b ɨ a,,Galucio2015,,,^- b ɨ a $,default
 Kt-24_seed-1,,Kt,24_seed,sɨpo,sɨpo,s ɨ p o,,Galucio2015,,,^ s ɨ p o $,default
 Ma-24_seed-1,,Ma,24_seed,ʧupa,ʧupa,tʃ u p a,,Galucio2015,,,^ ʧ u p a $,default
 Ka-24_seed-1,,Ka,24_seed,aʔ-cot,aʔ-cot,a ʔ c o t,,Galucio2015,,,^ a ʔ - c o t $,default
@@ -540,7 +540,7 @@ Ak-25_leaf-1,,Ak,25_leaf,tep,tep,t e p,,Galucio2015,,,^ t e p $,default
 Ar-25_leaf-1,,Ar,25_leaf,ʦep,ʦep,ts e p,,Galucio2015,,,^ ʦ e p $,default
 Aw-25_leaf-1,,Aw,25_leaf,op,op,o p,,Galucio2015,,,^ o p $,default
 Gv-25_leaf-1,,Gv,25_leaf,ʦep,ʦep,ts e p,,Galucio2015,,,^ ʦ e p $,default
-Ju-25_leaf-1,,Ju,25_leaf,-úpá,-úpá,ú/u p á/a,,Galucio2015,,,^ - ú p á $,default
+Ju-25_leaf-1,,Ju,25_leaf,-úpá,-úpá,ú/u p á/a,,Galucio2015,,,^- ú p á $,default
 Ka-25_leaf-1,,Ka,25_leaf,naʔjop cɨʔ,naʔjop cɨʔ,n a ʔ j o p + c ɨ ʔ,,Galucio2015,,,^ n a ʔ j o p + c ɨ ʔ $,default
 Kt-25_leaf-1,,Kt,25_leaf,ʔepesap,ʔepesap,ʔ e p e s a p,,Galucio2015,,,^ ʔ e p e s a p $,default
 Ku-25_leaf-1,,Ku,25_leaf,tɨp ~ lɨp,tɨp,t ɨ p,,Galucio2015,,,^ tɨp $,default
@@ -550,7 +550,7 @@ Me-25_leaf-1,,Me,25_leaf,ep,ep,e p,,Galucio2015,,,^ e p $,default
 Mu-25_leaf-1,,Mu,25_leaf,təp ~ dəp,təp,t ə p,,Galucio2015,,,^ təp $,default
 Mu-25_leaf-2,,Mu,25_leaf,təp ~ dəp,dəp,d ə p,,Galucio2015,,,^ d ə p $,default
 Pg-25_leaf-1,,Pg,25_leaf,t-oɡwe,t-oɡwe,t o g w e,,Galucio2015,,,^ t - o ɡw e $,default
-Pt-25_leaf-1,,Pt,25_leaf,-ova,-ova,o v a,,Galucio2015,,,^ - o v a $,default
+Pt-25_leaf-1,,Pt,25_leaf,-ova,-ova,o v a,,Galucio2015,,,^- o v a $,default
 Pu-25_leaf-1,,Pu,25_leaf,təp,təp,t ə p,,Galucio2015,,,^ təp $,default
 Sa-25_leaf-1,,Sa,25_leaf,bá-sep,bá-sep,b á/a s e p,,Galucio2015,,,^ b á - s e p $,default
 Ta-25_leaf-1,,Ta,25_leaf,ap,ap,a p,,Galucio2015,,,^ a p $,default
@@ -567,7 +567,7 @@ Ma-26_root-2,,Ma,26_root,hapo ~ sapo,sapo,s a p o,,Galucio2015,,,^ s a p o $,def
 Mu-26_root-1,,Mu,26_root,ta̤bə́ ~ na̤bə́,ta̤bə́,t a̤ b ə́/ə,,Galucio2015,,,^ ta̤bə́ $,default
 Mu-26_root-2,,Mu,26_root,ta̤bə́ ~ na̤bə́,na̤bə́,n a̤ b ə́/ə,,Galucio2015,,,^ n a̤ b ə́ $,default
 Pg-26_root-1,,Pg,26_root,t-apo,t-apo,t a p o,,Galucio2015,,,^ t - a p o $,default
-Pt-26_root-1,,Pt,26_root,-apo,-apo,a p o,,Galucio2015,,,^ - a p o $,default
+Pt-26_root-1,,Pt,26_root,-apo,-apo,a p o,,Galucio2015,,,^- a p o $,default
 Uk-26_root-1,,Uk,26_root,h-apo,h-apo,h a p o,,Galucio2015,,,^ h - a p o $,default
 Ak-26_root-1,,Ak,26_root,kɨbita,kɨbita,k ɨ b i t a,,Galucio2015,,,^ k ɨ b i ta $,default
 Ma-26_root-3,,Ma,26_root,ẽmbiaʔ,ẽmbiaʔ,ẽ m b i a ʔ,,Galucio2015,,,^ ẽ m b i a ʔ $,default
@@ -596,7 +596,7 @@ Sa-27_bark-1,,Sa,27_bark,sébé,sébé,s é/e b é/e,,Galucio2015,,,^ s é b é 
 Ta-27_bark-1,,Ta,27_bark,ɨpe,ɨpe,ɨ p e,,Galucio2015,,,^ ɨ p e $,default
 Tu-27_bark-1,,Tu,27_bark,ape,ape,a p e,,Galucio2015,,,^ a p e $,default
 Wa-27_bark-1,,Wa,27_bark,ape,ape,a p e,,Galucio2015,,,^ a p e $,default
-Xi-27_bark-1,,Xi,27_bark,-sa,-sa,s a,,Galucio2015,,,^ - s a $,default
+Xi-27_bark-1,,Xi,27_bark,-sa,-sa,s a,,Galucio2015,,,^- s a $,default
 Zo-27_bark-1,,Zo,27_bark,sábéè,sábéè,s á/a b é/e è/e,,Galucio2015,,,^ s á b é è $,default
 Ku-27_bark-1,,Ku,27_bark,ja-kíe,ja-kíe,j a k í/i e,,Galucio2015,,,^ j a - k í e $,default
 Mu-27_bark-1,,Mu,27_bark,taí-ʃeé,taí-ʃeé,t a í/i ʃ e é/e,,Galucio2015,,,^ ta í - ʃ e é $,default
@@ -612,20 +612,20 @@ Ma-28_skin-1,,Ma,28_skin,pe(e),pe,p e,,Galucio2015,,,^ p e $,default
 Me-28_skin-1,,Me,28_skin,i-pe,i-pe,i p e,,Galucio2015,,,^ i - p e $,default
 Mw-28_skin-1,,Mw,28_skin,ai-pe,ai-pe,a i p e,,Galucio2015,,,^ a i - p e $,default
 Pg-28_skin-1,,Pg,28_skin,piɾe,piɾe,p i ɾ e,,Galucio2015,,,^ p i ɾ e $,default
-Pt-28_skin-1,,Pt,28_skin,-piɾ,-piɾ,p i ɾ,,Galucio2015,,,^ - p i ɾ $,default
+Pt-28_skin-1,,Pt,28_skin,-piɾ,-piɾ,p i ɾ,,Galucio2015,,,^- p i ɾ $,default
 Pu-28_skin-1,,Pu,28_skin,tabe,tabe,t a b e,,Galucio2015,,,^ ta be $,default
 Ta-28_skin-1,,Ta,28_skin,pit,pit,p i t,,Galucio2015,,,^ p i t $,default
 Tu-28_skin-1,,Tu,28_skin,pee,pee,p eː,,Galucio2015,,,^ p ee $,default
 Uk-28_skin-1,,Uk,28_skin,i-piɾeɾ,i-piɾeɾ,i p i ɾ e ɾ,,Galucio2015,,,^ i - p i ɾ e ɾ $,default
 Wa-28_skin-1,,Wa,28_skin,pe,pe,p e,,Galucio2015,,,^ p e $,default
-Gv-28_skin-1,,Gv,28_skin,-ʦéɾék,-ʦéɾék,ts é/e ɾ é/e k,,Galucio2015,,,^ - ʦ é ɾ é k $,default
-Sa-28_skin-1,,Sa,28_skin,-séɾék,-séɾék,s é/e ɾ é/e k,,Galucio2015,,,^ - s é ɾ é k $,default
+Gv-28_skin-1,,Gv,28_skin,-ʦéɾék,-ʦéɾék,ts é/e ɾ é/e k,,Galucio2015,,,^- ʦ é ɾ é k $,default
+Sa-28_skin-1,,Sa,28_skin,-séɾék,-séɾék,s é/e ɾ é/e k,,Galucio2015,,,^- s é ɾ é k $,default
 Su-28_skin-1,,Su,28_skin,ɬéɾék,ɬéɾék,ɬ é/e ɾ é/e k,,Galucio2015,,,^ ɬ é ɾ é k $,default
-Zo-28_skin-1,,Zo,28_skin,-séɾék,-séɾék,s é/e ɾ é/e k,,Galucio2015,,,^ - s é ɾ é k $,default
+Zo-28_skin-1,,Zo,28_skin,-séɾék,-séɾék,s é/e ɾ é/e k,,Galucio2015,,,^- s é ɾ é k $,default
 Ku-28_skin-1,,Ku,28_skin,kíe,kíe,k í/i e,,Galucio2015,,,^ k í e $,default
 Mu-28_skin-1,,Mu,28_skin,ʃeé,ʃeé,ʃ e é/e,,Galucio2015,,,^ ʃ e é $,default
-Ju-28_skin-1,,Ju,28_skin,-sa,-sa,s a,,Galucio2015,,,^ - s a $,default
-Xi-28_skin-1,,Xi,28_skin,-sa,-sa,s a,,Galucio2015,,,^ - s a $,default
+Ju-28_skin-1,,Ju,28_skin,-sa,-sa,s a,,Galucio2015,,,^- s a $,default
+Xi-28_skin-1,,Xi,28_skin,-sa,-sa,s a,,Galucio2015,,,^- s a $,default
 Ar-29_fleshmeat-1,,Ar,29_fleshmeat,jõp,jõp,j õ p,,Galucio2015,,,^ j õ p $,default
 Gv-29_fleshmeat-1,,Gv,29_fleshmeat,jõ̂õ̀p,jõ̂õ̀p,j õ̂/õ õ̀/õ p,,Galucio2015,,,^ j õ̂ õ̀ p $,default
 Ku-29_fleshmeat-1,,Ku,29_fleshmeat,ẽn,ẽn,ẽ n,,Galucio2015,,,^ ẽ n $,default
@@ -638,7 +638,7 @@ Wa-29_fleshmeat-1,,Wa,29_fleshmeat,iko-ɲẽɾã,iko-ɲẽɾã,i k o ɲ ẽ ɾ �
 Zo-29_fleshmeat-1,,Zo,29_fleshmeat,jṍṍß-a,jṍṍß-a,j ṍṍ/õː β a,,Galucio2015,,,^ j ṍṍ ß - a $,default
 Aw-29_fleshmeat-1,,Aw,29_fleshmeat,ujã,ujã,u j ã,,Galucio2015,,,^ u j ã $,default
 Pg-29_fleshmeat-1,,Pg,29_fleshmeat,s-oʔo,s-oʔo,s o ʔ o,,Galucio2015,,,^ s - o ʔ o $,default
-Pt-29_fleshmeat-1,,Pt,29_fleshmeat,-aʔo,-aʔo,a ʔ o,,Galucio2015,,,^ - a ʔ o $,default
+Pt-29_fleshmeat-1,,Pt,29_fleshmeat,-aʔo,-aʔo,a ʔ o,,Galucio2015,,,^- a ʔ o $,default
 Ta-29_fleshmeat-1,,Ta,29_fleshmeat,aha,aha,a h a,,Galucio2015,,,^ a h a $,default
 Uk-29_fleshmeat-1,,Uk,29_fleshmeat,h-u-kweɾ,h-u-kweɾ,h u k w e ɾ,,Galucio2015,,,^ h - u - kw e ɾ $,default
 Ju-29_fleshmeat-1,,Ju,29_fleshmeat,aʧá,aʧá,a tʃ á/a,,Galucio2015,,,^ a ʧ á $,default
@@ -655,7 +655,7 @@ Mu-30_blood-2,,Mu,30_blood,toj ~ doj,doj,d o j,,Galucio2015,,,^ do j $,default
 Mw-30_blood-1,,Mw,30_blood,huu ~ suu,huu,h uː,,Galucio2015,,,^ huu $,default
 Mw-30_blood-2,,Mw,30_blood,huu ~ suu,suu,s uː,,Galucio2015,,,^ s uu $,default
 Pg-30_blood-1,,Pg,30_blood,t-uɡwɨ,t-uɡwɨ,t u g w ɨ,,Galucio2015,,,^ t - u ɡw ɨ $,default
-Pt-30_blood-1,,Pt,30_blood,-ɡwɨ,-ɡwɨ,g w ɨ,,Galucio2015,,,^ - ɡw ɨ $,default
+Pt-30_blood-1,,Pt,30_blood,-ɡwɨ,-ɡwɨ,g w ɨ,,Galucio2015,,,^- ɡw ɨ $,default
 Ta-30_blood-1,,Ta,30_blood,owɨ,owɨ,o w ɨ,,Galucio2015,,,^ o w ɨ $,default
 Uk-30_blood-1,,Uk,30_blood,h-uwɨ,h-uwɨ,h u w ɨ,,Galucio2015,,,^ h - u w ɨ $,default
 Ak-30_blood-1,,Ak,30_blood,eʔɨ,eʔɨ,e ʔ ɨ,,Galucio2015,,,^ e ʔ ɨ $,default
@@ -664,11 +664,11 @@ Ma-30_blood-1,,Ma,30_blood,ʧeɨ,ʧeɨ,tʃ e ɨ,,Galucio2015,,,^ ʧ e ɨ $,defau
 Me-30_blood-1,,Me,30_blood,a.ɨ,a.ɨ,a + ɨ,,Galucio2015,,,^ a . ɨ $,default
 Tu-30_blood-1,,Tu,30_blood,eɨ,eɨ,e ɨ,,Galucio2015,,,^ e ɨ $,default
 Wa-30_blood-1,,Wa,30_blood,ɲʤaɨ,ɲʤaɨ,ɲ dʒ a ɨ,,Galucio2015,,,^ ɲ ʤ a ɨ $,default
-Ar-30_blood-1,,Ar,30_blood,-ciit,-ciit,c iː t,,Galucio2015,,,^ - c ii t $,default
-Gv-30_blood-1,,Gv,30_blood,-ciìt,-ciìt,c i ì/i t,,Galucio2015,,,^ - c i ì t $,default
-Sa-30_blood-1,,Sa,30_blood,-ʃiit,-ʃiit,ʃ iː t,,Galucio2015,,,^ - ʃ ii t $,default
-Su-30_blood-1,,Su,30_blood,-ʃiiɾ,-ʃiiɾ,ʃ iː ɾ,,Galucio2015,,,^ - ʃ ii ɾ $,default
-Zo-30_blood-1,,Zo,30_blood,-ciit,-ciit,c iː t,,Galucio2015,,,^ - c ii t $,default
+Ar-30_blood-1,,Ar,30_blood,-ciit,-ciit,c iː t,,Galucio2015,,,^- c ii t $,default
+Gv-30_blood-1,,Gv,30_blood,-ciìt,-ciìt,c i ì/i t,,Galucio2015,,,^- c i ì t $,default
+Sa-30_blood-1,,Sa,30_blood,-ʃiit,-ʃiit,ʃ iː t,,Galucio2015,,,^- ʃ ii t $,default
+Su-30_blood-1,,Su,30_blood,-ʃiiɾ,-ʃiiɾ,ʃ iː ɾ,,Galucio2015,,,^- ʃ ii ɾ $,default
+Zo-30_blood-1,,Zo,30_blood,-ciit,-ciit,c iː t,,Galucio2015,,,^- c ii t $,default
 Ju-30_blood-1,,Ju,30_blood,apeta,apeta,a p e t a,,Galucio2015,,,^ a p e ta $,default
 Xi-30_blood-1,,Xi,30_blood,apeta,apeta,a p e t a,,Galucio2015,,,^ a p e ta $,default
 Ka-30_blood-1,,Ka,30_blood,i-ju,i-ju,i j u,,Galucio2015,,,^ i - ju $,default
@@ -682,9 +682,9 @@ Ka-31_bone-1,,Ka,31_bone,i-ciɡã,i-ciɡã,i c i g ã,,Galucio2015,,,^ i - c i �
 Me-31_bone-1,,Me,31_bone,o-aako,o-aako,o aː k o,,Galucio2015,,,^ o - aa k o $,default
 Mw-31_bone-1,,Mw,31_bone,i-kaŋ,i-kaŋ,i k a ŋ,,Galucio2015,,,^ i - k a ŋ $,default
 Pg-31_bone-1,,Pg,31_bone,kaŋwe,kaŋwe,k a ŋ w e,,Galucio2015,,,^ k a ŋw e $,default
-Pt-31_bone-1,,Pt,31_bone,-kaŋ,-kaŋ,k a ŋ,,Galucio2015,,,^ - k a ŋ $,default
+Pt-31_bone-1,,Pt,31_bone,-kaŋ,-kaŋ,k a ŋ,,Galucio2015,,,^- k a ŋ $,default
 Sa-31_bone-1,,Sa,31_bone,kã́ã́l,kã́ã́l,k ã́ã́/ãː l,,Galucio2015,,,^ k ã́ã́ l $,default
-Su-31_bone-1,,Su,31_bone,-kã́ã́ɾ,-kã́ã́ɾ,k ã́ã́/ãː ɾ,,Galucio2015,,,^ - k ã́ã́ ɾ $,default
+Su-31_bone-1,,Su,31_bone,-kã́ã́ɾ,-kã́ã́ɾ,k ã́ã́/ãː ɾ,,Galucio2015,,,^- k ã́ã́ ɾ $,default
 Ta-31_bone-1,,Ta,31_bone,kɨŋ,kɨŋ,k ɨ ŋ,,Galucio2015,,,^ k ɨ ŋ $,default
 Tu-31_bone-1,,Tu,31_bone,akanʔa,akanʔa,a k a n ʔ a,,Galucio2015,,,^ a k a n ʔ a $,default
 Uk-31_bone-1,,Uk,31_bone,kaŋweɾ,kaŋweɾ,k a ŋ w e ɾ,,Galucio2015,,,^ k a ŋw e ɾ $,default
@@ -695,8 +695,8 @@ Ku-31_bone-2,,Ku,31_bone,tao ~ ɮao,ɮao,ɮ a o,,Galucio2015,,,^ ɮ a o $,defaul
 Ma-31_bone-1,,Ma,31_bone,tʃeßaoo,tʃeßaoo,tʃ e β a oː,,Galucio2015,,,^ tʃ e ß a oo $,default
 Mu-31_bone-1,,Mu,31_bone,taó ~ daó,taó,t a ó/o,,Galucio2015,,,^ taó $,default
 Mu-31_bone-2,,Mu,31_bone,taó ~ daó,daó,d a ó/o,,Galucio2015,,,^ d a ó $,default
-Ju-31_bone-1,,Ju,31_bone,-pakɨ,-pakɨ,p a k ɨ,,Galucio2015,,,^ - p a k ɨ $,default
-Xi-31_bone-1,,Xi,31_bone,-pakɨ,-pakɨ,p a k ɨ,,Galucio2015,,,^ - p a k ɨ $,default
+Ju-31_bone-1,,Ju,31_bone,-pakɨ,-pakɨ,p a k ɨ,,Galucio2015,,,^- p a k ɨ $,default
+Xi-31_bone-1,,Xi,31_bone,-pakɨ,-pakɨ,p a k ɨ,,Galucio2015,,,^- p a k ɨ $,default
 Pu-31_bone-1,,Pu,31_bone,muɾũp,muɾũp,m u ɾ ũ p,,Galucio2015,,,^ m u ɾ ũ p $,default
 Kt-31_bone-1,,Kt,31_bone,ʔep,ʔep,ʔ e p,,Galucio2015,,,^ ʔ e p $,default
 Ak-32_egg-1,,Ak,32_egg,umbitaap,umbitaap,u m b i t a a p,,Galucio2015,,,^ u m b i ta a p $,default
@@ -710,7 +710,7 @@ Mu-32_egg-1,,Mu,32_egg,topsa̤ ~ dopsa̤,topsa̤,t o p s a̤,,Galucio2015,,,^ to
 Mu-32_egg-2,,Mu,32_egg,topsa̤ ~ dopsa̤,dopsa̤,d o p s a̤,,Galucio2015,,,^ do ps a̤ $,default
 Mw-32_egg-1,,Mw,32_egg,h-upiʔa,h-upiʔa,h u p i ʔ a,,Galucio2015,,,^ h - u p i ʔ a $,default
 Pg-32_egg-1,,Pg,32_egg,t-upiʔa,t-upiʔa,t u p i ʔ a,,Galucio2015,,,^ t - u p i ʔ a $,default
-Pt-32_egg-1,,Pt,32_egg,-upiʔa,-upiʔa,u p i ʔ a,,Galucio2015,,,^ - u p i ʔ a $,default
+Pt-32_egg-1,,Pt,32_egg,-upiʔa,-upiʔa,u p i ʔ a,,Galucio2015,,,^- u p i ʔ a $,default
 Su-32_egg-1,,Su,32_egg,sɨpi,sɨpi,s ɨ p i,,Galucio2015,,,^ s ɨ p i $,default
 Ta-32_egg-1,,Ta,32_egg,opihã,opihã,o p i h ã,,Galucio2015,,,^ o p i h ã $,default
 Tu-32_egg-1,,Tu,32_egg,opsiʔa,opsiʔa,o p s i ʔ a,,Galucio2015,,,^ o ps i ʔ a $,default
@@ -725,24 +725,24 @@ Su-32_egg-2,,Su,32_egg,káp,káp,k á/a p,,Galucio2015,,,^ k á p $,default
 Zo-32_egg-1,,Zo,32_egg,káp,káp,k á/a p,,Galucio2015,,,^ k á p $,default
 Ka-32_egg-1,,Ka,32_egg,aʔ-joɡa,aʔ-joɡa,a ʔ j o g a,,Galucio2015,,,^ a ʔ - j o ɡ a $,default
 Ak-33_greasefat-1,,Ak,33_greasefat,i-ʔap,i-ʔap,i ʔ a p,,Galucio2015,,,^ i - ʔ a p $,default
-Ar-33_greasefat-1,,Ar,33_greasefat,-kap,-kap,k a p,,Galucio2015,,,^ - k a p $,default
+Ar-33_greasefat-1,,Ar,33_greasefat,-kap,-kap,k a p,,Galucio2015,,,^- k a p $,default
 Aw-33_greasefat-1,,Aw,33_greasefat,kap,kap,k a p,,Galucio2015,,,^ k a p $,default
-Gv-33_greasefat-1,,Gv,33_greasefat,-kap,-kap,k a p,,Galucio2015,,,^ - k a p $,default
+Gv-33_greasefat-1,,Gv,33_greasefat,-kap,-kap,k a p,,Galucio2015,,,^- k a p $,default
 Ju-33_greasefat-1,,Ju,33_greasefat,i-kahá,i-kahá,i k a h á/a,,Galucio2015,,,^ i - k a h á $,default
 Ka-33_greasefat-1,,Ka,33_greasefat,i-kap,i-kap,i k a p,,Galucio2015,,,^ i - k a p $,default
 Ku-33_greasefat-1,,Ku,33_greasefat,ʃep,ʃep,ʃ e p,,Galucio2015,,,^ ʃ e p $,default
 Ma-33_greasefat-1,,Ma,33_greasefat,i-kap,i-kap,i k a p,,Galucio2015,,,^ i - k a p $,default
 Me-33_greasefat-1,,Me,33_greasefat,jap sese,jap sese,j a p + s e s e,,Galucio2015,,,^ j a p + s e s e $,default
 Mu-33_greasefat-1,,Mu,33_greasefat,ʃep,ʃep,ʃ e p,,Galucio2015,,,^ ʃ e p $,default
-Pt-33_greasefat-1,,Pt,33_greasefat,-kav,-kav,k a v,,Galucio2015,,,^ - k a v $,default
-Sa-33_greasefat-1,,Sa,33_greasefat,-kap,-kap,k a p,,Galucio2015,,,^ - k a p $,default
-Su-33_greasefat-1,,Su,33_greasefat,-kap,-kap,k a p,,Galucio2015,,,^ - k a p $,default
+Pt-33_greasefat-1,,Pt,33_greasefat,-kav,-kav,k a v,,Galucio2015,,,^- k a v $,default
+Sa-33_greasefat-1,,Sa,33_greasefat,-kap,-kap,k a p,,Galucio2015,,,^- k a p $,default
+Su-33_greasefat-1,,Su,33_greasefat,-kap,-kap,k a p,,Galucio2015,,,^- k a p $,default
 Ta-33_greasefat-1,,Ta,33_greasefat,kam,kam,k a m,,Galucio2015,,,^ k a m $,default
 Tu-33_greasefat-1,,Tu,33_greasefat,ap,ap,a p,,Galucio2015,,,^ a p $,default
 Uk-33_greasefat-1,,Uk,33_greasefat,ka,ka,k a,,Galucio2015,,,^ k a $,default
 Wa-33_greasefat-1,,Wa,33_greasefat,nʤap,nʤap,n dʒ a p,,Galucio2015,,,^ n ʤ a p $,default
 Xi-33_greasefat-1,,Xi,33_greasefat,i-kapa,i-kapa,i k a p a,,Galucio2015,,,^ i - k a p a $,default
-Zo-33_greasefat-1,,Zo,33_greasefat,-kap,-kap,k a p,,Galucio2015,,,^ - k a p $,default
+Zo-33_greasefat-1,,Zo,33_greasefat,-kap,-kap,k a p,,Galucio2015,,,^- k a p $,default
 Pg-33_greasefat-1,,Pg,33_greasefat,ɲandi,ɲandi,ɲ a n d i,,Galucio2015,,,^ ɲ a n d i $,default
 Ma-33_greasefat-2,,Ma,33_greasefat,weɾep,weɾep,w e ɾ e p,,Galucio2015,,,^ w e ɾ e p $,default
 Pu-33_greasefat-1,,Pu,33_greasefat,biʃoa,biʃoa,b i ʃ o a,,Galucio2015,,,^ b i ʃ o a $,default
@@ -757,11 +757,11 @@ Wa-34_horn-1,,Wa,34_horn,ɲãŋɡoja,ɲãŋɡoja,ɲ ã ŋ g o j a,,Galucio2015,,
 Ju-34_horn-1,,Ju,34_horn,aʃã́,aʃã́,a ʃ ã́/ã,,Galucio2015,,,^ a ʃ ã́ $,default
 Mw-34_horn-1,,Mw,34_horn,i-aut,i-aut,i a u t,,Galucio2015,,,^ i - a u t $,default
 Pg-34_horn-1,,Pg,34_horn,t-atĩ,t-atĩ,t a t ĩ,,Galucio2015,,,^ t - a t ĩ $,default
-Pt-34_horn-1,,Pt,34_horn,-atĩ,-atĩ,a t ĩ,,Galucio2015,,,^ - a t ĩ $,default
+Pt-34_horn-1,,Pt,34_horn,-atĩ,-atĩ,a t ĩ,,Galucio2015,,,^- a t ĩ $,default
 Ta-34_horn-1,,Ta,34_horn,ãtjĩ,ãtjĩ,ã t j ĩ,,Galucio2015,,,^ ã t j ĩ $,default
 Xi-34_horn-1,,Xi,34_horn,aʃã,aʃã,a ʃ ã,,Galucio2015,,,^ a ʃ ã $,default
-Ar-34_horn-1,,Ar,34_horn,-apekot,-apekot,a p e k o t,,Galucio2015,,,^ - a p e k o t $,default
-Gv-34_horn-1,,Gv,34_horn,-ápekôòt,-ápekôòt,á/a p e k ô/o ò/o t,,Galucio2015,,,^ - á p e k ô ò t $,default
+Ar-34_horn-1,,Ar,34_horn,-apekot,-apekot,a p e k o t,,Galucio2015,,,^- a p e k o t $,default
+Gv-34_horn-1,,Gv,34_horn,-ápekôòt,-ápekôòt,á/a p e k ô/o ò/o t,,Galucio2015,,,^- á p e k ô ò t $,default
 Kt-34_horn-1,,Kt,34_horn,opikĩɲõ,opikĩɲõ,o p i k ĩ ɲ õ,,Galucio2015,,,^ o p i k ĩ ɲ õ $,default
 Ma-34_horn-1,,Ma,34_horn,api-kɨb,api-kɨb,a p i k ɨ b,,Galucio2015,,,^ a p i - k ɨ b $,default
 Ka-34_horn-1,,Ka,34_horn,aʔ-naʔĩn,aʔ-naʔĩn,a ʔ n a ʔ ĩ n,,Galucio2015,,,^ a ʔ - n a ʔ ĩ n $,default
@@ -783,17 +783,17 @@ Tu-35_tail-1,,Tu,35_tail,oajt,oajt,o a j t,,Galucio2015,,,^ o a j t $,default
 Uk-35_tail-1,,Uk,35_tail,h-uwaj,h-uwaj,h u w a j,,Galucio2015,,,^ h - u w a j $,default
 Wa-35_tail-1,,Wa,35_tail,ɲʤokwaj,ɲʤokwaj,ɲ dʒ o k w a j,,Galucio2015,,,^ ɲ ʤ o kw a j $,default
 Xi-35_tail-1,,Xi,35_tail,watapa,watapa,w a t a p a,,Galucio2015,,,^ w a tap a $,default
-Ar-35_tail-1,,Ar,35_tail,-ʦapṍp,-ʦapṍp,ts a p õ p,,Galucio2015,,,^ - ʦ a p ṍ p $,default
-Gv-35_tail-1,,Gv,35_tail,-ʦapṍõ̀p,-ʦapṍõ̀p,ts a p õ õ̀/õ p,,Galucio2015,,,^ - ʦ a p ṍ õ̀ p $,default
+Ar-35_tail-1,,Ar,35_tail,-ʦapṍp,-ʦapṍp,ts a p õ p,,Galucio2015,,,^- ʦ a p ṍ p $,default
+Gv-35_tail-1,,Gv,35_tail,-ʦapṍõ̀p,-ʦapṍõ̀p,ts a p õ õ̀/õ p,,Galucio2015,,,^- ʦ a p ṍ õ̀ p $,default
 Ka-35_tail-1,,Ka,35_tail,aʔ-capóp pɨʔ,aʔ-capóp pɨʔ,a ʔ c a p ó/o p + p ɨ ʔ,,Galucio2015,,,^ a ʔ - c a p ó p + p ɨ ʔ $,default
 Pu-35_tail-1,,Pu,35_tail,tabop,tabop,t a b o p,,Galucio2015,,,^ ta b o p $,default
-Sa-35_tail-1,,Sa,35_tail,-sapṍp,-sapṍp,s a p õ p,,Galucio2015,,,^ - s a p ṍ p $,default
-Su-35_tail-1,,Su,35_tail,-sapom,-sapom,s a p o m,,Galucio2015,,,^ - s a p o m $,default
-Zo-35_tail-1,,Zo,35_tail,-sapṍõ̀p,-sapṍõ̀p,s a p õ õ̀/õ p,,Galucio2015,,,^ - s a p ṍ õ̀ p $,default
+Sa-35_tail-1,,Sa,35_tail,-sapṍp,-sapṍp,s a p õ p,,Galucio2015,,,^- s a p ṍ p $,default
+Su-35_tail-1,,Su,35_tail,-sapom,-sapom,s a p o m,,Galucio2015,,,^- s a p o m $,default
+Zo-35_tail-1,,Zo,35_tail,-sapṍõ̀p,-sapṍõ̀p,s a p õ õ̀/õ p,,Galucio2015,,,^- s a p ṍ õ̀ p $,default
 Me-35_tail-1,,Me,35_tail,s-apiɾip,s-apiɾip,s a p i ɾ i p,,Galucio2015,,,^ s - a p i ɾ i p $,default
-Ar-36_feather-1,,Ar,36_feather,-ʦép,-ʦép,ts é/e p,,Galucio2015,,,^ - ʦ é p $,default
+Ar-36_feather-1,,Ar,36_feather,-ʦép,-ʦép,ts é/e p,,Galucio2015,,,^- ʦ é p $,default
 Aw-36_feather-1,,Aw,36_feather,ap,ap,a p,,Galucio2015,,,^ a p $,default
-Gv-36_feather-1,,Gv,36_feather,-ʦép,-ʦép,ts é/e p,,Galucio2015,,,^ - ʦ é p $,default
+Gv-36_feather-1,,Gv,36_feather,-ʦép,-ʦép,ts é/e p,,Galucio2015,,,^- ʦ é p $,default
 Ka-36_feather-1,,Ka,36_feather,aʔ-cap,aʔ-cap,a ʔ c a p,,Galucio2015,,,^ a ʔ - c a p $,default
 Ku-36_feather-1,,Ku,36_feather,tap ~ ɬap,tap,t a p,,Galucio2015,,,^ tap $,default
 Ku-36_feather-2,,Ku,36_feather,tap ~ ɬap,ɬap,ɬ a p,,Galucio2015,,,^ ɬ a p $,default
@@ -803,24 +803,24 @@ Mu-36_feather-1,,Mu,36_feather,tap ~ dap,tap,t a p,,Galucio2015,,,^ tap $,defaul
 Mu-36_feather-2,,Mu,36_feather,tap ~ dap,dap,d a p,,Galucio2015,,,^ d a p $,default
 Mw-36_feather-1,,Mw,36_feather,i-pope sap,i-pope sap,i p o p e + s a p,,Galucio2015,,,^ i - p o p e + s a p $,default
 Pg-36_feather-1,,Pg,36_feather,t-aɡwe,t-aɡwe,t a g w e,,Galucio2015,,,^ t - a ɡw e $,default
-Pt-36_feather-1,,Pt,36_feather,-ava,-ava,a v a,,Galucio2015,,,^ - a v a $,default
+Pt-36_feather-1,,Pt,36_feather,-ava,-ava,a v a,,Galucio2015,,,^- a v a $,default
 Pu-36_feather-1,,Pu,36_feather,təp,təp,t ə p,,Galucio2015,,,^ təp $,default
-Sa-36_feather-1,,Sa,36_feather,-sép,-sép,s é/e p,,Galucio2015,,,^ - s é p $,default
+Sa-36_feather-1,,Sa,36_feather,-sép,-sép,s é/e p,,Galucio2015,,,^- s é p $,default
 Ta-36_feather-1,,Ta,36_feather,am,am,a m,,Galucio2015,,,^ a m $,default
 Uk-36_feather-1,,Uk,36_feather,h-a,h-a,h a,,Galucio2015,,,^ h - a $,default
-Xi-36_feather-1,,Xi,36_feather,-taba,-taba,t a b a,,Galucio2015,,,^ - ta b a $,default
-Zo-36_feather-1,,Zo,36_feather,-sép,-sép,s é/e p,,Galucio2015,,,^ - s é p $,default
+Xi-36_feather-1,,Xi,36_feather,-taba,-taba,t a b a,,Galucio2015,,,^- ta b a $,default
+Zo-36_feather-1,,Zo,36_feather,-sép,-sép,s é/e p,,Galucio2015,,,^- s é p $,default
 Ak-36_feather-1,,Ak,36_feather,pebo,pebo,p e b o,,Galucio2015,,,^ p e b o $,default
 Kt-36_feather-1,,Kt,36_feather,papɨ,papɨ,p a p ɨ,,Galucio2015,,,^ p a p ɨ $,default
 Tu-36_feather-1,,Tu,36_feather,pepʔo,pepʔo,p e p ʔ o,,Galucio2015,,,^ p e p ʔ o $,default
 Wa-36_feather-1,,Wa,36_feather,peo,peo,p e o,,Galucio2015,,,^ p e o $,default
 Ju-36_feather-1,,Ju,36_feather,bitahá,bitahá,b i t a h á/a,,Galucio2015,,,^ b i ta h á $,default
-Su-36_feather-1,,Su,36_feather,-posã́n,-posã́n,p o s ã́/ã n,,Galucio2015,,,^ - p o s ã́ n $,default
+Su-36_feather-1,,Su,36_feather,-posã́n,-posã́n,p o s ã́/ã n,,Galucio2015,,,^- p o s ã́ n $,default
 Ak-37_hair-1,,Ak,37_hair,tap,tap,t a p,,Galucio2015,,,^ tap $,default
 Ar-37_hair-1,,Ar,37_hair,ʦép,ʦép,ts é/e p,,Galucio2015,,,^ ʦ é p $,default
 Aw-37_hair-1,,Aw,37_hair,ap,ap,a p,,Galucio2015,,,^ a p $,default
 Gv-37_hair-1,,Gv,37_hair,ʦép,ʦép,ts é/e p,,Galucio2015,,,^ ʦ é p $,default
-Ju-37_hair-1,,Ju,37_hair,-tabá,-tabá,t a b á/a,,Galucio2015,,,^ - ta b á $,default
+Ju-37_hair-1,,Ju,37_hair,-tabá,-tabá,t a b á/a,,Galucio2015,,,^- ta b á $,default
 Ka-37_hair-1,,Ka,37_hair,aʔ-naʔcap,aʔ-naʔcap,a ʔ n a ʔ c a p,,Galucio2015,,,^ a ʔ - n a ʔ c a p $,default
 Kt-37_hair-1,,Kt,37_hair,sop,sop,s o p,,Galucio2015,,,^ s o p $,default
 Ku-37_hair-1,,Ku,37_hair,tap ~ ɬap,tap,t a p,,Galucio2015,,,^ tap $,default
@@ -830,56 +830,56 @@ Me-37_hair-1,,Me,37_hair,tap,tap,t a p,,Galucio2015,,,^ tap $,default
 Mu-37_hair-1,,Mu,37_hair,tap ~ dap,tap,t a p,,Galucio2015,,,^ tap $,default
 Mu-37_hair-2,,Mu,37_hair,tap ~ dap,dap,d a p,,Galucio2015,,,^ d a p $,default
 Pg-37_hair-1,,Pg,37_hair,t-aɡwe,t-aɡwe,t a g w e,,Galucio2015,,,^ t - a ɡw e $,default
-Pt-37_hair-1,,Pt,37_hair,-(ʔ)av,-av,a v,,Galucio2015,,,^ - a v $,default
+Pt-37_hair-1,,Pt,37_hair,-(ʔ)av,-av,a v,,Galucio2015,,,^- a v $,default
 Pu-37_hair-1,,Pu,37_hair,tap,tap,t a p,,Galucio2015,,,^ tap $,default
 Sa-37_hair-1,,Sa,37_hair,sép,sép,s é/e p,,Galucio2015,,,^ s é p $,default
 Ta-37_hair-1,,Ta,37_hair,h-am,h-am,h a m,,Galucio2015,,,^ h - a m $,default
 Tu-37_hair-1,,Tu,37_hair,apapʔa-hap,apapʔa-hap,a p a p ʔ a h a p,,Galucio2015,,,^ a p a p ʔ a - h a p $,default
 Uk-37_hair-1,,Uk,37_hair,h-a,h-a,h a,,Galucio2015,,,^ h - a $,default
 Wa-37_hair-1,,Wa,37_hair,ojã-ndap,ojã-ndap,o j ã n d a p,,Galucio2015,,,^ o j ã - n d a p $,default
-Xi-37_hair-1,,Xi,37_hair,-taba,-taba,t a b a,,Galucio2015,,,^ - ta b a $,default
+Xi-37_hair-1,,Xi,37_hair,-taba,-taba,t a b a,,Galucio2015,,,^- ta b a $,default
 Zo-37_hair-1,,Zo,37_hair,sép,sép,s é/e p,,Galucio2015,,,^ s é p $,default
 Ma-37_hair-2,,Ma,37_hair,aʔtɨɨm,aʔtɨɨm,a ʔ t ɨː m,,Galucio2015,,,^ a ʔ t ɨɨ m $,default
-Su-37_hair-1,,Su,37_hair,-sin,-sin,s i n,,Galucio2015,,,^ - s i n $,default
-Su-37_hair-2,,Su,37_hair,-sĩ́ĩ́n,-sĩ́ĩ́n,s ĩ́ĩ́/ĩː n,,Galucio2015,,,^ - s ĩ́ĩ́ n $,default
+Su-37_hair-1,,Su,37_hair,-sin,-sin,s i n,,Galucio2015,,,^- s i n $,default
+Su-37_hair-2,,Su,37_hair,-sĩ́ĩ́n,-sĩ́ĩ́n,s ĩ́ĩ́/ĩː n,,Galucio2015,,,^- s ĩ́ĩ́ n $,default
 Ma-38_head-1,,Ma,38_head,akaɾe,akaɾe,a k a ɾ e,,Galucio2015,,,^ a k a ɾ e $,default
 Mw-38_head-1,,Mw,38_head,ai-ʔakaŋ,ai-ʔakaŋ,a i ʔ a k a ŋ,,Galucio2015,,,^ a i - ʔ a k a ŋ $,default
 Pg-38_head-1,,Pg,38_head,akã,akã,a k ã,,Galucio2015,,,^ a k ã $,default
-Pt-38_head-1,,Pt,38_head,-akaŋ,-akaŋ,a k a ŋ,,Galucio2015,,,^ - a k a ŋ $,default
+Pt-38_head-1,,Pt,38_head,-akaŋ,-akaŋ,a k a ŋ,,Galucio2015,,,^- a k a ŋ $,default
 Pu-38_head-1,,Pu,38_head,aʃã,aʃã,a ʃ ã,,Galucio2015,,,^ a ʃ ã $,default
 Ta-38_head-1,,Ta,38_head,ãkɨŋ,ãkɨŋ,ã k ɨ ŋ,,Galucio2015,,,^ ã k ɨ ŋ $,default
 Uk-38_head-1,,Uk,38_head,i-akã,i-akã,i a k ã,,Galucio2015,,,^ i - a k ã $,default
-Ar-38_head-1,,Ar,38_head,-ádát,-ádát,á/a d á/a t,,Galucio2015,,,^ - á d á t $,default
-Gv-38_head-1,,Gv,38_head,-ádáàt,-ádáàt,á/a d á/a à/a t,,Galucio2015,,,^ - á d á à t $,default
-Sa-38_head-1,,Sa,38_head,-adátʔa,-adátʔa,a d á/a t ʔ a,,Galucio2015,,,^ - a d á t ʔ a $,default
+Ar-38_head-1,,Ar,38_head,-ádát,-ádát,á/a d á/a t,,Galucio2015,,,^- á d á t $,default
+Gv-38_head-1,,Gv,38_head,-ádáàt,-ádáàt,á/a d á/a à/a t,,Galucio2015,,,^- á d á à t $,default
+Sa-38_head-1,,Sa,38_head,-adátʔa,-adátʔa,a d á/a t ʔ a,,Galucio2015,,,^- a d á t ʔ a $,default
 Sa-38_head-2,,Sa,38_head,ã́dátʔa,ã́dátʔa,ã́/ã d á/a t ʔ a,,Galucio2015,,,^ ã́ d á t ʔ a $,default
-Su-38_head-1,,Su,38_head,-ánáɾ,-ánáɾ,á/a n á/a ɾ,,Galucio2015,,,^ - á n á ɾ $,default
+Su-38_head-1,,Su,38_head,-ánáɾ,-ánáɾ,á/a n á/a ɾ,,Galucio2015,,,^- á n á ɾ $,default
 Su-38_head-2,,Su,38_head,ã́nááɾ,ã́nááɾ,ã́/ã n áá/aː ɾ,,Galucio2015,,,^ ã́ n áá ɾ $,default
-Zo-38_head-1,,Zo,38_head,-ádáàt,-ádáàt,á/a d á/a à/a t,,Galucio2015,,,^ - á d á à t $,default
+Zo-38_head-1,,Zo,38_head,-ádáàt,-ádáàt,á/a d á/a à/a t,,Galucio2015,,,^- á d á à t $,default
 Zo-38_head-2,,Zo,38_head,ã́dáàt,ã́dáàt,ã́/ã d á/a à/a t,,Galucio2015,,,^ ã́ d á à t $,default
 Kt-38_head-1,,Kt,38_head,ʔo,ʔo,ʔ o,,Galucio2015,,,^ ʔ o $,default
 Ku-38_head-1,,Ku,38_head,ʔa,ʔa,ʔ a,,Galucio2015,,,^ ʔ a $,default
 Mu-38_head-1,,Mu,38_head,aʔá,aʔá,a ʔ á/a,,Galucio2015,,,^ a ʔ á $,default
 Ak-38_head-1,,Ak,38_head,anam,anam,a n a m,,Galucio2015,,,^ a n a m $,default
 Me-38_head-1,,Me,38_head,s-anɨp,s-anɨp,s a n ɨ p,,Galucio2015,,,^ s - a n ɨ p $,default
-Ju-38_head-1,,Ju,38_head,-tabá,-tabá,t a b á/a,,Galucio2015,,,^ - ta b á $,default
-Xi-38_head-1,,Xi,38_head,-taba,-taba,t a b a,,Galucio2015,,,^ - ta b a $,default
+Ju-38_head-1,,Ju,38_head,-tabá,-tabá,t a b á/a,,Galucio2015,,,^- ta b á $,default
+Xi-38_head-1,,Xi,38_head,-taba,-taba,t a b a,,Galucio2015,,,^- ta b a $,default
 Aw-38_head-1,,Aw,38_head,ʔaput,ʔaput,ʔ a p u t,,Galucio2015,,,^ ʔ a p u t $,default
 Wa-38_head-1,,Wa,38_head,oja,oja,o j a,,Galucio2015,,,^ o j a $,default
 Tu-38_head-1,,Tu,38_head,apapʔa,apapʔa,a p a p ʔ a,,Galucio2015,,,^ a p a p ʔ a $,default
 Ka-38_head-1,,Ka,38_head,anaká,anaká,a n a k á/a,,Galucio2015,,,^ a n a k á $,default
-Ar-39_ear-1,,Ar,39_ear,-nepiʔap,-nepiʔap,n e p i ʔ a p,,Galucio2015,,,^ - n e p i ʔ a p $,default
+Ar-39_ear-1,,Ar,39_ear,-nepiʔap,-nepiʔap,n e p i ʔ a p,,Galucio2015,,,^- n e p i ʔ a p $,default
 Aw-39_ear-1,,Aw,39_ear,j-ãpi,j-ãpi,j ã p i,,Galucio2015,,,^ j - ã p i $,default
-Gv-39_ear-1,,Gv,39_ear,-nepî-àp,-nepî-àp,n e p î/i à/a p,,Galucio2015,,,^ - n e p î - à p $,default
+Gv-39_ear-1,,Gv,39_ear,-nepî-àp,-nepî-àp,n e p î/i à/a p,,Galucio2015,,,^- n e p î - à p $,default
 Ku-39_ear-1,,Ku,39_ear,jaõpi,jaõpi,j a õ p i,,Galucio2015,,,^ j a õ p i $,default
 Mu-39_ear-1,,Mu,39_ear,nə̤jbə́,nə̤jbə́,n ə̤ j b ə́/ə,,Galucio2015,,,^ n ə̤ j b ə́ $,default
 Pg-39_ear-1,,Pg,39_ear,nambi,nambi,n a m b i,,Galucio2015,,,^ n a m b i $,default
 Pt-39_ear-1,,Pt,39_ear,nambi,nambi,n a m b i,,Galucio2015,,,^ n a m b i $,default
 Sa-39_ear-1,,Sa,39_ear,nãbi-bé,nãbi-bé,n ã b i b é/e,,Galucio2015,,,^ n ã b i - b é $,default
-Su-39_ear-1,,Su,39_ear,-nepi-bé,-nepi-bé,n e p i b é/e,,Galucio2015,,,^ - n e p i - b é $,default
+Su-39_ear-1,,Su,39_ear,-nepi-bé,-nepi-bé,n e p i b é/e,,Galucio2015,,,^- n e p i - b é $,default
 Ta-39_ear-1,,Ta,39_ear,nami,nami,n a m i,,Galucio2015,,,^ n a m i $,default
 Uk-39_ear-1,,Uk,39_ear,i-nambi,i-nambi,i n a m b i,,Galucio2015,,,^ i - n a m b i $,default
-Zo-39_ear-1,,Zo,39_ear,-népí-áp,-népí-áp,n é/e p í/i á/a p,,Galucio2015,,,^ - n é p í - á p $,default
+Zo-39_ear-1,,Zo,39_ear,-népí-áp,-népí-áp,n é/e p í/i á/a p,,Galucio2015,,,^- n é p í - á p $,default
 Ak-39_ear-1,,Ak,39_ear,apitep,apitep,a p i t e p,,Galucio2015,,,^ a p i t e p $,default
 Ka-39_ear-1,,Ka,39_ear,opiɾisap,opiɾisap,o p i ɾ i s a p,,Galucio2015,,,^ o p i ɾ i s a p $,default
 Ma-39_ear-1,,Ma,39_ear,aʔpiʧeep,aʔpiʧeep,a ʔ p i tʃ eː p,,Galucio2015,,,^ a ʔ p i ʧ ee p $,default
@@ -890,22 +890,22 @@ Wa-39_ear-1,,Wa,39_ear,apitep,apitep,a p i t e p,,Galucio2015,,,^ a p i t e p $,
 Xi-39_ear-1,,Xi,39_ear,jãʃuka,jãʃuka,j ã ʃ u k a,,Galucio2015,,,^ j ã ʃ u k a $,default
 Ka-39_ear-2,,Ka,39_ear,i-nakɨɾa peʔ,i-nakɨɾa peʔ,i n a k ɨ ɾ a + p e ʔ,,Galucio2015,,,^ i - n a k ɨ ɾ a + p e ʔ $,default
 Pu-39_ear-1,,Pu,39_ear,ʃapetə,ʃapetə,ʃ a p e t ə,,Galucio2015,,,^ ʃ a p e t ə $,default
-Ar-40_eye-1,,Ar,40_eye,-ɟa-káp,-ɟa-káp,ɟ a k á/a p,,Galucio2015,,,^ - ɟ a - k á p $,default
+Ar-40_eye-1,,Ar,40_eye,-ɟa-káp,-ɟa-káp,ɟ a k á/a p,,Galucio2015,,,^- ɟ a - k á p $,default
 Aw-40_eye-1,,Aw,40_eye,ta,ta,t a,,Galucio2015,,,^ ta $,default
-Gv-40_eye-1,,Gv,40_eye,-ja-kíìp,-ja-kíìp,j a k í/i ì/i p,,Galucio2015,,,^ - j a - k í ì p $,default
-Ju-40_eye-1,,Ju,40_eye,-eʔá,-eʔá,e ʔ á/a,,Galucio2015,,,^ - e ʔ á $,default
+Gv-40_eye-1,,Gv,40_eye,-ja-kíìp,-ja-kíìp,j a k í/i ì/i p,,Galucio2015,,,^- j a - k í ì p $,default
+Ju-40_eye-1,,Ju,40_eye,-eʔá,-eʔá,e ʔ á/a,,Galucio2015,,,^- e ʔ á $,default
 Ku-40_eye-1,,Ku,40_eye,eta(ʔ),eta,e t a,,Galucio2015,,,^ e ta $,default
 Ma-40_eye-1,,Ma,40_eye,ʧiʧa,ʧiʧa,tʃ i tʃ a,,Galucio2015,,,^ ʧ i ʧ a $,default
 Mu-40_eye-1,,Mu,40_eye,etá,etá,e t á/a,,Galucio2015,,,^ e t á $,default
 Mw-40_eye-1,,Mw,40_eye,ah-eha,ah-eha,a h e h a,,Galucio2015,,,^ a h - e h a $,default
 Pg-40_eye-1,,Pg,40_eye,t-esa,t-esa,t e s a,,Galucio2015,,,^ t - e s a $,default
-Pt-40_eye-1,,Pt,40_eye,-eaʔɨɾ,-eaʔɨɾ,e a ʔ ɨ ɾ,,Galucio2015,,,^ - e a ʔ ɨ ɾ $,default
-Sa-40_eye-1,,Sa,40_eye,-ʒa-káp,-ʒa-káp,ʒ a k á/a p,,Galucio2015,,,^ - ʒ a - k á p $,default
-Su-40_eye-1,,Su,40_eye,-ja-káwa,-ja-káwa,j a k á/a w a,,Galucio2015,,,^ - j a - k á w a $,default
+Pt-40_eye-1,,Pt,40_eye,-eaʔɨɾ,-eaʔɨɾ,e a ʔ ɨ ɾ,,Galucio2015,,,^- e a ʔ ɨ ɾ $,default
+Sa-40_eye-1,,Sa,40_eye,-ʒa-káp,-ʒa-káp,ʒ a k á/a p,,Galucio2015,,,^- ʒ a - k á p $,default
+Su-40_eye-1,,Su,40_eye,-ja-káwa,-ja-káwa,j a k á/a w a,,Galucio2015,,,^- j a - k á w a $,default
 Ta-40_eye-1,,Ta,40_eye,ẽã,ẽã,ẽ ã,,Galucio2015,,,^ ẽ ã $,default
 Uk-40_eye-1,,Uk,40_eye,eha,eha,e h a,,Galucio2015,,,^ e h a $,default
 Xi-40_eye-1,,Xi,40_eye,sea,sea,s e a,,Galucio2015,,,^ s e a $,default
-Zo-40_eye-1,,Zo,40_eye,-ja-kíìp,-ja-kíìp,j a k í/i ì/i p,,Galucio2015,,,^ - j a - k í ì p $,default
+Zo-40_eye-1,,Zo,40_eye,-ja-kíìp,-ja-kíìp,j a k í/i ì/i p,,Galucio2015,,,^- j a - k í ì p $,default
 Ak-40_eye-1,,Ak,40_eye,epapa,epapa,e p a p a,,Galucio2015,,,^ e p a p a $,default
 Me-40_eye-1,,Me,40_eye,o-ebaopap,o-ebaopap,o e b a o p a p,,Galucio2015,,,^ o - e b a o p a p $,default
 Tu-40_eye-1,,Tu,40_eye,epa,epa,e p a,,Galucio2015,,,^ e p a $,default
@@ -914,9 +914,9 @@ Ka-40_eye-1,,Ka,40_eye,i-caɡá ʔaʔ,i-caɡá ʔaʔ,i c a g á/a + ʔ a ʔ,,Gal
 Pu-40_eye-1,,Pu,40_eye,toka,toka,t o k a,,Galucio2015,,,^ t o k a $,default
 Kt-40_eye-1,,Kt,40_eye,sɨɨpo,sɨɨpo,s ɨː p o,,Galucio2015,,,^ s ɨɨ p o $,default
 Ak-41_nose-1,,Ak,41_nose,ampita,ampita,a m p i t a,,Galucio2015,,,^ a m p i ta $,default
-Ar-41_nose-1,,Ar,41_nose,-amĩĩ,-amĩĩ,a m ĩː,,Galucio2015,,,^ - a m ĩĩ $,default
+Ar-41_nose-1,,Ar,41_nose,-amĩĩ,-amĩĩ,a m ĩː,,Galucio2015,,,^- a m ĩĩ $,default
 Aw-41_nose-1,,Aw,41_nose,ʔapĩj,ʔapĩj,ʔ a p ĩ j,,Galucio2015,,,^ ʔ a p ĩ j $,default
-Gv-41_nose-1,,Gv,41_nose,-ámîì,-ámîì,á/a m î/i ì/i,,Galucio2015,,,^ - á m î ì $,default
+Gv-41_nose-1,,Gv,41_nose,-ámîì,-ámîì,á/a m î/i ì/i,,Galucio2015,,,^- á m î ì $,default
 Kt-41_nose-1,,Kt,41_nose,ʤopiʔop,ʤopiʔop,dʒ o p i ʔ o p,,Galucio2015,,,^ ʤ o p i ʔ o p $,default
 Ku-41_nose-1,,Ku,41_nose,tõmiʔ,tõmiʔ,t õ m i ʔ,,Galucio2015,,,^ t õ m i ʔ $,default
 Ku-41_nose-2,,Ku,41_nose,nõmiʔ,nõmiʔ,n õ m i ʔ,,Galucio2015,,,^ n õ m i ʔ $,default
@@ -927,17 +927,17 @@ Me-41_nose-1,,Me,41_nose,o-ãpisa,o-ãpisa,o ã p i s a,,Galucio2015,,,^ o - ã 
 Mu-41_nose-1,,Mu,41_nose,ta̤bə́ ~ na̤bə́,ta̤bə́,t a̤ b ə́/ə,,Galucio2015,,,^ ta̤bə́ $,default
 Mu-41_nose-2,,Mu,41_nose,ta̤bə́ ~ na̤bə́,na̤bə́,n a̤ b ə́/ə,,Galucio2015,,,^ n a̤ b ə́ $,default
 Mw-41_nose-1,,Mw,41_nose,ai-ʔãpɨ,ai-ʔãpɨ,a i ʔ ã p ɨ,,Galucio2015,,,^ a i - ʔ ã p ɨ $,default
-Pt-41_nose-1,,Pt,41_nose,-apɨɲ,-apɨɲ,a p ɨ ɲ,,Galucio2015,,,^ - a p ɨ ɲ $,default
-Sa-41_nose-1,,Sa,41_nose,-aßĩʔã,-aßĩʔã,a β ĩ ʔ ã,,Galucio2015,,,^ - a ß ĩ ʔ ã $,default
-Su-41_nose-1,,Su,41_nose,- ámĩãã,- ámĩãã,+ á/a m ĩ ãː,,Galucio2015,,,^ - + á m ĩ ãã $,default
+Pt-41_nose-1,,Pt,41_nose,-apɨɲ,-apɨɲ,a p ɨ ɲ,,Galucio2015,,,^- a p ɨ ɲ $,default
+Sa-41_nose-1,,Sa,41_nose,-aßĩʔã,-aßĩʔã,a β ĩ ʔ ã,,Galucio2015,,,^- a ß ĩ ʔ ã $,default
+Su-41_nose-1,,Su,41_nose,- ámĩãã,ámĩãã,á/a m ĩ ãː,,Galucio2015,,,^ á m ĩ ãã $,default
 Tu-41_nose-1,,Tu,41_nose,amsi,amsi,a m s i,,Galucio2015,,,^ a ms i $,default
 Uk-41_nose-1,,Uk,41_nose,i-ãpũi,i-ãpũi,i ã p ũ i,,Galucio2015,,,^ i - ã p ũ i $,default
 Wa-41_nose-1,,Wa,41_nose,ãpia,ãpia,ã p i a,,Galucio2015,,,^ ã p i a $,default
 Xi-41_nose-1,,Xi,41_nose,jamĩkua,jamĩkua,j a m ĩ k u a,,Galucio2015,,,^ j a m ĩ k u a $,default
-Zo-41_nose-1,,Zo,41_nose,-ámii,-ámii,á/a m iː,,Galucio2015,,,^ - á m ii $,default
+Zo-41_nose-1,,Zo,41_nose,-ámii,-ámii,á/a m iː,,Galucio2015,,,^- á m ii $,default
 Pg-41_nose-1,,Pg,41_nose,tĩ,tĩ,t ĩ,,Galucio2015,,,^ t ĩ $,default
 Ta-41_nose-1,,Ta,41_nose,tjĩ,tjĩ,t j ĩ,,Galucio2015,,,^ t j ĩ $,default
-Ju-41_nose-1,,Ju,41_nose,-iʔã́,-iʔã́,i ʔ ã́/ã,,Galucio2015,,,^ - i ʔ ã́ $,default
+Ju-41_nose-1,,Ju,41_nose,-iʔã́,-iʔã́,i ʔ ã́/ã,,Galucio2015,,,^- i ʔ ã́ $,default
 Ka-41_nose-1,,Ka,41_nose,i-naʔcə̤k toʔ,i-naʔcə̤k toʔ,i n a ʔ c ə̤ k + t o ʔ,,Galucio2015,,,^ i - n a ʔ c ə̤ k + t o ʔ $,default
 Pu-41_nose-1,,Pu,41_nose,ɲũʔã,ɲũʔã,ɲ ũ ʔ ã,,Galucio2015,,,^ ɲ ũ ʔ ã $,default
 Ma-42_mouth-1,,Ma,42_mouth,ßuɾaʔpi,ßuɾaʔpi,β u ɾ a ʔ p i,,Galucio2015,,,^ ß u ɾ a ʔ p i $,default
@@ -946,14 +946,14 @@ Pt-42_mouth-1,,Pt,42_mouth,juɾu,juɾu,j u ɾ u,,Galucio2015,,,^ ju ɾ u $,defau
 Pu-42_mouth-1,,Pu,42_mouth,uɾuʔap,uɾuʔap,u ɾ u ʔ a p,,Galucio2015,,,^ u ɾ u ʔ a p $,default
 Ta-42_mouth-1,,Ta,42_mouth,tjoɾo,tjoɾo,t j o ɾ o,,Galucio2015,,,^ t j o ɾ o $,default
 Uk-42_mouth-1,,Uk,42_mouth,juɾu,juɾu,j u ɾ u,,Galucio2015,,,^ ju ɾ u $,default
-Ar-42_mouth-1,,Ar,42_mouth,-ko,-ko,k o,,Galucio2015,,,^ - k o $,default
-Gv-42_mouth-1,,Gv,42_mouth,-ko,-ko,k o,,Galucio2015,,,^ - k o $,default
+Ar-42_mouth-1,,Ar,42_mouth,-ko,-ko,k o,,Galucio2015,,,^- k o $,default
+Gv-42_mouth-1,,Gv,42_mouth,-ko,-ko,k o,,Galucio2015,,,^- k o $,default
 Kt-42_mouth-1,,Kt,42_mouth,koɾõmbo,koɾõmbo,k o ɾ õ m b o,,Galucio2015,,,^ k o ɾ õ m b o $,default
-Sa-42_mouth-1,,Sa,42_mouth,-ko,-ko,k o,,Galucio2015,,,^ - k o $,default
-Su-42_mouth-1,,Su,42_mouth,-ko,-ko,k o,,Galucio2015,,,^ - k o $,default
-Zo-42_mouth-1,,Zo,42_mouth,-ko,-ko,k o,,Galucio2015,,,^ - k o $,default
+Sa-42_mouth-1,,Sa,42_mouth,-ko,-ko,k o,,Galucio2015,,,^- k o $,default
+Su-42_mouth-1,,Su,42_mouth,-ko,-ko,k o,,Galucio2015,,,^- k o $,default
+Zo-42_mouth-1,,Zo,42_mouth,-ko,-ko,k o,,Galucio2015,,,^- k o $,default
 Ak-42_mouth-1,,Ak,42_mouth,jẽ,jẽ,j ẽ,,Galucio2015,,,^ j ẽ $,default
-Me-42_mouth-1,,Me,42_mouth,-ĩjẽ,-ĩjẽ,ĩ j ẽ,,Galucio2015,,,^ - ĩ j ẽ $,default
+Me-42_mouth-1,,Me,42_mouth,-ĩjẽ,-ĩjẽ,ĩ j ẽ,,Galucio2015,,,^- ĩ j ẽ $,default
 Me-42_mouth-2,,Me,42_mouth,ĩɲẽ,ĩɲẽ,ĩ ɲ ẽ,,Galucio2015,,,^ ĩ ɲ ẽ $,default
 Mw-42_mouth-1,,Mw,42_mouth,ai-wẽ,ai-wẽ,a i w ẽ,,Galucio2015,,,^ a i - w ẽ $,default
 Tu-42_mouth-1,,Tu,42_mouth,ojẽ,ojẽ,o j ẽ,,Galucio2015,,,^ o j ẽ $,default
@@ -962,14 +962,14 @@ Aw-42_mouth-1,,Aw,42_mouth,atupɨ,atupɨ,a t u p ɨ,,Galucio2015,,,^ a t u p ɨ 
 Ku-42_mouth-1,,Ku,42_mouth,bi(ʔ),bi,b i,,Galucio2015,,,^ b i $,default
 Mu-42_mouth-1,,Mu,42_mouth,pi ~ bi,pi,p i,,Galucio2015,,,^ p i $,default
 Mu-42_mouth-2,,Mu,42_mouth,pi ~ bi,bi,b i,,Galucio2015,,,^ b i $,default
-Xi-42_mouth-1,,Xi,42_mouth,-mita,-mita,m i t a,,Galucio2015,,,^ - m i ta $,default
+Xi-42_mouth-1,,Xi,42_mouth,-mita,-mita,m i t a,,Galucio2015,,,^- m i ta $,default
 Ju-42_mouth-1,,Ju,42_mouth,káʃĩbɨa,káʃĩbɨa,k á/a ʃ ĩ b ɨ a,,Galucio2015,,,^ k á ʃ ĩ b ɨ a $,default
 Ka-42_mouth-1,,Ka,42_mouth,aʔ-nãk káʔ,aʔ-nãk káʔ,a ʔ n ã k + k á/a ʔ,,Galucio2015,,,^ a ʔ - n ã k + k á ʔ $,default
 Ak-43_tooth-1,,Ak,43_tooth,ɲãj,ɲãj,ɲ ã j,,Galucio2015,,,^ ɲ ã j $,default
-Ar-43_tooth-1,,Ar,43_tooth,-ɲẽ́ẽ́j,-ɲẽ́ẽ́j,ɲ ẽ́ẽ́/ẽː j,,Galucio2015,,,^ - ɲ ẽ́ẽ́ j $,default
+Ar-43_tooth-1,,Ar,43_tooth,-ɲẽ́ẽ́j,-ɲẽ́ẽ́j,ɲ ẽ́ẽ́/ẽː j,,Galucio2015,,,^- ɲ ẽ́ẽ́ j $,default
 Aw-43_tooth-1,,Aw,43_tooth,ãj,ãj,ã j,,Galucio2015,,,^ ã j $,default
-Gv-43_tooth-1,,Gv,43_tooth,-jẽ́ẽ́j,-jẽ́ẽ́j,j ẽ́ẽ́/ẽː j,,Galucio2015,,,^ - j ẽ́ẽ́ j $,default
-Ju-43_tooth-1,,Ju,43_tooth,-ajã́,-ajã́,a j ã́/ã,,Galucio2015,,,^ - a j ã́ $,default
+Gv-43_tooth-1,,Gv,43_tooth,-jẽ́ẽ́j,-jẽ́ẽ́j,j ẽ́ẽ́/ẽː j,,Galucio2015,,,^- j ẽ́ẽ́ j $,default
+Ju-43_tooth-1,,Ju,43_tooth,-ajã́,-ajã́,a j ã́/ã,,Galucio2015,,,^- a j ã́ $,default
 Ka-43_tooth-1,,Ka,43_tooth,i-jãj kap,i-jãj kap,i j ã j + k a p,,Galucio2015,,,^ i - j ã j + k a p $,default
 Kt-43_tooth-1,,Kt,43_tooth,ɲõɲ,ɲõɲ,ɲ õ ɲ,,Galucio2015,,,^ ɲ õ ɲ $,default
 Ku-43_tooth-1,,Ku,43_tooth,tãj ~ ɮãj,tãj,t ã j,,Galucio2015,,,^ tãj $,default
@@ -981,21 +981,21 @@ Mu-43_tooth-1,,Mu,43_tooth,tə̃j ~ nə̃j,tə̃j,t ə̃ j,,Galucio2015,,,^ tə�
 Mu-43_tooth-2,,Mu,43_tooth,tə̃j ~ nə̃j,nə̃j,n ə̃ j,,Galucio2015,,,^ n ə̃ j $,default
 Mw-43_tooth-1,,Mw,43_tooth,ah-ãi,ah-ãi,a h ã i,,Galucio2015,,,^ a h - ã i $,default
 Pg-43_tooth-1,,Pg,43_tooth,t-ãi,t-ãi,t ã i,,Galucio2015,,,^ t - ã i $,default
-Pt-43_tooth-1,,Pt,43_tooth,-aɲ,-aɲ,a ɲ,,Galucio2015,,,^ - a ɲ $,default
+Pt-43_tooth-1,,Pt,43_tooth,-aɲ,-aɲ,a ɲ,,Galucio2015,,,^- a ɲ $,default
 Pu-43_tooth-1,,Pu,43_tooth,ĩ-kap,ĩ-kap,ĩ k a p,,Galucio2015,,,^ ĩ - k a p $,default
-Sa-43_tooth-1,,Sa,43_tooth,-ĩ́ĩ́t,-ĩ́ĩ́t,ĩ́ĩ́/ĩː t,,Galucio2015,,,^ - ĩ́ĩ́ t $,default
+Sa-43_tooth-1,,Sa,43_tooth,-ĩ́ĩ́t,-ĩ́ĩ́t,ĩ́ĩ́/ĩː t,,Galucio2015,,,^- ĩ́ĩ́ t $,default
 Ta-43_tooth-1,,Ta,43_tooth,ĩj,ĩj,ĩ j,,Galucio2015,,,^ ĩ j $,default
 Tu-43_tooth-1,,Tu,43_tooth,jãj,jãj,j ã j,,Galucio2015,,,^ j ã j $,default
 Uk-43_tooth-1,,Uk,43_tooth,h-ãi,h-ãi,h ã i,,Galucio2015,,,^ h - ã i $,default
 Wa-43_tooth-1,,Wa,43_tooth,oɲãɲ,oɲãɲ,o ɲ ã ɲ,,Galucio2015,,,^ o ɲ ã ɲ $,default
-Xi-43_tooth-1,,Xi,43_tooth,-ajã,-ajã,a j ã,,Galucio2015,,,^ - a j ã $,default
-Zo-43_tooth-1,,Zo,43_tooth,-jẽ́ẽ́j,-jẽ́ẽ́j,j ẽ́ẽ́/ẽː j,,Galucio2015,,,^ - j ẽ́ẽ́ j $,default
-Su-43_tooth-1,,Su,43_tooth,-kaap,-kaap,k aː p,,Galucio2015,,,^ - k aa p $,default
+Xi-43_tooth-1,,Xi,43_tooth,-ajã,-ajã,a j ã,,Galucio2015,,,^- a j ã $,default
+Zo-43_tooth-1,,Zo,43_tooth,-jẽ́ẽ́j,-jẽ́ẽ́j,j ẽ́ẽ́/ẽː j,,Galucio2015,,,^- j ẽ́ẽ́ j $,default
+Su-43_tooth-1,,Su,43_tooth,-kaap,-kaap,k aː p,,Galucio2015,,,^- k aa p $,default
 Ak-44_tongue-1,,Ak,44_tongue,ʔõ,ʔõ,ʔ õ,,Galucio2015,,,^ ʔ õ $,default
-Ar-44_tongue-1,,Ar,44_tongue,-ko-káp,-ko-káp,k o k á/a p,,Galucio2015,,,^ - k o - k á p $,default
+Ar-44_tongue-1,,Ar,44_tongue,-ko-káp,-ko-káp,k o k á/a p,,Galucio2015,,,^- k o - k á p $,default
 Aw-44_tongue-1,,Aw,44_tongue,ẽkũ,ẽkũ,ẽ k ũ,,Galucio2015,,,^ ẽ k ũ $,default
-Gv-44_tongue-1,,Gv,44_tongue,-ko-kíìp,-ko-kíìp,k o k í/i ì/i p,,Galucio2015,,,^ - k o - k í ì p $,default
-Ju-44_tongue-1,,Ju,44_tongue,-kuã,-kuã,k u ã,,Galucio2015,,,^ - k u ã $,default
+Gv-44_tongue-1,,Gv,44_tongue,-ko-kíìp,-ko-kíìp,k o k í/i ì/i p,,Galucio2015,,,^- k o - k í ì p $,default
+Ju-44_tongue-1,,Ju,44_tongue,-kuã,-kuã,k u ã,,Galucio2015,,,^- k u ã $,default
 Ka-44_tongue-1,,Ka,44_tongue,koɾõmbo,koɾõmbo,k o ɾ õ m b o,,Galucio2015,,,^ k o ɾ õ m b o $,default
 Ku-44_tongue-1,,Ku,44_tongue,kõ,kõ,k õ,,Galucio2015,,,^ k õ $,default
 Ma-44_tongue-1,,Ma,44_tongue,ʔõmtʃẽm,ʔõmtʃẽm,ʔ õ m tʃ ẽ m,,Galucio2015,,,^ ʔ õ m tʃ ẽ m $,default
@@ -1003,30 +1003,30 @@ Me-44_tongue-1,,Me,44_tongue,ki-õ,ki-õ,k i õ,,Galucio2015,,,^ k i - õ $,defa
 Mu-44_tongue-1,,Mu,44_tongue,kõ,kõ,k õ,,Galucio2015,,,^ k õ $,default
 Mw-44_tongue-1,,Mw,44_tongue,a-hekũ,a-hekũ,a h e k ũ,,Galucio2015,,,^ a - h e k ũ $,default
 Pg-44_tongue-1,,Pg,44_tongue,kũ,kũ,k ũ,,Galucio2015,,,^ k ũ $,default
-Pt-44_tongue-1,,Pt,44_tongue,-kũ,-kũ,k ũ,,Galucio2015,,,^ - k ũ $,default
+Pt-44_tongue-1,,Pt,44_tongue,-kũ,-kũ,k ũ,,Galucio2015,,,^- k ũ $,default
 Pu-44_tongue-1,,Pu,44_tongue,kobe,kobe,k o b e,,Galucio2015,,,^ k o be $,default
-Sa-44_tongue-1,,Sa,44_tongue,-ko-séɾék,-ko-séɾék,k o s é/e ɾ é/e k,,Galucio2015,,,^ - k o - s é ɾ é k $,default
-Su-44_tongue-1,,Su,44_tongue,-ko-ʃééɾ,-ko-ʃééɾ,k o ʃ éé/eː ɾ,,Galucio2015,,,^ - k o - ʃ éé ɾ $,default
+Sa-44_tongue-1,,Sa,44_tongue,-ko-séɾék,-ko-séɾék,k o s é/e ɾ é/e k,,Galucio2015,,,^- k o - s é ɾ é k $,default
+Su-44_tongue-1,,Su,44_tongue,-ko-ʃééɾ,-ko-ʃééɾ,k o ʃ éé/eː ɾ,,Galucio2015,,,^- k o - ʃ éé ɾ $,default
 Ta-44_tongue-1,,Ta,44_tongue,kõ,kõ,k õ,,Galucio2015,,,^ k õ $,default
 Tu-44_tongue-1,,Tu,44_tongue,ʔõpe,ʔõpe,ʔ õ p e,,Galucio2015,,,^ ʔ õ p e $,default
 Wa-44_tongue-1,,Wa,44_tongue,õɲõ,õɲõ,õ ɲ õ,,Galucio2015,,,^ õ ɲ õ $,default
-Xi-44_tongue-1,,Xi,44_tongue,-kuã,-kuã,k u ã,,Galucio2015,,,^ - k u ã $,default
-Zo-44_tongue-1,,Zo,44_tongue,-ko-kíìp,-ko-kíìp,k o k í/i ì/i p,,Galucio2015,,,^ - k o - k í ì p $,default
+Xi-44_tongue-1,,Xi,44_tongue,-kuã,-kuã,k u ã,,Galucio2015,,,^- k u ã $,default
+Zo-44_tongue-1,,Zo,44_tongue,-ko-kíìp,-ko-kíìp,k o k í/i ì/i p,,Galucio2015,,,^- k o - k í ì p $,default
 Uk-44_tongue-1,,Uk,44_tongue,h-embe,h-embe,h e m b e,,Galucio2015,,,^ h - e m be $,default
 Ka-44_tongue-2,,Ka,44_tongue,i-jogá peʔ,i-jogá peʔ,i j o g á/a + p e ʔ,,Galucio2015,,,^ i - j o g á + p e ʔ $,default
 Aw-45_claw-1,,Aw,45_claw,pwã,pwã,p w ã,,Galucio2015,,,^ pw ã $,default
 Ma-45_claw-1,,Ma,45_claw,mboape,mboape,m b o a p e,,Galucio2015,,,^ m b o a p e $,default
 Me-45_claw-1,,Me,45_claw,po ape,po ape,p o + a p e,,Galucio2015,,,^ p o + a p e $,default
 Pg-45_claw-1,,Pg,45_claw,pɨapẽ,pɨapẽ,p ɨ a p ẽ,,Galucio2015,,,^ p ɨ a p ẽ $,default
-Pt-45_claw-1,,Pt,45_claw,-(puã)pẽ,-pẽ,p ẽ,,Galucio2015,,,^ - p ẽ $,default
+Pt-45_claw-1,,Pt,45_claw,-(puã)pẽ,-pẽ,p ẽ,,Galucio2015,,,^- p ẽ $,default
 Ta-45_claw-1,,Ta,45_claw,mɨapẽ,mɨapẽ,m ɨ a p ẽ,,Galucio2015,,,^ m ɨ a p ẽ $,default
 Uk-45_claw-1,,Uk,45_claw,i-pɨapẽ,i-pɨapẽ,i p ɨ a p ẽ,,Galucio2015,,,^ i - p ɨ a p ẽ $,default
-Ar-45_claw-1,,Ar,45_claw,-cákõõj,-cákõõj,c á/a k õ/õː j,,Galucio2015,,,^ - c á k õõ j $,default
-Gv-45_claw-1,,Gv,45_claw,-kõ̂õ̀j,-kõ̂õ̀j,k õ̂/õ õ̀/õ j,,Galucio2015,,,^ - k õ̂ õ̀ j $,default
+Ar-45_claw-1,,Ar,45_claw,-cákõõj,-cákõõj,c á/a k õ/õː j,,Galucio2015,,,^- c á k õõ j $,default
+Gv-45_claw-1,,Gv,45_claw,-kõ̂õ̀j,-kõ̂õ̀j,k õ̂/õ õ̀/õ j,,Galucio2015,,,^- k õ̂ õ̀ j $,default
 Kt-45_claw-1,,Kt,45_claw,pɨsokõ,pɨsokõ,p ɨ s o k õ,,Galucio2015,,,^ p ɨ s o k õ $,default
 Sa-45_claw-1,,Sa,45_claw,sakõj,sakõj,s a k õ j,,Galucio2015,,,^ s a k õ j $,default
-Su-45_claw-1,,Su,45_claw,-kõj,-kõj,k õ j,,Galucio2015,,,^ - k õ j $,default
-Zo-45_claw-1,,Zo,45_claw,-pí-kṍṍj,-pí-kṍṍj,p í/i k ṍṍ/õː j,,Galucio2015,,,^ - p í - k ṍṍ j $,default
+Su-45_claw-1,,Su,45_claw,-kõj,-kõj,k õ j,,Galucio2015,,,^- k õ j $,default
+Zo-45_claw-1,,Zo,45_claw,-pí-kṍṍj,-pí-kṍṍj,p í/i k ṍṍ/õː j,,Galucio2015,,,^- p í - k ṍṍ j $,default
 Ka-45_claw-1,,Ka,45_claw,i-cijõ,i-cijõ,i c i j õ,,Galucio2015,,,^ i - c i j õ $,default
 Mw-45_claw-1,,Mw,45_claw,ai-pũʔũjã,ai-pũʔũjã,a i p ũ ʔ ũ j ã,,Galucio2015,,,^ a i - p ũ ʔ ũ j ã $,default
 Pu-45_claw-1,,Pu,45_claw,ʃukujã,ʃukujã,ʃ u k u j ã,,Galucio2015,,,^ ʃ u k u j ã $,default
@@ -1034,14 +1034,14 @@ Tu-45_claw-1,,Tu,45_claw,kĩɾĩjã,kĩɾĩjã,k ĩ ɾ ĩ j ã,,Galucio2015,,,^ 
 Wa-45_claw-1,,Wa,45_claw,kĩɾĩɲã,kĩɾĩɲã,k ĩ ɾ ĩ ɲ ã,,Galucio2015,,,^ k ĩ ɾ ĩ ɲ ã $,default
 Ku-45_claw-1,,Ku,45_claw,inã,inã,i n ã,,Galucio2015,,,^ i n ã $,default
 Mu-45_claw-1,,Mu,45_claw,nə̃,nə̃,n ə̃,,Galucio2015,,,^ n ə̃ $,default
-Xi-45_claw-1,,Xi,45_claw,-wãɾãʃã,-wãɾãʃã,w ã ɾ ã ʃ ã,,Galucio2015,,,^ - w ã ɾ ã ʃ ã $,default
-Ju-45_claw-1,,Ju,45_claw,-uʔã́,-uʔã́,u ʔ ã́/ã,,Galucio2015,,,^ - u ʔ ã́ $,default
+Xi-45_claw-1,,Xi,45_claw,-wãɾãʃã,-wãɾãʃã,w ã ɾ ã ʃ ã,,Galucio2015,,,^- w ã ɾ ã ʃ ã $,default
+Ju-45_claw-1,,Ju,45_claw,-uʔã́,-uʔã́,u ʔ ã́/ã,,Galucio2015,,,^- u ʔ ã́ $,default
 Ak-46_foot-1,,Ak,46_foot,o-pi [obi],o-pi,o p i,,Galucio2015,,,^ o - p i $,default
-Ar-46_foot-1,,Ar,46_foot,-bí ~ -pí,-bí,b í/i,,Galucio2015,,,^ -bí $,default
-Ar-46_foot-2,,Ar,46_foot,-bí ~ -pí,-pí,p í/i,,Galucio2015,,,^ - p í $,default
+Ar-46_foot-1,,Ar,46_foot,-bí ~ -pí,-bí,b í/i,,Galucio2015,,,^- b í $,default
+Ar-46_foot-2,,Ar,46_foot,-bí ~ -pí,-pí,p í/i,,Galucio2015,,,^- p í $,default
 Aw-46_foot-1,,Aw,46_foot,ai-pɨ,ai-pɨ,a i p ɨ,,Galucio2015,,,^ a i - p ɨ $,default
-Gv-46_foot-1,,Gv,46_foot,-bí ~ -pí,-bí,b í/i,,Galucio2015,,,^ -bí $,default
-Gv-46_foot-2,,Gv,46_foot,-bí ~ -pí,-pí,p í/i,,Galucio2015,,,^ - p í $,default
+Gv-46_foot-1,,Gv,46_foot,-bí ~ -pí,-bí,b í/i,,Galucio2015,,,^- b í $,default
+Gv-46_foot-2,,Gv,46_foot,-bí ~ -pí,-pí,p í/i,,Galucio2015,,,^- p í $,default
 Ju-46_foot-1,,Ju,46_foot,bɨdaha,bɨdaha,b ɨ d a h a,,Galucio2015,,,^ b ɨ d a h a $,default
 Ju-46_foot-2,,Ju,46_foot,bɨdahá,bɨdahá,b ɨ d a h á/a,,Galucio2015,,,^ b ɨ d a h á $,default
 Ka-46_foot-1,,Ka,46_foot,i-pibeʔ,i-pibeʔ,i p i b e ʔ,,Galucio2015,,,^ i - p i be ʔ $,default
@@ -1051,90 +1051,90 @@ Ma-46_foot-1,,Ma,46_foot,mbi,mbi,m b i,,Galucio2015,,,^ m b i $,default
 Me-46_foot-1,,Me,46_foot,o-piʦo,o-piʦo,o p i ts o,,Galucio2015,,,^ o - p i ʦ o $,default
 Mu-46_foot-1,,Mu,46_foot,i,i,i,,Galucio2015,,,^ i $,default
 Pg-46_foot-1,,Pg,46_foot,pɨ,pɨ,p ɨ,,Galucio2015,,,^ p ɨ $,default
-Pt-46_foot-1,,Pt,46_foot,-pɨ,-pɨ,p ɨ,,Galucio2015,,,^ - p ɨ $,default
+Pt-46_foot-1,,Pt,46_foot,-pɨ,-pɨ,p ɨ,,Galucio2015,,,^- p ɨ $,default
 Pu-46_foot-1,,Pu,46_foot,ʃibe,ʃibe,ʃ i b e,,Galucio2015,,,^ ʃ i be $,default
-Sa-46_foot-1,,Sa,46_foot,-pi-pe,-pi-pe,p i p e,,Galucio2015,,,^ - p i - p e $,default
-Sa-46_foot-2,,Sa,46_foot,-bíʔa,-bíʔa,b í/i ʔ a,,Galucio2015,,,^ -bí ʔ a $,default
-Su-46_foot-1,,Su,46_foot,-mí-pe,-mí-pe,m í/i p e,,Galucio2015,,,^ - m í - p e $,default
-Su-46_foot-2,,Su,46_foot,-pí-pe,-pí-pe,p í/i p e,,Galucio2015,,,^ - p í - p e $,default
+Sa-46_foot-1,,Sa,46_foot,-pi-pe,-pi-pe,p i p e,,Galucio2015,,,^- p i - p e $,default
+Sa-46_foot-2,,Sa,46_foot,-bíʔa,-bíʔa,b í/i ʔ a,,Galucio2015,,,^- b í ʔ a $,default
+Su-46_foot-1,,Su,46_foot,-mí-pe,-mí-pe,m í/i p e,,Galucio2015,,,^- m í - p e $,default
+Su-46_foot-2,,Su,46_foot,-pí-pe,-pí-pe,p í/i p e,,Galucio2015,,,^- p í - p e $,default
 Ta-46_foot-1,,Ta,46_foot,mɨ,mɨ,m ɨ,,Galucio2015,,,^ m ɨ $,default
 Tu-46_foot-1,,Tu,46_foot,sito,sito,s i t o,,Galucio2015,,,^ s i t o $,default
 Uk-46_foot-1,,Uk,46_foot,i-pɨ,i-pɨ,i p ɨ,,Galucio2015,,,^ i - p ɨ $,default
 Wa-46_foot-1,,Wa,46_foot,mbi,mbi,m b i,,Galucio2015,,,^ m b i $,default
 Wa-46_foot-2,,Wa,46_foot,o-ßi,o-ßi,o β i,,Galucio2015,,,^ o - ß i $,default
 Xi-46_foot-1,,Xi,46_foot,bɨdapa,bɨdapa,b ɨ d a p a,,Galucio2015,,,^ b ɨ d a p a $,default
-Zo-46_foot-1,,Zo,46_foot,-bí ~ -pí,-bí,b í/i,,Galucio2015,,,^ -bí $,default
-Zo-46_foot-2,,Zo,46_foot,-bí ~ -pí,-pí,p í/i,,Galucio2015,,,^ - p í $,default
+Zo-46_foot-1,,Zo,46_foot,-bí ~ -pí,-bí,b í/i,,Galucio2015,,,^- b í $,default
+Zo-46_foot-2,,Zo,46_foot,-bí ~ -pí,-pí,p í/i,,Galucio2015,,,^- p í $,default
 Ak-47_knee-1,,Ak,47_knee,iamina,iamina,i a m i n a,,Galucio2015,,,^ i a m i n a $,default
 Aw-47_knee-1,,Aw,47_knee,pɨʔã,pɨʔã,p ɨ ʔ ã,,Galucio2015,,,^ p ɨ ʔ ã $,default
 Ma-47_knee-1,,Ma,47_knee,kapĩã,kapĩã,k a p ĩ ã,,Galucio2015,,,^ k a p ĩ ã $,default
 Mw-47_knee-1,,Mw,47_knee,ai-pɨ akaŋa,ai-pɨ akaŋa,a i p ɨ + a k a ŋ a,,Galucio2015,,,^ a i - p ɨ + a k a ŋ a $,default
 Pg-47_knee-1,,Pg,47_knee,t-enɨpɨʔã,t-enɨpɨʔã,t e n ɨ p ɨ ʔ ã,,Galucio2015,,,^ t - e n ɨ p ɨ ʔ ã $,default
-Pt-47_knee-1,,Pt,47_knee,-enɨpɨʔã,-enɨpɨʔã,e n ɨ p ɨ ʔ ã,,Galucio2015,,,^ - e n ɨ p ɨ ʔ ã $,default
+Pt-47_knee-1,,Pt,47_knee,-enɨpɨʔã,-enɨpɨʔã,e n ɨ p ɨ ʔ ã,,Galucio2015,,,^- e n ɨ p ɨ ʔ ã $,default
 Tu-47_knee-1,,Tu,47_knee,mianʔa,mianʔa,m i a n ʔ a,,Galucio2015,,,^ m i a n ʔ a $,default
 Wa-47_knee-1,,Wa,47_knee,okɨmĩã,okɨmĩã,o k ɨ m ĩ ã,,Galucio2015,,,^ o k ɨ m ĩ ã $,default
-Ar-47_knee-1,,Ar,47_knee,-ʦabi-káp,-ʦabi-káp,ts a b i k á/a p,,Galucio2015,,,^ - ʦ a b i - k á p $,default
-Gv-47_knee-1,,Gv,47_knee,-ʦabi-káàp,-ʦabi-káàp,ts a b i k á/a à/a p,,Galucio2015,,,^ - ʦ a b i - k á à p $,default
-Sa-47_knee-1,,Sa,47_knee,-sábikáp,-sábikáp,s á/a b i k á/a p,,Galucio2015,,,^ - s á b i k á p $,default
+Ar-47_knee-1,,Ar,47_knee,-ʦabi-káp,-ʦabi-káp,ts a b i k á/a p,,Galucio2015,,,^- ʦ a b i - k á p $,default
+Gv-47_knee-1,,Gv,47_knee,-ʦabi-káàp,-ʦabi-káàp,ts a b i k á/a à/a p,,Galucio2015,,,^- ʦ a b i - k á à p $,default
+Sa-47_knee-1,,Sa,47_knee,-sábikáp,-sábikáp,s á/a b i k á/a p,,Galucio2015,,,^- s á b i k á p $,default
 Su-47_knee-1,,Su,47_knee,sábiikába,sábiikába,s á/a b iː k á/a b a,,Galucio2015,,,^ s á b ii k á b a $,default
-Zo-47_knee-1,,Zo,47_knee,-sabi-káàp,-sabi-káàp,s a b i k á/a à/a p,,Galucio2015,,,^ - s a b i - k á à p $,default
+Zo-47_knee-1,,Zo,47_knee,-sabi-káàp,-sabi-káàp,s a b i k á/a à/a p,,Galucio2015,,,^- s a b i - k á à p $,default
 Ta-47_knee-1,,Ta,47_knee,kanawã,kanawã,k a n a w ã,,Galucio2015,,,^ k a n a w ã $,default
 Uk-47_knee-1,,Uk,47_knee,kanawaj,kanawaj,k a n a w a j,,Galucio2015,,,^ k a n a w a j $,default
 Ku-47_knee-1,,Ku,47_knee,õŋʔá,õŋʔá,õ ŋ ʔ á/a,,Galucio2015,,,^ õ ŋ ʔ á $,default
 Mu-47_knee-1,,Mu,47_knee,ə̃ŋʔá,ə̃ŋʔá,ə̃ ŋ ʔ á/a,,Galucio2015,,,^ ə̃ ŋ ʔ á $,default
-Ju-47_knee-1,,Ju,47_knee,-maʔã́,-maʔã́,m a ʔ ã́/ã,,Galucio2015,,,^ - m a ʔ ã́ $,default
-Xi-47_knee-1,,Xi,47_knee,-mã,-mã,m ã,,Galucio2015,,,^ - m ã $,default
+Ju-47_knee-1,,Ju,47_knee,-maʔã́,-maʔã́,m a ʔ ã́/ã,,Galucio2015,,,^- m a ʔ ã́ $,default
+Xi-47_knee-1,,Xi,47_knee,-mã,-mã,m ã,,Galucio2015,,,^- m ã $,default
 Me-47_knee-1,,Me,47_knee,o-eseɡap,o-eseɡap,o e s e g a p,,Galucio2015,,,^ o - e s e ɡ a p $,default
 Ka-47_knee-1,,Ka,47_knee,i-jɨn káʔ,i-jɨn káʔ,i j ɨ n + k á/a ʔ,,Galucio2015,,,^ i - j ɨ n + k á ʔ $,default
 Kt-47_knee-1,,Kt,47_knee,saʔep otɨɨt,saʔep otɨɨt,s a ʔ e p + o t ɨː t,,Galucio2015,,,^ s a ʔ e p + o t ɨɨ t $,default
 Ak-48_hand-1,,Ak,48_hand,o-po [obo],o-po,o p o,,Galucio2015,,,^ o - p o $,default
-Ar-48_hand-1,,Ar,48_hand,-pábe,-pábe,p á/a b e,,Galucio2015,,,^ - p á be $,default
+Ar-48_hand-1,,Ar,48_hand,-pábe,-pábe,p á/a b e,,Galucio2015,,,^- p á be $,default
 Aw-48_hand-1,,Aw,48_hand,po,po,p o,,Galucio2015,,,^ p o $,default
-Gv-48_hand-1,,Gv,48_hand,-pábe,-pábe,p á/a b e,,Galucio2015,,,^ - p á be $,default
-Ju-48_hand-1,,Ju,48_hand,-wá,-wá,w á/a,,Galucio2015,,,^ - w á $,default
+Gv-48_hand-1,,Gv,48_hand,-pábe,-pábe,p á/a b e,,Galucio2015,,,^- p á be $,default
+Ju-48_hand-1,,Ju,48_hand,-wá,-wá,w á/a,,Galucio2015,,,^- w á $,default
 Ka-48_hand-1,,Ka,48_hand,i-pábeʔ,i-pábeʔ,i p á/a b e ʔ,,Galucio2015,,,^ i - p á be ʔ $,default
 Kt-48_hand-1,,Kt,48_hand,pɨ,pɨ,p ɨ,,Galucio2015,,,^ p ɨ $,default
 Ma-48_hand-1,,Ma,48_hand,mbo,mbo,m b o,,Galucio2015,,,^ m b o $,default
 Me-48_hand-1,,Me,48_hand,o-po,o-po,o p o,,Galucio2015,,,^ o - p o $,default
 Mw-48_hand-1,,Mw,48_hand,ai-po,ai-po,a i p o,,Galucio2015,,,^ a i - p o $,default
 Pg-48_hand-1,,Pg,48_hand,po,po,p o,,Galucio2015,,,^ p o $,default
-Pt-48_hand-1,,Pt,48_hand,-po,-po,p o,,Galucio2015,,,^ - p o $,default
+Pt-48_hand-1,,Pt,48_hand,-po,-po,p o,,Galucio2015,,,^- p o $,default
 Pu-48_hand-1,,Pu,48_hand,ba,ba,b a,,Galucio2015,,,^ b a $,default
-Sa-48_hand-1,,Sa,48_hand,-pábe,-pábe,p á/a b e,,Galucio2015,,,^ - p á be $,default
-Su-48_hand-1,,Su,48_hand,-pábe,-pábe,p á/a b e,,Galucio2015,,,^ - p á be $,default
+Sa-48_hand-1,,Sa,48_hand,-pábe,-pábe,p á/a b e,,Galucio2015,,,^- p á be $,default
+Su-48_hand-1,,Su,48_hand,-pábe,-pábe,p á/a b e,,Galucio2015,,,^- p á be $,default
 Ta-48_hand-1,,Ta,48_hand,ma,ma,m a,,Galucio2015,,,^ m a $,default
 Tu-48_hand-1,,Tu,48_hand,ɸo,ɸo,ɸ o,,Galucio2015,,,^ ɸ o $,default
 Uk-48_hand-1,,Uk,48_hand,i-po,i-po,i p o,,Galucio2015,,,^ i - p o $,default
 Wa-48_hand-1,,Wa,48_hand,mbo,mbo,m b o,,Galucio2015,,,^ m b o $,default
 Wa-48_hand-2,,Wa,48_hand,o-ßo,o-ßo,o β o,,Galucio2015,,,^ o - ß o $,default
-Xi-48_hand-1,,Xi,48_hand,-ba,-ba,b a,,Galucio2015,,,^ - b a $,default
-Zo-48_hand-1,,Zo,48_hand,-pábe,-pábe,p á/a b e,,Galucio2015,,,^ - p á be $,default
+Xi-48_hand-1,,Xi,48_hand,-ba,-ba,b a,,Galucio2015,,,^- b a $,default
+Zo-48_hand-1,,Zo,48_hand,-pábe,-pábe,p á/a b e,,Galucio2015,,,^- p á be $,default
 Ku-48_hand-1,,Ku,48_hand,bɨ,bɨ,b ɨ,,Galucio2015,,,^ b ɨ $,default
 Mu-48_hand-1,,Mu,48_hand,i-bə́,i-bə́,i b ə́/ə,,Galucio2015,,,^ i - b ə́ $,default
 Ku-49_belly-1,,Ku,49_belly,ʔɨk,ʔɨk,ʔ ɨ k,,Galucio2015,,,^ ʔ ɨ k $,default
 Mu-49_belly-1,,Mu,49_belly,ʔək,ʔək,ʔ ə k,,Galucio2015,,,^ ʔ ə k $,default
-Pt-49_belly-1,,Pt,49_belly,-eveɡ,-eveɡ,e v e g,,Galucio2015,,,^ - e v e ɡ $,default
+Pt-49_belly-1,,Pt,49_belly,-eveɡ,-eveɡ,e v e g,,Galucio2015,,,^- e v e ɡ $,default
 Ta-49_belly-1,,Ta,49_belly,ewek,ewek,e w e k,,Galucio2015,,,^ e w e k $,default
 Ka-49_belly-1,,Ka,49_belly,i-kun,i-kun,i k u n,,Galucio2015,,,^ i - k u n $,default
 Kt-49_belly-1,,Kt,49_belly,kõɲ,kõɲ,k õ ɲ,,Galucio2015,,,^ k õ ɲ $,default
-Su-49_belly-1,,Su,49_belly,-ɡã,-ɡã,g ã,,Galucio2015,,,^ - ɡ ã $,default
-Su-49_belly-2,,Su,49_belly,-áɡã́ã,-áɡã́ã,á/a g ã́/ã ã,,Galucio2015,,,^ - á ɡ ã́ ã $,default
+Su-49_belly-1,,Su,49_belly,-ɡã,-ɡã,g ã,,Galucio2015,,,^- ɡ ã $,default
+Su-49_belly-2,,Su,49_belly,-áɡã́ã,-áɡã́ã,á/a g ã́/ã ã,,Galucio2015,,,^- á ɡ ã́ ã $,default
 Ma-49_belly-1,,Ma,49_belly,ɲeɨpe,ɲeɨpe,ɲ e ɨ p e,,Galucio2015,,,^ ɲ e ɨ p e $,default
 Mu-49_belly-2,,Mu,49_belly,mãĩn,mãĩn,m ã ĩ n,,Galucio2015,,,^ m ã ĩ n $,default
 Ak-49_belly-1,,Ak,49_belly,eʔo,eʔo,e ʔ o,,Galucio2015,,,^ e ʔ o $,default
 Me-49_belly-1,,Me,49_belly,e.ɨt,e.ɨt,e + ɨ t,,Galucio2015,,,^ e . ɨ t $,default
-Ju-49_belly-1,,Ju,49_belly,-wãzá,-wãzá,w ã z á/a,,Galucio2015,,,^ - w ã z á $,default
-Xi-49_belly-1,,Xi,49_belly,-waza,-waza,w a z a,,Galucio2015,,,^ - w a z a $,default
-Ar-49_belly-1,,Ar,49_belly,-piʔap,-piʔap,p i ʔ a p,,Galucio2015,,,^ - p i ʔ a p $,default
-Gv-49_belly-1,,Gv,49_belly,-pí-ap,-pí-ap,p í/i a p,,Galucio2015,,,^ - p í - a p $,default
+Ju-49_belly-1,,Ju,49_belly,-wãzá,-wãzá,w ã z á/a,,Galucio2015,,,^- w ã z á $,default
+Xi-49_belly-1,,Xi,49_belly,-waza,-waza,w a z a,,Galucio2015,,,^- w a z a $,default
+Ar-49_belly-1,,Ar,49_belly,-piʔap,-piʔap,p i ʔ a p,,Galucio2015,,,^- p i ʔ a p $,default
+Gv-49_belly-1,,Gv,49_belly,-pí-ap,-pí-ap,p í/i a p,,Galucio2015,,,^- p í - a p $,default
 Pg-49_belly-1,,Pg,49_belly,t-ɨe,t-ɨe,t ɨ e,,Galucio2015,,,^ t - ɨ e $,default
 Uk-49_belly-1,,Uk,49_belly,ndɨwa,ndɨwa,n d ɨ w a,,Galucio2015,,,^ n d ɨ w a $,default
 Aw-49_belly-1,,Aw,49_belly,polaw,polaw,p o l a w,,Galucio2015,,,^ p o l a w $,default
 Ma-49_belly-2,,Ma,49_belly,ahunhɨʔa,ahunhɨʔa,a h u n h ɨ ʔ a,,Galucio2015,,,^ a h u nh ɨ ʔ a $,default
 Tu-49_belly-1,,Tu,49_belly,patak,patak,p a t a k,,Galucio2015,,,^ p a ta k $,default
 Pu-49_belly-1,,Pu,49_belly,ʃuɾuaka,ʃuɾuaka,ʃ u ɾ u a k a,,Galucio2015,,,^ ʃ u ɾ u a k a $,default
-Zo-49_belly-1,,Zo,49_belly,-kolí-á,-kolí-á,k o l í/i á/a,,Galucio2015,,,^ - k o l í - á $,default
-Sa-49_belly-1,,Sa,49_belly,-pakʔik,-pakʔik,p a k ʔ i k,,Galucio2015,,,^ - p a k ʔ i k $,default
+Zo-49_belly-1,,Zo,49_belly,-kolí-á,-kolí-á,k o l í/i á/a,,Galucio2015,,,^- k o l í - á $,default
+Sa-49_belly-1,,Sa,49_belly,-pakʔik,-pakʔik,p a k ʔ i k,,Galucio2015,,,^- p a k ʔ i k $,default
 Aw-50_neck-1,,Aw,50_neck,tuɾʔɨp,tuɾʔɨp,t u ɾ ʔ ɨ p,,Galucio2015,,,^ t u ɾ ʔ ɨ p $,default
 Ka-50_neck-1,,Ka,50_neck,i-ot káʔ,i-ot káʔ,i o t + k á/a ʔ,,Galucio2015,,,^ i - o t + k á ʔ $,default
 Mw-50_neck-1,,Mw,50_neck,a-huɾʔɨp,a-huɾʔɨp,a h u ɾ ʔ ɨ p,,Galucio2015,,,^ a - h u ɾ ʔ ɨ p $,default
@@ -1143,11 +1143,11 @@ Pt-50_neck-1,,Pt,50_neck,juɾ,juɾ,j u ɾ,,Galucio2015,,,^ ju ɾ $,default
 Ta-50_neck-1,,Ta,50_neck,tjot,tjot,t j o t,,Galucio2015,,,^ t j o t $,default
 Uk-50_neck-1,,Uk,50_neck,juɾupɨ,juɾupɨ,j u ɾ u p ɨ,,Galucio2015,,,^ ju ɾ u p ɨ $,default
 Xi-50_neck-1,,Xi,50_neck,ubuɾia,ubuɾia,u b u ɾ i a,,Galucio2015,,,^ u b u ɾ i a $,default
-Ar-50_neck-1,,Ar,50_neck,-ãbo kã́ã́lĩĩ,-ãbo kã́ã́lĩĩ,ã b o + k ã́ã́/ãː l ĩː,,Galucio2015,,,^ - ã b o + k ã́ã́ l ĩĩ $,default
-Gv-50_neck-1,,Gv,50_neck,-ábôò kã́lĩ,-ábôò kã́lĩ,á/a b ô/o ò/o + k ã́/ã l ĩ,,Galucio2015,,,^ - á b ô ò + k ã́ l ĩ $,default
-Sa-50_neck-1,,Sa,50_neck,-ãbo-kã́ãl,-ãbo-kã́ãl,ã b o k ã́/ã ã l,,Galucio2015,,,^ - ã b o - k ã́ ã l $,default
-Su-50_neck-1,,Su,50_neck,-ámoo-kããɾ,-ámoo-kããɾ,á/a m oː k ãː ɾ,,Galucio2015,,,^ - á m oo - k ãã ɾ $,default
-Zo-50_neck-1,,Zo,50_neck,-abóó kã́lĩ,-abóó kã́lĩ,a b óó/oː + k ã́/ã l ĩ,,Galucio2015,,,^ - a b óó + k ã́ l ĩ $,default
+Ar-50_neck-1,,Ar,50_neck,-ãbo kã́ã́lĩĩ,-ãbo kã́ã́lĩĩ,ã b o + k ã́ã́/ãː l ĩː,,Galucio2015,,,^- ã b o + k ã́ã́ l ĩĩ $,default
+Gv-50_neck-1,,Gv,50_neck,-ábôò kã́lĩ,-ábôò kã́lĩ,á/a b ô/o ò/o + k ã́/ã l ĩ,,Galucio2015,,,^- á b ô ò + k ã́ l ĩ $,default
+Sa-50_neck-1,,Sa,50_neck,-ãbo-kã́ãl,-ãbo-kã́ãl,ã b o k ã́/ã ã l,,Galucio2015,,,^- ã b o - k ã́ ã l $,default
+Su-50_neck-1,,Su,50_neck,-ámoo-kããɾ,-ámoo-kããɾ,á/a m oː k ãː ɾ,,Galucio2015,,,^- á m oo - k ãã ɾ $,default
+Zo-50_neck-1,,Zo,50_neck,-abóó kã́lĩ,-abóó kã́lĩ,a b óó/oː + k ã́/ã l ĩ,,Galucio2015,,,^- a b óó + k ã́ l ĩ $,default
 Ak-50_neck-1,,Ak,50_neck,potkɨp,potkɨp,p o t k ɨ p,,Galucio2015,,,^ p o t k ɨ p $,default
 Ma-50_neck-1,,Ma,50_neck,ßotkɨp,ßotkɨp,β o t k ɨ p,,Galucio2015,,,^ ß o t k ɨ p $,default
 Me-50_neck-1,,Me,50_neck,kotkɨp,kotkɨp,k o t k ɨ p,,Galucio2015,,,^ k o t k ɨ p $,default
@@ -1157,13 +1157,13 @@ Ku-50_neck-1,,Ku,50_neck,anõbɨ,anõbɨ,a n õ b ɨ,,Galucio2015,,,^ a n õ b �
 Ku-50_neck-2,,Ku,50_neck,j-anõbɨʔ,j-anõbɨʔ,j a n õ b ɨ ʔ,,Galucio2015,,,^ j - a n õ b ɨ ʔ $,default
 Mu-50_neck-1,,Mu,50_neck,aŋóbə,aŋóbə,a ŋ ó/o b ə,,Galucio2015,,,^ a ŋ ó b ə $,default
 Mu-50_neck-2,,Mu,50_neck,j-a̤ŋóbə,j-a̤ŋóbə,j a̤ ŋ ó/o b ə,,Galucio2015,,,^ j - a̤ ŋ ó b ə $,default
-Ju-50_neck-1,,Ju,50_neck,-ĩʔṹ,-ĩʔṹ,ĩ ʔ ũ,,Galucio2015,,,^ - ĩ ʔ ṹ $,default
+Ju-50_neck-1,,Ju,50_neck,-ĩʔṹ,-ĩʔṹ,ĩ ʔ ũ,,Galucio2015,,,^- ĩ ʔ ṹ $,default
 Pu-50_neck-1,,Pu,50_neck,buʃuka,buʃuka,b u ʃ u k a,,Galucio2015,,,^ b u ʃ u k a $,default
 Kt-50_neck-1,,Kt,50_neck,hɨt,hɨt,h ɨ t,,Galucio2015,,,^ h ɨ t $,default
 Ak-51_breast-1,,Ak,51_breast,kem,kem,k e m,,Galucio2015,,,^ k e m $,default
-Ar-51_breast-1,,Ar,51_breast,-nãpʔa,-nãpʔa,n ã p ʔ a,,Galucio2015,,,^ - n ã p ʔ a $,default
-Gv-51_breast-1,,Gv,51_breast,-nam-aá,-nam-aá,n a m a á/a,,Galucio2015,,,^ - n a m - a á $,default
-Ju-51_breast-1,,Ju,51_breast,-namã́,-namã́,n a m ã́/ã,,Galucio2015,,,^ - n a m ã́ $,default
+Ar-51_breast-1,,Ar,51_breast,-nãpʔa,-nãpʔa,n ã p ʔ a,,Galucio2015,,,^- n ã p ʔ a $,default
+Gv-51_breast-1,,Gv,51_breast,-nam-aá,-nam-aá,n a m a á/a,,Galucio2015,,,^- n a m - a á $,default
+Ju-51_breast-1,,Ju,51_breast,-namã́,-namã́,n a m ã́/ã,,Galucio2015,,,^- n a m ã́ $,default
 Ka-51_breast-1,,Ka,51_breast,nãm ʔaʔ,nãm ʔaʔ,n ã m + ʔ a ʔ,,Galucio2015,,,^ n ã m + ʔ a ʔ $,default
 Kt-51_breast-1,,Kt,51_breast,nõm,nõm,n õ m,,Galucio2015,,,^ n õ m $,default
 Ku-51_breast-1,,Ku,51_breast,kãm,kãm,k ã m,,Galucio2015,,,^ k ã m $,default
@@ -1171,30 +1171,30 @@ Ma-51_breast-1,,Ma,51_breast,ŋẽm,ŋẽm,ŋ ẽ m,,Galucio2015,,,^ ŋ ẽ m $,
 Me-51_breast-1,,Me,51_breast,i-kẽp,i-kẽp,i k ẽ p,,Galucio2015,,,^ i - k ẽ p $,default
 Mu-51_breast-1,,Mu,51_breast,i-kə̃m,i-kə̃m,i k ə̃ m,,Galucio2015,,,^ i - k ə̃ m $,default
 Pg-51_breast-1,,Pg,51_breast,kama,kama,k a m a,,Galucio2015,,,^ k a m a $,default
-Pt-51_breast-1,,Pt,51_breast,-kam,-kam,k a m,,Galucio2015,,,^ - k a m $,default
-Su-51_breast-1,,Su,51_breast,-nṍma,-nṍma,n õ m a,,Galucio2015,,,^ - n ṍ m a $,default
+Pt-51_breast-1,,Pt,51_breast,-kam,-kam,k a m,,Galucio2015,,,^- k a m $,default
+Su-51_breast-1,,Su,51_breast,-nṍma,-nṍma,n õ m a,,Galucio2015,,,^- n ṍ m a $,default
 Ta-51_breast-1,,Ta,51_breast,kɨm,kɨm,k ɨ m,,Galucio2015,,,^ k ɨ m $,default
 Tu-51_breast-1,,Tu,51_breast,kẽm,kẽm,k ẽ m,,Galucio2015,,,^ k ẽ m $,default
 Uk-51_breast-1,,Uk,51_breast,kambɨ,kambɨ,k a m b ɨ,,Galucio2015,,,^ k a m b ɨ $,default
 Wa-51_breast-1,,Wa,51_breast,ŋẽm,ŋẽm,ŋ ẽ m,,Galucio2015,,,^ ŋ ẽ m $,default
 Xi-51_breast-1,,Xi,51_breast,namã,namã,n a m ã,,Galucio2015,,,^ n a m ã $,default
-Zo-51_breast-1,,Zo,51_breast,-nãß-ãã,-nãß-ãã,n ã β ãː,,Galucio2015,,,^ - n ã ß - ãã $,default
+Zo-51_breast-1,,Zo,51_breast,-nãß-ãã,-nãß-ãã,n ã β ãː,,Galucio2015,,,^- n ã ß - ãã $,default
 Aw-51_breast-1,,Aw,51_breast,poʐɨʔa,poʐɨʔa,p o ʐ ɨ ʔ a,,Galucio2015,,,^ p o ʐ ɨ ʔ a $,default
 Mw-51_breast-1,,Mw,51_breast,ai-potɨʔa,ai-potɨʔa,a i p o t ɨ ʔ a,,Galucio2015,,,^ a i - p o t ɨ ʔ a $,default
 Pu-51_breast-1,,Pu,51_breast,poɾabedə,poɾabedə,p o ɾ a b e d ə,,Galucio2015,,,^ p o ɾ a be d ə $,default
 Ak-52_heartguts-1,,Ak,52_heartguts,anoa,anoa,a n o a,,Galucio2015,,,^ a n o a $,default
-Ar-52_heartguts-1,,Ar,52_heartguts,-áɡṍ-káp,-áɡṍ-káp,á/a g õ k á/a p,,Galucio2015,,,^ - á ɡ ṍ - k á p $,default
-Gv-52_heartguts-1,,Gv,52_heartguts,-áɡṍ-ã,-áɡṍ-ã,á/a g õ ã,,Galucio2015,,,^ - á ɡ ṍ - ã $,default
+Ar-52_heartguts-1,,Ar,52_heartguts,-áɡṍ-káp,-áɡṍ-káp,á/a g õ k á/a p,,Galucio2015,,,^- á ɡ ṍ - k á p $,default
+Gv-52_heartguts-1,,Gv,52_heartguts,-áɡṍ-ã,-áɡṍ-ã,á/a g õ ã,,Galucio2015,,,^- á ɡ ṍ - ã $,default
 Me-52_heartguts-1,,Me,52_heartguts,o-anoa,o-anoa,o a n o a,,Galucio2015,,,^ o - a n o a $,default
-Sa-52_heartguts-1,,Sa,52_heartguts,-ãɡõʔã,-ãɡõʔã,ã g õ ʔ ã,,Galucio2015,,,^ - ã ɡ õ ʔ ã $,default
-Su-52_heartguts-1,,Su,52_heartguts,-áɡṍ-ã,-áɡṍ-ã,á/a g õ ã,,Galucio2015,,,^ - á ɡ ṍ - ã $,default
+Sa-52_heartguts-1,,Sa,52_heartguts,-ãɡõʔã,-ãɡõʔã,ã g õ ʔ ã,,Galucio2015,,,^- ã ɡ õ ʔ ã $,default
+Su-52_heartguts-1,,Su,52_heartguts,-áɡṍ-ã,-áɡṍ-ã,á/a g õ ã,,Galucio2015,,,^- á ɡ ṍ - ã $,default
 Tu-52_heartguts-1,,Tu,52_heartguts,anoʔa,anoʔa,a n o ʔ a,,Galucio2015,,,^ a n o ʔ a $,default
 Wa-52_heartguts-1,,Wa,52_heartguts,mãnõã,mãnõã,m ã n õ ã,,Galucio2015,,,^ m ã n õ ã $,default
-Zo-52_heartguts-1,,Zo,52_heartguts,-áɡṍ-ã,-áɡṍ-ã,á/a g õ ã,,Galucio2015,,,^ - á ɡ ṍ - ã $,default
+Zo-52_heartguts-1,,Zo,52_heartguts,-áɡṍ-ã,-áɡṍ-ã,á/a g õ ã,,Galucio2015,,,^- á ɡ ṍ - ã $,default
 Aw-52_heartguts-1,,Aw,52_heartguts,etãj,etãj,e t ã j,,Galucio2015,,,^ e tãj $,default
 Mw-52_heartguts-1,,Mw,52_heartguts,ai-weʔã,ai-weʔã,a i w e ʔ ã,,Galucio2015,,,^ a i - w e ʔ ã $,default
 Pg-52_heartguts-1,,Pg,52_heartguts,ɲeʔã,ɲeʔã,ɲ e ʔ ã,,Galucio2015,,,^ ɲ e ʔ ã $,default
-Pt-52_heartguts-1,,Pt,52_heartguts,-ɲaʔaʔi,-ɲaʔaʔi,ɲ a ʔ a ʔ i,,Galucio2015,,,^ - ɲ a ʔ a ʔ i $,default
+Pt-52_heartguts-1,,Pt,52_heartguts,-ɲaʔaʔi,-ɲaʔaʔi,ɲ a ʔ a ʔ i,,Galucio2015,,,^- ɲ a ʔ a ʔ i $,default
 Ta-52_heartguts-1,,Ta,52_heartguts,tjɨhĩ,tjɨhĩ,t j ɨ h ĩ,,Galucio2015,,,^ t j ɨ h ĩ $,default
 Uk-52_heartguts-1,,Uk,52_heartguts,ʃiɾaha(m),ʃiɾaha,ʃ i ɾ a h a,,Galucio2015,,,^ ʃ i ɾ a h a $,default
 Mu-52_heartguts-1,,Mu,52_heartguts,aʔõʃabida,aʔõʃabida,a ʔ õ ʃ a b i d a,,Galucio2015,,,^ a ʔ õ ʃ a b i d a $,default
@@ -1204,9 +1204,9 @@ Ju-52_heartguts-1,,Ju,52_heartguts,waĩkáhá,waĩkáhá,w a ĩ k á/a h á/a,,G
 Ka-52_heartguts-1,,Ka,52_heartguts,i-cáɾaɡáʔ,i-cáɾaɡáʔ,i c á/a ɾ a g á/a ʔ,,Galucio2015,,,^ i - c á ɾ a ɡ á ʔ $,default
 Pu-52_heartguts-1,,Pu,52_heartguts,mɨnaka,mɨnaka,m ɨ n a k a,,Galucio2015,,,^ m ɨ n a k a $,default
 Kt-52_heartguts-1,,Kt,52_heartguts,hadnĩpa,hadnĩpa,h a d n ĩ p a,,Galucio2015,,,^ h a d n ĩ p a $,default
-Ar-53_liver-1,,Ar,53_liver,-ʦaa,-ʦaa,ts aː,,Galucio2015,,,^ - ʦ aa $,default
-Gv-53_liver-1,,Gv,53_liver,-ʦaá,-ʦaá,ts a á/a,,Galucio2015,,,^ - ʦ a á $,default
-Ju-53_liver-1,,Ju,53_liver,-bɨʔá,-bɨʔá,b ɨ ʔ á/a,,Galucio2015,,,^ - b ɨ ʔ á $,default
+Ar-53_liver-1,,Ar,53_liver,-ʦaa,-ʦaa,ts aː,,Galucio2015,,,^- ʦ aa $,default
+Gv-53_liver-1,,Gv,53_liver,-ʦaá,-ʦaá,ts a á/a,,Galucio2015,,,^- ʦ a á $,default
+Ju-53_liver-1,,Ju,53_liver,-bɨʔá,-bɨʔá,b ɨ ʔ á/a,,Galucio2015,,,^- b ɨ ʔ á $,default
 Ka-53_liver-1,,Ka,53_liver,i-pía ʔaʔ,i-pía ʔaʔ,i p í/i a + ʔ a ʔ,,Galucio2015,,,^ i - p í a + ʔ a ʔ $,default
 Ku-53_liver-1,,Ku,53_liver,bia̤,bia̤,b i a̤,,Galucio2015,,,^ b i a̤ $,default
 Ma-53_liver-1,,Ma,53_liver,pi.aʔ,pi.aʔ,p i + a ʔ,,Galucio2015,,,^ p i . a ʔ $,default
@@ -1214,17 +1214,17 @@ Me-53_liver-1,,Me,53_liver,o-pisa,o-pisa,o p i s a,,Galucio2015,,,^ o - p i s a 
 Mu-53_liver-1,,Mu,53_liver,j-opsa̤,j-opsa̤,j o p s a̤,,Galucio2015,,,^ j - o ps a̤ $,default
 Mw-53_liver-1,,Mw,53_liver,i-pɨʔa,i-pɨʔa,i p ɨ ʔ a,,Galucio2015,,,^ i - p ɨ ʔ a $,default
 Pg-53_liver-1,,Pg,53_liver,pɨʔa,pɨʔa,p ɨ ʔ a,,Galucio2015,,,^ p ɨ ʔ a $,default
-Pt-53_liver-1,,Pt,53_liver,-pɨʔa,-pɨʔa,p ɨ ʔ a,,Galucio2015,,,^ - p ɨ ʔ a $,default
+Pt-53_liver-1,,Pt,53_liver,-pɨʔa,-pɨʔa,p ɨ ʔ a,,Galucio2015,,,^- p ɨ ʔ a $,default
 Pu-53_liver-1,,Pu,53_liver,bi.a,bi.a,b i + a,,Galucio2015,,,^ b i . a $,default
 Pu-53_liver-2,,Pu,53_liver,mbi.a,mbi.a,m b i + a,,Galucio2015,,,^ m b i . a $,default
-Sa-53_liver-1,,Sa,53_liver,-sáʔa,-sáʔa,s á/a ʔ a,,Galucio2015,,,^ - s á ʔ a $,default
-Su-53_liver-1,,Su,53_liver,-saa,-saa,s aː,,Galucio2015,,,^ - s aa $,default
+Sa-53_liver-1,,Sa,53_liver,-sáʔa,-sáʔa,s á/a ʔ a,,Galucio2015,,,^- s á ʔ a $,default
+Su-53_liver-1,,Su,53_liver,-saa,-saa,s aː,,Galucio2015,,,^- s aa $,default
 Ta-53_liver-1,,Ta,53_liver,mɨhã,mɨhã,m ɨ h ã,,Galucio2015,,,^ m ɨ h ã $,default
 Tu-53_liver-1,,Tu,53_liver,siʔa,siʔa,s i ʔ a,,Galucio2015,,,^ s i ʔ a $,default
 Uk-53_liver-1,,Uk,53_liver,i-pɨʔa,i-pɨʔa,i p ɨ ʔ a,,Galucio2015,,,^ i - p ɨ ʔ a $,default
 Wa-53_liver-1,,Wa,53_liver,o-pia,o-pia,o p i a,,Galucio2015,,,^ o - p i a $,default
-Xi-53_liver-1,,Xi,53_liver,-bɨa,-bɨa,b ɨ a,,Galucio2015,,,^ - b ɨ a $,default
-Zo-53_liver-1,,Zo,53_liver,-saa,-saa,s aː,,Galucio2015,,,^ - s aa $,default
+Xi-53_liver-1,,Xi,53_liver,-bɨa,-bɨa,b ɨ a,,Galucio2015,,,^- b ɨ a $,default
+Zo-53_liver-1,,Zo,53_liver,-saa,-saa,s aː,,Galucio2015,,,^- s aa $,default
 Aw-53_liver-1,,Aw,53_liver,peɾe,peɾe,p e ɾ e,,Galucio2015,,,^ p e ɾ e $,default
 Kt-53_liver-1,,Kt,53_liver,kɨɾɨ,kɨɾɨ,k ɨ ɾ ɨ,,Galucio2015,,,^ k ɨ ɾ ɨ $,default
 Ak-54_drink-1,,Ak,54_drink,apeka,apeka,a p e k a,,Galucio2015,,,^ a p e k a $,default
@@ -1235,7 +1235,7 @@ Ma-54_drink-1,,Ma,54_drink,kaʔ,kaʔ,k a ʔ,,Galucio2015,,,^ k a ʔ $,default
 Me-54_drink-1,,Me,54_drink,kaa,kaa,k aː,,Galucio2015,,,^ k aa $,default
 Mw-54_drink-1,,Mw,54_drink,aɾe-ʔɨʔu,aɾe-ʔɨʔu,a ɾ e ʔ ɨ ʔ u,,Galucio2015,,,^ a ɾ e - ʔ ɨ ʔ u $,default
 Pg-54_drink-1,,Pg,54_drink,ha-ɨʔu,ha-ɨʔu,h a ɨ ʔ u,,Galucio2015,,,^ h a - ɨ ʔ u $,default
-Pt-54_drink-1,,Pt,54_drink,-ɨʔu,-ɨʔu,ɨ ʔ u,,Galucio2015,,,^ - ɨ ʔ u $,default
+Pt-54_drink-1,,Pt,54_drink,-ɨʔu,-ɨʔu,ɨ ʔ u,,Galucio2015,,,^- ɨ ʔ u $,default
 Pu-54_drink-1,,Pu,54_drink,ʔo,ʔo,ʔ o,,Galucio2015,,,^ ʔ o $,default
 Ta-54_drink-1,,Ta,54_drink,ɨho,ɨho,ɨ h o,,Galucio2015,,,^ ɨ h o $,default
 Tu-54_drink-1,,Tu,54_drink,ka,ka,k a,,Galucio2015,,,^ k a $,default
@@ -1243,8 +1243,8 @@ Uk-54_drink-1,,Uk,54_drink,uʔu,uʔu,u ʔ u,,Galucio2015,,,^ u ʔ u $,default
 Wa-54_drink-1,,Wa,54_drink,ka,ka,k a,,Galucio2015,,,^ k a $,default
 Ar-54_drink-1,,Ar,54_drink,ci-ßa,ci-ßa,c i β a,,Galucio2015,,,^ c i - ß a $,default
 Gv-54_drink-1,,Gv,54_drink,ci-ßa,ci-ßa,c i β a,,Galucio2015,,,^ c i - ß a $,default
-Sa-54_drink-1,,Sa,54_drink,-ßa,-ßa,β a,,Galucio2015,,,^ - ß a $,default
-Zo-54_drink-1,,Zo,54_drink,-ßa,-ßa,β a,,Galucio2015,,,^ - ß a $,default
+Sa-54_drink-1,,Sa,54_drink,-ßa,-ßa,β a,,Galucio2015,,,^- ß a $,default
+Zo-54_drink-1,,Zo,54_drink,-ßa,-ßa,β a,,Galucio2015,,,^- ß a $,default
 Ju-54_drink-1,,Ju,54_drink,awí,awí,a w í/i,,Galucio2015,,,^ a w í $,default
 Xi-54_drink-1,,Xi,54_drink,wi,wi,w i,,Galucio2015,,,^ w i $,default
 Mu-54_drink-1,,Mu,54_drink,ti-kõn,ti-kõn,t i k õ n,,Galucio2015,,,^ t i - k õ n $,default
@@ -1261,7 +1261,7 @@ Mu-55_eat-1,,Mu,55_eat,ʔo,ʔo,ʔ o,,Galucio2015,,,^ ʔ o $,default
 Mu-55_eat-2,,Mu,55_eat,kõn,kõn,k õ n,,Galucio2015,,,^ k õ n $,default
 Mw-55_eat-1,,Mw,55_eat,at-uʔu,at-uʔu,a t u ʔ u,,Galucio2015,,,^ a t - u ʔ u $,default
 Pg-55_eat-1,,Pg,55_eat,a-ʔu,a-ʔu,a ʔ u,,Galucio2015,,,^ a - ʔ u $,default
-Pt-55_eat-1,,Pt,55_eat,-ʔu,-ʔu,ʔ u,,Galucio2015,,,^ - ʔ u $,default
+Pt-55_eat-1,,Pt,55_eat,-ʔu,-ʔu,ʔ u,,Galucio2015,,,^- ʔ u $,default
 Pu-55_eat-1,,Pu,55_eat,ʔo,ʔo,ʔ o,,Galucio2015,,,^ ʔ o $,default
 Ta-55_eat-1,,Ta,55_eat,ho,ho,h o,,Galucio2015,,,^ h o $,default
 Tu-55_eat-1,,Tu,55_eat,ka,ka,k a,,Galucio2015,,,^ k a $,default
@@ -1269,23 +1269,23 @@ Uk-55_eat-1,,Uk,55_eat,u-ʔu,u-ʔu,u ʔ u,,Galucio2015,,,^ u - ʔ u $,default
 Wa-55_eat-1,,Wa,55_eat,ka,ka,k a,,Galucio2015,,,^ k a $,default
 Xi-55_eat-1,,Xi,55_eat,ʃu,ʃu,ʃ u,,Galucio2015,,,^ ʃ u $,default
 Ar-55_eat-1,,Ar,55_eat,ßa,ßa,β a,,Galucio2015,,,^ ß a $,default
-Gv-55_eat-1,,Gv,55_eat,-ßa,-ßa,β a,,Galucio2015,,,^ - ß a $,default
-Sa-55_eat-1,,Sa,55_eat,-ßa,-ßa,β a,,Galucio2015,,,^ - ß a $,default
-Su-55_eat-1,,Su,55_eat,-wa,-wa,w a,,Galucio2015,,,^ - w a $,default
-Zo-55_eat-1,,Zo,55_eat,-ßa,-ßa,β a,,Galucio2015,,,^ - ß a $,default
+Gv-55_eat-1,,Gv,55_eat,-ßa,-ßa,β a,,Galucio2015,,,^- ß a $,default
+Sa-55_eat-1,,Sa,55_eat,-ßa,-ßa,β a,,Galucio2015,,,^- ß a $,default
+Su-55_eat-1,,Su,55_eat,-wa,-wa,w a,,Galucio2015,,,^- w a $,default
+Zo-55_eat-1,,Zo,55_eat,-ßa,-ßa,β a,,Galucio2015,,,^- ß a $,default
 Kt-55_eat-1,,Kt,55_eat,pɨtʔɨ,pɨtʔɨ,p ɨ t ʔ ɨ,,Galucio2015,,,^ p ɨ t ʔ ɨ $,default
 Ak-56_bite-1,,Ak,56_bite,ʧoka,ʧoka,tʃ o k a,,Galucio2015,,,^ ʧ o k a $,default
 Aw-56_bite-1,,Aw,56_bite,tuʔu,tuʔu,t u ʔ u,,Galucio2015,,,^ t u ʔ u $,default
 Ju-56_bite-1,,Ju,56_bite,aʧú,aʧú,a tʃ ú/u,,Galucio2015,,,^ a ʧ ú $,default
-Ka-56_bite-1,,Ka,56_bite,-tót,-tót,t ó/o t,,Galucio2015,,,^ - t ó t $,default
+Ka-56_bite-1,,Ka,56_bite,-tót,-tót,t ó/o t,,Galucio2015,,,^- t ó t $,default
 Kt-56_bite-1,,Kt,56_bite,okoot,okoot,o k oː t,,Galucio2015,,,^ o k oo t $,default
 Me-56_bite-1,,Me,56_bite,i-soɡoa,i-soɡoa,i s o g o a,,Galucio2015,,,^ i - s o ɡ o a $,default
 Mw-56_bite-1,,Mw,56_bite,ahe-katuʔu,ahe-katuʔu,a h e k a t u ʔ u,,Galucio2015,,,^ a h e - k a t u ʔ u $,default
 Pg-56_bite-1,,Pg,56_bite,ai-suʔu,ai-suʔu,a i s u ʔ u,,Galucio2015,,,^ a i - s u ʔ u $,default
-Pt-56_bite-1,,Pt,56_bite,-huʔu,-huʔu,h u ʔ u,,Galucio2015,,,^ - h u ʔ u $,default
+Pt-56_bite-1,,Pt,56_bite,-huʔu,-huʔu,h u ʔ u,,Galucio2015,,,^- h u ʔ u $,default
 Pu-56_bite-1,,Pu,56_bite,ʃeka,ʃeka,ʃ e k a,,Galucio2015,,,^ ʃ e k a $,default
-Sa-56_bite-1,,Sa,56_bite,-ákaal,-ákaal,á/a k aː l,,Galucio2015,,,^ - á k aa l $,default
-Su-56_bite-1,,Su,56_bite,-áka(a)ɾ,-ákaɾ,á/a k a ɾ,,Galucio2015,,,^ - á k a ɾ $,default
+Sa-56_bite-1,,Sa,56_bite,-ákaal,-ákaal,á/a k aː l,,Galucio2015,,,^- á k aa l $,default
+Su-56_bite-1,,Su,56_bite,-áka(a)ɾ,-ákaɾ,á/a k a ɾ,,Galucio2015,,,^- á k a ɾ $,default
 Ta-56_bite-1,,Ta,56_bite,oho,oho,o h o,,Galucio2015,,,^ o h o $,default
 Tu-56_bite-1,,Tu,56_bite,weka,weka,w e k a,,Galucio2015,,,^ w e k a $,default
 Uk-56_bite-1,,Uk,56_bite,suʔu,suʔu,s u ʔ u,,Galucio2015,,,^ s u ʔ u $,default
@@ -1308,32 +1308,32 @@ Mu-57_see-1,,Mu,57_see,ʧo,ʧo,tʃ o,,Galucio2015,,,^ ʧ o $,default
 Pu-57_see-1,,Pu,57_see,dopa,dopa,d o p a,,Galucio2015,,,^ do p a $,default
 Tu-57_see-1,,Tu,57_see,toa,toa,t o a,,Galucio2015,,,^ t o a $,default
 Wa-57_see-1,,Wa,57_see,toa,toa,t o a,,Galucio2015,,,^ t o a $,default
-Ju-57_see-1,,Ju,57_see,-zákú,-zákú,z á/a k ú/u,,Galucio2015,,,^ - z á k ú $,default
+Ju-57_see-1,,Ju,57_see,-zákú,-zákú,z á/a k ú/u,,Galucio2015,,,^- z á k ú $,default
 Pg-57_see-1,,Pg,57_see,a-heʃa,a-heʃa,a h e ʃ a,,Galucio2015,,,^ a - h e ʃ a $,default
-Pt-57_see-1,,Pt,57_see,-epiaɡ,-epiaɡ,e p i a g,,Galucio2015,,,^ - e p i a ɡ $,default
+Pt-57_see-1,,Pt,57_see,-epiaɡ,-epiaɡ,e p i a g,,Galucio2015,,,^- e p i a ɡ $,default
 Ta-57_see-1,,Ta,57_see,i-tjãk,i-tjãk,i t j ã k,,Galucio2015,,,^ i - t j ã k $,default
 Uk-57_see-1,,Uk,57_see,u-sak,u-sak,u s a k,,Galucio2015,,,^ u - s a k $,default
-Xi-57_see-1,,Xi,57_see,-zaku,-zaku,z a k u,,Galucio2015,,,^ - z a k u $,default
-Ar-57_see-1,,Ar,57_see,-íkini,-íkini,í/i k i n i,,Galucio2015,,,^ - í k i n i $,default
-Gv-57_see-1,,Gv,57_see,-ákinì,-ákinì,á/a k i n ì/i,,Galucio2015,,,^ - á k i n ì $,default
-Gv-57_see-2,,Gv,57_see,-íkinì,-íkinì,í/i k i n ì/i,,Galucio2015,,,^ - í k i n ì $,default
-Sa-57_see-1,,Sa,57_see,-íkini,-íkini,í/i k i n i,,Galucio2015,,,^ - í k i n i $,default
-Su-57_see-1,,Su,57_see,-íkĩĩn,-íkĩĩn,í/i k ĩː n,,Galucio2015,,,^ - í k ĩĩ n $,default
-Zo-57_see-1,,Zo,57_see,-íkinì,-íkinì,í/i k i n ì/i,,Galucio2015,,,^ - í k i n ì $,default
+Xi-57_see-1,,Xi,57_see,-zaku,-zaku,z a k u,,Galucio2015,,,^- z a k u $,default
+Ar-57_see-1,,Ar,57_see,-íkini,-íkini,í/i k i n i,,Galucio2015,,,^- í k i n i $,default
+Gv-57_see-1,,Gv,57_see,-ákinì,-ákinì,á/a k i n ì/i,,Galucio2015,,,^- á k i n ì $,default
+Gv-57_see-2,,Gv,57_see,-íkinì,-íkinì,í/i k i n ì/i,,Galucio2015,,,^- í k i n ì $,default
+Sa-57_see-1,,Sa,57_see,-íkini,-íkini,í/i k i n i,,Galucio2015,,,^- í k i n i $,default
+Su-57_see-1,,Su,57_see,-íkĩĩn,-íkĩĩn,í/i k ĩː n,,Galucio2015,,,^- í k ĩĩ n $,default
+Zo-57_see-1,,Zo,57_see,-íkinì,-íkinì,í/i k i n ì/i,,Galucio2015,,,^- í k i n ì $,default
 Mw-57_see-1,,Mw,57_see,aɾ-aʔakasa,aɾ-aʔakasa,a ɾ a ʔ a k a s a,,Galucio2015,,,^ a ɾ - a ʔ a k a s a $,default
 Aw-58_hear-1,,Aw,58_hear,ẽtup,ẽtup,ẽ t u p,,Galucio2015,,,^ ẽ t u p $,default
 Ju-58_hear-1,,Ju,58_hear,ẽdú,ẽdú,ẽ d ú/u,,Galucio2015,,,^ ẽ d ú $,default
 Mw-58_hear-1,,Mw,58_hear,aɾe-wanẽtup,aɾe-wanẽtup,a ɾ e w a n ẽ t u p,,Galucio2015,,,^ a ɾ e - w a n ẽ t u p $,default
 Pg-58_hear-1,,Pg,58_hear,a-hendu,a-hendu,a h e n d u,,Galucio2015,,,^ a - h e n d u $,default
-Pt-58_hear-1,,Pt,58_hear,-enduv,-enduv,e n d u v,,Galucio2015,,,^ - e n d u v $,default
+Pt-58_hear-1,,Pt,58_hear,-enduv,-enduv,e n d u v,,Galucio2015,,,^- e n d u v $,default
 Ta-58_hear-1,,Ta,58_hear,inop,inop,i n o p,,Galucio2015,,,^ i n o p $,default
 Uk-58_hear-1,,Uk,58_hear,a-hendu,a-hendu,a h e n d u,,Galucio2015,,,^ a - h e n d u $,default
 Xi-58_hear-1,,Xi,58_hear,ẽdu,ẽdu,ẽ d u,,Galucio2015,,,^ ẽ d u $,default
-Ar-58_hear-1,,Ar,58_hear,-pii,-pii,p iː,,Galucio2015,,,^ - p ii $,default
-Gv-58_hear-1,,Gv,58_hear,-pii,-pii,p iː,,Galucio2015,,,^ - p ii $,default
-Sa-58_hear-1,,Sa,58_hear,-pii,-pii,p iː,,Galucio2015,,,^ - p ii $,default
-Su-58_hear-1,,Su,58_hear,-we-pii,-we-pii,w e p iː,,Galucio2015,,,^ - w e - p ii $,default
-Zo-58_hear-1,,Zo,58_hear,-pii,-pii,p iː,,Galucio2015,,,^ - p ii $,default
+Ar-58_hear-1,,Ar,58_hear,-pii,-pii,p iː,,Galucio2015,,,^- p ii $,default
+Gv-58_hear-1,,Gv,58_hear,-pii,-pii,p iː,,Galucio2015,,,^- p ii $,default
+Sa-58_hear-1,,Sa,58_hear,-pii,-pii,p iː,,Galucio2015,,,^- p ii $,default
+Su-58_hear-1,,Su,58_hear,-we-pii,-we-pii,w e p iː,,Galucio2015,,,^- w e - p ii $,default
+Zo-58_hear-1,,Zo,58_hear,-pii,-pii,p iː,,Galucio2015,,,^- p ii $,default
 Ma-58_hear-1,,Ma,58_hear,kißaʔtoa,kißaʔtoa,k i β a ʔ t o a,,Galucio2015,,,^ k i ß a ʔ t o a $,default
 Me-58_hear-1,,Me,58_hear,i-kwakʦoa,i-kwakʦoa,i k w a k ts o a,,Galucio2015,,,^ i - kw a k ʦ o a $,default
 Wa-58_hear-1,,Wa,58_hear,ŋɡwaktoa,ŋɡwaktoa,ŋ g w a k t o a,,Galucio2015,,,^ ŋ ɡw a k t o a $,default
@@ -1345,12 +1345,12 @@ Kt-58_hear-1,,Kt,58_hear,opiso,opiso,o p i s o,,Galucio2015,,,^ o p i s o $,defa
 Aw-59_know-1,,Aw,59_know,kwawap,kwawap,k w a w a p,,Galucio2015,,,^ kw a w a p $,default
 Mw-59_know-1,,Mw,59_know,ati-kuap,ati-kuap,a t i k u a p,,Galucio2015,,,^ a t i - k u a p $,default
 Pg-59_know-1,,Pg,59_know,ai-kuaa,ai-kuaa,a i k u aː,,Galucio2015,,,^ a i - k u aa $,default
-Pt-59_know-1,,Pt,59_know,-kwahav,-kwahav,k w a h a v,,Galucio2015,,,^ - kw a h a v $,default
+Pt-59_know-1,,Pt,59_know,-kwahav,-kwahav,k w a h a v,,Galucio2015,,,^- kw a h a v $,default
 Ta-59_know-1,,Ta,59_know,a-kwaam,a-kwaam,a k w aː m,,Galucio2015,,,^ a - kw aa m $,default
 Uk-59_know-1,,Uk,59_know,u-kwa,u-kwa,u k w a,,Galucio2015,,,^ u - kw a $,default
-Ar-59_know-1,,Ar,59_know,-jaat,-jaat,j aː t,,Galucio2015,,,^ - j aa t $,default
-Gv-59_know-1,,Gv,59_know,-jaàt,-jaàt,j a à/a t,,Galucio2015,,,^ - j a à t $,default
-Zo-59_know-1,,Zo,59_know,-jaat,-jaat,j aː t,,Galucio2015,,,^ - j aa t $,default
+Ar-59_know-1,,Ar,59_know,-jaat,-jaat,j aː t,,Galucio2015,,,^- j aa t $,default
+Gv-59_know-1,,Gv,59_know,-jaàt,-jaàt,j a à/a t,,Galucio2015,,,^- j a à t $,default
+Zo-59_know-1,,Zo,59_know,-jaat,-jaat,j aː t,,Galucio2015,,,^- j aa t $,default
 Ku-59_know-1,,Ku,59_know,taibit,taibit,t a i b i t,,Galucio2015,,,^ ta i b i t $,default
 Mu-59_know-1,,Mu,59_know,ta̤jbít,ta̤jbít,t a̤ j b í/i t,,Galucio2015,,,^ ta̤jbít $,default
 Me-59_know-1,,Me,59_know,soap samek,soap samek,s o a p + s a m e k,,Galucio2015,,,^ s o a p + s a m e k $,default
@@ -1362,9 +1362,9 @@ Xi-59_know-1,,Xi,59_know,bahu,bahu,b a h u,,Galucio2015,,,^ b a h u $,default
 Ma-59_know-1,,Ma,59_know,kɨßatoa,kɨßatoa,k ɨ β a t o a,,Galucio2015,,,^ k ɨ ß a t o a $,default
 Ka-59_know-1,,Ka,59_know,cahməj nãn,cahməj nãn,c a h m ə j + n ã n,,Galucio2015,,,^ c a h m ə j + n ã n $,default
 Ak-60_sleep-1,,Ak,60_sleep,eɾa,eɾa,e ɾ a,,Galucio2015,,,^ e ɾ a $,default
-Ar-60_sleep-1,,Ar,60_sleep,-keɾe,-keɾe,k e ɾ e,,Galucio2015,,,^ - k e ɾ e $,default
+Ar-60_sleep-1,,Ar,60_sleep,-keɾe,-keɾe,k e ɾ e,,Galucio2015,,,^- k e ɾ e $,default
 Aw-60_sleep-1,,Aw,60_sleep,tet,tet,t e t,,Galucio2015,,,^ t e t $,default
-Gv-60_sleep-1,,Gv,60_sleep,-keɾe,-keɾe,k e ɾ e,,Galucio2015,,,^ - k e ɾ e $,default
+Gv-60_sleep-1,,Gv,60_sleep,-keɾe,-keɾe,k e ɾ e,,Galucio2015,,,^- k e ɾ e $,default
 Ka-60_sleep-1,,Ka,60_sleep,ken,ken,k e n,,Galucio2015,,,^ k e n $,default
 Kt-60_sleep-1,,Kt,60_sleep,kat,kat,k a t,,Galucio2015,,,^ k a t $,default
 Ku-60_sleep-1,,Ku,60_sleep,ʃet,ʃet,ʃ e t,,Galucio2015,,,^ ʃ e t $,default
@@ -1373,20 +1373,20 @@ Me-60_sleep-1,,Me,60_sleep,se-eɾa,se-eɾa,s e e ɾ a,,Galucio2015,,,^ s e - e �
 Mu-60_sleep-1,,Mu,60_sleep,ʃét,ʃét,ʃ é/e t,,Galucio2015,,,^ ʃ é t $,default
 Mw-60_sleep-1,,Mw,60_sleep,aɾe-ket,aɾe-ket,a ɾ e k e t,,Galucio2015,,,^ a ɾ e - k e t $,default
 Pg-60_sleep-1,,Pg,60_sleep,a-ke,a-ke,a k e,,Galucio2015,,,^ a - k e $,default
-Pt-60_sleep-1,,Pt,60_sleep,-kiɾ,-kiɾ,k i ɾ,,Galucio2015,,,^ - k i ɾ $,default
+Pt-60_sleep-1,,Pt,60_sleep,-kiɾ,-kiɾ,k i ɾ,,Galucio2015,,,^- k i ɾ $,default
 Pu-60_sleep-1,,Pu,60_sleep,keta,keta,k e t a,,Galucio2015,,,^ k e ta $,default
-Sa-60_sleep-1,,Sa,60_sleep,-keet,-keet,k eː t,,Galucio2015,,,^ - k ee t $,default
-Su-60_sleep-1,,Su,60_sleep,-keeɾ,-keeɾ,k eː ɾ,,Galucio2015,,,^ - k ee ɾ $,default
+Sa-60_sleep-1,,Sa,60_sleep,-keet,-keet,k eː t,,Galucio2015,,,^- k ee t $,default
+Su-60_sleep-1,,Su,60_sleep,-keeɾ,-keeɾ,k eː ɾ,,Galucio2015,,,^- k ee ɾ $,default
 Ta-60_sleep-1,,Ta,60_sleep,ket,ket,k e t,,Galucio2015,,,^ k e t $,default
 Tu-60_sleep-1,,Tu,60_sleep,ʔeɾa,ʔeɾa,ʔ e ɾ a,,Galucio2015,,,^ ʔ e ɾ a $,default
 Uk-60_sleep-1,,Uk,60_sleep,a-keɾ,a-keɾ,a k e ɾ,,Galucio2015,,,^ a - k e ɾ $,default
 Wa-60_sleep-1,,Wa,60_sleep,eɾa,eɾa,e ɾ a,,Galucio2015,,,^ e ɾ a $,default
-Zo-60_sleep-1,,Zo,60_sleep,-keɾe,-keɾe,k e ɾ e,,Galucio2015,,,^ - k e ɾ e $,default
+Zo-60_sleep-1,,Zo,60_sleep,-keɾe,-keɾe,k e ɾ e,,Galucio2015,,,^- k e ɾ e $,default
 Ju-60_sleep-1,,Ju,60_sleep,iju,iju,i j u,,Galucio2015,,,^ i ju $,default
 Xi-60_sleep-1,,Xi,60_sleep,siu,siu,s i u,,Galucio2015,,,^ s i u $,default
-Aw-61_die-1,,Aw,61_die,-majõ,-majõ,m a j õ,,Galucio2015,,,^ - m a j õ $,default
+Aw-61_die-1,,Aw,61_die,-majõ,-majõ,m a j õ,,Galucio2015,,,^- m a j õ $,default
 Pg-61_die-1,,Pg,61_die,a-mano,a-mano,a m a n o,,Galucio2015,,,^ a - m a n o $,default
-Pt-61_die-1,,Pt,61_die,-mano,-mano,m a n o,,Galucio2015,,,^ - m a n o $,default
+Pt-61_die-1,,Pt,61_die,-mano,-mano,m a n o,,Galucio2015,,,^- m a n o $,default
 Ta-61_die-1,,Ta,61_die,manõ,manõ,m a n õ,,Galucio2015,,,^ m a n õ $,default
 Uk-61_die-1,,Uk,61_die,manõ,manõ,m a n õ,,Galucio2015,,,^ m a n õ $,default
 Ka-61_die-1,,Ka,61_die,paj,paj,p a j,,Galucio2015,,,^ p a j $,default
@@ -1394,12 +1394,12 @@ Kt-61_die-1,,Kt,61_die,pop,pop,p o p,,Galucio2015,,,^ p o p $,default
 Me-61_die-1,,Me,61_die,se-poɾoka,se-poɾoka,s e p o ɾ o k a,,Galucio2015,,,^ s e - p o ɾ o k a $,default
 Tu-61_die-1,,Tu,61_die,pawa,pawa,p a w a,,Galucio2015,,,^ p a w a $,default
 Wa-61_die-1,,Wa,61_die,paɡa,paɡa,p a g a,,Galucio2015,,,^ p a ɡ a $,default
-Ar-61_die-1,,Ar,61_die,-ßii,-ßii,β iː,,Galucio2015,,,^ - ß ii $,default
-Gv-61_die-1,,Gv,61_die,-ßiì,-ßiì,β i ì/i,,Galucio2015,,,^ - ß i ì $,default
-Sa-61_die-1,,Sa,61_die,-jii,-jii,j iː,,Galucio2015,,,^ - j ii $,default
-Sa-61_die-2,,Sa,61_die,-ii,-ii,iː,,Galucio2015,,,^ - ii $,default
-Su-61_die-1,,Su,61_die,-ii,-ii,iː,,Galucio2015,,,^ - ii $,default
-Zo-61_die-1,,Zo,61_die,-ßiì,-ßiì,β i ì/i,,Galucio2015,,,^ - ß i ì $,default
+Ar-61_die-1,,Ar,61_die,-ßii,-ßii,β iː,,Galucio2015,,,^- ß ii $,default
+Gv-61_die-1,,Gv,61_die,-ßiì,-ßiì,β i ì/i,,Galucio2015,,,^- ß i ì $,default
+Sa-61_die-1,,Sa,61_die,-jii,-jii,j iː,,Galucio2015,,,^- j ii $,default
+Sa-61_die-2,,Sa,61_die,-ii,-ii,iː,,Galucio2015,,,^- ii $,default
+Su-61_die-1,,Su,61_die,-ii,-ii,iː,,Galucio2015,,,^- ii $,default
+Zo-61_die-1,,Zo,61_die,-ßiì,-ßiì,β i ì/i,,Galucio2015,,,^- ß i ì $,default
 Ju-61_die-1,,Ju,61_die,ʔeʔã́,ʔeʔã́,ʔ e ʔ ã́/ã,,Galucio2015,,,^ ʔ e ʔ ã́ $,default
 Ku-61_die-1,,Ku,61_die,ẽʔə̃,ẽʔə̃,ẽ ʔ ə̃,,Galucio2015,,,^ ẽ ʔ ə̃ $,default
 Mu-61_die-1,,Mu,61_die,éʔə̃,éʔə̃,é/e ʔ ə̃,,Galucio2015,,,^ é ʔ ə̃ $,default
@@ -1407,20 +1407,20 @@ Xi-61_die-1,,Xi,61_die,(h)ejã,ejã,e j ã,,Galucio2015,,,^ e j ã $,default
 Mw-61_die-1,,Mw,61_die,ui-kuʔuɾo,ui-kuʔuɾo,u i k u ʔ u ɾ o,,Galucio2015,,,^ u i - k u ʔ u ɾ o $,default
 Ma-61_die-1,,Ma,61_die,pɨɨtoɾoɾa,pɨɨtoɾoɾa,p ɨː t o ɾ o ɾ a,,Galucio2015,,,^ p ɨɨ t o ɾ o ɾ a $,default
 Pu-61_die-1,,Pu,61_die,ʃomoɾõm,ʃomoɾõm,ʃ o m o ɾ õ m,,Galucio2015,,,^ ʃ o m o ɾ õ m $,default
-Ar-62_kill-1,,Ar,62_kill,-aka,-aka,a k a,,Galucio2015,,,^ - a k a $,default
-Gv-62_kill-1,,Gv,62_kill,-aka,-aka,a k a,,Galucio2015,,,^ - a k a $,default
+Ar-62_kill-1,,Ar,62_kill,-aka,-aka,a k a,,Galucio2015,,,^- a k a $,default
+Gv-62_kill-1,,Gv,62_kill,-aka,-aka,a k a,,Galucio2015,,,^- a k a $,default
 Ju-62_kill-1,,Ju,62_kill,abákú,abákú,a b á/a k ú/u,,Galucio2015,,,^ a b á k ú $,default
 Kt-62_kill-1,,Kt,62_kill,okɨ,okɨ,o k ɨ,,Galucio2015,,,^ o k ɨ $,default
 Ku-62_kill-1,,Ku,62_kill,aoka,aoka,a o k a,,Galucio2015,,,^ a o k a $,default
 Mu-62_kill-1,,Mu,62_kill,aóka,aóka,a ó/o k a,,Galucio2015,,,^ a ó k a $,default
 Mw-62_kill-1,,Mw,62_kill,ati-ʔauka,ati-ʔauka,a t i ʔ a u k a,,Galucio2015,,,^ a t i - ʔ a u k a $,default
 Pg-62_kill-1,,Pg,62_kill,a-juka,a-juka,a j u k a,,Galucio2015,,,^ a - ju k a $,default
-Pt-62_kill-1,,Pt,62_kill,-juka,-juka,j u k a,,Galucio2015,,,^ - ju k a $,default
-Sa-62_kill-1,,Sa,62_kill,-aka,-aka,a k a,,Galucio2015,,,^ - a k a $,default
-Su-62_kill-1,,Su,62_kill,-aka,-aka,a k a,,Galucio2015,,,^ - a k a $,default
+Pt-62_kill-1,,Pt,62_kill,-juka,-juka,j u k a,,Galucio2015,,,^- ju k a $,default
+Sa-62_kill-1,,Sa,62_kill,-aka,-aka,a k a,,Galucio2015,,,^- a k a $,default
+Su-62_kill-1,,Su,62_kill,-aka,-aka,a k a,,Galucio2015,,,^- a k a $,default
 Uk-62_kill-1,,Uk,62_kill,juk(w)a,juka,j u k a,,Galucio2015,,,^ ju k a $,default
 Xi-62_kill-1,,Xi,62_kill,abaku,abaku,a b a k u,,Galucio2015,,,^ a b a k u $,default
-Zo-62_kill-1,,Zo,62_kill,-aka,-aka,a k a,,Galucio2015,,,^ - a k a $,default
+Zo-62_kill-1,,Zo,62_kill,-aka,-aka,a k a,,Galucio2015,,,^- a k a $,default
 Me-62_kill-1,,Me,62_kill,s-õpaa,s-õpaa,s õ p aː,,Galucio2015,,,^ s - õ p aa $,default
 Tu-62_kill-1,,Tu,62_kill,õpa,õpa,õ p a,,Galucio2015,,,^ õ p a $,default
 Wa-62_kill-1,,Wa,62_kill,õmba,õmba,õ m b a,,Galucio2015,,,^ õ m b a $,default
@@ -1434,7 +1434,7 @@ Aw-63_swim-1,,Aw,63_swim,ɨta(ta)p,ɨtap,ɨ t a p,,Galucio2015,,,^ ɨ tap $,defa
 Me-63_swim-1,,Me,63_swim,se-kia,se-kia,s e k i a,,Galucio2015,,,^ s e - k i a $,default
 Mw-63_swim-1,,Mw,63_swim,aɾe-ʔɨha,aɾe-ʔɨha,a ɾ e ʔ ɨ h a,,Galucio2015,,,^ a ɾ e - ʔ ɨ h a $,default
 Pg-63_swim-1,,Pg,63_swim,ha-ɨta,ha-ɨta,h a ɨ t a,,Galucio2015,,,^ h a - ɨ ta $,default
-Pt-63_swim-1,,Pt,63_swim,-ɨtav,-ɨtav,ɨ t a v,,Galucio2015,,,^ - ɨ ta v $,default
+Pt-63_swim-1,,Pt,63_swim,-ɨtav,-ɨtav,ɨ t a v,,Galucio2015,,,^- ɨ ta v $,default
 Ta-63_swim-1,,Ta,63_swim,hɨɨtam,hɨɨtam,h ɨː t a m,,Galucio2015,,,^ h ɨɨ ta m $,default
 Gv-63_swim-1,,Gv,63_swim,kápkáßá,kápkáßá,k á/a p k á/a β á/a,,Galucio2015,,,^ k á p k á ß á $,default
 Su-63_swim-1,,Su,63_swim,kápkábá,kápkábá,k á/a p k á/a b á/a,,Galucio2015,,,^ k á p k á b á $,default
@@ -1447,23 +1447,23 @@ Ju-63_swim-1,,Ju,63_swim,ibɨkáɾáhu,ibɨkáɾáhu,i b ɨ k á/a ɾ á/a h u,,
 Ka-63_swim-1,,Ka,63_swim,puŋ puŋ,puŋ puŋ,p u ŋ + p u ŋ,,Galucio2015,,,^ p u ŋ + p u ŋ $,default
 Ar-63_swim-1,,Ar,63_swim,tã́ktã́ŋã́,tã́ktã́ŋã́,t ã́/ã k t ã́/ã ŋ ã́/ã,,Galucio2015,,,^ t ã́ k t ã́ ŋ ã́ $,default
 Zo-63_swim-1,,Zo,63_swim,kṍjkṍjã,kṍjkṍjã,k õ j k õ j ã,,Galucio2015,,,^ k ṍ j k ṍ j ã $,default
-Sa-63_swim-1,,Sa,63_swim,-sátẽ,-sátẽ,s á/a t ẽ,,Galucio2015,,,^ - s á t ẽ $,default
+Sa-63_swim-1,,Sa,63_swim,-sátẽ,-sátẽ,s á/a t ẽ,,Galucio2015,,,^- s á t ẽ $,default
 Kt-63_swim-1,,Kt,63_swim,tak tak,tak tak,t a k + t a k,,Galucio2015,,,^ ta k + ta k $,default
 Pg-64_fly-1,,Pg,64_fly,a-veve,a-veve,a v e v e,,Galucio2015,,,^ a - v e v e $,default
-Pt-64_fly-1,,Pt,64_fly,-veve,-veve,v e v e,,Galucio2015,,,^ - v e v e $,default
+Pt-64_fly-1,,Pt,64_fly,-veve,-veve,v e v e,,Galucio2015,,,^- v e v e $,default
 Ta-64_fly-1,,Ta,64_fly,wewe,wewe,w e w e,,Galucio2015,,,^ w e w e $,default
 Uk-64_fly-1,,Uk,64_fly,wewe,wewe,w e w e,,Galucio2015,,,^ w e w e $,default
-Gv-64_fly-1,,Gv,64_fly,-pepó-tẽẽ̀,-pepó-tẽẽ̀,p e p ó/o t ẽẽ̀/ẽː,,Galucio2015,,,^ - p e p ó - t ẽẽ̀ $,default
+Gv-64_fly-1,,Gv,64_fly,-pepó-tẽẽ̀,-pepó-tẽẽ̀,p e p ó/o t ẽẽ̀/ẽː,,Galucio2015,,,^- p e p ó - t ẽẽ̀ $,default
 Tu-64_fly-1,,Tu,64_fly,pep oɾa,pep oɾa,p e p + o ɾ a,,Galucio2015,,,^ p e p + o ɾ a $,default
 Ju-64_fly-1,,Ju,64_fly,ʔáṹ,ʔáṹ,ʔ á/a ũ,,Galucio2015,,,^ ʔ á ṹ $,default
 Xi-64_fly-1,,Xi,64_fly,aũ,aũ,a ũ,,Galucio2015,,,^ a ũ $,default
-Aw-64_fly-1,,Aw,64_fly,-wúɾe,-wúɾe,w ú/u ɾ e,,Galucio2015,,,^ - w ú ɾ e $,default
+Aw-64_fly-1,,Aw,64_fly,-wúɾe,-wúɾe,w ú/u ɾ e,,Galucio2015,,,^- w ú ɾ e $,default
 Mu-64_fly-1,,Mu,64_fly,pəpəp,pəpəp,p ə p ə p,,Galucio2015,,,^ p ə p ə p $,default
 Wa-64_fly-1,,Wa,64_fly,embɨɾa,embɨɾa,e m b ɨ ɾ a,,Galucio2015,,,^ e m b ɨ ɾ a $,default
-Ar-65_walk-1,,Ar,65_walk,-ßeɾe-tá,-ßeɾe-tá,β e ɾ e t á/a,,Galucio2015,,,^ - ß e ɾ e - t á $,default
-Gv-65_walk-1,,Gv,65_walk,-ßêɾe-tá,-ßêɾe-tá,β ê/e ɾ e t á/a,,Galucio2015,,,^ - ß ê ɾ e - t á $,default
-Sa-65_walk-1,,Sa,65_walk,-ßééɾe,-ßééɾe,β éé/eː ɾ e,,Galucio2015,,,^ - ß éé ɾ e $,default
-Su-65_walk-1,,Su,65_walk,-ßééɾa,-ßééɾa,β éé/eː ɾ a,,Galucio2015,,,^ - ß éé ɾ a $,default
+Ar-65_walk-1,,Ar,65_walk,-ßeɾe-tá,-ßeɾe-tá,β e ɾ e t á/a,,Galucio2015,,,^- ß e ɾ e - t á $,default
+Gv-65_walk-1,,Gv,65_walk,-ßêɾe-tá,-ßêɾe-tá,β ê/e ɾ e t á/a,,Galucio2015,,,^- ß ê ɾ e - t á $,default
+Sa-65_walk-1,,Sa,65_walk,-ßééɾe,-ßééɾe,β éé/eː ɾ e,,Galucio2015,,,^- ß éé ɾ e $,default
+Su-65_walk-1,,Su,65_walk,-ßééɾa,-ßééɾa,β éé/eː ɾ a,,Galucio2015,,,^- ß éé ɾ a $,default
 Zo-65_walk-1,,Zo,65_walk,ßeet-tá,ßeet-tá,β eː t t á/a,,Galucio2015,,,^ ß ee t - t á $,default
 Ma-65_walk-1,,Ma,65_walk,ßateɾa,ßateɾa,β a t e ɾ a,,Galucio2015,,,^ ß a t e ɾ a $,default
 Mu-65_walk-1,,Mu,65_walk,wəɾəɾə̃ŋ,wəɾəɾə̃ŋ,w ə ɾ ə ɾ ə̃ ŋ,,Galucio2015,,,^ w ə ɾ ə ɾ ə̃ ŋ $,default
@@ -1475,16 +1475,16 @@ Me-65_walk-1,,Me,65_walk,ekɨetkia,ekɨetkia,e k ɨ e t k i a,,Galucio2015,,,^ e
 Tu-65_walk-1,,Tu,65_walk,sitkia,sitkia,s i t k i a,,Galucio2015,,,^ s i t k i a $,default
 Ku-65_walk-1,,Ku,65_walk,ʧãŋʧãŋ,ʧãŋʧãŋ,tʃ ã ŋ tʃ ã ŋ,,Galucio2015,,,^ ʧ ã ŋ ʧ ã ŋ $,default
 Pu-65_walk-1,,Pu,65_walk,ʃãpʃãm,ʃãpʃãm,ʃ ã p ʃ ã m,,Galucio2015,,,^ ʃ ã pʃ ã m $,default
-Pt-65_walk-1,,Pt,65_walk,-pɨmondo,-pɨmondo,p ɨ m o n d o,,Galucio2015,,,^ - p ɨ m o n do $,default
+Pt-65_walk-1,,Pt,65_walk,-pɨmondo,-pɨmondo,p ɨ m o n d o,,Galucio2015,,,^- p ɨ m o n do $,default
 Aw-65_walk-1,,Aw,65_walk,eko,eko,e k o,,Galucio2015,,,^ e k o $,default
 Ma-65_walk-2,,Ma,65_walk,oßitakwa,oßitakwa,o β i t a k w a,,Galucio2015,,,^ o ß i ta kw a $,default
 Xi-65_walk-1,,Xi,65_walk,maseu,maseu,m a s e u,,Galucio2015,,,^ m a s e u $,default
 Ju-65_walk-1,,Ju,65_walk,ipidepide-a,ipidepide-a,i p i d e p i d e a,,Galucio2015,,,^ i p i d e p i d e - a $,default
 Ka-65_walk-1,,Ka,65_walk,kat,kat,k a t,,Galucio2015,,,^ k a t $,default
 Kt-65_walk-1,,Kt,65_walk,taɾak,taɾak,t a ɾ a k,,Galucio2015,,,^ ta ɾ a k $,default
-Ar-66_come-1,,Ar,66_come,-ßolo,-ßolo,β o l o,,Galucio2015,,,^ - ß o l o $,default
-Aw-66_come-1,,Aw,66_come,-ut,-ut,u t,,Galucio2015,,,^ - u t $,default
-Gv-66_come-1,,Gv,66_come,-ßolò,-ßolò,β o l ò/o,,Galucio2015,,,^ - ß o l ò $,default
+Ar-66_come-1,,Ar,66_come,-ßolo,-ßolo,β o l o,,Galucio2015,,,^- ß o l o $,default
+Aw-66_come-1,,Aw,66_come,-ut,-ut,u t,,Galucio2015,,,^- u t $,default
+Gv-66_come-1,,Gv,66_come,-ßolò,-ßolò,β o l ò/o,,Galucio2015,,,^- ß o l ò $,default
 Kt-66_come-1,,Kt,66_come,ɨɾɨt,ɨɾɨt,ɨ ɾ ɨ t,,Galucio2015,,,^ ɨ ɾ ɨ t $,default
 Ku-66_come-1,,Ku,66_come,dot,dot,d o t,,Galucio2015,,,^ dot $,default
 Ma-66_come-1,,Ma,66_come,aɾ-iot,aɾ-iot,a ɾ i o t,,Galucio2015,,,^ a ɾ - i o t $,default
@@ -1493,14 +1493,14 @@ Mu-66_come-2,,Mu,66_come,dot ~ ʤot ~ sot,ʤot,dʒ o t,,Galucio2015,,,^ ʤ o t $
 Mu-66_come-3,,Mu,66_come,dot ~ ʤot ~ sot,sot,s o t,,Galucio2015,,,^ s o t $,default
 Pg-66_come-1,,Pg,66_come,ju ~ u,ju,j u,,Galucio2015,,,^ ju $,default
 Pg-66_come-2,,Pg,66_come,ju ~ u,u,u,,Galucio2015,,,^ u $,default
-Pt-66_come-1,,Pt,66_come,-joɾ ~ -uɾ,-joɾ,j o ɾ,,Galucio2015,,,^ -joɾ $,default
-Pt-66_come-2,,Pt,66_come,-joɾ ~ -uɾ,-uɾ,u ɾ,,Galucio2015,,,^ - u ɾ $,default
+Pt-66_come-1,,Pt,66_come,-joɾ ~ -uɾ,-joɾ,j o ɾ,,Galucio2015,,,^- j o ɾ $,default
+Pt-66_come-2,,Pt,66_come,-joɾ ~ -uɾ,-uɾ,u ɾ,,Galucio2015,,,^- u ɾ $,default
 Pu-66_come-1,,Pu,66_come,ßəta,ßəta,β ə t a,,Galucio2015,,,^ ß ə ta $,default
-Sa-66_come-1,,Sa,66_come,-ßool,-ßool,β oː l,,Galucio2015,,,^ - ß oo l $,default
-Su-66_come-1,,Su,66_come,-ooɾ,-ooɾ,oː ɾ,,Galucio2015,,,^ - oo ɾ $,default
+Sa-66_come-1,,Sa,66_come,-ßool,-ßool,β oː l,,Galucio2015,,,^- ß oo l $,default
+Su-66_come-1,,Su,66_come,-ooɾ,-ooɾ,oː ɾ,,Galucio2015,,,^- oo ɾ $,default
 Ta-66_come-1,,Ta,66_come,tjat,tjat,t j a t,,Galucio2015,,,^ t j a t $,default
 Uk-66_come-1,,Uk,66_come,t-uɾ,t-uɾ,t u ɾ,,Galucio2015,,,^ t - u ɾ $,default
-Zo-66_come-1,,Zo,66_come,-ßolo,-ßolo,β o l o,,Galucio2015,,,^ - ß o l o $,default
+Zo-66_come-1,,Zo,66_come,-ßolo,-ßolo,β o l o,,Galucio2015,,,^- ß o l o $,default
 Ak-66_come-1,,Ak,66_come,ita,ita,i t a,,Galucio2015,,,^ i ta $,default
 Ma-66_come-2,,Ma,66_come,ßiia,ßiia,β iː a,,Galucio2015,,,^ ß ii a $,default
 Me-66_come-1,,Me,66_come,se-iat,se-iat,s e i a t,,Galucio2015,,,^ s e - i a t $,default
@@ -1508,11 +1508,11 @@ Ju-66_come-1,,Ju,66_come,wɨ,wɨ,w ɨ,,Galucio2015,,,^ w ɨ $,default
 Xi-66_come-1,,Xi,66_come,wɨ,wɨ,w ɨ,,Galucio2015,,,^ w ɨ $,default
 Wa-66_come-1,,Wa,66_come,teɾa,teɾa,t e ɾ a,,Galucio2015,,,^ t e ɾ a $,default
 Tu-66_come-1,,Tu,66_come,sa,sa,s a,,Galucio2015,,,^ s a $,default
-Ka-66_come-1,,Ka,66_come,-ti,-ti,t i,,Galucio2015,,,^ - t i $,default
-Ar-67_liedown-1,,Ar,67_liedown,-aat,-aat,aː t,,Galucio2015,,,^ - aa t $,default
-Gv-67_liedown-1,,Gv,67_liedown,-aʔâàt,-aʔâàt,a ʔ â/a à/a t,,Galucio2015,,,^ - a ʔ â à t $,default
-Su-67_liedown-1,,Su,67_liedown,-ááta,-ááta,áá/aː t a,,Galucio2015,,,^ - áá ta $,default
-Zo-67_liedown-1,,Zo,67_liedown,-aat,-aat,aː t,,Galucio2015,,,^ - aa t $,default
+Ka-66_come-1,,Ka,66_come,-ti,-ti,t i,,Galucio2015,,,^- t i $,default
+Ar-67_liedown-1,,Ar,67_liedown,-aat,-aat,aː t,,Galucio2015,,,^- aa t $,default
+Gv-67_liedown-1,,Gv,67_liedown,-aʔâàt,-aʔâàt,a ʔ â/a à/a t,,Galucio2015,,,^- a ʔ â à t $,default
+Su-67_liedown-1,,Su,67_liedown,-ááta,-ááta,áá/aː t a,,Galucio2015,,,^- áá ta $,default
+Zo-67_liedown-1,,Zo,67_liedown,-aat,-aat,aː t,,Galucio2015,,,^- aa t $,default
 Ku-67_liedown-1,,Ku,67_liedown,po,po,p o,,Galucio2015,,,^ p o $,default
 Ku-67_liedown-2,,Ku,67_liedown,pi,pi,p i,,Galucio2015,,,^ p i $,default
 Mu-67_liedown-1,,Mu,67_liedown,po,po,p o,,Galucio2015,,,^ p o $,default
@@ -1523,28 +1523,28 @@ Uk-67_liedown-1,,Uk,67_liedown,nino,nino,n i n o,,Galucio2015,,,^ n i n o $,defa
 Ma-67_liedown-1,,Ma,67_liedown,pɨɨt,pɨɨt,p ɨː t,,Galucio2015,,,^ p ɨɨ t $,default
 Me-67_liedown-1,,Me,67_liedown,pɨkaat,pɨkaat,p ɨ k aː t,,Galucio2015,,,^ p ɨ k aa t $,default
 Ta-67_liedown-1,,Ta,67_liedown,ham,ham,h a m,,Galucio2015,,,^ h a m $,default
-Pt-67_liedown-1,,Pt,67_liedown,-ʔau,-ʔau,ʔ a u,,Galucio2015,,,^ - ʔ a u $,default
+Pt-67_liedown-1,,Pt,67_liedown,-ʔau,-ʔau,ʔ a u,,Galucio2015,,,^- ʔ a u $,default
 Aw-67_liedown-1,,Aw,67_liedown,oʔapaɾeju,oʔapaɾeju,o ʔ a p a ɾ e j u,,Galucio2015,,,^ o ʔ a p a ɾ e ju $,default
 Mw-67_liedown-1,,Mw,67_liedown,taʔtatuŋ,taʔtatuŋ,t a ʔ t a t u ŋ,,Galucio2015,,,^ ta ʔ ta t u ŋ $,default
 Wa-67_liedown-1,,Wa,67_liedown,ndoa,ndoa,n d o a,,Galucio2015,,,^ n do a $,default
 Tu-67_liedown-1,,Tu,67_liedown,anea,anea,a n e a,,Galucio2015,,,^ a n e a $,default
 Xi-67_liedown-1,,Xi,67_liedown,ʃikuɾu,ʃikuɾu,ʃ i k u ɾ u,,Galucio2015,,,^ ʃ i k u ɾ u $,default
 Ju-67_liedown-1,,Ju,67_liedown,pɨʃɨhú,pɨʃɨhú,p ɨ ʃ ɨ h ú/u,,Galucio2015,,,^ p ɨ ʃ ɨ h ú $,default
-Ka-67_liedown-1,,Ka,67_liedown,-moj,-moj,m o j,,Galucio2015,,,^ - m o j $,default
+Ka-67_liedown-1,,Ka,67_liedown,-moj,-moj,m o j,,Galucio2015,,,^- m o j $,default
 Ju-68_sit-1,,Ju,68_sit,abíkú,abíkú,a b í/i k ú/u,,Galucio2015,,,^ a b í k ú $,default
-Mu-68_sit-1,,Mu,68_sit,-a̤bík,-a̤bík,a̤ b í/i k,,Galucio2015,,,^ - a̤ b í k $,default
+Mu-68_sit-1,,Mu,68_sit,-a̤bík,-a̤bík,a̤ b í/i k,,Galucio2015,,,^- a̤ b í k $,default
 Mw-68_sit-1,,Mw,68_sit,aɾ-aʔapɨk,aɾ-aʔapɨk,a ɾ a ʔ a p ɨ k,,Galucio2015,,,^ a ɾ - a ʔ a p ɨ k $,default
 Pg-68_sit-1,,Pg,68_sit,a-ɡwapɨ,a-ɡwapɨ,a g w a p ɨ,,Galucio2015,,,^ a - ɡw a p ɨ $,default
-Pt-68_sit-1,,Pt,68_sit,-ʔapɨɡ,-ʔapɨɡ,ʔ a p ɨ g,,Galucio2015,,,^ - ʔ a p ɨ ɡ $,default
+Pt-68_sit-1,,Pt,68_sit,-ʔapɨɡ,-ʔapɨɡ,ʔ a p ɨ g,,Galucio2015,,,^- ʔ a p ɨ ɡ $,default
 Pu-68_sit-1,,Pu,68_sit,tapia,tapia,t a p i a,,Galucio2015,,,^ tap i a $,default
 Ta-68_sit-1,,Ta,68_sit,ãpɨk,ãpɨk,ã p ɨ k,,Galucio2015,,,^ ã p ɨ k $,default
 Uk-68_sit-1,,Uk,68_sit,wapɨk,wapɨk,w a p ɨ k,,Galucio2015,,,^ w a p ɨ k $,default
 Xi-68_sit-1,,Xi,68_sit,bɨku,bɨku,b ɨ k u,,Galucio2015,,,^ b ɨ k u $,default
-Ar-68_sit-1,,Ar,68_sit,-potóó,-potóó,p o t óó/oː,,Galucio2015,,,^ - p o t óó $,default
-Gv-68_sit-1,,Gv,68_sit,-potóòt,-potóòt,p o t ó/o ò/o t,,Galucio2015,,,^ - p o t ó ò t $,default
-Sa-68_sit-1,,Sa,68_sit,-potóó,-potóó,p o t óó/oː,,Galucio2015,,,^ - p o t óó $,default
-Su-68_sit-1,,Su,68_sit,-pató,-pató,p a t ó/o,,Galucio2015,,,^ - p a t ó $,default
-Zo-68_sit-1,,Zo,68_sit,-potóòt,-potóòt,p o t ó/o ò/o t,,Galucio2015,,,^ - p o t ó ò t $,default
+Ar-68_sit-1,,Ar,68_sit,-potóó,-potóó,p o t óó/oː,,Galucio2015,,,^- p o t óó $,default
+Gv-68_sit-1,,Gv,68_sit,-potóòt,-potóòt,p o t ó/o ò/o t,,Galucio2015,,,^- p o t ó ò t $,default
+Sa-68_sit-1,,Sa,68_sit,-potóó,-potóó,p o t óó/oː,,Galucio2015,,,^- p o t óó $,default
+Su-68_sit-1,,Su,68_sit,-pató,-pató,p a t ó/o,,Galucio2015,,,^- p a t ó $,default
+Zo-68_sit-1,,Zo,68_sit,-potóòt,-potóòt,p o t ó/o ò/o t,,Galucio2015,,,^- p o t ó ò t $,default
 Me-68_sit-1,,Me,68_sit,se-kõjãã,se-kõjãã,s e k õ j ãː,,Galucio2015,,,^ s e - k õ j ãã $,default
 Wa-68_sit-1,,Wa,68_sit,ŋõŋã,ŋõŋã,ŋ õ ŋ ã,,Galucio2015,,,^ ŋ õ ŋ ã $,default
 Aw-68_sit-1,,Aw,68_sit,otiɡeju,otiɡeju,o t i g e j u,,Galucio2015,,,^ o t i ɡ e ju $,default
@@ -1553,19 +1553,19 @@ Ku-68_sit-1,,Ku,68_sit,ʤí-ʔi,ʤí-ʔi,dʒ í/i ʔ i,,Galucio2015,,,^ ʤ í - 
 Tu-68_sit-1,,Tu,68_sit,epsika,epsika,e p s i k a,,Galucio2015,,,^ e ps i k a $,default
 Kt-68_sit-1,,Kt,68_sit,ibik tĩɲã,ibik tĩɲã,i b i k + t ĩ ɲ ã,,Galucio2015,,,^ i b i k + t ĩ ɲ ã $,default
 Ka-68_sit-1,,Ka,68_sit,paɾamu,paɾamu,p a ɾ a m u,,Galucio2015,,,^ p a ɾ a m u $,default
-Ar-69_stand-1,,Ar,69_stand,-adóó,-adóó,a d óó/oː,,Galucio2015,,,^ - a d óó $,default
-Gv-69_stand-1,,Gv,69_stand,-ádóò,-ádóò,á/a d ó/o ò/o,,Galucio2015,,,^ - á d ó ò $,default
-Sa-69_stand-1,,Sa,69_stand,-ãdóó,-ãdóó,ã d óó/oː,,Galucio2015,,,^ - ã d óó $,default
-Su-69_stand-1,,Su,69_stand,-anóó,-anóó,a n óó/oː,,Galucio2015,,,^ - a n óó $,default
-Zo-69_stand-1,,Zo,69_stand,-ádóò,-ádóò,á/a d ó/o ò/o,,Galucio2015,,,^ - á d ó ò $,default
+Ar-69_stand-1,,Ar,69_stand,-adóó,-adóó,a d óó/oː,,Galucio2015,,,^- a d óó $,default
+Gv-69_stand-1,,Gv,69_stand,-ádóò,-ádóò,á/a d ó/o ò/o,,Galucio2015,,,^- á d ó ò $,default
+Sa-69_stand-1,,Sa,69_stand,-ãdóó,-ãdóó,ã d óó/oː,,Galucio2015,,,^- ã d óó $,default
+Su-69_stand-1,,Su,69_stand,-anóó,-anóó,a n óó/oː,,Galucio2015,,,^- a n óó $,default
+Zo-69_stand-1,,Zo,69_stand,-ádóò,-ádóò,á/a d ó/o ò/o,,Galucio2015,,,^- á d ó ò $,default
 Mw-69_stand-1,,Mw,69_stand,i-põiʔam,i-põiʔam,i p õ i ʔ a m,,Galucio2015,,,^ i - p õ i ʔ a m $,default
-Pt-69_stand-1,,Pt,69_stand,-am,-am,a m,,Galucio2015,,,^ - a m $,default
+Pt-69_stand-1,,Pt,69_stand,-am,-am,a m,,Galucio2015,,,^- a m $,default
 Uk-69_stand-1,,Uk,69_stand,puʔam,puʔam,p u ʔ a m,,Galucio2015,,,^ p u ʔ a m $,default
 Ku-69_stand-1,,Ku,69_stand,ʧãŋ-ʔi,ʧãŋ-ʔi,tʃ ã ŋ ʔ i,,Galucio2015,,,^ ʧ ã ŋ - ʔ i $,default
 Mu-69_stand-1,,Mu,69_stand,ʧəŋ-ʔí,ʧəŋ-ʔí,tʃ ə ŋ ʔ í/i,,Galucio2015,,,^ ʧ ə ŋ - ʔ í $,default
 Ju-69_stand-1,,Ju,69_stand,mísu,mísu,m í/i s u,,Galucio2015,,,^ m í s u $,default
 Xi-69_stand-1,,Xi,69_stand,maseu,maseu,m a s e u,,Galucio2015,,,^ m a s e u $,default
-Ka-69_stand-1,,Ka,69_stand,-jat,-jat,j a t,,Galucio2015,,,^ - j a t $,default
+Ka-69_stand-1,,Ka,69_stand,-jat,-jat,j a t,,Galucio2015,,,^- j a t $,default
 Pu-69_stand-1,,Pu,69_stand,ʔõn aja,ʔõn aja,ʔ õ n + a j a,,Galucio2015,,,^ ʔ õ n + a j a $,default
 Pg-69_stand-1,,Pg,69_stand,a-ɲemboʔɨ,a-ɲemboʔɨ,a ɲ e m b o ʔ ɨ,,Galucio2015,,,^ a - ɲ e m b o ʔ ɨ $,default
 Ta-69_stand-1,,Ta,69_stand,tjop,tjop,t j o p,,Galucio2015,,,^ t j o p $,default
@@ -1577,27 +1577,27 @@ Ak-69_stand-1,,Ak,69_stand,keɾep na,keɾep na,k e ɾ e p + n a,,Galucio2015,,,^
 Me-69_stand-1,,Me,69_stand,poɡeta,poɡeta,p o g e t a,,Galucio2015,,,^ p o ɡ e ta $,default
 Kt-69_stand-1,,Kt,69_stand,ʤɨɡŋã,ʤɨɡŋã,dʒ ɨ g ŋ ã,,Galucio2015,,,^ ʤ ɨ ɡ ŋ ã $,default
 Ak-70_give-1,,Ak,70_give,õã,õã,õ ã,,Galucio2015,,,^ õ ã $,default
-Ar-70_give-1,,Ar,70_give,-nõõ,-nõõ,n õ/õː,,Galucio2015,,,^ - n õõ $,default
-Gv-70_give-1,,Gv,70_give,-noò,-noò,n o ò/o,,Galucio2015,,,^ - n o ò $,default
+Ar-70_give-1,,Ar,70_give,-nõõ,-nõõ,n õ/õː,,Galucio2015,,,^- n õõ $,default
+Gv-70_give-1,,Gv,70_give,-noò,-noò,n o ò/o,,Galucio2015,,,^- n o ò $,default
 Ku-70_give-1,,Ku,70_give,(n)õm,õm,õ m,,Galucio2015,,,^ õ m $,default
 Ma-70_give-1,,Ma,70_give,ɲõã,ɲõã,ɲ õ ã,,Galucio2015,,,^ ɲ õ ã $,default
 Me-70_give-1,,Me,70_give,i-õa,i-õa,i õ a,,Galucio2015,,,^ i - õ a $,default
 Mu-70_give-1,,Mu,70_give,ə̃́m,ə̃́m,ə̃́/ə̃ m,,Galucio2015,,,^ ə̃́ m $,default
 Mw-70_give-1,,Mw,70_give,at-um,at-um,a t u m,,Galucio2015,,,^ a t - u m $,default
-Sa-70_give-1,,Sa,70_give,-nõõ,-nõõ,n õ/õː,,Galucio2015,,,^ - n õõ $,default
-Su-70_give-1,,Su,70_give,-jõõ,-jõõ,j õ/õː,,Galucio2015,,,^ - j õõ $,default
+Sa-70_give-1,,Sa,70_give,-nõõ,-nõõ,n õ/õː,,Galucio2015,,,^- n õõ $,default
+Su-70_give-1,,Su,70_give,-jõõ,-jõõ,j õ/õː,,Galucio2015,,,^- j õõ $,default
 Tu-70_give-1,,Tu,70_give,õã,õã,õ ã,,Galucio2015,,,^ õ ã $,default
 Wa-70_give-1,,Wa,70_give,ɲõã,ɲõã,ɲ õ ã,,Galucio2015,,,^ ɲ õ ã $,default
-Zo-70_give-1,,Zo,70_give,-noo,-noo,n oː,,Galucio2015,,,^ - n oo $,default
+Zo-70_give-1,,Zo,70_give,-noo,-noo,n oː,,Galucio2015,,,^- n oo $,default
 Pg-70_give-1,,Pg,70_give,a-meʔẽ,a-meʔẽ,a m e ʔ ẽ,,Galucio2015,,,^ a - m e ʔ ẽ $,default
 Ta-70_give-1,,Ta,70_give,mãĩj,mãĩj,m ã ĩ j,,Galucio2015,,,^ m ã ĩ j $,default
 Uk-70_give-1,,Uk,70_give,meʔẽ,meʔẽ,m e ʔ ẽ,,Galucio2015,,,^ m e ʔ ẽ $,default
 Aw-70_give-1,,Aw,70_give,moto,moto,m o t o,,Galucio2015,,,^ m o t o $,default
-Pt-70_give-1,,Pt,70_give,-mondo,-mondo,m o n d o,,Galucio2015,,,^ - m o n do $,default
+Pt-70_give-1,,Pt,70_give,-mondo,-mondo,m o n d o,,Galucio2015,,,^- m o n do $,default
 Ju-70_give-1,,Ju,70_give,kua,kua,k u a,,Galucio2015,,,^ k u a $,default
 Pu-70_give-1,,Pu,70_give,beka,beka,b e k a,,Galucio2015,,,^ be k a $,default
 Xi-70_give-1,,Xi,70_give,kua,kua,k u a,,Galucio2015,,,^ k u a $,default
-Ka-70_give-1,,Ka,70_give,-maʔãt,-maʔãt,m a ʔ ã t,,Galucio2015,,,^ - m a ʔ ã t $,default
+Ka-70_give-1,,Ka,70_give,-maʔãt,-maʔãt,m a ʔ ã t,,Galucio2015,,,^- m a ʔ ã t $,default
 Kt-70_give-1,,Kt,70_give,hit,hit,h i t,,Galucio2015,,,^ h i t $,default
 Aw-71_say-1,,Aw,71_say,ʔe,ʔe,ʔ e,,Galucio2015,,,^ ʔ e $,default
 Gv-71_say-1,,Gv,71_say,éè,éè,é/e è/e,,Galucio2015,,,^ é è $,default
@@ -1608,7 +1608,7 @@ Me-71_say-1,,Me,71_say,ke,ke,k e,,Galucio2015,,,^ k e $,default
 Mu-71_say-1,,Mu,71_say,ʔé,ʔé,ʔ é/e,,Galucio2015,,,^ ʔ é $,default
 Mw-71_say-1,,Mw,71_say,aɾe-ʔe,aɾe-ʔe,a ɾ e ʔ e,,Galucio2015,,,^ a ɾ e - ʔ e $,default
 Pg-71_say-1,,Pg,71_say,ha-ʔe,ha-ʔe,h a ʔ e,,Galucio2015,,,^ h a - ʔ e $,default
-Pt-71_say-1,,Pt,71_say,-ʔe,-ʔe,ʔ e,,Galucio2015,,,^ - ʔ e $,default
+Pt-71_say-1,,Pt,71_say,-ʔe,-ʔe,ʔ e,,Galucio2015,,,^- ʔ e $,default
 Ta-71_say-1,,Ta,71_say,a-hẽ,a-hẽ,a h ẽ,,Galucio2015,,,^ a - h ẽ $,default
 Uk-71_say-1,,Uk,71_say,je,je,j e,,Galucio2015,,,^ j e $,default
 Xi-71_say-1,,Xi,71_say,ze,ze,z e,,Galucio2015,,,^ z e $,default
@@ -1712,7 +1712,7 @@ Ju-76_rain-1,,Ju,76_rain,amáná,amáná,a m á/a n á/a,,Galucio2015,,,^ a m á
 Ka-76_rain-1,,Ka,76_rain,amãn,amãn,a m ã n,,Galucio2015,,,^ a m ã n $,default
 Mw-76_rain-1,,Mw,76_rain,i-ʔamaan,i-ʔamaan,i ʔ a m aː n,,Galucio2015,,,^ i - ʔ a m aa n $,default
 Pg-76_rain-1,,Pg,76_rain,ama,ama,a m a,,Galucio2015,,,^ a m a $,default
-Pt-76_rain-1,,Pt,76_rain,-aman,-aman,a m a n,,Galucio2015,,,^ - a m a n $,default
+Pt-76_rain-1,,Pt,76_rain,-aman,-aman,a m a n,,Galucio2015,,,^- a m a n $,default
 Pu-76_rain-1,,Pu,76_rain,amãn,amãn,a m ã n,,Galucio2015,,,^ a m ã n $,default
 Ta-76_rain-1,,Ta,76_rain,amɨn,amɨn,a m ɨ n,,Galucio2015,,,^ a m ɨ n $,default
 Uk-76_rain-1,,Uk,76_rain,aman,aman,a m a n,,Galucio2015,,,^ a m a n $,default
@@ -1832,7 +1832,7 @@ Mu-81_smoke-1,,Mu,81_smoke,tiŋ ~ diŋ,tiŋ,t i ŋ,,Galucio2015,,,^ tiŋ $,defau
 Mu-81_smoke-2,,Mu,81_smoke,tiŋ ~ diŋ,diŋ,d i ŋ,,Galucio2015,,,^ d i ŋ $,default
 Mw-81_smoke-1,,Mw,81_smoke,ɨhiŋ,ɨhiŋ,ɨ h i ŋ,,Galucio2015,,,^ ɨ h i ŋ $,default
 Pg-81_smoke-1,,Pg,81_smoke,t-atatĩ,t-atatĩ,t a t a t ĩ,,Galucio2015,,,^ t - a ta t ĩ $,default
-Pt-81_smoke-1,,Pt,81_smoke,-atatiŋ,-atatiŋ,a t a t i ŋ,,Galucio2015,,,^ - a ta tiŋ $,default
+Pt-81_smoke-1,,Pt,81_smoke,-atatiŋ,-atatiŋ,a t a t i ŋ,,Galucio2015,,,^- a ta tiŋ $,default
 Sa-81_smoke-1,,Sa,81_smoke,ßadĩk,ßadĩk,β a d ĩ k,,Galucio2015,,,^ ß a d ĩ k $,default
 Su-81_smoke-1,,Su,81_smoke,mókáj nĩŋ,mókáj nĩŋ,m ó/o k á/a j + n ĩ ŋ,,Galucio2015,,,^ m ó k á j + n ĩ ŋ $,default
 Tu-81_smoke-1,,Tu,81_smoke,sĩn,sĩn,s ĩ n,,Galucio2015,,,^ s ĩ n $,default
@@ -1851,7 +1851,7 @@ Me-82_fire-1,,Me,82_fire,otat pok,otat pok,o t a t + p o k,,Galucio2015,,,^ o ta
 Mu-82_fire-1,,Mu,82_fire,daʃá,daʃá,d a ʃ á/a,,Galucio2015,,,^ d a ʃ á $,default
 Mw-82_fire-1,,Mw,82_fire,aɾja,aɾja,a ɾ j a,,Galucio2015,,,^ a ɾ j a $,default
 Pg-82_fire-1,,Pg,82_fire,t-ata,t-ata,t a t a,,Galucio2015,,,^ t - a ta $,default
-Pt-82_fire-1,,Pt,82_fire,-ata,-ata,a t a,,Galucio2015,,,^ - a ta $,default
+Pt-82_fire-1,,Pt,82_fire,-ata,-ata,a t a,,Galucio2015,,,^- a ta $,default
 Ta-82_fire-1,,Ta,82_fire,ãtã,ãtã,ã t ã,,Galucio2015,,,^ ã t ã $,default
 Uk-82_fire-1,,Uk,82_fire,tata,tata,t a t a,,Galucio2015,,,^ ta ta $,default
 Xi-82_fire-1,,Xi,82_fire,aʃi,aʃi,a ʃ i,,Galucio2015,,,^ a ʃ i $,default
@@ -1886,14 +1886,14 @@ Pu-83_ash-1,,Pu,83_ash,ʃĩ.ã,ʃĩ.ã,ʃ ĩ + ã,,Galucio2015,,,^ ʃ ĩ . ã $,
 Sa-83_ash-1,,Sa,83_ash,kã́ã́j kõp,kã́ã́j kõp,k ã́ã́/ãː j + k õ p,,Galucio2015,,,^ k ã́ã́ j + k õ p $,default
 Su-83_ash-1,,Su,83_ash,íbioɡap,íbioɡap,í/i b i o g a p,,Galucio2015,,,^ í b i o ɡ a p $,default
 Kt-83_ash-1,,Kt,83_ash,siit,siit,s iː t,,Galucio2015,,,^ s ii t $,default
-Ar-84_burnintr-1,,Ar,84_burnintr,-kã́j,-kã́j,k ã́/ã j,,Galucio2015,,,^ - k ã́ j $,default
-Gv-84_burnintr-1,,Gv,84_burnintr,-kã́ã̀j,-kã́ã̀j,k ã́/ã ã̀/ã j,,Galucio2015,,,^ - k ã́ ã̀ j $,default
+Ar-84_burnintr-1,,Ar,84_burnintr,-kã́j,-kã́j,k ã́/ã j,,Galucio2015,,,^- k ã́ j $,default
+Gv-84_burnintr-1,,Gv,84_burnintr,-kã́ã̀j,-kã́ã̀j,k ã́/ã ã̀/ã j,,Galucio2015,,,^- k ã́ ã̀ j $,default
 Pg-84_burnintr-1,,Pg,84_burnintr,o-kaj,o-kaj,o k a j,,Galucio2015,,,^ o - k a j $,default
-Pt-84_burnintr-1,,Pt,84_burnintr,-kai,-kai,k a i,,Galucio2015,,,^ - k a i $,default
-Sa-84_burnintr-1,,Sa,84_burnintr,-kã́j,-kã́j,k ã́/ã j,,Galucio2015,,,^ - k ã́ j $,default
+Pt-84_burnintr-1,,Pt,84_burnintr,-kai,-kai,k a i,,Galucio2015,,,^- k a i $,default
+Sa-84_burnintr-1,,Sa,84_burnintr,-kã́j,-kã́j,k ã́/ã j,,Galucio2015,,,^- k ã́ j $,default
 Ta-84_burnintr-1,,Ta,84_burnintr,kãj,kãj,k ã j,,Galucio2015,,,^ k ã j $,default
 Uk-84_burnintr-1,,Uk,84_burnintr,uk(w)aj,ukaj,u k a j,,Galucio2015,,,^ u k a j $,default
-Zo-84_burnintr-1,,Zo,84_burnintr,-kã́ã̀j,-kã́ã̀j,k ã́/ã ã̀/ã j,,Galucio2015,,,^ - k ã́ ã̀ j $,default
+Zo-84_burnintr-1,,Zo,84_burnintr,-kã́ã̀j,-kã́ã̀j,k ã́/ã ã̀/ã j,,Galucio2015,,,^- k ã́ ã̀ j $,default
 Aw-84_burnintr-1,,Aw,84_burnintr,apɨ,apɨ,a p ɨ,,Galucio2015,,,^ a p ɨ $,default
 Ku-84_burnintr-1,,Ku,84_burnintr,o-si-pik,o-si-pik,o s i p i k,,Galucio2015,,,^ o - s i - p i k $,default
 Mu-84_burnintr-1,,Mu,84_burnintr,o-í-pik,o-í-pik,o í/i p i k,,Galucio2015,,,^ o - í - p i k $,default
@@ -1906,7 +1906,7 @@ Ma-84_burnintr-1,,Ma,84_burnintr,ekaɾĩnã,ekaɾĩnã,e k a ɾ ĩ n ã,,Galucio
 Me-84_burnintr-1,,Me,84_burnintr,koeka,koeka,k o e k a,,Galucio2015,,,^ k o e k a $,default
 Ka-84_burnintr-1,,Ka,84_burnintr,aʔ-paɡat,aʔ-paɡat,a ʔ p a g a t,,Galucio2015,,,^ a ʔ - p a ɡ a t $,default
 Pu-84_burnintr-1,,Pu,84_burnintr,bakißipa,bakißipa,b a k i β i p a,,Galucio2015,,,^ b a k i ß i p a $,default
-Su-84_burnintr-1,,Su,84_burnintr,-paa,-paa,p aː,,Galucio2015,,,^ - p aa $,default
+Su-84_burnintr-1,,Su,84_burnintr,-paa,-paa,p aː,,Galucio2015,,,^- p aa $,default
 Kt-84_burnintr-1,,Kt,84_burnintr,ɲõnĩn,ɲõnĩn,ɲ õ n ĩ n,,Galucio2015,,,^ ɲ õ n ĩ n $,default
 Ak-85_path-1,,Ak,85_path,ape,ape,a p e,,Galucio2015,,,^ a p e $,default
 Ar-85_path-1,,Ar,85_path,be,be,b e,,Galucio2015,,,^ be $,default
@@ -1923,7 +1923,7 @@ Me-85_path-2,,Me,85_path,aapeʔ,aapeʔ,aː p e ʔ,,Galucio2015,,,^ aa p e ʔ $,d
 Mu-85_path-1,,Mu,85_path,é,é,é/e,,Galucio2015,,,^ é $,default
 Mw-85_path-1,,Mw,85_path,muʔap,muʔap,m u ʔ a p,,Galucio2015,,,^ m u ʔ a p $,default
 Pg-85_path-1,,Pg,85_path,t-ape,t-ape,t a p e,,Galucio2015,,,^ t - a p e $,default
-Pt-85_path-1,,Pt,85_path,-pehe,-pehe,p e h e,,Galucio2015,,,^ - p e h e $,default
+Pt-85_path-1,,Pt,85_path,-pehe,-pehe,p e h e,,Galucio2015,,,^- p e h e $,default
 Pu-85_path-1,,Pu,85_path,be,be,b e,,Galucio2015,,,^ be $,default
 Sa-85_path-1,,Sa,85_path,be,be,b e,,Galucio2015,,,^ be $,default
 Su-85_path-1,,Su,85_path,me,me,m e,,Galucio2015,,,^ m e $,default
@@ -1957,14 +1957,14 @@ Pg-86_mountain-1,,Pg,86_mountain,ɨvɨtɨ,ɨvɨtɨ,ɨ v ɨ t ɨ,,Galucio2015,,,^
 Pt-86_mountain-1,,Pt,86_mountain,ɨvɨtɨɾuhu,ɨvɨtɨɾuhu,ɨ v ɨ t ɨ ɾ u h u,,Galucio2015,,,^ ɨ v ɨ t ɨ ɾ u h u $,default
 Ta-86_mountain-1,,Ta,86_mountain,ɨwɨtɨt,ɨwɨtɨt,ɨ w ɨ t ɨ t,,Galucio2015,,,^ ɨ w ɨ t ɨ t $,default
 Mw-86_mountain-1,,Mw,86_mountain,ɨitɨʔok,ɨitɨʔok,ɨ i t ɨ ʔ o k,,Galucio2015,,,^ ɨ i t ɨ ʔ o k $,default
-Ar-87_red-1,,Ar,87_red,-ßóóp,-ßóóp,β óó/oː p,,Galucio2015,,,^ - ß óó p $,default
-Gv-87_red-1,,Gv,87_red,-ßóò-p,-ßóò-p,β ó/o ò/o p,,Galucio2015,,,^ - ß ó ò - p $,default
+Ar-87_red-1,,Ar,87_red,-ßóóp,-ßóóp,β óó/oː p,,Galucio2015,,,^- ß óó p $,default
+Gv-87_red-1,,Gv,87_red,-ßóò-p,-ßóò-p,β ó/o ò/o p,,Galucio2015,,,^- ß ó ò - p $,default
 Ka-87_red-1,,Ka,87_red,up-tem,up-tem,u p t e m,,Galucio2015,,,^ u p - t e m $,default
 Mw-87_red-1,,Mw,87_red,i-hup,i-hup,i h u p,,Galucio2015,,,^ i - h u p $,default
 Pu-87_red-1,,Pu,87_red,wəp,wəp,w ə p,,Galucio2015,,,^ w ə p $,default
 Sa-87_red-1,,Sa,87_red,ßóóp,ßóóp,β óó/oː p,,Galucio2015,,,^ ß óó p $,default
-Su-87_red-1,,Su,87_red,-óóp,-óóp,óó/oː p,,Galucio2015,,,^ - óó p $,default
-Zo-87_red-1,,Zo,87_red,-ßóò-p,-ßóò-p,β ó/o ò/o p,,Galucio2015,,,^ - ß ó ò - p $,default
+Su-87_red-1,,Su,87_red,-óóp,-óóp,óó/oː p,,Galucio2015,,,^- óó p $,default
+Zo-87_red-1,,Zo,87_red,-ßóò-p,-ßóò-p,β ó/o ò/o p,,Galucio2015,,,^- ß ó ò - p $,default
 Ak-87_red-1,,Ak,87_red,kop,kop,k o p,,Galucio2015,,,^ k o p $,default
 Me-87_red-1,,Me,87_red,i-kop,i-kop,i k o p,,Galucio2015,,,^ i - k o p $,default
 Tu-87_red-1,,Tu,87_red,sop,sop,s o p,,Galucio2015,,,^ s o p $,default
@@ -1972,11 +1972,11 @@ Wa-87_red-1,,Wa,87_red,ŋɡopŋɡop,ŋɡopŋɡop,ŋ g o p ŋ g o p,,Galucio2015,
 Xi-87_red-1,,Xi,87_red,kapuɾuɾi,kapuɾuɾi,k a p u ɾ u ɾ i,,Galucio2015,,,^ k a p u ɾ u ɾ i $,default
 Aw-87_red-1,,Aw,87_red,pilaŋ,pilaŋ,p i l a ŋ,,Galucio2015,,,^ p i l a ŋ $,default
 Pg-87_red-1,,Pg,87_red,pɨtã,pɨtã,p ɨ t ã,,Galucio2015,,,^ p ɨ t ã $,default
-Pt-87_red-1,,Pt,87_red,-piɾaŋ,-piɾaŋ,p i ɾ a ŋ,,Galucio2015,,,^ - p i ɾ a ŋ $,default
+Pt-87_red-1,,Pt,87_red,-piɾaŋ,-piɾaŋ,p i ɾ a ŋ,,Galucio2015,,,^- p i ɾ a ŋ $,default
 Ta-87_red-1,,Ta,87_red,piɾɨŋ,piɾɨŋ,p i ɾ ɨ ŋ,,Galucio2015,,,^ p i ɾ ɨ ŋ $,default
 Uk-87_red-1,,Uk,87_red,i-piɾã,i-piɾã,i p i ɾ ã,,Galucio2015,,,^ i - p i ɾ ã $,default
 Ku-87_red-1,,Ku,87_red,pak,pak,p a k,,Galucio2015,,,^ p a k $,default
-Mu-87_red-1,,Mu,87_red,-pak,-pak,p a k,,Galucio2015,,,^ - p a k $,default
+Mu-87_red-1,,Mu,87_red,-pak,-pak,p a k,,Galucio2015,,,^- p a k $,default
 Ma-87_red-1,,Ma,87_red,ßɨɾɨp,ßɨɾɨp,β ɨ ɾ ɨ p,,Galucio2015,,,^ ß ɨ ɾ ɨ p $,default
 Ju-87_red-1,,Ju,87_red,asúɾĩ,asúɾĩ,a s ú/u ɾ ĩ,,Galucio2015,,,^ a s ú ɾ ĩ $,default
 Kt-87_red-1,,Kt,87_red,sõm,sõm,s õ m,,Galucio2015,,,^ s õ m $,default
@@ -1985,28 +1985,28 @@ Ka-88_green-1,,Ka,88_green,kɨɾɨk-tem,kɨɾɨk-tem,k ɨ ɾ ɨ k t e m,,Galucio
 Kt-88_green-1,,Kt,88_green,ket pitat,ket pitat,k e t + p i t a t,,Galucio2015,,,^ k e t + p i ta t $,default
 Pt-88_green-1,,Pt,88_green,jukɨɾɨ,jukɨɾɨ,j u k ɨ ɾ ɨ,,Galucio2015,,,^ ju k ɨ ɾ ɨ $,default
 Sa-88_green-1,,Sa,88_green,kíít,kíít,k íí/iː t,,Galucio2015,,,^ k íí t $,default
-Su-88_green-1,,Su,88_green,-kíɾ,-kíɾ,k í/i ɾ,,Galucio2015,,,^ - k í ɾ $,default
+Su-88_green-1,,Su,88_green,-kíɾ,-kíɾ,k í/i ɾ,,Galucio2015,,,^- k í ɾ $,default
 Zo-88_green-1,,Zo,88_green,kíɾi,kíɾi,k í/i ɾ i,,Galucio2015,,,^ k í ɾ i $,default
 Mw-88_green-1,,Mw,88_green,i-hɨɾɨp,i-hɨɾɨp,i h ɨ ɾ ɨ p,,Galucio2015,,,^ i - h ɨ ɾ ɨ p $,default
 Pu-88_green-1,,Pu,88_green,heɾo.a,heɾo.a,h e ɾ o + a,,Galucio2015,,,^ h e ɾ o . a $,default
 Ku-88_green-1,,Ku,88_green,ɾẽm,ɾẽm,ɾ ẽ m,,Galucio2015,,,^ ɾ ẽ m $,default
-Mu-88_green-1,,Mu,88_green,-ɾẽm,-ɾẽm,ɾ ẽ m,,Galucio2015,,,^ - ɾ ẽ m $,default
+Mu-88_green-1,,Mu,88_green,-ɾẽm,-ɾẽm,ɾ ẽ m,,Galucio2015,,,^- ɾ ẽ m $,default
 Pg-88_green-1,,Pg,88_green,hovɨ,hovɨ,h o v ɨ,,Galucio2015,,,^ h o v ɨ $,default
 Uk-88_green-1,,Uk,88_green,h-owɨ te,h-owɨ te,h o w ɨ + t e,,Galucio2015,,,^ h - o w ɨ + t e $,default
 Ma-88_green-1,,Ma,88_green,ɲẽɾẽm,ɲẽɾẽm,ɲ ẽ ɾ ẽ m,,Galucio2015,,,^ ɲ ẽ ɾ ẽ m $,default
 Wa-88_green-1,,Wa,88_green,kweɾep,kweɾep,k w e ɾ e p,,Galucio2015,,,^ kw e ɾ e p $,default
 Ju-88_green-1,,Ju,88_green,akéɮú,akéɮú,a k é/e ɮ ú/u,,Galucio2015,,,^ a k é ɮ ú $,default
 Xi-88_green-1,,Xi,88_green,akɨu,akɨu,a k ɨ u,,Galucio2015,,,^ a k ɨ u $,default
-Ar-88_green-1,,Ar,88_green,-ciɾõj,-ciɾõj,c i ɾ õ j,,Galucio2015,,,^ - c i ɾ õ j $,default
-Gv-88_green-1,,Gv,88_green,-cíɾôòj,-cíɾôòj,c í/i ɾ ô/o ò/o j,,Galucio2015,,,^ - c í ɾ ô ò j $,default
+Ar-88_green-1,,Ar,88_green,-ciɾõj,-ciɾõj,c i ɾ õ j,,Galucio2015,,,^- c i ɾ õ j $,default
+Gv-88_green-1,,Gv,88_green,-cíɾôòj,-cíɾôòj,c í/i ɾ ô/o ò/o j,,Galucio2015,,,^- c í ɾ ô ò j $,default
 Ta-88_green-1,,Ta,88_green,kahakɨɾa mahe,kahakɨɾa mahe,k a h a k ɨ ɾ a + m a h e,,Galucio2015,,,^ k a h a k ɨ ɾ a + m a h e $,default
 Tu-88_green-1,,Tu,88_green,siʔa,siʔa,s i ʔ a,,Galucio2015,,,^ s i ʔ a $,default
 Me-88_green-1,,Me,88_green,saʔɨp,saʔɨp,s a ʔ ɨ p,,Galucio2015,,,^ s a ʔ ɨ p $,default
-Ar-89_yellow-1,,Ar,89_yellow,-éɾée,-éɾée,é/e ɾ é/e e,,Galucio2015,,,^ - é ɾ é e $,default
-Gv-89_yellow-1,,Gv,89_yellow,-kéɾéʔáàp,-kéɾéʔáàp,k é/e ɾ é/e ʔ á/a à/a p,,Galucio2015,,,^ - k é ɾ é ʔ á à p $,default
-Zo-89_yellow-1,,Zo,89_yellow,-kéɾéè,-kéɾéè,k é/e ɾ é/e è/e,,Galucio2015,,,^ - k é ɾ é è $,default
+Ar-89_yellow-1,,Ar,89_yellow,-éɾée,-éɾée,é/e ɾ é/e e,,Galucio2015,,,^- é ɾ é e $,default
+Gv-89_yellow-1,,Gv,89_yellow,-kéɾéʔáàp,-kéɾéʔáàp,k é/e ɾ é/e ʔ á/a à/a p,,Galucio2015,,,^- k é ɾ é ʔ á à p $,default
+Zo-89_yellow-1,,Zo,89_yellow,-kéɾéè,-kéɾéè,k é/e ɾ é/e è/e,,Galucio2015,,,^- k é ɾ é è $,default
 Ku-89_yellow-1,,Ku,89_yellow,peɾek,peɾek,p e ɾ e k,,Galucio2015,,,^ p e ɾ e k $,default
-Mu-89_yellow-1,,Mu,89_yellow,-pek,-pek,p e k,,Galucio2015,,,^ - p e k $,default
+Mu-89_yellow-1,,Mu,89_yellow,-pek,-pek,p e k,,Galucio2015,,,^- p e k $,default
 Ak-89_yellow-1,,Ak,89_yellow,ʧaɾu,ʧaɾu,tʃ a ɾ u,,Galucio2015,,,^ ʧ a ɾ u $,default
 Me-89_yellow-1,,Me,89_yellow,i-saɾo,i-saɾo,i s a ɾ o,,Galucio2015,,,^ i - s a ɾ o $,default
 Ju-89_yellow-1,,Ju,89_yellow,jũpĩ́pi,jũpĩ́pi,j ũ p ĩ́/ĩ p i,,Galucio2015,,,^ j ũ p ĩ́ p i $,default
@@ -2025,16 +2025,16 @@ Sa-89_yellow-1,,Sa,89_yellow,ʃíʔííp,ʃíʔííp,ʃ í/i ʔ íí/iː p,,Galu
 Su-89_yellow-1,,Su,89_yellow,Mawéaɾóbo,Mawéaɾóbo,M/m a w é/e a ɾ ó/o b o,,Galucio2015,,,^ M a w é a ɾ ó b o $,default
 Kt-89_yellow-1,,Kt,89_yellow,pokoɾɨt,pokoɾɨt,p o k o ɾ ɨ t,,Galucio2015,,,^ p o k o ɾ ɨ t $,default
 Ar-90_white-1,,Ar,90_white,kíít,kíít,k íí/iː t,,Galucio2015,,,^ k íí t $,default
-Gv-90_white-1,,Gv,90_white,-kíìt,-kíìt,k í/i ì/i t,,Galucio2015,,,^ - k í ì t $,default
+Gv-90_white-1,,Gv,90_white,-kíìt,-kíìt,k í/i ì/i t,,Galucio2015,,,^- k í ì t $,default
 Ka-90_white-1,,Ka,90_white,kɨt-tem,kɨt-tem,k ɨ t t e m,,Galucio2015,,,^ k ɨ t - t e m $,default
 Mw-90_white-1,,Mw,90_white,i-kɨsiŋ,i-kɨsiŋ,i k ɨ s i ŋ,,Galucio2015,,,^ i - k ɨ s i ŋ $,default
 Sa-90_white-1,,Sa,90_white,kíít,kíít,k íí/iː t,,Galucio2015,,,^ k íí t $,default
-Su-90_white-1,,Su,90_white,-kííɾ,-kííɾ,k íí/iː ɾ,,Galucio2015,,,^ - k íí ɾ $,default
-Su-90_white-2,,Su,90_white,-kíɾ,-kíɾ,k í/i ɾ,,Galucio2015,,,^ - k í ɾ $,default
-Zo-90_white-1,,Zo,90_white,-kíìt,-kíìt,k í/i ì/i t,,Galucio2015,,,^ - k í ì t $,default
+Su-90_white-1,,Su,90_white,-kííɾ,-kííɾ,k íí/iː ɾ,,Galucio2015,,,^- k íí ɾ $,default
+Su-90_white-2,,Su,90_white,-kíɾ,-kíɾ,k í/i ɾ,,Galucio2015,,,^- k í ɾ $,default
+Zo-90_white-1,,Zo,90_white,-kíìt,-kíìt,k í/i ì/i t,,Galucio2015,,,^- k í ì t $,default
 Aw-90_white-1,,Aw,90_white,tiŋ,tiŋ,t i ŋ,,Galucio2015,,,^ tiŋ $,default
 Pg-90_white-1,,Pg,90_white,moɾotĩ,moɾotĩ,m o ɾ o t ĩ,,Galucio2015,,,^ m o ɾ o t ĩ $,default
-Pt-90_white-1,,Pt,90_white,-tiŋ,-tiŋ,t i ŋ,,Galucio2015,,,^ - tiŋ $,default
+Pt-90_white-1,,Pt,90_white,-tiŋ,-tiŋ,t i ŋ,,Galucio2015,,,^- tiŋ $,default
 Tu-90_white-1,,Tu,90_white,hitʔe,hitʔe,h i t ʔ e,,Galucio2015,,,^ h i t ʔ e $,default
 Wa-90_white-1,,Wa,90_white,ɲʤiɾa,ɲʤiɾa,ɲ dʒ i ɾ a,,Galucio2015,,,^ ɲ ʤ i ɾ a $,default
 Ma-90_white-1,,Ma,90_white,ŋɡap,ŋɡap,ŋ g a p,,Galucio2015,,,^ ŋ ɡ a p $,default
@@ -2043,21 +2043,21 @@ Kt-90_white-1,,Kt,90_white,pok,pok,p o k,,Galucio2015,,,^ p o k $,default
 Me-90_white-1,,Me,90_white,i-paak,i-paak,i p aː k,,Galucio2015,,,^ i - p aa k $,default
 Pu-90_white-1,,Pu,90_white,ajawak,ajawak,a j a w a k,,Galucio2015,,,^ a j a w a k $,default
 Ku-90_white-1,,Ku,90_white,ɾit,ɾit,ɾ i t,,Galucio2015,,,^ ɾ i t $,default
-Mu-90_white-1,,Mu,90_white,-ɾət,-ɾət,ɾ ə t,,Galucio2015,,,^ - ɾ ə t $,default
+Mu-90_white-1,,Mu,90_white,-ɾət,-ɾət,ɾ ə t,,Galucio2015,,,^- ɾ ə t $,default
 Uk-90_white-1,,Uk,90_white,i-tuwɨɾ,i-tuwɨɾ,i t u w ɨ ɾ,,Galucio2015,,,^ i - t u w ɨ ɾ $,default
 Ju-90_white-1,,Ju,90_white,awĩ́ĩ́wĩĩ,awĩ́ĩ́wĩĩ,a w ĩ́ĩ́/ĩː w ĩː,,Galucio2015,,,^ a w ĩ́ĩ́ w ĩĩ $,default
-Ar-91_black-1,,Ar,91_black,-peép,-peép,p e é/e p,,Galucio2015,,,^ - p e é p $,default
-Gv-91_black-1,,Gv,91_black,-pêèp,-pêèp,p ê/e è/e p,,Galucio2015,,,^ - p ê è p $,default
+Ar-91_black-1,,Ar,91_black,-peép,-peép,p e é/e p,,Galucio2015,,,^- p e é p $,default
+Gv-91_black-1,,Gv,91_black,-pêèp,-pêèp,p ê/e è/e p,,Galucio2015,,,^- p ê è p $,default
 Sa-91_black-1,,Sa,91_black,pép,pép,p é/e p,,Galucio2015,,,^ p é p $,default
-Su-91_black-1,,Su,91_black,-péép,-péép,p éé/eː p,,Galucio2015,,,^ - p éé p $,default
+Su-91_black-1,,Su,91_black,-péép,-péép,p éé/eː p,,Galucio2015,,,^- p éé p $,default
 Su-91_black-2,,Su,91_black,i-pep,i-pep,i p e p,,Galucio2015,,,^ i - p e p $,default
-Zo-91_black-1,,Zo,91_black,-peep,-peep,p eː p,,Galucio2015,,,^ - p ee p $,default
+Zo-91_black-1,,Zo,91_black,-peep,-peep,p eː p,,Galucio2015,,,^- p ee p $,default
 Kt-91_black-1,,Kt,91_black,ẽẽm,ẽẽm,ẽː m,,Galucio2015,,,^ ẽẽ m $,default
 Mw-91_black-1,,Mw,91_black,huun,huun,h uː n,,Galucio2015,,,^ huu n $,default
 Pg-91_black-1,,Pg,91_black,hũ,hũ,h ũ,,Galucio2015,,,^ h ũ $,default
-Pt-91_black-1,,Pt,91_black,-un,-un,u n,,Galucio2015,,,^ - u n $,default
+Pt-91_black-1,,Pt,91_black,-un,-un,u n,,Galucio2015,,,^- u n $,default
 Ta-91_black-1,,Ta,91_black,on,on,o n,,Galucio2015,,,^ o n $,default
-Uk-91_black-1,,Uk,91_black,-ũ(n),-ũ,ũ,,Galucio2015,,,^ - ũ $,default
+Uk-91_black-1,,Uk,91_black,-ũ(n),-ũ,ũ,,Galucio2015,,,^- ũ $,default
 Ak-91_black-1,,Ak,91_black,pɨk,pɨk,p ɨ k,,Galucio2015,,,^ p ɨ k $,default
 Ka-91_black-1,,Ka,91_black,pĩk-tem,pĩk-tem,p ĩ k t e m,,Galucio2015,,,^ p ĩ k - t e m $,default
 Me-91_black-1,,Me,91_black,i-pɨɨk,i-pɨɨk,i p ɨː k,,Galucio2015,,,^ i - p ɨɨ k $,default
@@ -2094,22 +2094,22 @@ Ka-92_night-1,,Ka,92_night,iʔcak mãm,iʔcak mãm,i ʔ c a k + m ã m,,Galucio2
 Pu-92_night-1,,Pu,92_night,ʃew,ʃew,ʃ e w,,Galucio2015,,,^ ʃ e w $,default
 Kt-92_night-1,,Kt,92_night,dip,dip,d i p,,Galucio2015,,,^ d i p $,default
 Ak-93_hot-1,,Ak,93_hot,akop,akop,a k o p,,Galucio2015,,,^ a k o p $,default
-Ar-93_hot-1,,Ar,93_hot,-adóóp,-adóóp,a d óó/oː p,,Galucio2015,,,^ - a d óó p $,default
+Ar-93_hot-1,,Ar,93_hot,-adóóp,-adóóp,a d óó/oː p,,Galucio2015,,,^- a d óó p $,default
 Aw-93_hot-1,,Aw,93_hot,akup,akup,a k u p,,Galucio2015,,,^ a k u p $,default
-Gv-93_hot-1,,Gv,93_hot,-adóò-p,-adóò-p,a d ó/o ò/o p,,Galucio2015,,,^ - a d ó ò - p $,default
+Gv-93_hot-1,,Gv,93_hot,-adóò-p,-adóò-p,a d ó/o ò/o p,,Galucio2015,,,^- a d ó ò - p $,default
 Ju-93_hot-1,,Ju,93_hot,akúhú,akúhú,a k ú/u h ú/u,,Galucio2015,,,^ a k ú h ú $,default
 Ka-93_hot-1,,Ka,93_hot,jakõp-tem,jakõp-tem,j a k õ p t e m,,Galucio2015,,,^ j a k õ p - t e m $,default
 Kt-93_hot-1,,Kt,93_hot,okɨp,okɨp,o k ɨ p,,Galucio2015,,,^ o k ɨ p $,default
 Ku-93_hot-1,,Ku,93_hot,tákip,tákip,t á/a k i p,,Galucio2015,,,^ t á k i p $,default
-Me-93_hot-1,,Me,93_hot,-akop,-akop,a k o p,,Galucio2015,,,^ - a k o p $,default
+Me-93_hot-1,,Me,93_hot,-akop,-akop,a k o p,,Galucio2015,,,^- a k o p $,default
 Mu-93_hot-1,,Mu,93_hot,taʃíp ~ daʃíp,taʃíp,t a ʃ í/i p,,Galucio2015,,,^ taʃíp $,default
 Mu-93_hot-2,,Mu,93_hot,taʃíp ~ daʃíp,daʃíp,d a ʃ í/i p,,Galucio2015,,,^ d a ʃ í p $,default
 Mw-93_hot-1,,Mw,93_hot,h-akup,h-akup,h a k u p,,Galucio2015,,,^ h - a k u p $,default
 Pg-93_hot-1,,Pg,93_hot,h-aku,h-aku,h a k u,,Galucio2015,,,^ h - a k u $,default
-Pt-93_hot-1,,Pt,93_hot,-akuv,-akuv,a k u v,,Galucio2015,,,^ - a k u v $,default
-Sa-93_hot-1,,Sa,93_hot,-ado,-ado,a d o,,Galucio2015,,,^ - a do $,default
-Sa-93_hot-2,,Sa,93_hot,-adóóp,-adóóp,a d óó/oː p,,Galucio2015,,,^ - a d óó p $,default
-Su-93_hot-1,,Su,93_hot,-adóóp,-adóóp,a d óó/oː p,,Galucio2015,,,^ - a d óó p $,default
+Pt-93_hot-1,,Pt,93_hot,-akuv,-akuv,a k u v,,Galucio2015,,,^- a k u v $,default
+Sa-93_hot-1,,Sa,93_hot,-ado,-ado,a d o,,Galucio2015,,,^- a do $,default
+Sa-93_hot-2,,Sa,93_hot,-adóóp,-adóóp,a d óó/oː p,,Galucio2015,,,^- a d óó p $,default
+Su-93_hot-1,,Su,93_hot,-adóóp,-adóóp,a d óó/oː p,,Galucio2015,,,^- a d óó p $,default
 Ta-93_hot-1,,Ta,93_hot,ãkop,ãkop,ã k o p,,Galucio2015,,,^ ã k o p $,default
 Tu-93_hot-1,,Tu,93_hot,akop,akop,a k o p,,Galucio2015,,,^ a k o p $,default
 Uk-93_hot-1,,Uk,93_hot,h-aku,h-aku,h a k u,,Galucio2015,,,^ h - a k u $,default
@@ -2141,11 +2141,11 @@ Mw-95_full-1,,Mw,95_full,h-owopɨ,h-owopɨ,h o w o p ɨ,,Galucio2015,,,^ h - o w
 Pu-95_full-1,,Pu,95_full,bɨdət,bɨdət,b ɨ d ə t,,Galucio2015,,,^ b ɨ d ə t $,default
 Su-95_full-1,,Su,95_full,bííɾa,bííɾa,b íí/iː ɾ a,,Galucio2015,,,^ b íí ɾ a $,default
 Zo-95_full-1,,Zo,95_full,bíɾá,bíɾá,b í/i ɾ á/a,,Galucio2015,,,^ b í ɾ á $,default
-Ar-95_full-1,,Ar,95_full,-tõŋ-jã,-tõŋ-jã,t õ ŋ j ã,,Galucio2015,,,^ - t õ ŋ - j ã $,default
+Ar-95_full-1,,Ar,95_full,-tõŋ-jã,-tõŋ-jã,t õ ŋ j ã,,Galucio2015,,,^- t õ ŋ - j ã $,default
 Ka-95_full-1,,Ka,95_full,tõn-nem,tõn-nem,t õ n n e m,,Galucio2015,,,^ t õ n - n e m $,default
 Ma-95_full-1,,Ma,95_full,tõm,tõm,t õ m,,Galucio2015,,,^ t õ m $,default
 Pg-95_full-1,,Pg,95_full,h-enɨhẽ,h-enɨhẽ,h e n ɨ h ẽ,,Galucio2015,,,^ h - e n ɨ h ẽ $,default
-Pt-95_full-1,,Pt,95_full,-ɨnɨhem,-ɨnɨhem,ɨ n ɨ h e m,,Galucio2015,,,^ - ɨ n ɨ h e m $,default
+Pt-95_full-1,,Pt,95_full,-ɨnɨhem,-ɨnɨhem,ɨ n ɨ h e m,,Galucio2015,,,^- ɨ n ɨ h e m $,default
 Me-95_full-1,,Me,95_full,i-ot,i-ot,i o t,,Galucio2015,,,^ i - o t $,default
 Me-95_full-2,,Me,95_full,i-jot,i-jot,i j o t,,Galucio2015,,,^ i - j o t $,default
 Wa-95_full-1,,Wa,95_full,ɲʤot,ɲʤot,ɲ dʒ o t,,Galucio2015,,,^ ɲ ʤ o t $,default
@@ -2157,18 +2157,18 @@ Mu-95_full-1,,Mu,95_full,beŋbeŋ,beŋbeŋ,b e ŋ b e ŋ,,Galucio2015,,,^ be ŋ 
 Ku-95_full-1,,Ku,95_full,ep,ep,e p,,Galucio2015,,,^ e p $,default
 Tu-95_full-1,,Tu,95_full,eɨɾa,eɨɾa,e ɨ ɾ a,,Galucio2015,,,^ e ɨ ɾ a $,default
 Kt-95_full-1,,Kt,95_full,osɨk,osɨk,o s ɨ k,,Galucio2015,,,^ o s ɨ k $,default
-Ar-96_good-1,,Ar,96_good,-palí,-palí,p a l í/i,,Galucio2015,,,^ - p a l í $,default
-Gv-96_good-1,,Gv,96_good,-paɾâàt,-paɾâàt,p a ɾ â/a à/a t,,Galucio2015,,,^ - p a ɾ â à t $,default
+Ar-96_good-1,,Ar,96_good,-palí,-palí,p a l í/i,,Galucio2015,,,^- p a l í $,default
+Gv-96_good-1,,Gv,96_good,-paɾâàt,-paɾâàt,p a ɾ â/a à/a t,,Galucio2015,,,^- p a ɾ â à t $,default
 Ju-96_good-1,,Ju,96_good,wãbí,wãbí,w ã b í/i,,Galucio2015,,,^ w ã b í $,default
 Ka-96_good-1,,Ka,96_good,pã́t-tem,pã́t-tem,p ã́/ã t t e m,,Galucio2015,,,^ p ã́ t - t e m $,default
 Ma-96_good-1,,Ma,96_good,poat,poat,p o a t,,Galucio2015,,,^ p o a t $,default
-Sa-96_good-1,,Sa,96_good,-palabót,-palabót,p a l a b ó/o t,,Galucio2015,,,^ - p a l a b ó t $,default
+Sa-96_good-1,,Sa,96_good,-palabót,-palabót,p a l a b ó/o t,,Galucio2015,,,^- p a l a b ó t $,default
 Tu-96_good-1,,Tu,96_good,poat,poat,p o a t,,Galucio2015,,,^ p o a t $,default
 Wa-96_good-1,,Wa,96_good,paɾe,paɾe,p a ɾ e,,Galucio2015,,,^ p a ɾ e $,default
 Xi-96_good-1,,Xi,96_good,pã,pã,p ã,,Galucio2015,,,^ p ã $,default
-Zo-96_good-1,,Zo,96_good,-paɾaat,-paɾaat,p a ɾ aː t,,Galucio2015,,,^ - p a ɾ aa t $,default
+Zo-96_good-1,,Zo,96_good,-paɾaat,-paɾaat,p a ɾ aː t,,Galucio2015,,,^- p a ɾ aa t $,default
 Aw-96_good-1,,Aw,96_good,katu,katu,k a t u,,Galucio2015,,,^ k a t u $,default
-Pt-96_good-1,,Pt,96_good,-katu,-katu,k a t u,,Galucio2015,,,^ - k a t u $,default
+Pt-96_good-1,,Pt,96_good,-katu,-katu,k a t u,,Galucio2015,,,^- k a t u $,default
 Ta-96_good-1,,Ta,96_good,kãto,kãto,k ã t o,,Galucio2015,,,^ k ã t o $,default
 Uk-96_good-1,,Uk,96_good,katu,katu,k a t u,,Galucio2015,,,^ k a t u $,default
 Ak-96_good-1,,Ak,96_good,ʧami,ʧami,tʃ a m i,,Galucio2015,,,^ ʧ a m i $,default
@@ -2182,14 +2182,14 @@ Su-96_good-1,,Su,96_good,ãtée,ãtée,ã t é/e e,,Galucio2015,,,^ ã t é e $,
 Kt-96_good-1,,Kt,96_good,seʔa,seʔa,s e ʔ a,,Galucio2015,,,^ s e ʔ a $,default
 Aw-97_new-1,,Aw,97_new,pɨtatu,pɨtatu,p ɨ t a t u,,Galucio2015,,,^ p ɨ ta t u $,default
 Pg-97_new-1,,Pg,97_new,pɨahu,pɨahu,p ɨ a h u,,Galucio2015,,,^ p ɨ a h u $,default
-Pt-97_new-1,,Pt,97_new,-pɨahu,-pɨahu,p ɨ a h u,,Galucio2015,,,^ - p ɨ a h u $,default
+Pt-97_new-1,,Pt,97_new,-pɨahu,-pɨahu,p ɨ a h u,,Galucio2015,,,^- p ɨ a h u $,default
 Ta-97_new-1,,Ta,97_new,hɨão,hɨão,h ɨ ã o,,Galucio2015,,,^ h ɨ ã o $,default
 Uk-97_new-1,,Uk,97_new,pɨahu,pɨahu,p ɨ a h u,,Galucio2015,,,^ p ɨ a h u $,default
-Gv-97_new-1,,Gv,97_new,-kôɾo,-kôɾo,k ô/o ɾ o,,Galucio2015,,,^ - k ô ɾ o $,default
+Gv-97_new-1,,Gv,97_new,-kôɾo,-kôɾo,k ô/o ɾ o,,Galucio2015,,,^- k ô ɾ o $,default
 Kt-97_new-1,,Kt,97_new,ŋot [ɡot],ŋot,ŋ o t,,Galucio2015,,,^ ŋ o t $,default
-Sa-97_new-1,,Sa,97_new,-koot,-koot,k oː t,,Galucio2015,,,^ - k oo t $,default
-Sa-97_new-2,,Sa,97_new,-kooɾ,-kooɾ,k oː ɾ,,Galucio2015,,,^ - k oo ɾ $,default
-Zo-97_new-1,,Zo,97_new,-koɾo,-koɾo,k o ɾ o,,Galucio2015,,,^ - k o ɾ o $,default
+Sa-97_new-1,,Sa,97_new,-koot,-koot,k oː t,,Galucio2015,,,^- k oo t $,default
+Sa-97_new-2,,Sa,97_new,-kooɾ,-kooɾ,k oː ɾ,,Galucio2015,,,^- k oo ɾ $,default
+Zo-97_new-1,,Zo,97_new,-koɾo,-koɾo,k o ɾ o,,Galucio2015,,,^- k o ɾ o $,default
 Mw-97_new-1,,Mw,97_new,i-pakup,i-pakup,i p a k u p,,Galucio2015,,,^ i - p a k u p $,default
 Mw-97_new-2,,Mw,97_new,Wapaɡop,Wapaɡop,W/w a p a g o p,,Galucio2015,,,^ W a p a ɡ o p $,default
 Mw-97_new-3,,Mw,97_new,Tupakop,Tupakop,T/t u p a k o p,,Galucio2015,,,^ T u p a k o p $,default
@@ -2205,17 +2205,17 @@ Ma-98_round-1,,Ma,98_round,aßɨßɨßa,aßɨßɨßa,a β ɨ β ɨ β a,,Galucio
 Tu-98_round-1,,Tu,98_round,toɾo,toɾo,t o ɾ o,,Galucio2015,,,^ t o ɾ o $,default
 Kt-98_round-1,,Kt,98_round,atĩnã,atĩnã,a t ĩ n ã,,Galucio2015,,,^ a t ĩ n ã $,default
 Ka-98_round-1,,Ka,98_round,piɾon-nem,piɾon-nem,p i ɾ o n n e m,,Galucio2015,,,^ p i ɾ o n - n e m $,default
-Ar-99_dry-1,,Ar,99_dry,-kã́ɡãã,-kã́ɡãã,k ã́/ã g ãː,,Galucio2015,,,^ - k ã́ ɡ ãã $,default
+Ar-99_dry-1,,Ar,99_dry,-kã́ɡãã,-kã́ɡãã,k ã́/ã g ãː,,Galucio2015,,,^- k ã́ ɡ ãã $,default
 Aw-99_dry-1,,Aw,99_dry,mo-kaŋa,mo-kaŋa,m o k a ŋ a,,Galucio2015,,,^ m o - k a ŋ a $,default
-Gv-99_dry-1,,Gv,99_dry,-káɡaà,-káɡaà,k á/a g a à/a,,Galucio2015,,,^ - k á ɡ a à $,default
+Gv-99_dry-1,,Gv,99_dry,-káɡaà,-káɡaà,k á/a g a à/a,,Galucio2015,,,^- k á ɡ a à $,default
 Ma-99_dry-1,,Ma,99_dry,mu-ŋaŋ,mu-ŋaŋ,m u ŋ a ŋ,,Galucio2015,,,^ m u - ŋ a ŋ $,default
 Pg-99_dry-1,,Pg,99_dry,kã,kã,k ã,,Galucio2015,,,^ k ã $,default
-Pt-99_dry-1,,Pt,99_dry,-kaŋ,-kaŋ,k a ŋ,,Galucio2015,,,^ - k a ŋ $,default
-Sa-99_dry-1,,Sa,99_dry,-kã́ɡã,-kã́ɡã,k ã́/ã g ã,,Galucio2015,,,^ - k ã́ ɡ ã $,default
-Su-99_dry-1,,Su,99_dry,-káɡãã,-káɡãã,k á/a g ãː,,Galucio2015,,,^ - k á ɡ ãã $,default
+Pt-99_dry-1,,Pt,99_dry,-kaŋ,-kaŋ,k a ŋ,,Galucio2015,,,^- k a ŋ $,default
+Sa-99_dry-1,,Sa,99_dry,-kã́ɡã,-kã́ɡã,k ã́/ã g ã,,Galucio2015,,,^- k ã́ ɡ ã $,default
+Su-99_dry-1,,Su,99_dry,-káɡãã,-káɡãã,k á/a g ãː,,Galucio2015,,,^- k á ɡ ãã $,default
 Ta-99_dry-1,,Ta,99_dry,ma-kɨŋ,ma-kɨŋ,m a k ɨ ŋ,,Galucio2015,,,^ m a - k ɨ ŋ $,default
 Uk-99_dry-1,,Uk,99_dry,ʃikã,ʃikã,ʃ i k ã,,Galucio2015,,,^ ʃ i k ã $,default
-Zo-99_dry-1,,Zo,99_dry,-kã́ɡãã,-kã́ɡãã,k ã́/ã g ãː,,Galucio2015,,,^ - k ã́ ɡ ãã $,default
+Zo-99_dry-1,,Zo,99_dry,-kã́ɡãã,-kã́ɡãã,k ã́/ã g ãː,,Galucio2015,,,^- k ã́ ɡ ãã $,default
 Me-99_dry-1,,Me,99_dry,i-paaɡa,i-paaɡa,i p aː g a,,Galucio2015,,,^ i - p aa ɡ a $,default
 Wa-99_dry-1,,Wa,99_dry,paßa,paßa,p a β a,,Galucio2015,,,^ p a ß a $,default
 Pu-99_dry-1,,Pu,99_dry,kĩɾĩk,kĩɾĩk,k ĩ ɾ ĩ k,,Galucio2015,,,^ k ĩ ɾ ĩ k $,default
@@ -2245,7 +2245,7 @@ Mu-100_name-2,,Mu,100_name,pətét ~ bətét,bətét,b ə t é/e t,,Galucio2015,
 Mw-100_name-1,,Mw,100_name,het ~ set,het,h e t,,Galucio2015,,,^ het $,default
 Mw-100_name-2,,Mw,100_name,het ~ set,set,s e t,,Galucio2015,,,^ s e t $,default
 Pg-100_name-1,,Pg,100_name,t-eɾa,t-eɾa,t e ɾ a,,Galucio2015,,,^ t - e ɾ a $,default
-Pt-100_name-1,,Pt,100_name,-eɾ,-eɾ,e ɾ,,Galucio2015,,,^ - e ɾ $,default
+Pt-100_name-1,,Pt,100_name,-eɾ,-eɾ,e ɾ,,Galucio2015,,,^- e ɾ $,default
 Pu-100_name-1,,Pu,100_name,tet,tet,t e t,,Galucio2015,,,^ t e t $,default
 Sa-100_name-1,,Sa,100_name,zét,zét,z é/e t,,Galucio2015,,,^ zét $,default
 Su-100_name-1,,Su,100_name,ɮét ~ ɬét,ɮét,ɮ é/e t,,Galucio2015,,,^ ɮét $,default

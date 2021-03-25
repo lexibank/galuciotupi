@@ -14,7 +14,7 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/lexibank/galuciotupi.svg?branch=master)](https://travis-ci.org/lexibank/galuciotupi)
+[![Build Status](https://travis-ci.org/lexibank/galuciotupi/.svg?branch=master)](https://travis-ci.org/lexibank/galuciotupi/)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -29,13 +29,24 @@ Conceptlists in Concepticon:
 - **Cognacy:** 2,258 cognates in 712 cognate sets (404 singletons)
 - **Cognate Diversity:** 0.28
 - **Invalid lexemes:** 0
-- **Tokens:** 9,975
+- **Tokens:** 9,974
 - **Segments:** 99 (0 BIPA errors, 0 CTLS sound class errors, 99 CLTS modified)
 - **Inventory size (avg):** 35.22
 
 # Contributors
 
-Name | GitHub user | Role
- --- | --- | --- 
-Simon Greenhill | @SimonGreenhill | maintainer
+Name                   | GitHub user     | Description | Role
+---                    | ---             | ---         | ---
+Simon J. Greenhill     | @SimonGreenhill | maintainer  | Other
+Galucio, Ana Vilacy    |                 |             | Author, DataCollector
+Meira, Sérgio          |                 |             | Author, DataCollector
+Birchall, Joshua       |                 |             | Author, DataCollector
+Moore, Denny           |                 |             | Author, DataCollector
+Gabas Júnior, Nilson   |                 |             | Author, DataCollector
+Drude,  Sebastian      |                 |             | Author, DataCollector
+Storto, Luciana        |                 |             | Author, DataCollector
+Picanço, Gessiane      |                 |             | Author, DataCollector
+Rodrigues, Carmen Reis |                 |             | Author, DataCollector
+
+
 

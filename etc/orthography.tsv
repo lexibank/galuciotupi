@@ -1,4 +1,5 @@
 Grapheme	IPA	SCA	TYPES	FREQUENCY	CODEPOINTS	EXAMPLES	LANGUAGES	UNICODE
+^-	NULL
 -	NULL	NULL	NULL	702	U+002D	"-eɾ,-ko,-ʔõm"	Ak,Ar,Aw,Gv,Ju,Ka,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi,Zo	U+002d
 .	+	_	Marker	18	U+002E	"ßa.i,é.ẽn,ʔɨɾui.ii"	Ma,Me,Pu,Su	
 A	A/a	A	Vowel	1	U+0041	"Arɟitã́k ká"	Ka	U+0041
