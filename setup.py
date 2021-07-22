@@ -18,5 +18,6 @@ setup(
     entry_points={
         "lexibank.dataset": ["galuciotupi=lexibank_galuciotupi:Dataset"]
     },
+    extras_require={"test": ["pytest-cldf"]},
     install_requires=["pylexibank>=2.1"],
 )
