@@ -1,8 +1,16 @@
 # CLDF dataset derived from Galucio et al.'s "Lexical Distances within the Tupian Linguistic family" from 2015
 
-Cite the source dataset as
+[![CLDF validation](https://github.com/lexibank/galuciotupi/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/galuciotupi/actions?query=workflow%3ACLDF-validation)
 
-> Galucio, Ana Vilacy, Meira, Sérgio, Birchall, Joshua, Moore, Denny, Gabas Júnior, Nilson, Drude, Sebastian, Storto, Luciana, Picanço, Gessiane, & Rodrigues, Carmen Reis. (2015). Genealogical relations and lexical distances within the Tupian linguistic family. Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas, 10(2), 229-274. https://dx.doi.org/10.1590/1981-81222015000200004
+## How to cite
+
+If you use these data please cite
+- the original source
+  > Galucio, Ana Vilacy, Meira, Sérgio, Birchall, Joshua, Moore, Denny, Gabas Júnior, Nilson, Drude, Sebastian, Storto, Luciana, Picanço, Gessiane, & Rodrigues, Carmen Reis. (2015). Genealogical relations and lexical distances within the Tupian linguistic family. Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas, 10(2), 229-274. https://dx.doi.org/10.1590/1981-81222015000200004
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+
+## Description
+
 
 This dataset is licensed under a CC-BY-4.0 license
 
@@ -14,7 +22,7 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/lexibank/galuciotupi/.svg?branch=master)](https://travis-ci.org/lexibank/galuciotupi/)
+[![CLDF validation](https://github.com/lexibank/galuciotupi/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/galuciotupi/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -50,3 +58,10 @@ Rodrigues, Carmen Reis |                 |             | Author, DataCollector
 
 
 
+
+
+## CLDF Datasets
+
+The following CLDF datasets are available in [cldf](cldf):
+
+- CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/cldf-metadata.json](cldf/cldf-metadata.json)
