@@ -71,7 +71,7 @@ z	z	S	Consonant	13	U+007A	"-zaku,uzudɨ,zooj-káàp"	Ju,Sa,Xi,Zo	U+007a
 ṹ	ũ	Y	Vowel	3	U+1E79	"-ĩʔṹ,naníṹ,ʔáṹ"	Ju	U+1e79
 ẽ	ẽ	E	Vowel	72	U+1EBD	"komeʔẽ,ó.ẽn,ʧẽɾõ"	Ak,Aw,Ju,Ka,Kt,Ku,Ma,Me,Mu,Mw,Pg,Pt,Pu,Sa,Su,Ta,Tu,Uk,Wa,Xi	U+1ebd
 aa	aː	A	Vowel	30	U+0061 U+0061	"-kaap,apokwaat,i-paaɡa"	Ar,Ma,Me,Mw,Pg,Sa,Su,Ta,Tu,Wa,Zo	U+0061 U+0061
-a̤	a̤	A	Vowel	10	U+0061 U+0324	"akana̤sə̃́,bia̤,ɮóbia̤"	Ku,Mu	
+a̤	a̤	A	Vowel	10	U+0061 U+0324	"akana̤sə̃́,bia̤,ɮóbia̤"
 be	b e	P E	Consonant Vowel	24	U+0062 U+0065	"i-pábeʔ,kijã-be,poɾabedə"	Ar,Gv,Ka,Ku,Mu,Pt,Pu,Sa,Su,Uk,Zo	
 do	d o	T U	Consonant Vowel	22	U+0064 U+006F	"dok,kãjdo,ndoo"	Ar,Gv,Ku,Ma,Mu,Pt,Pu,Sa,Wa,Zo	
 ee	eː	E	Vowel	13	U+0065 U+0065	"-keet,aʔpiʧeep,pã-deet"	Ma,Me,Sa,Su,Tu,Wa,Zo	U+0065 U+0065
@@ -82,7 +82,7 @@ kw	k w	K W	Consonant Consonant	18	U+006B U+0077	"kwai,oßitakwa,ɲʤokwaj"	Aw,Ma
 ms	m s	M S	Consonant Consonant	1	U+006D U+0073	"amsi"	Tu	U+006d U+0073
 nh	n h	N H	Consonant Consonant	1	U+006E U+0068	"ahunhɨʔa"	Ma	U+006e U+0068
 oo	oː	U	Vowel	16	U+006F U+006F	"-ooɾ,-ámoo-kããɾ,zooj-káàp"	Ar,Kt,Ma,Me,Sa,Su,Wa,Zo	U+006f U+006f
-o̤	o	U	Vowel	1	U+006F U+0324	"ɾo̤jɾə̤j"	Mu	U+006f U+0324
+o̤	o̤	U	Vowel	1	U+006F U+0324	"ɾo̤jɾə̤j"	Mu	U+006f U+0324
 ps	p s	P S	Consonant Consonant	6	U+0070 U+0073	"apsiʔa,dopsa̤,j-opsa̤"	Mu,Tu	U+0070 U+0073
 pw	p w	P W	Consonant Consonant	1	U+0070 U+0077	"pwã"	Aw	U+0070 U+0077
 pʃ	p ʃ	P S	Consonant Consonant	2	U+0070 U+0283	"ʃãpʃãm,ʃépʃép"	Mu,Pu	U+0070 U+0283
@@ -108,10 +108,10 @@ ws	w s	W S	Consonant Consonant	1	U+0077 U+0073	"awsa"	Tu	U+0077 U+0073
 ŋw	ŋ w	N W	Consonant Consonant	4	U+014B U+0077	"kaŋwe,ŋwi,ɲaŋwatiŋ"	Pg,Pt,Uk	U+014b U+0077
 ə́	ə́/ə	E	Vowel	8	U+0259 U+0301	"i-bə́,nə̤jbə́,ŋə́"	Ka,Mu	U+0259 U+0301
 ə̃	ə̃	E	Vowel	8	U+0259 U+0303	"i-kə̃m,wásə̃,wəɾəɾə̃ŋ"	Ku,Mu	U+0259 U+0303
-ə̤	ə̤	E	Vowel	6	U+0259 U+0324	"i-ʧə̤k,ka-ʤə̤k,ɾo̤jɾə̤j"	Ka,Mu	U+0259 U+0324
+ə̤	ə̤	E	Vowel	6	U+0259 U+0324	"i-ʧə̤k,ka-ʤə̤k,ɾo̤jɾə̤j"		U+0259 U+0324
 ɡw	g w	K W	Consonant Consonant	19	U+0261 U+0077	"t-oɡwe,ɡwaja,ɡwasu"	Pg,Pt,Wa	U+0261 U+0077
 ɨɨ	ɨː	I	Vowel	14	U+0268 U+0268	"kɨɨjt,tɨɨ,áwɨɨl"	Kt,Ma,Me,Mw,Sa,Su,Ta,Wa	U+0268 U+0268
-ɨ̤	ɨ̤	I	Vowel	1	U+0268 U+0324	"kádɨ̤k"	Ku	U+0268 U+0324
+ɨ̤	ɨ̤	I	Vowel	1	U+0268 U+0324	"kádɨ̤k"		U+0268 U+0324
 ʔw	ʔ w	H W	Consonant Consonant	2	U+0294 U+0077	"caʔwap,maʔwɨt"	Ka	U+0294 U+0077
 ṍṍ	ṍṍ/õː	U	Vowel	8	U+1E4D U+1E4D	"jṍṍß-a,mṍṍt,ɡṍṍj"	Ar,Gv,Sa,Su,Zo	U+1e4d U+1e4d
 ẽ́	ẽ́/ẽ	E	Vowel	1	U+1EBD U+0301	"ẽ́n"	Mu	U+1ebd U+0301
@@ -147,8 +147,8 @@ o-jãj	o j ã j	U J A J	Vowel Consonant Vowel Consonant	1	U+006F U+002D U+006A 
 péɾén	p é/e ɾ é/e n	P E R E N	Consonant Vowel Consonant Vowel Consonant	1	U+0070 U+00E9 U+027E U+00E9 U+006E	"péɾén"	Mu	
 pətét	p ə t é/e t	P E T E T	Consonant Vowel Consonant Vowel Consonant	1	U+0070 U+0259 U+0074 U+00E9 U+0074	"pətét"	Mu	
 taʃíp	t a ʃ í/i p	T A S I P	Consonant Vowel Consonant Vowel Consonant	1	U+0074 U+0061 U+0283 U+00ED U+0070	"taʃíp"	Mu	
-ta̤bə́	t a̤ b ə́/ə	T A P E	Consonant Vowel Consonant Vowel	2	U+0074 U+0061 U+0324 U+0062 U+0259 U+0301	"ta̤bə́"	Mu	
-topsa̤	t o p s a̤	T U P S A	Consonant Vowel Consonant Consonant Vowel	1	U+0074 U+006F U+0070 U+0073 U+0061 U+0324	"topsa̤"	Mu	
-tóbia̤	t ó/o b i a̤	T U P I A	Consonant Vowel Consonant Vowel Vowel	1	U+0074 U+00F3 U+0062 U+0069 U+0061 U+0324	"tóbia̤"	Ku	
-ta̤jbít	t a̤ j b í/i t	T A J P I T	Consonant Vowel Consonant Consonant Vowel Consonant	1	U+0074 U+0061 U+0324 U+006A U+0062 U+00ED U+0074	"ta̤jbít"	Mu	
-toa̤jbə́	t o a̤ j b ə́/ə	T U A J P E	Consonant Vowel Vowel Consonant Consonant Vowel	1	U+0074 U+006F U+0061 U+0324 U+006A U+0062 U+0259 U+0301	"toa̤jbə́"	Mu	
+ta̤bə́	t a̤ b ə́/ə	T A P E	Consonant Vowel Consonant Vowel	2	U+0074 U+0061 U+0324 U+0062 U+0259 U+0301	"ta̤bə́"	Mu
+topsa̤	t o p s a	T U P S A	Consonant Vowel Consonant Consonant Vowel	1	U+0074 U+006F U+0070 U+0073 U+0061 U+0324	"topsa̤"	Mu
+tóbia̤	t ó/o b i a̤	T U P I A	Consonant Vowel Consonant Vowel Vowel	1	U+0074 U+00F3 U+0062 U+0069 U+0061 U+0324	"tóbia̤"	Ku
+ta̤jbít	t a̤ j b í/i t	T A J P I T	Consonant Vowel Consonant Consonant Vowel Consonant	1	U+0074 U+0061 U+0324 U+006A U+0062 U+00ED U+0074	"ta̤jbít"	Mu
+toa̤jbə́	t o a̤ j b ə́/ə	T U A J P E	Consonant Vowel Vowel Consonant Consonant Vowel	1	U+0074 U+006F U+0061 U+0324 U+006A U+0062 U+0259 U+0301	"toa̤jbə́"	Mu
