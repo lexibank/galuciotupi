@@ -2,7 +2,7 @@
 
 Name                   | GitHub user     | Description | Role
 ---                    | ---             | ---         | ---
-Simon J. Greenhill     | @SimonGreenhill | maintainer  | Other
+Simon J. Greenhill     | @SimonGreenhill | maintainer  | Editor
 Galucio, Ana Vilacy    |                 |             | Author, DataCollector
 Meira, Sérgio          |                 |             | Author, DataCollector
 Birchall, Joshua       |                 |             | Author, DataCollector

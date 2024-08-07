@@ -26,7 +26,7 @@ LANGUAGE_ID_FIXES = {
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "galuciotupi"
-
+    writer_options = dict(keep_languages=False, keep_parameters=False)
     form_spec = FormSpec(
         brackets={"[": "]", "(": ")"},
         separators="~",

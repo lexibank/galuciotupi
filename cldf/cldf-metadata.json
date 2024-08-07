@@ -1,7 +1,7 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Galucio, Ana Vilacy, Meira, S\u00e9rgio, Birchall, Joshua, Moore, Denny, Gabas J\u00fanior, Nilson, Drude, Sebastian, Storto, Luciana, Pican\u00e7o, Gessiane, & Rodrigues, Carmen Reis. (2015). Genealogical relations and lexical distances within the Tupian linguistic family. Boletim do Museu Paraense Em\u00edlio Goeldi. Ci\u00eancias Humanas, 10(2), 229-274. https://dx.doi.org/10.1590/1981-81222015000200004",
+    "dc:bibliographicCitation": "Galucio, Ana Vilacy and Meira, S\u00e9rgio and Birchall, Joshua and Moore, Denny and Gabas J\u00fanior, Nilson and Drude, Sebastian and Storto, Luciana and Pican\u00e7o, Gessiane and Rodrigues, Carmen Reis. (2015). Genealogical relations and lexical distances within the Tupian linguistic family. Boletim do Museu Paraense Em\u00edlio Goeldi. Ci\u00eancias Humanas, 10(2), 229-274. https://dx.doi.org/10.1590/1981-81222015000200004",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": [
         "http://concepticon.clld.org/contributions/Galucio-2015-100"
@@ -17,25 +17,25 @@
         {
             "rdf:about": "https://github.com/lexibank/galuciotupi",
             "rdf:type": "prov:Entity",
-            "dc:created": "4d6a468",
+            "dc:created": "v1.0",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.4",
+            "dc:created": "v5.0",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.5.0",
+            "dc:created": "v3.2.0",
             "dc:title": "Concepticon"
         },
         {
             "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.1.0",
+            "dc:created": "v2.3.0",
             "dc:title": "CLTS"
         }
     ],
@@ -46,7 +46,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.8.10"
+            "dc:description": "3.9.6"
         },
         {
             "dc:title": "python-packages",
@@ -55,9 +55,6 @@
     ],
     "rdf:ID": "galuciotupi",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
-    "dialect": {
-        "commentPrefix": null
-    },
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
@@ -181,7 +178,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
-                        "valueUrl": "http://glottolog.org/resource/languoid/id/{glottolog_id}",
+                        "valueUrl": "http://glottolog.org/resource/languoid/id/{Glottocode}",
                         "name": "Glottocode"
                     },
                     {
@@ -247,7 +244,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#concepticonReference",
-                        "valueUrl": "http://concepticon.clld.org/parameters/{concepticon_id}",
+                        "valueUrl": "http://concepticon.clld.org/parameters/{Concepticon_ID}",
                         "name": "Concepticon_ID"
                     },
                     {

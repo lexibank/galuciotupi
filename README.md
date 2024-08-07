@@ -6,7 +6,7 @@
 
 If you use these data please cite
 - the original source
-  > Galucio, Ana Vilacy, Meira, Sérgio, Birchall, Joshua, Moore, Denny, Gabas Júnior, Nilson, Drude, Sebastian, Storto, Luciana, Picanço, Gessiane, & Rodrigues, Carmen Reis. (2015). Genealogical relations and lexical distances within the Tupian linguistic family. Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas, 10(2), 229-274. https://dx.doi.org/10.1590/1981-81222015000200004
+  > Galucio, Ana Vilacy and Meira, Sérgio and Birchall, Joshua and Moore, Denny and Gabas Júnior, Nilson and Drude, Sebastian and Storto, Luciana and Picanço, Gessiane and Rodrigues, Carmen Reis. (2015). Genealogical relations and lexical distances within the Tupian linguistic family. Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas, 10(2), 229-274. https://dx.doi.org/10.1590/1981-81222015000200004
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -29,8 +29,8 @@ Conceptlists in Concepticon:
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 23
-- **Concepts:** 100
+- **Varieties:** 23 (linked to 23 different Glottocodes)
+- **Concepts:** 100 (linked to 100 different Concepticon concept sets)
 - **Lexemes:** 2,258
 - **Sources:** 1
 - **Synonymy:** 1.06
@@ -38,14 +38,14 @@ Conceptlists in Concepticon:
 - **Cognate Diversity:** 0.28
 - **Invalid lexemes:** 0
 - **Tokens:** 9,974
-- **Segments:** 99 (0 BIPA errors, 0 CTLS sound class errors, 99 CLTS modified)
-- **Inventory size (avg):** 35.22
+- **Segments:** 100 (0 BIPA errors, 0 CLTS sound class errors, 100 CLTS modified)
+- **Inventory size (avg):** 35.26
 
 # Contributors
 
 Name                   | GitHub user     | Description | Role
 ---                    | ---             | ---         | ---
-Simon J. Greenhill     | @SimonGreenhill | maintainer  | Other
+Simon J. Greenhill     | @SimonGreenhill | maintainer  | Editor
 Galucio, Ana Vilacy    |                 |             | Author, DataCollector
 Meira, Sérgio          |                 |             | Author, DataCollector
 Birchall, Joshua       |                 |             | Author, DataCollector
